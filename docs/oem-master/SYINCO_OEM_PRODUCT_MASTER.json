@@ -1,0 +1,2629 @@
+{
+  "$schema": "https://syinco.com/schemas/oem-product-master-v1.json",
+  "metadata": {
+    "title": "SYINCO Technologies - Advance Riko OEM Product Master",
+    "milestone": "5.8C",
+    "dateGenerated": "2026-09-06",
+    "dataGovernance": "Strict Provenance (No Fictional Specifications / Unaltered OEM Names)",
+    "source": "Advance Riko Official English Product Archive (https://advance-riko.com/en/products/)",
+    "totalRecordCount": 51,
+    "manufacturer": {
+      "officialName": "Advance Riko, Inc.",
+      "country": "Japan",
+      "headOffice": "4388 Ikonobe-cho, Tsuzuki-ku, Yokohama, Kanagawa, 224-0053 Japan",
+      "relationshipToSyinco": "Official Channel Partner / Technology Principal (India)"
+    }
+  },
+  "products": [
+    {
+      "id": "AR-RTP-MINI",
+      "recordNumber": 1,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Infrared lamp heating system RTP-mini",
+      "series": null,
+      "officialModel": "Infrared lamp heating system RTP-mini",
+      "productSlug": "rtp-mini",
+      "oemSourceUrl": "https://advance-riko.com/en/products/rtp-mini/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-rtp-mini-300x300-2.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "This system is a compact desktop type of RTP-6 for conventional infrared-heating system. We have achieved quiet heating with efficient cooling and reduced noise with eliminating the conventional heat exhaust unit and adopting a cooling fan.",
+      "materialCategories": [
+        "Semiconductor",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Rapid heating"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/rtp-mini/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-F-CAL",
+      "recordNumber": 2,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Thermal Flow Rate Evaluation System for Low Thermal Resistance Multilayer Substrates F-CAL",
+      "series": null,
+      "officialModel": "Thermal Flow Rate Evaluation System for Low Thermal Resistance Multilayer Substrates F-CAL",
+      "productSlug": "f-cal",
+      "oemSourceUrl": "https://advance-riko.com/en/products/f-cal/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-f-cal-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "It is possible to measure the multilayer materials, which is difficult with the laser flash method. This system is to measure the heat flow rate of a sample. A heating block is contact with the high temperature side of the sample, and the low temperature side of the sample is contacted with a low temperature block which works as both a cooling and a heat flow meter to perform measurement.v It is possible to measure the heat flow rate flowing……",
+      "materialCategories": [
+        "Metals and steel",
+        "Organic and polymeric",
+        "Polymer materials and thermosetting resins, Various films and sheets"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation"
+      ],
+      "analysisCategories": [
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Organic and polymeric",
+          "Polymer materials and thermosetting resins, Various films and sheets"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/f-cal/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-SUPERLIX",
+      "recordNumber": 3,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Ultra High Precision Thermal Expansion Measurement System by Laser Interferometer SuperLIX",
+      "series": null,
+      "officialModel": "Ultra High Precision Thermal Expansion Measurement System by Laser Interferometer SuperLIX",
+      "productSlug": "superlix",
+      "oemSourceUrl": "https://advance-riko.com/en/products/superlix/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-superlix-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "The world of expansion with accuracy of 1×10-8/K or less Thermal expansion measurement with the world-class ultra high accuracy ＊as a commercial measurement system Application case Development of zero-expansion materials Development of negative thermal expansion material and anode materials Development of standard materials Development of materials for actuator",
+      "materialCategories": [
+        "Metals and steel",
+        "Organic and polymeric",
+        "Ceramics"
+      ],
+      "technologyCategories": [
+        "Thermal expansion"
+      ],
+      "analysisCategories": [
+        "thermal expansion measurement"
+      ],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Organic and polymeric",
+          "Ceramics"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/superlix/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-ZEM-D",
+      "recordNumber": 4,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Polymeric Thermoelectric Sheet Evaluation System ZEM-d",
+      "series": null,
+      "officialModel": "Polymeric Thermoelectric Sheet Evaluation System ZEM-d",
+      "productSlug": "zem-d",
+      "oemSourceUrl": "https://advance-riko.com/en/products/zem-d/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-zem-d-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "This system can measure Seebeck coefficient and electrical resistivity in the thickness direction and also evaluate the thermoelectric properties on anisotropic materials at the same measurement direction.",
+      "materialCategories": [
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermoelectric evaluation",
+        "Electric resistance measurement"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "applications": {
+        "verified": [
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/zem-d/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-ZEM-3",
+      "recordNumber": 5,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Seebeck Coefficient / Electric Resistance Measurement System ZEM-3 series",
+      "series": "Seebeck Coefficient / Electric Resistance Measurement System ZEM-3 series",
+      "officialModel": "Seebeck Coefficient / Electric Resistance Measurement System ZEM-3 series",
+      "productSlug": "zem-3",
+      "oemSourceUrl": "https://advance-riko.com/en/products/zem-3/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-zem-3-series-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Simultaneously measures the Seebeck coefficient and electric conductivity of thermoelectric materials. Based on requests from both domestic and international academic societies and customers, this system features our easy to use, high-precision measurement techniques. Complies with JIS standards for thermoelectric material Seebeck coefficient measurement equipment.",
+      "materialCategories": [
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermoelectric evaluation",
+        "Electric resistance measurement"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "applications": {
+        "verified": [
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/zem-3/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-F-PEM",
+      "recordNumber": 6,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Atmospheric Thermoelectric Module Evaluation System F-PEM",
+      "series": null,
+      "officialModel": "Atmospheric Thermoelectric Module Evaluation System F-PEM",
+      "productSlug": "f-pem",
+      "oemSourceUrl": "https://advance-riko.com/en/products/f-pem/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-f-pem-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "The system can evaluate the power generation and heat flow that can be gathered when the temperature difference is given to thermoelectric module in the environment(in atmosphere and under load) and conversion efficiency that can be calculated from maximum power generation and heat flow. In addition, this system can conduct long-hours operation and heat cycle tests of thermoelectric modules and can be used for testing newly developed modules as well as for durability tests under load and temerature in which……",
+      "materialCategories": [
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "applications": {
+        "verified": [
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/f-pem/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-PEM-2",
+      "recordNumber": 7,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Power Generation Efficiency Characteristics Evaluation System PEM-2",
+      "series": null,
+      "officialModel": "Power Generation Efficiency Characteristics Evaluation System PEM-2",
+      "productSlug": "pem-2",
+      "oemSourceUrl": "https://advance-riko.com/en/products/pem-2/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-pem-2-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Property evaluations of thermoelectric generator modules By applying a maximum 500°C temperature difference across a thermoelectric generator module, this system finds the thermoelectric conversion rate η by finding the power that is generated P when a one-dimensional heat flow Q is passed through the module.",
+      "materialCategories": [
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "applications": {
+        "verified": [
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/pem-2/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-MINI-PEM",
+      "recordNumber": 8,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Thermoelectric Conversion Efficiency Evaluation System for Small Modules Mini-PEM",
+      "series": null,
+      "officialModel": "Thermoelectric Conversion Efficiency Evaluation System for Small Modules Mini-PEM",
+      "productSlug": "mini-pem",
+      "oemSourceUrl": "https://advance-riko.com/en/products/mini-pem/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-mini-pem-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Measure thermoelectric conversion efficiency for thermoelectric material alone and a pair of thermoelectric material This system can evaluate not only power generation but also conversion efficiency of thermoelectric modules. The conversion efficiency is evaluated from current dependency of power generation measured with four-probe method and heat flow measured with heat flow meter. High temperature part can reach up to 500 ℃(standard specifications), while low temperature part is cooled with water flow.",
+      "materialCategories": [
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "applications": {
+        "verified": [
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/mini-pem/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TC-1200RH-TC-9000",
+      "recordNumber": 9,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Laser Flash Method Thermal Constant Measurement System TC-1200RH / TC-9000 series",
+      "series": "Laser Flash Method Thermal Constant Measurement System TC-1200RH / TC-9000 series",
+      "officialModel": "Laser Flash Method Thermal Constant Measurement System TC-1200RH / TC-9000 series",
+      "productSlug": "tc-1200rh-tc-9000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/tc-1200rh-tc-9000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-tc-1200rh_tc-9000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Thermal conductivity measurements covering a wide range of materials not only thermoelectric materials but also metals, ceramics, carbon etc. The systems measure 3 thermal constants (Thermal diffusivity, Specific heat capacity, Thermal conductivity) for uniform solid materials such as thermoelectric materials, ceramics, carbon, Metal, etc",
+      "materialCategories": [
+        "Carbon",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation",
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation",
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Carbon",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/tc-1200rh-tc-9000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-STPM-1000",
+      "recordNumber": 10,
+      "sourcePage": 1,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Scanning Thermal Probe Micro-image STPM-1000",
+      "series": null,
+      "officialModel": "Scanning Thermal Probe Micro-image STPM-1000",
+      "productSlug": "stpm-1000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/stpm-1000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-stpm-1000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "2 dimensional distribution of Seebeck coefficient and thermal conductivity measurement system by thermal probe STPM-1000 is used for evaluating Seebeck coefficient and thermal conductivity simultaneously. Simple evaluation of thermoelectric materials is possible by simultaneous evaluations of seebeck coefficient and thermal conductivity. The thermal conductivity distribution evaluation of functionally graded materials, multilayer substrates and organic materials is also possible. STPM-1000 is expected to use materials evaluation as a basic tool.",
+      "materialCategories": [
+        "Semiconductor",
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation",
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation",
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/stpm-1000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TD-1",
+      "recordNumber": 11,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Thermal Diffusivity measurement system by Xe flash method TD-1",
+      "series": null,
+      "officialModel": "Thermal Diffusivity measurement system by Xe flash method TD-1",
+      "productSlug": "td-1",
+      "oemSourceUrl": "https://advance-riko.com/en/products/td-1/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-td-1-series-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Capable of evaluation of heat radiation film in the thickness direction and anisotropy The most suitable system for the evaluations of heat dissipation films etc. By using Xenon lamp, it enables to minimize the damage to the sample. Sample anisotropy can also easily measure by using the original attachment as an option.",
+      "materialCategories": [
+        "Organic and polymeric",
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material",
+        "Polymer materials and thermosetting resins, Various films and sheets"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation",
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation",
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Organic and polymeric",
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material",
+          "Polymer materials and thermosetting resins, Various films and sheets"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/td-1/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TCN-2OMEGA",
+      "recordNumber": 12,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "2-Omega Method Nano Thin Film Thermal Conductivity Meter TCN-2ω",
+      "series": null,
+      "officialModel": "2-Omega Method Nano Thin Film Thermal Conductivity Meter TCN-2ω",
+      "productSlug": "tcn-2omega",
+      "oemSourceUrl": "https://advance-riko.com/en/products/tcn-2omega/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-tcn-2omega-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Thermal conductivity evaluation for a nano thin film at normal direction TCN-2ω is the world’s only system which can measure thermal conductivity for a nano thin film at normal direction.",
+      "materialCategories": [
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation",
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation",
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/tcn-2omega/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-LASERPIT",
+      "recordNumber": 13,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "AC Method Thermal Diffusivity Measurement System LaserPIT",
+      "series": null,
+      "officialModel": "AC Method Thermal Diffusivity Measurement System LaserPIT",
+      "productSlug": "laserpit",
+      "oemSourceUrl": "https://advance-riko.com/en/products/laserpit/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-laserpit-300x300_new.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Thermal conductivity evaluation in-plane direction of films, thin sheets and thin films etc. This system can measure thermal diffusivity of sheet materials in-plane direction by scanning laser heating AC method (Angstrom method). About high thermal conducting films, sub-micron thin films can also be measurable.",
+      "materialCategories": [
+        "Carbon",
+        "Organic and polymeric",
+        "Thermoelectric materials and Peltier elements",
+        "Magnetic material",
+        "Polymer materials and thermosetting resins, Various films and sheets"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation",
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation",
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Carbon",
+          "Organic and polymeric",
+          "Thermoelectric materials and Peltier elements",
+          "Magnetic material",
+          "Polymer materials and thermosetting resins, Various films and sheets"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/laserpit/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-FTC",
+      "recordNumber": 14,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Periodical Heating Method Thermal Diffusivity Measurement System FTC series",
+      "series": "Periodical Heating Method Thermal Diffusivity Measurement System FTC series",
+      "officialModel": "Periodical Heating Method Thermal Diffusivity Measurement System FTC series",
+      "productSlug": "ftc",
+      "oemSourceUrl": "https://advance-riko.com/en/products/ftc/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-ftc-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Easily evaluate thin film materials that are difficult to measure with the flash method This system measures thermal diffusivity in the thickness direction of solids such as film polymers, paper, and ceramics by using the AC joule heating method. With specialized in room temperature measurement only, which is highly needed, a compact body and low cost have been achieved.",
+      "materialCategories": [
+        "Organic and polymeric",
+        "Thermoelectric materials and Peltier elements",
+        "Polymer materials and thermosetting resins, Various films and sheets"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation"
+      ],
+      "analysisCategories": [
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Organic and polymeric",
+          "Thermoelectric materials and Peltier elements",
+          "Polymer materials and thermosetting resins, Various films and sheets"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/ftc/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-GH-1",
+      "recordNumber": 15,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Steady Method Thermal Conductivity Measurement System GH series",
+      "series": "Steady Method Thermal Conductivity Measurement System GH series",
+      "officialModel": "Steady Method Thermal Conductivity Measurement System GH series",
+      "productSlug": "gh-1",
+      "oemSourceUrl": "https://advance-riko.com/en/products/gh-1/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-gh-1-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Thermal conductivity evaluations of polymers and glass A heat-flow method Steady Method Thermal Conductivity Measurement System that complies with the US ASTM E1530 standard. This system measures comparatively low-thermal conductivity materials over a temperature range of 50 to 280°C.",
+      "materialCategories": [
+        "Organic and polymeric",
+        "Thermoelectric materials and Peltier elements",
+        "Polymer materials and thermosetting resins, Various films and sheets"
+      ],
+      "technologyCategories": [
+        "Thermal conductivity evaluation",
+        "Thermoelectric evaluation"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation",
+        "Thermal conductivity・Thermal diffusivity"
+      ],
+      "applications": {
+        "verified": [
+          "Organic and polymeric",
+          "Thermoelectric materials and Peltier elements",
+          "Polymer materials and thermosetting resins, Various films and sheets"
+        ],
+        "inferred": []
+      },
+      "standards": [
+        "ASTM E1530"
+      ],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/gh-1/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-RMP-1",
+      "recordNumber": 16,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Rapid Multi Property Measurement System RMP-1",
+      "series": null,
+      "officialModel": "Rapid Multi Property Measurement System RMP-1",
+      "productSlug": "rmp-1",
+      "oemSourceUrl": "https://advance-riko.com/en/products/rmp-1/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-rmp-1-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Heating up to 3000K within one second! This system measures thermophysical properties by applying current directly to a sample to heat up to higher temperature within one second. Measurable standard properties are electrical resistivity, total emissivity, specific heat capacity, thermal expansion rate and thermal diffusivity.",
+      "materialCategories": [
+        "Carbon"
+      ],
+      "technologyCategories": [
+        "Thermal expansion",
+        "Thermal conductivity evaluation"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Carbon"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/rmp-1/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-EHR",
+      "recordNumber": 17,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Electric Heat Resistance Measurment System EHR series",
+      "series": "Electric Heat Resistance Measurment System EHR series",
+      "officialModel": "Electric Heat Resistance Measurment System EHR series",
+      "productSlug": "ehr",
+      "oemSourceUrl": "https://advance-riko.com/en/products/ehr/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-ehr-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Temperature dependency measurement of insulator samples This system can measure the temperature dependency of insulators like ceramics, plastics and glass.",
+      "materialCategories": [
+        "Ceramics"
+      ],
+      "technologyCategories": [
+        "Electric resistance measurement"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Ceramics"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/ehr/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TER",
+      "recordNumber": 18,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Electric Resistance Measurement System for Metals and Semiconductors TER series",
+      "series": "Electric Resistance Measurement System for Metals and Semiconductors TER series",
+      "officialModel": "Electric Resistance Measurement System for Metals and Semiconductors TER series",
+      "productSlug": "ter",
+      "oemSourceUrl": "https://advance-riko.com/en/products/ter/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-ter-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Metallic phase transition, aging, recrystallization reaction This system can measure precisely the electric resistance of metallic alloys and semiconductors with DC four-thermal method.",
+      "materialCategories": [
+        "Carbon",
+        "Semiconductor",
+        "Metals and steel",
+        "Magnetic material"
+      ],
+      "technologyCategories": [
+        "Electric resistance measurement"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Carbon",
+          "Semiconductor",
+          "Metals and steel",
+          "Magnetic material"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/ter/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-SH-3000",
+      "recordNumber": 19,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Adiabatic Specific Heat Measurement System SH-3000 series",
+      "series": "Adiabatic Specific Heat Measurement System SH-3000 series",
+      "officialModel": "Adiabatic Specific Heat Measurement System SH-3000 series",
+      "productSlug": "sh-3000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/sh-3000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-sh-3000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Measures specific heat capacity, latent heat, transformation points Capable of precisely measuring specific heat capacity, latent heat, and transformation points with the adiabatic control method.",
+      "materialCategories": [],
+      "technologyCategories": [
+        "Specific heat measurement"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/sh-3000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-DL-9000-DLY-9000",
+      "recordNumber": 20,
+      "sourcePage": 2,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Thermodilatometer DL-9000 / DLY-9000 series",
+      "series": "Thermodilatometer DL-9000 / DLY-9000 series",
+      "officialModel": "Thermodilatometer DL-9000 / DLY-9000 series",
+      "productSlug": "dl-9000-dly-9000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/dl-9000-dly-9000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-dl-9000-dly-9000-300x300_new.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Dedicated thermal expansion measurement system for bulk materials Dedicated linear expansion and contraction measurement system for various solid samples",
+      "materialCategories": [
+        "Carbon",
+        "Metals and steel",
+        "Ceramics"
+      ],
+      "technologyCategories": [
+        "Thermal expansion"
+      ],
+      "analysisCategories": [
+        "thermal expansion measurement"
+      ],
+      "applications": {
+        "verified": [
+          "Carbon",
+          "Metals and steel",
+          "Ceramics"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/dl-9000-dly-9000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-DLY-9000-ROBOT",
+      "recordNumber": 21,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Robotic Thermal Dilatometer DLY-9000 ROBOT",
+      "series": null,
+      "officialModel": "Robotic Thermal Dilatometer DLY-9000 ROBOT",
+      "productSlug": "dly-9000-robot",
+      "oemSourceUrl": "https://advance-riko.com/en/products/dly-9000-robot/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-dly-9000-robot-300x300_new.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Labour-saving quality management with fully automatic and unattended operationuality control. This system was developed for the purpose of standardizing the measurement and saving labor in quality management. With superior repeatability, safety measures for unattended operation and chart function, this system is most suitable for quality management.",
+      "materialCategories": [
+        "Carbon",
+        "Metals and steel",
+        "Ceramics"
+      ],
+      "technologyCategories": [
+        "Thermal expansion"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Carbon",
+          "Metals and steel",
+          "Ceramics"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/dly-9000-robot/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-LIX",
+      "recordNumber": 22,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Thermal Expansion  Measurment Systemby Laser Interferometer LIX-2 series",
+      "series": "Thermal Expansion  Measurment Systemby Laser Interferometer LIX-2 series",
+      "officialModel": "Thermal Expansion  Measurment Systemby Laser Interferometer LIX-2 series",
+      "productSlug": "lix",
+      "oemSourceUrl": "https://advance-riko.com/en/products/lix/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-lix-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "High-accuracy measurement of thermal expansion with a minimum resolution of 1nm This is a laser thermal expansion measurement system with ultra-high sensitivity developed by the use of the latest optical techniques. This system is suitable to be used as a calibration system for a standard thermal dilatometer, also to measure absolute thermal expansion measurements of unknown samples. This system is compliant with JIS R3251-1995, Measuring method of the linear thermal expansion coefficient for low expansion glass by laser interferometry.",
+      "materialCategories": [
+        "Metals and steel",
+        "Organic and polymeric",
+        "Ceramics"
+      ],
+      "technologyCategories": [
+        "Thermal expansion"
+      ],
+      "analysisCategories": [
+        "thermal expansion measurement"
+      ],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Organic and polymeric",
+          "Ceramics"
+        ],
+        "inferred": []
+      },
+      "standards": [
+        "JIS R3251-1995"
+      ],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/lix/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TM-9000",
+      "recordNumber": 23,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Thermoｍechanical Analyzer TM-9000 series",
+      "series": "Thermoｍechanical Analyzer TM-9000 series",
+      "officialModel": "Thermoｍechanical Analyzer TM-9000 series",
+      "productSlug": "tm-9000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/tm-9000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-tm-9000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Capable of viscoelasticity measurements in various atmospheres Measures the thermal expansion and contraction of solid samples. Capable of stress relaxation measurements. Capable of performing thermal expansion measurements by tension to film materials",
+      "materialCategories": [
+        "Organic and polymeric",
+        "Polymer materials and thermosetting resins, Various films and sheets"
+      ],
+      "technologyCategories": [
+        "Thermal expansion"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Organic and polymeric",
+          "Polymer materials and thermosetting resins, Various films and sheets"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/tm-9000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TGD-9000",
+      "recordNumber": 24,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Thermogravimetry / Differential Thermal Analyzer TGD-9000 series",
+      "series": "Thermogravimetry / Differential Thermal Analyzer TGD-9000 series",
+      "officialModel": "Thermogravimetry / Differential Thermal Analyzer TGD-9000 series",
+      "productSlug": "tgd-9000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/tgd-9000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-tgd-9000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Unique single TG and separate DTA measurements The TGD-9000 series is capable of performing TG/DTA measurements in a wide range of temperatures from room temperature to ultra-high temperature regions. Models equipped with the Infrared Gold Image Furnace can perform measurements with various heating conditions.",
+      "materialCategories": [],
+      "technologyCategories": [],
+      "analysisCategories": [
+        "Differential thermal analysis・Differential thermogravimetric analysis"
+      ],
+      "applications": {
+        "verified": [],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/tgd-9000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-DSC-R",
+      "recordNumber": 25,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Differential Scanning Calorimeter DSC-R series",
+      "series": "Differential Scanning Calorimeter DSC-R series",
+      "officialModel": "Differential Scanning Calorimeter DSC-R series",
+      "productSlug": "dsc-r",
+      "oemSourceUrl": "https://advance-riko.com/en/products/dsc-r/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-dsc-r-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "A high-sensitivity sensor is standard equipment on all models Achieves a high-stability baseline through its precise thermal design",
+      "materialCategories": [],
+      "technologyCategories": [
+        "Specific heat measurement"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/dsc-r/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-VPE-9000",
+      "recordNumber": 26,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Vapor Pressure Evaluation System VPE-9000<vacuum thermobalance>",
+      "series": null,
+      "officialModel": "Vapor Pressure Evaluation System VPE-9000<vacuum thermobalance>",
+      "productSlug": "vpe-9000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/vpe-9000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-vpe-9000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Stable changes in weight in a high vacuum This system evaluates saturated vapor pressure and the thermal behavior of organic materials. An exhaust method is employed that allows stable measurements even in a vacuum. Achieves precise temperature controllability and responsiveness with the Infrared Gold Image Furnace",
+      "materialCategories": [
+        "Organic and polymeric"
+      ],
+      "technologyCategories": [
+        "Saturation vapour pressure"
+      ],
+      "analysisCategories": [
+        "Differential thermal analysis・Differential thermogravimetric analysis",
+        "saturated vapor pressure measuerement"
+      ],
+      "applications": {
+        "verified": [
+          "Organic and polymeric"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/vpe-9000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TRS",
+      "recordNumber": 27,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Organic Pigment Material Sublimating / Refining System TRS series",
+      "series": "Organic Pigment Material Sublimating / Refining System TRS series",
+      "officialModel": "Organic Pigment Material Sublimating / Refining System TRS series",
+      "productSlug": "trs",
+      "oemSourceUrl": "https://advance-riko.com/en/products/trs/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-trs-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Easy purification of Organic materials General organic pigment is poor in purity, containing lots of impurity. Therefore the property of the thin film roduced in a condition poor in purity does not show its original features, varying with the impurity. This system can produce highly pure organic materials.",
+      "materialCategories": [
+        "Organic and polymeric"
+      ],
+      "technologyCategories": [],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Organic and polymeric"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/trs/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-RHL-E-VHT-P-SERIES",
+      "recordNumber": 28,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Infrared Gold Image Furnace RHL-E/VHT/P series",
+      "series": "Infrared Gold Image Furnace RHL-E/VHT/P series",
+      "officialModel": "Infrared Gold Image Furnace RHL-E/VHT/P series",
+      "productSlug": "rhl-e-vht-p-series",
+      "oemSourceUrl": "https://advance-riko.com/en/products/rhl-e-vht-p-series/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-rhl-e-vht-p-series-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Meeting customer needs with infrared lamp heating Infrared Gold Image Furnaces can be used in many fields for research and development or as production equipment. We’re meeting the needs of our customers from high speed heating to wide area heating.",
+      "materialCategories": [
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst",
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Rapid heating"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst",
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/rhl-e-vht-p-series/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-PSPSS",
+      "recordNumber": 29,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Infrared Gold Image Furnace Ps, Pss series",
+      "series": "Infrared Gold Image Furnace Ps, Pss series",
+      "officialModel": "Infrared Gold Image Furnace Ps, Pss series",
+      "productSlug": "pspss",
+      "oemSourceUrl": "https://advance-riko.com/en/products/pspss/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-pspss-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Useable in wide fields from carbon nanotube growth equipment to production equipment. The flat plate reflected infrared heating furnace can be used for applications such as a 2-inch to 300 mm diameter wafer lamp annealing system or a production baking furnace.",
+      "materialCategories": [
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst",
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Rapid heating"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst",
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/pspss/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TPC-5000",
+      "recordNumber": 30,
+      "sourcePage": 3,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Programmable Temperature Controller TPC-5000 series",
+      "series": "Programmable Temperature Controller TPC-5000 series",
+      "officialModel": "Programmable Temperature Controller TPC-5000 series",
+      "productSlug": "tpc-5000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/tpc-5000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-tpc-5000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Temperature controller capable of supporting high-speed heating with good precision. This programmable temperature controller can support not only Infrared Gold Image Furnaces that require a fast response during high-speed heating , but also low-speed heating furnaces. It features high functionality and high performance in a compact package and meets your needs with a low price and many accessories.",
+      "materialCategories": [
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst",
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Rapid heating"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst",
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/tpc-5000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-RTA",
+      "recordNumber": 31,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Rapid Thermal Annealing System RTA series",
+      "series": "Rapid Thermal Annealing System RTA series",
+      "officialModel": "Rapid Thermal Annealing System RTA series",
+      "productSlug": "rta",
+      "oemSourceUrl": "https://advance-riko.com/en/products/rta/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-rta-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "High speed heat treatment from 2 inches to 300 mm 10 seconds until retention. Infrared lamp heating is the method which can take advantage of its features of High energy density, Near infrared rays, High heat responsiveness, Temperature controllability, and Cold wall method. We’re meeting the needs of our customers with supplying RTA Series, which can control the process recipe (heating and cooling) and gas type with its flow amount. The system is suitable for finding the best heating conditions.",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Hydrogen (reduction)",
+        "Special gases"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/rta/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-RTP-6",
+      "recordNumber": 32,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Low Cost Infrared Lamp Heating System for R&D RTP-6",
+      "series": null,
+      "officialModel": "Low Cost Infrared Lamp Heating System for R&D RTP-6",
+      "productSlug": "rtp-6",
+      "oemSourceUrl": "https://advance-riko.com/en/products/rtp-6/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-rtp-6-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "80°C/s high speed annealing possible at low cost. This infrared lamp heating system with parabolic type reflectors can heat uniformly a wafer of the size up to 6 inches. It is capable of high-speed heat treatment, the most available for the research and development of heat treatment process. Silicide formation in individual semiconductor process and process annealing of compound semiconductor are available.",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Hydrogen (reduction)",
+        "Special gases"
+      ],
+      "analysisCategories": [
+        "heat treatment"
+      ],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/rtp-6/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-MILA-5050",
+      "recordNumber": 33,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Mini Lamp Annealer  MILA-5050",
+      "series": null,
+      "officialModel": "Mini Lamp Annealer  MILA-5050",
+      "productSlug": "mila-5050",
+      "oemSourceUrl": "https://advance-riko.com/en/products/mila-5050/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-mila-5050-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "This system is a Mini Lamp Annealer that enables the heat treatment up to 50mm square size samples. MILA-5000 series, the current models which are available for up to 20mm square size samples, have been velued by many customers since their release. But in response to increased number of demands from customers that they want to heat bigger samples, this new system, available for heat treatment of up to 50mm square size samples has been developed with still having a……",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst",
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Hydrogen (reduction)",
+        "Special gases"
+      ],
+      "analysisCategories": [
+        "heat treatment"
+      ],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst",
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/mila-5050/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-MILA-5000-SERIES",
+      "recordNumber": 34,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Mini Lamp Annealer MILA-5000 series",
+      "series": "Mini Lamp Annealer MILA-5000 series",
+      "officialModel": "Mini Lamp Annealer MILA-5000 series",
+      "productSlug": "mila-5000-series",
+      "oemSourceUrl": "https://advance-riko.com/en/products/mila-5000-series/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-mila-5000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "MILA-5000 series The MILA-5000 series can perform high speed heating, high speed cooling, and clean heating, which are characteristics of the Infrared Gold Image Furnace. It can heat materials under adjustable atmospheres and combines a temperature controller and variable atmosphere chamber into a single low-cost infrared lamp heating system. Heating operations can be run by a PC connected via USB and data can be easily managed. MILA-5000UHV Based on the MILA-5000-P-N (high temperature type), the MILA-5000UHV was born as a……",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst",
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Electric resistance measurement",
+        "Rapid heating",
+        "High-temperature observation",
+        "Hydrogen (reduction)",
+        "Special gases"
+      ],
+      "analysisCategories": [
+        "heat treatment",
+        "high-temperature observation"
+      ],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst",
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/mila-5000-series/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-MILA-700AR",
+      "recordNumber": 35,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Mini Lamp Annealer with air-cooling system MILA-700AR",
+      "series": null,
+      "officialModel": "Mini Lamp Annealer with air-cooling system MILA-700AR",
+      "productSlug": "mila-700ar",
+      "oemSourceUrl": "https://advance-riko.com/en/products/mila-700ar/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-mila-700ar-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "ini Lamp Annealer with no use of cooling water As the cooling method is air-cooling with a fan, the heating operations can be easily started with just a wall outlet.",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst",
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Hydrogen (reduction)"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst",
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/mila-700ar/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-SSA",
+      "recordNumber": 36,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Simplified Infrared Lamp Heating System SSA series",
+      "series": "Simplified Infrared Lamp Heating System SSA series",
+      "officialModel": "Simplified Infrared Lamp Heating System SSA series",
+      "productSlug": "ssa",
+      "oemSourceUrl": "https://advance-riko.com/en/products/ssa/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-ssa-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Simplified system with Infrared Gold Image Furnace and a quartz chamber. A low-cost heating system consist of an Infrared Golc Image Furnace and quartz chamber including a sample holder.",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Special gases"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/ssa/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-QHC-QHC",
+      "recordNumber": 37,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Infrared Lamp Heating System QHC series/Variable Atmosphere Lamp Heating System VHC series",
+      "series": "Infrared Lamp Heating System QHC series/Variable Atmosphere Lamp Heating System VHC series",
+      "officialModel": "Infrared Lamp Heating System QHC series/Variable Atmosphere Lamp Heating System VHC series",
+      "productSlug": "qhc-qhc",
+      "oemSourceUrl": "https://advance-riko.com/en/products/qhc-qhc/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-qhc-qhc-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Helping process development From solar cells to compound semiconductors. Combining an Infrared Gold Image Furnace and temperature controller, the QHC/VHC series is a compact high speed heating/ cooling system equipped with a quartz heat treatment chamber. The system is customizable to your needs.",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Rapid cooling and water quenching",
+        "Brazing",
+        "Hydrogen (reduction)",
+        "Special gases"
+      ],
+      "analysisCategories": [
+        "heat treatment"
+      ],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/qhc-qhc/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-MIRO",
+      "recordNumber": 38,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Spot Focused Infrared Gold Image Furnace System series",
+      "series": "Spot Focused Infrared Gold Image Furnace System series",
+      "officialModel": "Spot Focused Infrared Gold Image Furnace System series",
+      "productSlug": "miro",
+      "oemSourceUrl": "https://advance-riko.com/en/products/miro/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-miro-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Heating up to 1800°C in just 1 min. For ultra-high temperature vacuum heat treatment MIRO series is a compact spot focused Gold Image Furnace which enables to heat up to 1800°C with extremely high reflection efficiency in combination with single or double type chambers.",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Rapid heating"
+      ],
+      "analysisCategories": [
+        "heat treatment"
+      ],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/miro/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-CAS-59AQ",
+      "recordNumber": 39,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Rapid Heating / Water Quenching System CAS-59AQ",
+      "series": "Rapid Heating / Water Quenching System CAS-59AQ",
+      "officialModel": "Rapid Heating / Water Quenching System CAS-59AQ",
+      "productSlug": "cas-59aq",
+      "oemSourceUrl": "https://advance-riko.com/en/products/cas-59aq/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-cas-mr59aq-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Rapid heating and quenching of materials This system is capable of water quench after heating. The maximum temperature is 1800°C under various atmospheres.",
+      "materialCategories": [
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Rapid cooling and water quenching"
+      ],
+      "analysisCategories": [
+        "heat treatment"
+      ],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/cas-59aq/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-HT-RTA59HD",
+      "recordNumber": 40,
+      "sourcePage": 4,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "High Temperature Rapid Thermal Annealing System  HT-RTA59HD",
+      "series": null,
+      "officialModel": "High Temperature Rapid Thermal Annealing System  HT-RTA59HD",
+      "productSlug": "ht-rta59hd",
+      "oemSourceUrl": "https://advance-riko.com/en/products/ht-rta59hd/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-ht-rta59hd-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Heating a small piece of sample up to 1800°C just in 10 seconds. HT-RTA59HD is a desktop-type lamp annealing system which enables a small piece of sample to heat up to 1800°C (Ultrahigh temperature zone) just in 10 seconds with high reflection efficiency by spot focused heating.",
+      "materialCategories": [
+        "Semiconductor",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Rapid heating"
+      ],
+      "analysisCategories": [
+        "heat treatment"
+      ],
+      "applications": {
+        "verified": [
+          "Semiconductor",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/ht-rta59hd/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-NETSUSHORI",
+      "recordNumber": 41,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Production Heat Treatment Furnace (Manufacturing Line Equipment)",
+      "series": null,
+      "officialModel": "Production Heat Treatment Furnace (Manufacturing Line Equipment)",
+      "productSlug": "netsushori",
+      "oemSourceUrl": "https://advance-riko.com/en/products/netsushori/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-netsushori-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Heationg system according to heat treatment objective This heating system is desiged based on the shape of the material and the heat treatment objective in the process. By making maximum use of high-speed heating, cooling and clean heating, we provide heating furnaces with non-polluting, low energy and high functionality.",
+      "materialCategories": [],
+      "technologyCategories": [
+        "Rapid heating"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/netsushori/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-CAS",
+      "recordNumber": 42,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Continuous Annealing System for Steel Sheet CAS series",
+      "series": "Continuous Annealing System for Steel Sheet CAS series",
+      "officialModel": "Continuous Annealing System for Steel Sheet CAS series",
+      "productSlug": "cas",
+      "oemSourceUrl": "https://advance-riko.com/en/products/cas/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-cas-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Easy determination of transformation point of steel sheets The CAS series achieves high-speed heating and cooling with the use of an Infrared Gold Image Furnace, direct temperature control of the samples, and easy atmosphere production. This system makes it possible to precisely achieve thermal treatment simulations of processes for steel and iron materials that had been previously difficult. Supports general purpose heat treatment tests to process heat treatment simulation tests of materials such as steel sheets, steel plates, stainless steel……",
+      "materialCategories": [
+        "Metals and steel"
+      ],
+      "technologyCategories": [
+        "Rapid heating",
+        "Rapid cooling and water quenching"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Metals and steel"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/cas/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TMS",
+      "recordNumber": 43,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "High Temperature Observation System TMS series",
+      "series": "High Temperature Observation System TMS series",
+      "officialModel": "High Temperature Observation System TMS series",
+      "productSlug": "tms",
+      "oemSourceUrl": "https://advance-riko.com/en/products/tms/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-tms-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Vivid observations with image heating and the latest optical system Capable of observations of the crystal transformation, deposition, and solidification of metallic materials, capable of observations of the molten state and deposits of various materials, and capable of thermal cycle measurements of polymer materials from crystals → molten → re-solidification",
+      "materialCategories": [
+        "Metals and steel"
+      ],
+      "technologyCategories": [
+        "High-temperature observation"
+      ],
+      "analysisCategories": [
+        "high-temperature observation"
+      ],
+      "applications": {
+        "verified": [
+          "Metals and steel"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/tms/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-MICROIT-1",
+      "recordNumber": 44,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Micro-Indentation Tester μIT-1",
+      "series": null,
+      "officialModel": "Micro-Indentation Tester μIT-1",
+      "productSlug": "microit-1",
+      "oemSourceUrl": "https://advance-riko.com/en/products/%ce%bcit-1/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/ecf81b0e990e7695d039ac8fce54a9c7.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "With pressing a conical indenter against a small sample, creep behavior can be measured under high temperature. With the Micro-Indentation Tester based on new principles, this system does not require large samples like past systems.",
+      "materialCategories": [
+        "Metals and steel"
+      ],
+      "technologyCategories": [],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Metals and steel"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/%ce%bcit-1/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-APS-1",
+      "recordNumber": 45,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Arc Plasma Source APS-1",
+      "series": null,
+      "officialModel": "Arc Plasma Source APS-1",
+      "productSlug": "aps-1",
+      "oemSourceUrl": "https://advance-riko.com/en/products/aps-1/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-aps-1-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Simultaneous deposition of different “targets” By adding this source to APD series or your vacuum chamber, different “targets” can be deposited simultaneously and materials with new characters can be produced.",
+      "materialCategories": [
+        "Carbon",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Thermoelectric evaluation",
+        "Nanoparticle deposition"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation"
+      ],
+      "applications": {
+        "verified": [
+          "Carbon",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/aps-1/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-APD",
+      "recordNumber": 46,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Arc-Plasma method nano-particle Deposition System APD series",
+      "series": "Arc-Plasma method nano-particle Deposition System APD series",
+      "officialModel": "Arc-Plasma method nano-particle Deposition System APD series",
+      "productSlug": "apd",
+      "oemSourceUrl": "https://advance-riko.com/en/products/apd/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-apd-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "New nanoparticle deposition system using pulse vacuum arc discharge Pulse vacuum arc deposition is a unique technique to deposit ultrathin films and nanoparticles by generating metal ions in a simple process. This system can achieve high in terms of film flatness and particle fineness, which is impossible with other systems.",
+      "materialCategories": [
+        "Carbon",
+        "Metals and steel",
+        "Thermoelectric materials and Peltier elements",
+        "Ceramics",
+        "Magnetic material",
+        "Catalyst"
+      ],
+      "technologyCategories": [
+        "Thermoelectric evaluation",
+        "Nanoparticle deposition"
+      ],
+      "analysisCategories": [
+        "Thermoelectric evaluation",
+        "thin film coating・nano particle coating"
+      ],
+      "applications": {
+        "verified": [
+          "Carbon",
+          "Metals and steel",
+          "Thermoelectric materials and Peltier elements",
+          "Ceramics",
+          "Magnetic material",
+          "Catalyst"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/apd/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-WET-1200",
+      "recordNumber": 47,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Hight Temperature Wettability Evaluation System by Contact Angle at the Solid-Liquid Interface WET-1200",
+      "series": null,
+      "officialModel": "Hight Temperature Wettability Evaluation System by Contact Angle at the Solid-Liquid Interface WET-1200",
+      "productSlug": "wet-1200",
+      "oemSourceUrl": "https://advance-riko.com/en/products/wet-1200/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-wet-1200-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Capable of precise observations of substrate and ingot wettability This system has been commercialized as a compact, low-cost high-temperature wettability test/contact angle measurement system based on the wettability test/contact angle measurement system delivered to the Japan Aerospace Exploration Agency in 1993. This system can perform measurements by the static drop method. The extruded liquid drop method is also available(optional).",
+      "materialCategories": [
+        "Metals and steel",
+        "Organic and polymeric",
+        "Ceramics"
+      ],
+      "technologyCategories": [
+        "High-temperature observation",
+        "Wettability / Contact angle",
+        "Brazing"
+      ],
+      "analysisCategories": [
+        "wettability・contact angle",
+        "high-temperature observation"
+      ],
+      "applications": {
+        "verified": [
+          "Metals and steel",
+          "Organic and polymeric",
+          "Ceramics"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/wet-1200/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-TDS-M202R",
+      "recordNumber": 48,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Temperature-Programmed Desorption Gas Analyzer TDS-M202R",
+      "series": null,
+      "officialModel": "Temperature-Programmed Desorption Gas Analyzer TDS-M202R",
+      "productSlug": "tds-m202r",
+      "oemSourceUrl": "https://advance-riko.com/en/products/tds-m202r/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-tds-m202r-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Reach a target temperature for a short time, Mass analysis of up to 200amu is available This system can measure the gas desorbed from a sample with a quadro-pole mass filter after heating up to a target temperature.",
+      "materialCategories": [
+        "Organic and polymeric"
+      ],
+      "technologyCategories": [],
+      "analysisCategories": [
+        "thermal desorption"
+      ],
+      "applications": {
+        "verified": [
+          "Organic and polymeric"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/tds-m202r/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-ANTARES-SPICA-LEONIS",
+      "recordNumber": 49,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Microbial Activity Measurement System Antares/Spica/Leonis",
+      "series": null,
+      "officialModel": "Microbial Activity Measurement System Antares/Spica/Leonis",
+      "productSlug": "antares-spica-leonis",
+      "oemSourceUrl": "https://advance-riko.com/en/products/antares-spica-leonis/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-antares-spica-leonis-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Capable of monitoring microbial growth activity in real time This system measures “heat” generated from microbial cells in real time and evaluates the microbial growth activity. Even if a sample is non-uniform including solid or liquid, the system can measure in a non-destructive manner without changing the sample’s original shape.",
+      "materialCategories": [
+        "Bio and Food"
+      ],
+      "technologyCategories": [],
+      "analysisCategories": [
+        "microbial activity measurement"
+      ],
+      "applications": {
+        "verified": [
+          "Bio and Food"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/antares-spica-leonis/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-HS-9000",
+      "recordNumber": 50,
+      "sourcePage": 5,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Handy Spot welder HS-9000",
+      "series": null,
+      "officialModel": "Handy Spot welder HS-9000",
+      "productSlug": "hs-9000",
+      "oemSourceUrl": "https://advance-riko.com/en/products/hs-9000/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-hs-9000-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Universal handy welder It is suitable for spot-welding of metals like thermocouples, foil and thin plate. By local-quick welding, precise welding with less oxidation and heat deformation can be available.",
+      "materialCategories": [
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Welding"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/hs-9000/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    },
+    {
+      "id": "AR-HA-1H",
+      "recordNumber": 51,
+      "sourcePage": 6,
+      "manufacturer": {
+        "name": "Advance Riko, Inc.",
+        "originCountry": "Japan",
+        "headOffice": "Yokohama, Japan"
+      },
+      "officialProductName": "Handy Arc welder HA-1H",
+      "series": null,
+      "officialModel": "Handy Arc welder HA-1H",
+      "productSlug": "ha-1h",
+      "oemSourceUrl": "https://advance-riko.com/en/products/ha-1h/",
+      "syincoProductUrl": null,
+      "imageSourceUrl": "https://advance-riko.com/develop/wp-content/uploads/catch-ha-1h-300x300-1.png",
+      "imageStatus": "source-available",
+      "sourceDescription": "Compact handy welder with safety handling With high-temperature carbon arc, it melts wires completely to create a spherical junction. By the use of special flux, anti-oxidation layers can be created, making a good contact point easily.",
+      "materialCategories": [
+        "Wire rod"
+      ],
+      "technologyCategories": [
+        "Welding"
+      ],
+      "analysisCategories": [],
+      "applications": {
+        "verified": [
+          "Wire rod"
+        ],
+        "inferred": []
+      },
+      "standards": [],
+      "specifications": {
+        "explicitInSource": [],
+        "status": "content-required-from-oem-datasheet"
+      },
+      "provenance": {
+        "sourceType": "official-oem-catalogue-archive",
+        "sourceUrl": "https://advance-riko.com/en/products/ha-1h/",
+        "extractionStatus": "extracted-verbatim",
+        "verificationStatus": "verified"
+      },
+      "confidenceLevel": "high",
+      "verificationStatus": "verified-identity-content-gaps-identified"
+    }
+  ]
+}

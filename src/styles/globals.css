@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Surfaces */
+    --surface-canvas-slate: #0b1118;
+    --surface-canvas-light: #f8fafc;
+    --surface-card-white: #ffffff;
+    --surface-panel-elevated: #111827;
+
+    /* Typographic Ink */
+    --ink-primary-dark: #0f172a;
+    --ink-muted-dark: #64748b;
+    --ink-primary-light: #f8fafc;
+    --ink-muted-light: #94a3b8;
+
+    /* Brand & Commercial Accents */
+    --brand-teal: #008390;
+    --brand-teal-hover: #006d77;
+    --brand-teal-tint: #e6f4f5;
+    --action-amber: #f59e0b;
+    --action-amber-hover: #d97706;
+
+    /* Borders */
+    --border-light: #e2e8f0;
+    --border-dark: #1e293b;
+    --border-focus: #008390;
+
+    /* Radii */
+    --radius-sm: 2px;
+    --radius-md: 4px;
+  }
+
+  body {
+    background-color: var(--surface-canvas-light);
+    color: var(--ink-primary-dark);
+    font-family: var(--font-sans), Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid var(--border-focus);
+    outline-offset: 2px;
+  }
+}

@@ -1,0 +1,1598 @@
+[
+  {
+    "docId": "EDW-DOC-001",
+    "index": 1,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602120401-CDX1000-1300-EN-Web.pdf",
+    "filename": "01_3602120401-CDX1000-1300-EN-Web.pdf",
+    "sha256": "6752ddd1f849d5cbe8d964fb6ae63dc91294ce2464ecec42e4df68af12891753",
+    "fileSizeBytes": 3083601,
+    "isPdf": true,
+    "pageCount": 5,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "CDX 1000-1300 Dry Screw Vacuum Pumps - Brochure",
+    "publicationDate": "2024-04-29",
+    "categoryPath": "chemical-dry-pumps",
+    "linkedFamilyIds": [
+      "edwards-cdx-series"
+    ],
+    "imageCount": 14
+  },
+  {
+    "docId": "EDW-DOC-002",
+    "index": 2,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/edwards-EDP-dry-pumps-data-sheet.pdf",
+    "filename": "02_edwards-EDP-dry-pumps-data-sheet.pdf",
+    "sha256": "e7a1964dd608d66bd2b1365c0e31b39f5bca2ddc6a4c9163870d3420c8b54670",
+    "fileSizeBytes": 799980,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3602",
+    "documentType": "Datasheet",
+    "documentTitle": "EDP Chemical Dry Vacuum Pump - Datasheet",
+    "publicationDate": "2016-12-20",
+    "categoryPath": "chemical-dry-pumps",
+    "linkedFamilyIds": [
+      "edwards-edp-series"
+    ],
+    "imageCount": 9
+  },
+  {
+    "docId": "EDW-DOC-003",
+    "index": 3,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602%20119%203%2001_EDP%20Chemical%20Brochure_Web.pdf",
+    "filename": "03_3602%20119%203%2001_EDP%20Chemical%20Brochure_Web.pdf",
+    "sha256": "edd55a354ba8b9cd195ed7f3bd96b69a7dab498b73d95b2ecd141313453673c6",
+    "fileSizeBytes": 6829872,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EDP Chemical Dry Pump - Brochure",
+    "publicationDate": "2023-04-14",
+    "categoryPath": "chemical-dry-pumps",
+    "linkedFamilyIds": [
+      "edwards-edp-series"
+    ],
+    "imageCount": 16
+  },
+  {
+    "docId": "EDW-DOC-004",
+    "index": 4,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
+    "filename": "04_EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
+    "sha256": "609001f771dc312f4e2f4886916fbd77fc742c2be4bf6a9b873f824ff7cb5242",
+    "fileSizeBytes": 8875976,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EDS Chemical Dry Screw Vacuum Pumps - Brochure",
+    "publicationDate": "2023-04-10",
+    "categoryPath": "chemical-dry-pumps",
+    "linkedFamilyIds": [
+      "edwards-eds-chemical-series"
+    ],
+    "imageCount": 22
+  },
+  {
+    "docId": "EDW-DOC-005",
+    "index": 5,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/diaphragm-pumps/3601-0472-01-XDD1-Datasheet.pdf",
+    "filename": "05_3601-0472-01-XDD1-Datasheet.pdf",
+    "sha256": "9481a4c8d15bf20ddbfc65235893520a613c4f177d3792068c6ac6df530b6556",
+    "fileSizeBytes": 320259,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0472 01",
+    "documentType": "Datasheet",
+    "documentTitle": "XDD1 Diaphragm Vacuum Pump - Datasheet",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "diaphragm-pumps",
+    "linkedFamilyIds": [
+      "edwards-xdd1-series"
+    ],
+    "imageCount": 12
+  },
+  {
+    "docId": "EDW-DOC-006",
+    "index": 6,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/diaphragm-pumps/3601-0915-01-D-LAB-Datasheet.pdf",
+    "filename": "06_3601-0915-01-D-LAB-Datasheet.pdf",
+    "sha256": "53f943abf56f7bc902491dbdcede70a4f77d516dd8444bd3b8ad7df87de383ee",
+    "fileSizeBytes": 1612369,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0915 01",
+    "documentType": "Datasheet",
+    "documentTitle": "D-Lab Diaphragm Vacuum Pump - Datasheet",
+    "publicationDate": "2025-12-08",
+    "categoryPath": "diaphragm-pumps",
+    "linkedFamilyIds": [
+      "edwards-d-lab-series"
+    ],
+    "imageCount": 12
+  },
+  {
+    "docId": "EDW-DOC-007",
+    "index": 7,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-claw-pumps/3602111901-GV-Series-Dry-Claw-Pumps-EN-Web.pdf",
+    "filename": "07_3602111901-GV-Series-Dry-Claw-Pumps-EN-Web.pdf",
+    "sha256": "cbb99f5895dffbd069a1a9413cb148a5aa1852ba8aaa0f893313fbe3cc4fde57",
+    "fileSizeBytes": 4029669,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "GV Series Dry Vacuum Pumps - Brochure",
+    "publicationDate": "2026-05-12",
+    "categoryPath": "dry-claw-pumps",
+    "linkedFamilyIds": [
+      "edwards-gv-claw-series"
+    ],
+    "imageCount": 21
+  },
+  {
+    "docId": "EDW-DOC-008",
+    "index": 8,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-claw-pumps/3602107401-nedc-edc-combined-en-web.pdf",
+    "filename": "08_3602107401-nedc-edc-combined-en-web.pdf",
+    "sha256": "86d4e59c337c57062f5124a7f3cc7e884e45b25dfbf8f300b2dbd79564964464",
+    "fileSizeBytes": 6215817,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "nEDC & EDC Dry Claw Vacuum Pumps - Brochure",
+    "publicationDate": "2024-10-08",
+    "categoryPath": "dry-claw-pumps",
+    "linkedFamilyIds": [
+      "edwards-nedc-edc-series"
+    ],
+    "imageCount": 19
+  },
+  {
+    "docId": "EDW-DOC-009",
+    "index": 9,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/EDS-industrial-dry-screw-vacuum-pumps-brochure.pdf",
+    "filename": "09_EDS-industrial-dry-screw-vacuum-pumps-brochure.pdf",
+    "sha256": "0a8a4776d3c0993cf903dbdf14d4b7225d80e1daff225440832c3a18dcd7062f",
+    "fileSizeBytes": 8197603,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EDS Dry Screw Vacuum Pumps -Brochure",
+    "publicationDate": "2023-06-07",
+    "categoryPath": "dry-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-eds-industrial-series"
+    ],
+    "imageCount": 20
+  },
+  {
+    "docId": "EDW-DOC-010",
+    "index": 10,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/3602210601-IDX-1300-EN-Web.pdf",
+    "filename": "10_3602210601-IDX-1300-EN-Web.pdf",
+    "sha256": "0c58bb94cd652d21e557c667e48a5c348a828305101fc57923dc19cf7ec4f008",
+    "fileSizeBytes": 2268469,
+    "isPdf": true,
+    "pageCount": 3,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "IDX 1300 Dry Screw Vacuum Pump - Brochure",
+    "publicationDate": "2026-04-13",
+    "categoryPath": "dry-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-idx-series"
+    ],
+    "imageCount": 11
+  },
+  {
+    "docId": "EDW-DOC-011",
+    "index": 11,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/edwards-GXS-dry-pumps-product-brochure.pdf",
+    "filename": "11_edwards-GXS-dry-pumps-product-brochure.pdf",
+    "sha256": "3162ec43187013dc6d26962afea12f46179fc5646400ef519ec03d6954b1f293",
+    "fileSizeBytes": 5959384,
+    "isPdf": true,
+    "pageCount": 20,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "GXS Dry Screw Vacuum Pumps - Brochure",
+    "publicationDate": "2020-09-09",
+    "categoryPath": "dry-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-gxs-series"
+    ],
+    "imageCount": 21
+  },
+  {
+    "docId": "EDW-DOC-012",
+    "index": 12,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/3602117101-EXS%20Brochure-EN-Web.pdf",
+    "filename": "12_3602117101-EXS%20Brochure-EN-Web.pdf",
+    "sha256": "f42233941d318084ef6e3e01aaa9f16689739431b075f700142861f550d4e27b",
+    "fileSizeBytes": 10556711,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EXS Dry Screw Vacuum Pump - Brochure",
+    "publicationDate": "2024-10-18",
+    "categoryPath": "dry-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-exs-series"
+    ],
+    "imageCount": 19
+  },
+  {
+    "docId": "EDW-DOC-013",
+    "index": 13,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/GV-series-dry-vacuum-pumps-brochure.pdf",
+    "filename": "13_GV-series-dry-vacuum-pumps-brochure.pdf",
+    "sha256": "0920fdc829093394e5bdfed2ec71ca0d0457ad494212408a661632dbaaea12e6",
+    "fileSizeBytes": 3498608,
+    "isPdf": true,
+    "pageCount": 12,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "GV Series Dry Vacuum Pumps - Brochure",
+    "publicationDate": "2019-10-24",
+    "categoryPath": "dry-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-gv-screw-series"
+    ],
+    "imageCount": 24
+  },
+  {
+    "docId": "EDW-DOC-014",
+    "index": 14,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0088-01-nXDS-brochure.pdf",
+    "filename": "14_3601-0088-01-nXDS-brochure.pdf",
+    "sha256": "93836b977b61acb9df132d8ccede29ec293cb2a4c38e480771347236fa136e1d",
+    "fileSizeBytes": 4195887,
+    "isPdf": true,
+    "pageCount": 12,
+    "documentNumber": "3601 0088 01",
+    "documentType": "Brochure",
+    "documentTitle": "nXDS dry scroll pumps - Brochure",
+    "publicationDate": "2024-03-29",
+    "categoryPath": "dry-scroll-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxds-series"
+    ],
+    "imageCount": 10
+  },
+  {
+    "docId": "EDW-DOC-015",
+    "index": 15,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0428-01-XDS-datasheet.pdf",
+    "filename": "15_3601-0428-01-XDS-datasheet.pdf",
+    "sha256": "e03eca077e5ba2df68608d1be10156abe19e98f8bf29f9309bc949eaf5681b4c",
+    "fileSizeBytes": 2238000,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0428 01",
+    "documentType": "Datasheet",
+    "documentTitle": "XDS Scroll Pump - Datasheet",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "dry-scroll-pumps",
+    "linkedFamilyIds": [
+      "edwards-xds-series"
+    ],
+    "imageCount": 5
+  },
+  {
+    "docId": "EDW-DOC-016",
+    "index": 16,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0723-01-mXDS3-3s-datasheet.pdf",
+    "filename": "16_3601-0723-01-mXDS3-3s-datasheet.pdf",
+    "sha256": "3668f54ecc6ac4097e3a03b47567f674c00680ba7dd038b4c0097a209f2a47b2",
+    "fileSizeBytes": 499269,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0723 01",
+    "documentType": "Datasheet",
+    "documentTitle": "mXDS3 and mXDS3s Dry Scroll Pumps - Datasheet",
+    "publicationDate": "2023-04-24",
+    "categoryPath": "dry-scroll-pumps",
+    "linkedFamilyIds": [
+      "edwards-mxds3-series"
+    ],
+    "imageCount": 5
+  },
+  {
+    "docId": "EDW-DOC-017",
+    "index": 17,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0452-01-XDS35i-datasheet.pdf",
+    "filename": "17_3601-0452-01-XDS35i-datasheet.pdf",
+    "sha256": "922fcbfed8217f78a54d7a868a3a534e88bb5d955b91a4eeb69d2bafc8617292",
+    "fileSizeBytes": 1952846,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0452 01",
+    "documentType": "Datasheet",
+    "documentTitle": "XDS35i Dry Scroll Pump - Datasheet",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "dry-scroll-pumps",
+    "linkedFamilyIds": [
+      "edwards-xds35i-series"
+    ],
+    "imageCount": 5
+  },
+  {
+    "docId": "EDW-DOC-018",
+    "index": 18,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3602115001_EDO_65-100_EN_web.pdf",
+    "filename": "18_3602115001_EDO_65-100_EN_web.pdf",
+    "sha256": "3ca970718f2a52bf8f4249f1dd6650ec4155fa2e56b53a21a86eda24443d8c43",
+    "fileSizeBytes": 3639238,
+    "isPdf": true,
+    "pageCount": 5,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EDO 65-100 Dry Scroll Vacuum Pump - Brochure",
+    "publicationDate": "2022-12-06",
+    "categoryPath": "dry-scroll-pumps",
+    "linkedFamilyIds": [
+      "edwards-edo-series"
+    ],
+    "imageCount": 14
+  },
+  {
+    "docId": "EDW-DOC-019",
+    "index": 19,
+    "sourceUrl": "https://digitalbrochure.edwardsvacuum.com/mXDS3-and-mXDS3s-dry-scroll-pumps/en/",
+    "filename": "19_en_375a46d2.html",
+    "sha256": "d05659e2853a965e9622b025019c6ece67d23df85a7fb6ac0cb14ef4b2b82852",
+    "fileSizeBytes": 46232,
+    "isPdf": false,
+    "pageCount": 1,
+    "documentNumber": "Digital Edition",
+    "documentType": "Digital Interactive Brochure",
+    "documentTitle": "3601-0746-01-mxds3-and-mxds3s",
+    "publicationDate": "Web Edition",
+    "categoryPath": "digital-brochure",
+    "linkedFamilyIds": [
+      "edwards-mxds3-series"
+    ],
+    "imageCount": 5
+  },
+  {
+    "docId": "EDW-DOC-020",
+    "index": 20,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0732-01-ECAL1-Datasheet.pdf",
+    "filename": "20_3601-0732-01-ECAL1-Datasheet.pdf",
+    "sha256": "1c828e689233d017f5726c816c0580a19b5e4bdf0a701cd3a0e632d929fd3ebe",
+    "fileSizeBytes": 342316,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0732 01",
+    "documentType": "Datasheet",
+    "documentTitle": "ECAL1 Calibration system - Datasheet",
+    "publicationDate": "2022-12-21",
+    "categoryPath": "high-vacuum-pump-systems",
+    "linkedFamilyIds": [
+      "edwards-ecal1-series"
+    ],
+    "imageCount": 3
+  },
+  {
+    "docId": "EDW-DOC-021",
+    "index": 21,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0664-01-T-Station-300-Datasheet.pdf",
+    "filename": "21_3601-0664-01-T-Station-300-Datasheet.pdf",
+    "sha256": "c1d3c0f74cb301ea6bd44438af7e662878fe0c9490cddfe381d0c07cf5006222",
+    "fileSizeBytes": 3159013,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0664 01",
+    "documentType": "Datasheet",
+    "documentTitle": "T-Station 300 - Datasheet",
+    "publicationDate": "2024-05-10",
+    "categoryPath": "high-vacuum-pump-systems",
+    "linkedFamilyIds": [
+      "edwards-t-station-300"
+    ],
+    "imageCount": 3
+  },
+  {
+    "docId": "EDW-DOC-022",
+    "index": 22,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0254-01-T-Station-85-Datasheet.pdf",
+    "filename": "22_3601-0254-01-T-Station-85-Datasheet.pdf",
+    "sha256": "80f3e068d9edcbefc235ea93bfb3982985238d38dd61172f2e36dc8ea1a48fac",
+    "fileSizeBytes": 3953611,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0254 01",
+    "documentType": "Datasheet",
+    "documentTitle": "T-Station 85 - Datasheet",
+    "publicationDate": "2024-05-10",
+    "categoryPath": "high-vacuum-pump-systems",
+    "linkedFamilyIds": [
+      "edwards-t-station-85"
+    ],
+    "imageCount": 4
+  },
+  {
+    "docId": "EDW-DOC-023",
+    "index": 23,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0444-01-TIC-pumping-station.pdf",
+    "filename": "23_3601-0444-01-TIC-pumping-station.pdf",
+    "sha256": "dd8102f6d5f7f32776a78955c1c21c64fd28527a3d764a177c0dc33ffef95046",
+    "fileSizeBytes": 1944246,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0444 01",
+    "documentType": "Brochure",
+    "documentTitle": "TIC Pumping Station - Datasheet",
+    "publicationDate": "2024-08-06",
+    "categoryPath": "high-vacuum-pump-systems",
+    "linkedFamilyIds": [
+      "edwards-tic-pumping-station"
+    ],
+    "imageCount": 20
+  },
+  {
+    "docId": "EDW-DOC-024",
+    "index": 24,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0705-01-nEXT-TIC-CART-XL-Datasheet.pdf",
+    "filename": "24_3601-0705-01-nEXT-TIC-CART-XL-Datasheet.pdf",
+    "sha256": "11c3bd3a1002135f91cc4db95f8afefbb96e9156593ce5e0c8cc7919edec19cc",
+    "fileSizeBytes": 1233537,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0705 01",
+    "documentType": "Datasheet",
+    "documentTitle": "nEXT TIC CART XL - Datasheet",
+    "publicationDate": "2025-03-26",
+    "categoryPath": "high-vacuum-pump-systems",
+    "linkedFamilyIds": [
+      "edwards-next-tic-cart-xl"
+    ],
+    "imageCount": 14
+  },
+  {
+    "docId": "EDW-DOC-025",
+    "index": 25,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0736-01-ECAL1-Datasheet.pdf",
+    "filename": "25_3601-0736-01-ECAL1-Datasheet.pdf",
+    "sha256": "aaa54961a0134cef9721152984f274940a89a359639e359ad862fd311e2b8835",
+    "fileSizeBytes": 445746,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0736 01",
+    "documentType": "Datasheet",
+    "documentTitle": "ECAL1 Calibration system - Datasheet",
+    "publicationDate": "2026-05-19",
+    "categoryPath": "high-vacuum-pump-systems",
+    "linkedFamilyIds": [
+      "edwards-ecal1-series"
+    ],
+    "imageCount": 3
+  },
+  {
+    "docId": "EDW-DOC-026",
+    "index": 26,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/3602207401-Stokes%206-Booster-EN-Web.pdf",
+    "filename": "26_3602207401-Stokes%206-Booster-EN-Web.pdf",
+    "sha256": "4c271c52fcc8826e149564dde81a5350c50b69e5993cbffc7b711d2118916823",
+    "fileSizeBytes": 1434696,
+    "isPdf": true,
+    "pageCount": 3,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "Stokes 6\u201d Mechanical Booster - Brochure",
+    "publicationDate": "2024-04-23",
+    "categoryPath": "mechanical-booster-pumps",
+    "linkedFamilyIds": [
+      "edwards-stokes-6-booster"
+    ],
+    "imageCount": 9
+  },
+  {
+    "docId": "EDW-DOC-027",
+    "index": 27,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/3602208401-GMB25-40K-Leaflet-EN-Web.pdf",
+    "filename": "27_3602208401-GMB25-40K-Leaflet-EN-Web.pdf",
+    "sha256": "cb439e91c1d605c068ab6301662e65625c8c40f33b6b84567edb9759109dc85c",
+    "fileSizeBytes": 2831621,
+    "isPdf": true,
+    "pageCount": 3,
+    "documentNumber": "3602",
+    "documentType": "Product Leaflet",
+    "documentTitle": "GMB Roots Vacuum Booster Pumps - Brochure",
+    "publicationDate": "2025-01-09",
+    "categoryPath": "mechanical-booster-pumps",
+    "linkedFamilyIds": [
+      "edwards-gmb-series"
+    ],
+    "imageCount": 10
+  },
+  {
+    "docId": "EDW-DOC-028",
+    "index": 28,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/edwards-EH-mechanical-booster-pumps-datasheet.pdf",
+    "filename": "28_edwards-EH-mechanical-booster-pumps-datasheet.pdf",
+    "sha256": "04f8c35b7c8052e7cdeff34d4fcf765590b4b9b1f1d350a16f40ac044f323d63",
+    "fileSizeBytes": 325197,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3602",
+    "documentType": "Datasheet",
+    "documentTitle": "EH Mechanical Booster - Datasheet",
+    "publicationDate": "2019-11-11",
+    "categoryPath": "mechanical-booster-pumps",
+    "linkedFamilyIds": [
+      "edwards-eh-series"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-029",
+    "index": 29,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/edwards-HV-mechanical-booster-pumps-datasheet.pdf",
+    "filename": "29_edwards-HV-mechanical-booster-pumps-datasheet.pdf",
+    "sha256": "ca3947e04d02d9ae9c2f7dc18aa988ff0837697511c03480260f8d013fb7186f",
+    "fileSizeBytes": 205743,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3602",
+    "documentType": "Datasheet",
+    "documentTitle": "HV Mechanical Booster - Datasheet",
+    "publicationDate": "2019-11-08",
+    "categoryPath": "mechanical-booster-pumps",
+    "linkedFamilyIds": [
+      "edwards-hv-series"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-030",
+    "index": 30,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/edwards-stokes-mechanical-booster-pumps-datasheet.pdf",
+    "filename": "30_edwards-stokes-mechanical-booster-pumps-datasheet.pdf",
+    "sha256": "72881f87cdb7701d85d8fd74f2280b1f3037b305d42e6265ace37ddbeae57044",
+    "fileSizeBytes": 174329,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3602",
+    "documentType": "Datasheet",
+    "documentTitle": "Stokes 6\u201d Mechanical Booster - Datasheet",
+    "publicationDate": "2019-11-08",
+    "categoryPath": "mechanical-booster-pumps",
+    "linkedFamilyIds": [
+      "edwards-stokes-mechanical-booster"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-031",
+    "index": 31,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0601-01-nXRi-Datasheet.pdf",
+    "filename": "31_3601-0601-01-nXRi-Datasheet.pdf",
+    "sha256": "d661aa2eb962b52d4ddb26dee320837ce15cdc3bb54a80028fd573f0e9659b33",
+    "fileSizeBytes": 707704,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0601 01",
+    "documentType": "Datasheet",
+    "documentTitle": "nXRi Dry Pumps - Datasheet",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "multistage-roots-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxri-series"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-032",
+    "index": 32,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0591-01-nXRi-Brochure.pdf",
+    "filename": "32_3601-0591-01-nXRi-Brochure.pdf",
+    "sha256": "3c398ef5e9546afe22af99e1772873b07ce03cef9a9efc5e0d5d9261c5ae37d4",
+    "fileSizeBytes": 3259481,
+    "isPdf": true,
+    "pageCount": 8,
+    "documentNumber": "3601 0591 01",
+    "documentType": "Brochure",
+    "documentTitle": "nXRi Dry Pumps - Brochure",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "multistage-roots-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxri-series"
+    ],
+    "imageCount": 11
+  },
+  {
+    "docId": "EDW-DOC-033",
+    "index": 33,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0275-01-nXLi-Datasheet.pdf",
+    "filename": "33_3601-0275-01-nXLi-Datasheet.pdf",
+    "sha256": "eab81891b42ff6ac4efebf0cb2e1e306a7ae83a54a68be9e0d9ede69aee3ef52",
+    "fileSizeBytes": 455972,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0275 01",
+    "documentType": "Datasheet",
+    "documentTitle": "nXLi Dry Pump - Datasheet",
+    "publicationDate": "2025-07-28",
+    "categoryPath": "multistage-roots-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxli-series"
+    ],
+    "imageCount": 3
+  },
+  {
+    "docId": "EDW-DOC-034",
+    "index": 34,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0335-01-nXLi-Brochure.pdf",
+    "filename": "34_3601-0335-01-nXLi-Brochure.pdf",
+    "sha256": "f77eff8139e9a7224c45814534f39dd70e27ddacf5b65d8952c00df40ca6c198",
+    "fileSizeBytes": 1477982,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0330 01",
+    "documentType": "Brochure",
+    "documentTitle": "nXLi Dry Pump - Brochure",
+    "publicationDate": "2025-07-28",
+    "categoryPath": "multistage-roots-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxli-series"
+    ],
+    "imageCount": 6
+  },
+  {
+    "docId": "EDW-DOC-035",
+    "index": 35,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-1006-01-nXLi-single-inlet-Enhanced-datasheet.pdf",
+    "filename": "35_3601-1006-01-nXLi-single-inlet-Enhanced-datasheet.pdf",
+    "sha256": "888dcb29eac9376389e55b53a67820b1f57b71fcdeb08db8d5e636c97e6268b1",
+    "fileSizeBytes": 1605338,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 1006 01",
+    "documentType": "Datasheet",
+    "documentTitle": "nXLi single inlet Enhanced datasheet",
+    "publicationDate": "2026-07-27",
+    "categoryPath": "multistage-roots-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxli-series"
+    ],
+    "imageCount": 13
+  },
+  {
+    "docId": "EDW-DOC-036",
+    "index": 36,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-1016-01-nXLi-dual-inlet-Enhanced-datasheet.pdf",
+    "filename": "36_3601-1016-01-nXLi-dual-inlet-Enhanced-datasheet.pdf",
+    "sha256": "c0548ea5551dad73b3bc61f8208822c478c9fe2979cfcb785a05af879445e6bf",
+    "fileSizeBytes": 1732713,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 1016 01",
+    "documentType": "Datasheet",
+    "documentTitle": "nXLi dual inlet Enhanced datasheet",
+    "publicationDate": "2026-07-27",
+    "categoryPath": "multistage-roots-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxli-series"
+    ],
+    "imageCount": 13
+  },
+  {
+    "docId": "EDW-DOC-037",
+    "index": 37,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0855-01-nXQi-Datasheet.pdf",
+    "filename": "37_3601-0855-01-nXQi-Datasheet.pdf",
+    "sha256": "11b230d005240979f86bcdfc3f33ff576012a8a41872eccd064ee2cb0c6605b9",
+    "fileSizeBytes": 964207,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0855 01",
+    "documentType": "Datasheet",
+    "documentTitle": "nXQ55i dry Multistage Roots pump datasheet",
+    "publicationDate": "2026-07-30",
+    "categoryPath": "multistage-roots-pumps",
+    "linkedFamilyIds": [
+      "edwards-nxqi-series"
+    ],
+    "imageCount": 6
+  },
+  {
+    "docId": "EDW-DOC-038",
+    "index": 38,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/oil-sealed-screw-pumps/3602018301-EOS1300-1900i-EN-Web1.pdf",
+    "filename": "38_3602018301-EOS1300-1900i-EN-Web1.pdf",
+    "sha256": "16507628b3860288c823bf714bd2c19526f056c91a6be5a273d3491502fa470c",
+    "fileSizeBytes": 311012,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3602",
+    "documentType": "Datasheet",
+    "documentTitle": "EOS1300-1900i - Datasheet",
+    "publicationDate": "2023-05-07",
+    "categoryPath": "oil-sealed-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-eosi-series"
+    ],
+    "imageCount": 2
+  },
+  {
+    "docId": "EDW-DOC-039",
+    "index": 39,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/oil-sealed-screw-pumps/3602016201_EOSi_EN_web.pdf",
+    "filename": "39_3602016201_EOSi_EN_web.pdf",
+    "sha256": "64abd44f2791db89fe73469c6dc5800c1368ec0e99cca2572383c429e29f8764",
+    "fileSizeBytes": 7908195,
+    "isPdf": true,
+    "pageCount": 20,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EOSi Oil-Sealed Screw Vacuum Pumps - Brochure",
+    "publicationDate": "2023-01-17",
+    "categoryPath": "oil-sealed-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-eosi-series"
+    ],
+    "imageCount": 54
+  },
+  {
+    "docId": "EDW-DOC-040",
+    "index": 40,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/oil-sealed-screw-pumps/3602016201-EOSi-Combined-EN-Web.pdf",
+    "filename": "40_3602016201-EOSi-Combined-EN-Web.pdf",
+    "sha256": "00745af4ac77d089acbca64899accf640143fc9ce920ed61473c8c69a2719d35",
+    "fileSizeBytes": 6589971,
+    "isPdf": true,
+    "pageCount": 11,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EOSi Oil-Sealed Screw Vacuum Pumps - Brochure",
+    "publicationDate": "2026-04-13",
+    "categoryPath": "oil-sealed-screw-pumps",
+    "linkedFamilyIds": [
+      "edwards-eosi-series"
+    ],
+    "imageCount": 52
+  },
+  {
+    "docId": "EDW-DOC-041",
+    "index": 41,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-piston-pumps/stokes-microvac-rotary-piston-pumps.pdf",
+    "filename": "41_stokes-microvac-rotary-piston-pumps.pdf",
+    "sha256": "41c736278a36bb81f4a77362f6f797ecf6e78a633e388a61a8810a05334de788",
+    "fileSizeBytes": 1249359,
+    "isPdf": true,
+    "pageCount": 8,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "Stokes Microvac - Brochure",
+    "publicationDate": "2017-09-05",
+    "categoryPath": "rotary-piston-pumps",
+    "linkedFamilyIds": [
+      "edwards-stokes-microvac-series"
+    ],
+    "imageCount": 13
+  },
+  {
+    "docId": "EDW-DOC-042",
+    "index": 42,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-piston-pumps/stokes-microvac-rotary-piston-pumps.pdf",
+    "filename": "42_stokes-microvac-rotary-piston-pumps.pdf",
+    "sha256": "41c736278a36bb81f4a77362f6f797ecf6e78a633e388a61a8810a05334de788",
+    "fileSizeBytes": 1249359,
+    "isPdf": true,
+    "pageCount": 8,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "Stokes Microvac - Brochure",
+    "publicationDate": "2017-09-05",
+    "categoryPath": "rotary-piston-pumps",
+    "linkedFamilyIds": [
+      "edwards-stokes-microvac-series"
+    ],
+    "imageCount": 13
+  },
+  {
+    "docId": "EDW-DOC-043",
+    "index": 43,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0267-01-nRVi-Datasheet.pdf",
+    "filename": "43_3601-0267-01-nRVi-Datasheet.pdf",
+    "sha256": "7097ca7dba7c6f2cf227d220fe418ae480fd8d305019ae58c0ab9ae630559659",
+    "fileSizeBytes": 591779,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0267 01",
+    "documentType": "Datasheet",
+    "documentTitle": "nRVi Enhanced Rotary Vane - Datasheet",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "rotary-vane-pumps",
+    "linkedFamilyIds": [
+      "edwards-nrvi-series"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-044",
+    "index": 44,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/e2s-two-stage-rotary-vane-pumps-brochure.pdf",
+    "filename": "44_e2s-two-stage-rotary-vane-pumps-brochure.pdf",
+    "sha256": "4421acb8d9a953876cb05a5713e9dfc61761eb50e1857a1ef1a1f53d9d99175d",
+    "fileSizeBytes": 6929257,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "E2S Two Stage Rotary Vane Pumps - Brochure",
+    "publicationDate": "2022-02-08",
+    "categoryPath": "rotary-vane-pumps",
+    "linkedFamilyIds": [
+      "edwards-e2s-series"
+    ],
+    "imageCount": 16
+  },
+  {
+    "docId": "EDW-DOC-045",
+    "index": 45,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/nes-ex-series-single-stage-rotary-vane-pumps-brochure-old.pdf",
+    "filename": "45_nes-ex-series-single-stage-rotary-vane-pumps-brochure-old.pdf",
+    "sha256": "6a4865d867c3f98ef2e420fc7117ce836008ebaef252935e79117d53fdd59979",
+    "fileSizeBytes": 5748467,
+    "isPdf": true,
+    "pageCount": 12,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "nES EX Series Rotary Vane Pumps - Brochure",
+    "publicationDate": "2019-11-12",
+    "categoryPath": "rotary-vane-pumps",
+    "linkedFamilyIds": [
+      "edwards-nes-ex-series"
+    ],
+    "imageCount": 21
+  },
+  {
+    "docId": "EDW-DOC-046",
+    "index": 46,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
+    "filename": "46_3601-0714-01-E2M0.7-2.5-datasheet.pdf",
+    "sha256": "615f9055ce8e7a96b5c50078a77da9cd2efff786a43a86248e33c6f815cd15a1",
+    "fileSizeBytes": 876170,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0714 01",
+    "documentType": "Datasheet",
+    "documentTitle": "E2M0.7, E2M1.5 and E2M2.5 Oil Sealed Rotary Vane Pump -Datasheet",
+    "publicationDate": "2024-07-24",
+    "categoryPath": "rotary-vane-pumps",
+    "linkedFamilyIds": [
+      "edwards-e2m-small-series"
+    ],
+    "imageCount": 7
+  },
+  {
+    "docId": "EDW-DOC-047",
+    "index": 47,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0327-01-nRVi-brochure.pdf",
+    "filename": "47_3601-0327-01-nRVi-brochure.pdf",
+    "sha256": "b62d7ce7e371b0a331c73f1fa1eb85b5dd85a24b659cfd2ef350b872d3e37353",
+    "fileSizeBytes": 1187846,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0327 01",
+    "documentType": "Brochure",
+    "documentTitle": "nRVi Enhanced Rotary Vane - Brochure",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "rotary-vane-pumps",
+    "linkedFamilyIds": [
+      "edwards-nrvi-series"
+    ],
+    "imageCount": 9
+  },
+  {
+    "docId": "EDW-DOC-048",
+    "index": 48,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3602014101-nES-Series-EN-Web.pdf",
+    "filename": "48_3602014101-nES-Series-EN-Web.pdf",
+    "sha256": "2cd4c0dcf4e5a5e4f4afcbd661f8dc2c5fed7987c859566a09da52597b9face3",
+    "fileSizeBytes": 4687860,
+    "isPdf": true,
+    "pageCount": 9,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "nES Series - Brochure",
+    "publicationDate": "2024-10-08",
+    "categoryPath": "rotary-vane-pumps",
+    "linkedFamilyIds": [
+      "edwards-nes-series"
+    ],
+    "imageCount": 22
+  },
+  {
+    "docId": "EDW-DOC-049",
+    "index": 49,
+    "sourceUrl": "https://digitalbrochure.edwardsvacuum.com/RV-oil-sealed-rotary-vane-pumps/en",
+    "filename": "49_en_515d80c9.html",
+    "sha256": "df3bd79efb23590d11bd149ea0f45b839f4b63482a77a8b7376a2188ccb7c927",
+    "fileSizeBytes": 46698,
+    "isPdf": false,
+    "pageCount": 1,
+    "documentNumber": "Digital Edition",
+    "documentType": "Digital Interactive Brochure",
+    "documentTitle": "3601-0076-01-rv-oil-sealed-rotary-vane-pumps",
+    "publicationDate": "Web Edition",
+    "categoryPath": "digital-brochure",
+    "linkedFamilyIds": [
+      "edwards-rv-series"
+    ],
+    "imageCount": 5
+  },
+  {
+    "docId": "EDW-DOC-050",
+    "index": 50,
+    "sourceUrl": "https://digitalbrochure.edwardsvacuum.com/Small-EM-oil-sealed-rotary-vane-pumps/en",
+    "filename": "50_en_9416a2ad.html",
+    "sha256": "e3ea08c4947461b9a16029f6e3e6948c827dd682595547cd3cabeef4db2f1180",
+    "fileSizeBytes": 47547,
+    "isPdf": false,
+    "pageCount": 1,
+    "documentNumber": "Digital Edition",
+    "documentType": "Digital Interactive Brochure",
+    "documentTitle": "3601-0066-01-small-em-oil-sealed-rotary-vane-pumps",
+    "publicationDate": "Web Edition",
+    "categoryPath": "digital-brochure",
+    "linkedFamilyIds": [
+      "edwards-small-em-series"
+    ],
+    "imageCount": 6
+  },
+  {
+    "docId": "EDW-DOC-051",
+    "index": 51,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0509-01-ELD500-Trolley-Datasheet.pdf",
+    "filename": "51_3601-0509-01-ELD500-Trolley-Datasheet.pdf",
+    "sha256": "ead91687a2a18dfc650aaaf97399977e5b92fc856c48e880c966b7f56a8ea59d",
+    "fileSizeBytes": 583722,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0509 01",
+    "documentType": "Datasheet",
+    "documentTitle": "ELD500 Trolley - Datasheet",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "leak-detection",
+    "linkedFamilyIds": [
+      "edwards-eld500-trolley"
+    ],
+    "imageCount": 3
+  },
+  {
+    "docId": "EDW-DOC-052",
+    "index": 52,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0355-01-ELD500-Datasheet.pdf",
+    "filename": "52_3601-0355-01-ELD500-Datasheet.pdf",
+    "sha256": "12882a26f52935dd523ef73853caab629e09f47ead0888d1523c8f08e926df68",
+    "fileSizeBytes": 322463,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0355 01",
+    "documentType": "Datasheet",
+    "documentTitle": "ELD500 - Datasheet",
+    "publicationDate": "2025-02-12",
+    "categoryPath": "leak-detection",
+    "linkedFamilyIds": [
+      "edwards-eld500"
+    ],
+    "imageCount": 5
+  },
+  {
+    "docId": "EDW-DOC-053",
+    "index": 53,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
+    "filename": "53_3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
+    "sha256": "f3ef23a2a2fe75454c679eab4d4f8ce8da9f064796f4768bd3e84a1fe05e24c4",
+    "fileSizeBytes": 19211138,
+    "isPdf": true,
+    "pageCount": 6,
+    "documentNumber": "3601 0975 01",
+    "documentType": "Brochure",
+    "documentTitle": "ELD30 Industrial Leak Detector - Brochure",
+    "publicationDate": "2026-03-26",
+    "categoryPath": "leak-detection",
+    "linkedFamilyIds": [
+      "edwards-eld30"
+    ],
+    "imageCount": 27
+  },
+  {
+    "docId": "EDW-DOC-054",
+    "index": 54,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0846-01-ELD4000-Leak-Detector.pdf",
+    "filename": "54_3601-0846-01-ELD4000-Leak-Detector.pdf",
+    "sha256": "f29cf36d1b8789d6a80f66291da73b2e5a34fb5bb12478a5d9bd9d2e2b34d213",
+    "fileSizeBytes": 4820542,
+    "isPdf": true,
+    "pageCount": 8,
+    "documentNumber": "3601 0846 01",
+    "documentType": "Brochure",
+    "documentTitle": "ELD4000 Leak Detector - Brochure",
+    "publicationDate": "2025-12-15",
+    "categoryPath": "leak-detection",
+    "linkedFamilyIds": [
+      "edwards-eld4000"
+    ],
+    "imageCount": 19
+  },
+  {
+    "docId": "EDW-DOC-055",
+    "index": 55,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0363-01-Gascheck-G4.pdf",
+    "filename": "55_3601-0363-01-Gascheck-G4.pdf",
+    "sha256": "da546d765830b987ab2badf53417c2ef83c758ed5835078a0df221c7ef74eee5",
+    "fileSizeBytes": 1411947,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0363 01",
+    "documentType": "Brochure",
+    "documentTitle": "Gascheck G4 - Datasheet",
+    "publicationDate": "2023-11-22",
+    "categoryPath": "leak-detection",
+    "linkedFamilyIds": [
+      "edwards-gascheck-g4"
+    ],
+    "imageCount": 3
+  },
+  {
+    "docId": "EDW-DOC-056",
+    "index": 56,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0366-01-Gascheck-G4.pdf",
+    "filename": "56_3601-0366-01-Gascheck-G4.pdf",
+    "sha256": "244d9caf4d2a93e65dc409e771a59e5184c61ab37016d47532751230d0df2ec3",
+    "fileSizeBytes": 1507381,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0366 01",
+    "documentType": "Brochure",
+    "documentTitle": "PRODUCT DATA SHEET - GASCHECK G4 GAS",
+    "publicationDate": "2026-08-17",
+    "categoryPath": "leak-detection",
+    "linkedFamilyIds": [
+      "edwards-gascheck-g4"
+    ],
+    "imageCount": 16
+  },
+  {
+    "docId": "EDW-DOC-057",
+    "index": 57,
+    "sourceUrl": "https://digitalbrochure.edwardsvacuum.com/ELD500-precision-leak-detector/en",
+    "filename": "57_en_6a5b80a5.html",
+    "sha256": "bf27dad7525094748e1bb3b2ed2a3397f175a40e2749b796b119a4b1bfacbbcf",
+    "fileSizeBytes": 46079,
+    "isPdf": false,
+    "pageCount": 1,
+    "documentNumber": "Digital Edition",
+    "documentType": "Digital Interactive Brochure",
+    "documentTitle": "3601-0416-01-eld500-precision-leak-detector",
+    "publicationDate": "Web Edition",
+    "categoryPath": "digital-brochure",
+    "linkedFamilyIds": [
+      "edwards-eld500"
+    ],
+    "imageCount": 5
+  },
+  {
+    "docId": "EDW-DOC-058",
+    "index": 58,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/direct-pressure-measurement-gauges/3601-0694-01-BAROCEL7000series-Datasheet.pdf",
+    "filename": "58_3601-0694-01-BAROCEL7000series-Datasheet.pdf",
+    "sha256": "b441e2aef2bab77f926785f1973eca982619ba769f3f5e3bb4c0c714135b04dc",
+    "fileSizeBytes": 765703,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0694 01",
+    "documentType": "Datasheet",
+    "documentTitle": "BAROCEL 7000 Series Gauge - Datasheet",
+    "publicationDate": "2024-10-11",
+    "categoryPath": "measurement-and-control/direct-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-barocel-7000"
+    ],
+    "imageCount": 12
+  },
+  {
+    "docId": "EDW-DOC-059",
+    "index": 59,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/direct-pressure-measurement-gauges/3601-0184-01-ASG2.pdf",
+    "filename": "59_3601-0184-01-ASG2.pdf",
+    "sha256": "7c2d1b71029b1b18246a18284bffaf6e10cf95c69d73739b04940df5d75c3b4b",
+    "fileSizeBytes": 698304,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "needs-verification",
+    "documentType": "Datasheet",
+    "documentTitle": "ASG2 Active Strain Gauge - Datasheet",
+    "publicationDate": "2024-10-28",
+    "categoryPath": "measurement-and-control/direct-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-asg2"
+    ],
+    "imageCount": 6
+  },
+  {
+    "docId": "EDW-DOC-060",
+    "index": 60,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/direct-pressure-measurement-gauges/3601-0555-01-BAROCEL-7000series-Brochure.pdf",
+    "filename": "60_3601-0555-01-BAROCEL-7000series-Brochure.pdf",
+    "sha256": "4c5a7a549bb51657fee2b5c74e36ab58b73f7b73f303ad07ddb63cd8f41585cb",
+    "fileSizeBytes": 5590692,
+    "isPdf": true,
+    "pageCount": 8,
+    "documentNumber": "3601 0555 01",
+    "documentType": "Brochure",
+    "documentTitle": "BAROCEL 7000 Series Gauge - Brochure",
+    "publicationDate": "2025-09-29",
+    "categoryPath": "measurement-and-control/direct-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-barocel-7000"
+    ],
+    "imageCount": 32
+  },
+  {
+    "docId": "EDW-DOC-061",
+    "index": 61,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0131-01-AIGX-datasheet.pdf",
+    "filename": "61_3601-0131-01-AIGX-datasheet.pdf",
+    "sha256": "5063b32f6787ba2778a479300e067c6824ba0b6fdb79e239123ef43377177765",
+    "fileSizeBytes": 538255,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0131 01",
+    "documentType": "Datasheet",
+    "documentTitle": "AIGX Active Ion Gauge - Datasheet",
+    "publicationDate": "2024-04-25",
+    "categoryPath": "measurement-and-control/indirect-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-aigx"
+    ],
+    "imageCount": 2
+  },
+  {
+    "docId": "EDW-DOC-062",
+    "index": 62,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0613-01-WRH-Datasheet.pdf",
+    "filename": "62_3601-0613-01-WRH-Datasheet.pdf",
+    "sha256": "ede6faea6f7866e93a5e521a4aeed5a4878dab7034b0aa52504584764e2a93ba",
+    "fileSizeBytes": 417023,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0613 01",
+    "documentType": "Datasheet",
+    "documentTitle": "WRH Active Hot Cathode Pirani Gauge - Datasheet",
+    "publicationDate": "2023-05-02",
+    "categoryPath": "measurement-and-control/indirect-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-wrh"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-063",
+    "index": 63,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0307-01-Passive-Gauges.pdf",
+    "filename": "63_3601-0307-01-Passive-Gauges.pdf",
+    "sha256": "22bb4acc459040163ab9b9ac84d10551325bd7fa7903bd187e60a548f738eae3",
+    "fileSizeBytes": 1799914,
+    "isPdf": true,
+    "pageCount": 8,
+    "documentNumber": "3601 0307 01",
+    "documentType": "Brochure",
+    "documentTitle": "Passive Gauges and Controllers - Datasheet",
+    "publicationDate": "2024-04-11",
+    "categoryPath": "measurement-and-control/indirect-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-passive-gauges"
+    ],
+    "imageCount": 9
+  },
+  {
+    "docId": "EDW-DOC-064",
+    "index": 64,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0114-01-APGX-H-gauge.pdf",
+    "filename": "64_3601-0114-01-APGX-H-gauge.pdf",
+    "sha256": "4aca38bfafabaef09606e5f53297d6d139e9f57430fc8aa841db4c51326ddeb2",
+    "fileSizeBytes": 477828,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0114 01",
+    "documentType": "Datasheet",
+    "documentTitle": "APGX-H Linear Convection Gauge - Datasheet",
+    "publicationDate": "2024-10-28",
+    "categoryPath": "measurement-and-control/indirect-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-apgx-h"
+    ],
+    "imageCount": 7
+  },
+  {
+    "docId": "EDW-DOC-065",
+    "index": 65,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0754-01-AIM200-Datasheet.pdf",
+    "filename": "65_3601-0754-01-AIM200-Datasheet.pdf",
+    "sha256": "3231218a5cf12bc58c36c748c5d8cfc46f1865cc0ccd5f0e2f0868f185ebcf78",
+    "fileSizeBytes": 786533,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0754 01",
+    "documentType": "Datasheet",
+    "documentTitle": "AIM200 Active Inverted Magnetron Gauge - Datasheet",
+    "publicationDate": "2024-10-28",
+    "categoryPath": "measurement-and-control/indirect-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-aim200"
+    ],
+    "imageCount": 19
+  },
+  {
+    "docId": "EDW-DOC-066",
+    "index": 66,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0834-01-APG200-Datasheet.pdf",
+    "filename": "66_3601-0834-01-APG200-Datasheet.pdf",
+    "sha256": "78c98a22b43c1c2858d70c972bbe1bc5b437fa524267756f315dfe3f1f179cf9",
+    "fileSizeBytes": 908765,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0834 01",
+    "documentType": "Datasheet",
+    "documentTitle": "APG200 Pirani Gauge - Datasheet",
+    "publicationDate": "2024-11-26",
+    "categoryPath": "measurement-and-control/indirect-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-apg200"
+    ],
+    "imageCount": 14
+  },
+  {
+    "docId": "EDW-DOC-067",
+    "index": 67,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0764-01-WRG200-Datasheet.pdf",
+    "filename": "67_3601-0764-01-WRG200-Datasheet.pdf",
+    "sha256": "1baa891bc8eb7bbc375fb8516ec12348fca047f418ce2bbbeeeed86d9c456761",
+    "fileSizeBytes": 796514,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0764 01",
+    "documentType": "Datasheet",
+    "documentTitle": "WRG200 Active Wide Range Gauge - Datasheet",
+    "publicationDate": "2024-11-26",
+    "categoryPath": "measurement-and-control/indirect-pressure-measurement-gauges",
+    "linkedFamilyIds": [
+      "edwards-wrg200"
+    ],
+    "imageCount": 18
+  },
+  {
+    "docId": "EDW-DOC-068",
+    "index": 68,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0384-01-P3-datasheet.pdf",
+    "filename": "68_3601-0384-01-P3-datasheet.pdf",
+    "sha256": "ebb2ab0ae5ecae8e85010098e230de0be2e081d27589e6a214cc698f12114f96",
+    "fileSizeBytes": 706362,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0384 01",
+    "documentType": "Datasheet",
+    "documentTitle": "P3 Handheld Measuring System - Datasheet",
+    "publicationDate": "2024-07-02",
+    "categoryPath": "measurement-and-control/mechanical-vacuum-gauges-and-switches",
+    "linkedFamilyIds": [
+      "edwards-p3"
+    ],
+    "imageCount": 10
+  },
+  {
+    "docId": "EDW-DOC-069",
+    "index": 69,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0156-01-VS16K-IS16K-vacuum-switches.pdf",
+    "filename": "69_3601-0156-01-VS16K-IS16K-vacuum-switches.pdf",
+    "sha256": "c35b46bcad3e0b6c293b7d7b214233fe11af82586f96ef7a07faddbcfbab61a8",
+    "fileSizeBytes": 335618,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0156 01",
+    "documentType": "Datasheet",
+    "documentTitle": "VS16K IS16K vacuum switches - Datasheet",
+    "publicationDate": "2024-09-06",
+    "categoryPath": "measurement-and-control/mechanical-vacuum-gauges-and-switches",
+    "linkedFamilyIds": [
+      "edwards-vs16k-is16k"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-070",
+    "index": 70,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0146-01-CG16K-capsule-dial-gauge.pdf",
+    "filename": "70_3601-0146-01-CG16K-capsule-dial-gauge.pdf",
+    "sha256": "d9b60aab2d3a81b47d3312255fef7796ef18c36300e85eb6642350443dbd6a93",
+    "fileSizeBytes": 306059,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0146 01",
+    "documentType": "Datasheet",
+    "documentTitle": "CG16K capsule dial gauges - Datasheet",
+    "publicationDate": "2024-09-06",
+    "categoryPath": "measurement-and-control/mechanical-vacuum-gauges-and-switches",
+    "linkedFamilyIds": [
+      "edwards-cg16k"
+    ],
+    "imageCount": 1
+  },
+  {
+    "docId": "EDW-DOC-071",
+    "index": 71,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0815-01_P4-P5-Bluetooth-LE_Handheld-Measuring-Systems.pdf",
+    "filename": "71_3601-0815-01_P4-P5-Bluetooth-LE_Handheld-Measuring-Systems.pdf",
+    "sha256": "92fb950bc2f92357dcfa3ceaffe8949651235056c5a30fb39b50e2085c2ce0a6",
+    "fileSizeBytes": 2666272,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0815 01",
+    "documentType": "Brochure",
+    "documentTitle": "P4 and P5 (Bluetooth LE) Handheld Gauges",
+    "publicationDate": "2025-07-14",
+    "categoryPath": "measurement-and-control/mechanical-vacuum-gauges-and-switches",
+    "linkedFamilyIds": [
+      "edwards-p4-p5"
+    ],
+    "imageCount": 10
+  },
+  {
+    "docId": "EDW-DOC-072",
+    "index": 72,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0224-01-TIC-Instrument-Controller.pdf",
+    "filename": "72_3601-0224-01-TIC-Instrument-Controller.pdf",
+    "sha256": "0faedc232e23f4185f0378a996a5e512bf609cb9255ef9cd1110fe17d2ac1210",
+    "fileSizeBytes": 871776,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0224 01",
+    "documentType": "Brochure",
+    "documentTitle": "TIC Instrument Controller - Datasheet",
+    "publicationDate": "2024-10-07",
+    "categoryPath": "measurement-and-control/vacuum-gauge-and-pump-controllers",
+    "linkedFamilyIds": [
+      "edwards-tic-controller"
+    ],
+    "imageCount": 7
+  },
+  {
+    "docId": "EDW-DOC-073",
+    "index": 73,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0654-01-TIC-Turbo-and-Instr-Controller-Datasheet.pdf",
+    "filename": "73_3601-0654-01-TIC-Turbo-and-Instr-Controller-Datasheet.pdf",
+    "sha256": "ac9d358558dc4e76bc241668a4f0c9f4d4290a8b25b32eb76d2196bae7f2b212",
+    "fileSizeBytes": 379472,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "needs-verification",
+    "documentType": "Datasheet",
+    "documentTitle": "TIC Turbo and Instrument controller - Datasheet",
+    "publicationDate": "2024-10-07",
+    "categoryPath": "measurement-and-control/vacuum-gauge-and-pump-controllers",
+    "linkedFamilyIds": [
+      "edwards-tic-controller"
+    ],
+    "imageCount": 6
+  },
+  {
+    "docId": "EDW-DOC-074",
+    "index": 74,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0194-01-ADC-active-digital-controller.pdf",
+    "filename": "74_3601-0194-01-ADC-active-digital-controller.pdf",
+    "sha256": "f175c20945448030018ac3f81cf8c5b595efce1468e5e9e4ce80e28f1e428687",
+    "fileSizeBytes": 648598,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0194 01",
+    "documentType": "Brochure",
+    "documentTitle": "ADC Active Digital Controller - Datasheet",
+    "publicationDate": "2024-10-11",
+    "categoryPath": "measurement-and-control/vacuum-gauge-and-pump-controllers",
+    "linkedFamilyIds": [
+      "edwards-adc"
+    ],
+    "imageCount": 14
+  },
+  {
+    "docId": "EDW-DOC-075",
+    "index": 75,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0206-01-TAG-turbo-active-gauge-controller.pdf",
+    "filename": "75_3601-0206-01-TAG-turbo-active-gauge-controller.pdf",
+    "sha256": "c0b03401b4f195755eb2a3e34c47e16593794f8e46d93bbd23e8e7f4aeae09b5",
+    "fileSizeBytes": 466844,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0206 01",
+    "documentType": "Datasheet",
+    "documentTitle": "Turbo and Active Gauge (TAG) Controller - Datasheet",
+    "publicationDate": "2024-10-28",
+    "categoryPath": "measurement-and-control/vacuum-gauge-and-pump-controllers",
+    "linkedFamilyIds": [
+      "edwards-tag"
+    ],
+    "imageCount": 8
+  },
+  {
+    "docId": "EDW-DOC-076",
+    "index": 76,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/ejgo/ejgo-and-mc-controller-brochure.pdf",
+    "filename": "76_ejgo-and-mc-controller-brochure.pdf",
+    "sha256": "fe6a90f252f2b86622e62be32f5dfdd4fb2698dd84438244025cebd107ef1e23",
+    "fileSizeBytes": 8034615,
+    "isPdf": true,
+    "pageCount": 7,
+    "documentNumber": "3602",
+    "documentType": "Brochure",
+    "documentTitle": "EJGO and EJGO MC Controller brochure",
+    "publicationDate": "2022-03-31",
+    "categoryPath": "measurement-and-control/ejgo",
+    "linkedFamilyIds": [
+      "edwards-ejgo"
+    ],
+    "imageCount": 28
+  },
+  {
+    "docId": "EDW-DOC-077",
+    "index": 77,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/accessories/3601-0036-01-Acoustic-Enclosures.pdf",
+    "filename": "77_3601-0036-01-Acoustic-Enclosures.pdf",
+    "sha256": "9d0f6a3523d1303ccf97e3c6c62f44db0ce6d3c8f6aae5a25fe2b068914b779c",
+    "fileSizeBytes": 628000,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0036 01",
+    "documentType": "Datasheet",
+    "documentTitle": "Acoustic Enclosures - Datasheet",
+    "publicationDate": "2024-03-29",
+    "categoryPath": "accessories",
+    "linkedFamilyIds": [
+      "edwards-acoustic-enclosures"
+    ],
+    "imageCount": 2
+  },
+  {
+    "docId": "EDW-DOC-078",
+    "index": 78,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/accessories/3602211601-Inlet-filter-Datasheet-EN-Web.pdf",
+    "filename": "78_3602211601-Inlet-filter-Datasheet-EN-Web.pdf",
+    "sha256": "5113cc29b90b90b53837911bb6dfbf741f705236f3e1e4776ba80ef303fbcc4c",
+    "fileSizeBytes": 413451,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3602",
+    "documentType": "Datasheet",
+    "documentTitle": "Features and benefits - PRODUCT DATA SHEET",
+    "publicationDate": "2026-08-13",
+    "categoryPath": "accessories",
+    "linkedFamilyIds": [
+      "edwards-inlet-filters"
+    ],
+    "imageCount": 8
+  },
+  {
+    "docId": "EDW-DOC-079",
+    "index": 79,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
+    "filename": "79_3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
+    "sha256": "0fe07a3e584bc2601cec6cccb1a194b95a555d18c3081aff977ada00e18e9329",
+    "fileSizeBytes": 927980,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0046 01",
+    "documentType": "Brochure",
+    "documentTitle": "BGV Stainless Steel Gate Valve with LOTO Safety Feature - Datasheet",
+    "publicationDate": "2024-03-29",
+    "categoryPath": "valves",
+    "linkedFamilyIds": [
+      "edwards-bgv-series"
+    ],
+    "imageCount": 7
+  },
+  {
+    "docId": "EDW-DOC-080",
+    "index": 80,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0824-01-LCPVEK-datasheet.pdf",
+    "filename": "80_3601-0824-01-LCPVEK-datasheet.pdf",
+    "sha256": "4bf6f6b56175ec2debe49b7ed071bfe26bfd76dcaf29375eeaf6fff8c2060f60",
+    "fileSizeBytes": 2816561,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "needs-verification",
+    "documentType": "Datasheet",
+    "documentTitle": "LCPVEK Datasheet",
+    "publicationDate": "2024-06-08",
+    "categoryPath": "valves",
+    "linkedFamilyIds": [
+      "edwards-lcpvek"
+    ],
+    "imageCount": 2
+  },
+  {
+    "docId": "EDW-DOC-081",
+    "index": 81,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0584-01-Speedivalve-datasheet.pdf",
+    "filename": "81_3601-0584-01-Speedivalve-datasheet.pdf",
+    "sha256": "0e56cd2e8fae5ae44109ada6834f22aef87387e46c68fd14f94741a3e8bbff0d",
+    "fileSizeBytes": 601060,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0584 01",
+    "documentType": "Datasheet",
+    "documentTitle": "Speedivalve - Datasheet",
+    "publicationDate": "2024-07-02",
+    "categoryPath": "valves",
+    "linkedFamilyIds": [
+      "edwards-speedivalve"
+    ],
+    "imageCount": 6
+  },
+  {
+    "docId": "EDW-DOC-082",
+    "index": 82,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0565-01-VIV-datasheet.pdf",
+    "filename": "82_3601-0565-01-VIV-datasheet.pdf",
+    "sha256": "68690a324cee71fa2d421d2c552202c49728bfb24dad277a002e91d1fa184cad",
+    "fileSizeBytes": 513604,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0565 01",
+    "documentType": "Datasheet",
+    "documentTitle": "Vacuum Isolation Valves (VIV) - Datasheet",
+    "publicationDate": "2025-09-10",
+    "categoryPath": "valves",
+    "linkedFamilyIds": [
+      "edwards-viv"
+    ],
+    "imageCount": 9
+  },
+  {
+    "docId": "EDW-DOC-083",
+    "index": 83,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0055-01-BGV-stainless-steel-gate-valve.pdf",
+    "filename": "83_3601-0055-01-BGV-stainless-steel-gate-valve.pdf",
+    "sha256": "1308de3c3d693c7456db6df199c74dcf9cecf9983620e363200be4904f63a103",
+    "fileSizeBytes": 1189242,
+    "isPdf": true,
+    "pageCount": 4,
+    "documentNumber": "3601 0055 01",
+    "documentType": "Brochure",
+    "documentTitle": "BGV Stainless Steel Gate Valve - Datasheet",
+    "publicationDate": "2025-12-03",
+    "categoryPath": "valves",
+    "linkedFamilyIds": [
+      "edwards-bgv-series"
+    ],
+    "imageCount": 11
+  },
+  {
+    "docId": "EDW-DOC-084",
+    "index": 84,
+    "sourceUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0986-01-Pressure_relief_valve-Datasheet.pdf",
+    "filename": "84_3601-0986-01-Pressure_relief_valve-Datasheet.pdf",
+    "sha256": "f170c4ffc05c87acc144f019e176ba6c3458ae5bc515cc73054e16dab8259c1c",
+    "fileSizeBytes": 834152,
+    "isPdf": true,
+    "pageCount": 2,
+    "documentNumber": "3601 0986 01",
+    "documentType": "Datasheet",
+    "documentTitle": "Pressure Relief Valve - Datasheet",
+    "publicationDate": "2026-03-09",
+    "categoryPath": "valves",
+    "linkedFamilyIds": [
+      "edwards-prv"
+    ],
+    "imageCount": 12
+  }
+]
