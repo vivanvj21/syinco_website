@@ -37,20 +37,20 @@ export function PrincipalShowcase() {
   return (
     <section
       aria-label="Accredited OEM Technology Partners"
-      className="py-14 bg-surface-card border-b border-border-light"
+      className="py-14 bg-slate-canvas border-b border-border-dark text-white"
     >
       <div className="max-w-container mx-auto px-4">
         {/* Section Header */}
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-8 pb-4 border-b border-border-light">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-8 pb-4 border-b border-border-dark/80">
           <div>
             <span className="font-mono text-[10px] uppercase tracking-wider text-brand-teal font-bold block mb-1">
               Technology Partners
             </span>
-            <h2 className="text-xl sm:text-2xl font-display font-bold text-ink-primary tracking-tight">
+            <h2 className="text-xl sm:text-2xl font-display font-bold text-white tracking-tight">
               Principal Global Manufacturers
             </h2>
           </div>
-          <p className="text-xs text-slate-600 font-sans max-w-md">
+          <p className="text-xs text-slate-400 font-sans max-w-md">
             Direct, accredited channel partnerships with leading Japanese and UK scientific hardware manufacturers.
           </p>
         </div>
@@ -61,11 +61,11 @@ export function PrincipalShowcase() {
             <Link
               key={principal.id}
               href={`/products?vendor=${principal.filterVendorId}`}
-              className="bg-white border border-border-light rounded-sm overflow-hidden flex flex-col justify-between hover:border-brand-teal hover:shadow-md transition-all group"
+              className="bg-slate-surface border border-border-dark rounded-sm overflow-hidden flex flex-col justify-between hover:border-brand-teal hover:bg-slate-panel transition-all group"
             >
               <div>
-                {/* Official OEM Logo Banner */}
-                <div className="relative aspect-[16/10] w-full bg-white overflow-hidden border-b border-border-light/70 flex items-center justify-center p-6">
+                {/* Official OEM Logo Banner - Matching Dark Blue Card Background */}
+                <div className="relative aspect-[16/10] w-full bg-slate-surface overflow-hidden border-b border-border-dark/60 flex items-center justify-center p-6">
                   <Image
                     src={principal.logo}
                     alt={`${principal.name} logo`}
@@ -81,21 +81,21 @@ export function PrincipalShowcase() {
                     <div className="flex items-center gap-2">
                       <CountryFlag country={principal.country} />
                       <div>
-                        <h3 className="font-display font-bold text-base text-slate-900 group-hover:text-brand-teal transition-colors leading-tight">
+                        <h3 className="font-display font-bold text-base text-white group-hover:text-brand-teal transition-colors leading-tight">
                           {principal.shortName}
                         </h3>
-                        <span className="font-mono text-[10px] text-slate-500 block mt-0.5">
+                        <span className="font-mono text-[10px] text-slate-400 block mt-0.5">
                           {principal.country}
                         </span>
                       </div>
                     </div>
-                    <span className="font-mono text-[9px] uppercase tracking-wider px-2 py-0.5 rounded-xs bg-brand-teal-tint/50 text-brand-teal border border-brand-teal/40 font-semibold">
+                    <span className="font-mono text-[9px] uppercase tracking-wider px-2 py-0.5 rounded-xs bg-brand-teal-tint/30 text-brand-teal border border-brand-teal/40 font-semibold">
                       Official
                     </span>
                   </div>
 
                   {/* Scope / Specialty */}
-                  <p className="text-xs text-slate-600 font-sans leading-relaxed mt-2.5">
+                  <p className="text-xs text-slate-300 font-sans leading-relaxed mt-2.5">
                     {principal.specialty}
                   </p>
                 </div>
@@ -103,7 +103,7 @@ export function PrincipalShowcase() {
 
               {/* Action Button */}
               <div className="p-5 pt-0">
-                <div className="pt-3 border-t border-border-light/60 flex items-center justify-between text-xs font-mono font-semibold text-brand-teal">
+                <div className="pt-3 border-t border-border-dark/60 flex items-center justify-between text-xs font-mono font-semibold text-brand-teal">
                   <span>View All Equipment</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </div>
