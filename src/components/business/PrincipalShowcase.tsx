@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { principals } from "@/data/principals";
 
@@ -54,70 +55,60 @@ export function PrincipalShowcase() {
           </p>
         </div>
 
-        {/* 4 Principal Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* 3 Principal Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {principals.map((principal) => (
-            <div
+            <Link
               key={principal.id}
-              className="bg-slate-surface border border-border-dark rounded-sm p-4 flex flex-col justify-between hover:border-brand-teal/50 hover:bg-slate-panel transition-all group"
+              href={`/products?vendor=${principal.filterVendorId}`}
+              className="bg-slate-surface border border-border-dark rounded-sm overflow-hidden flex flex-col justify-between hover:border-brand-teal hover:bg-slate-panel transition-all group"
             >
               <div>
-                {/* Header: Flag, Name, Badge */}
-                <div className="flex items-start justify-between gap-2 mb-2">
-                  <div className="flex items-center gap-2">
-                    <CountryFlag country={principal.country} />
-                    <div>
-                      <h3 className="font-display font-bold text-sm text-white group-hover:text-brand-teal transition-colors leading-tight">
-                        {principal.shortName}
-                      </h3>
-                      <span className="font-mono text-[10px] text-slate-400 block">
-                        {principal.country}
-                      </span>
-                    </div>
-                  </div>
-                  <span className="font-mono text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-xs bg-brand-teal-tint/30 text-brand-teal border border-brand-teal/40">
-                    Official
-                  </span>
+                {/* Official OEM Logo Banner */}
+                <div className="relative aspect-[16/10] w-full bg-white overflow-hidden border-b border-border-dark/60 flex items-center justify-center p-4">
+                  <Image
+                    src={principal.logo}
+                    alt={`${principal.name} logo`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
 
-                {/* Scope / Specialty */}
-                <p className="text-[11px] text-slate-300 font-sans leading-relaxed mt-2 mb-4 line-clamp-2">
-                  {principal.specialty}
-                </p>
+                <div className="p-5">
+                  {/* Header: Flag, Name, Official Badge */}
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <div className="flex items-center gap-2">
+                      <CountryFlag country={principal.country} />
+                      <div>
+                        <h3 className="font-display font-bold text-base text-white group-hover:text-brand-teal transition-colors leading-tight">
+                          {principal.shortName}
+                        </h3>
+                        <span className="font-mono text-[10px] text-slate-400 block mt-0.5">
+                          {principal.country}
+                        </span>
+                      </div>
+                    </div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider px-2 py-0.5 rounded-xs bg-brand-teal-tint/30 text-brand-teal border border-brand-teal/40 font-semibold">
+                      Official
+                    </span>
+                  </div>
 
-                {/* Representative Products */}
-                <div className="border-t border-border-dark/60 pt-3 space-y-1.5">
-                  <span className="font-mono text-[9px] uppercase tracking-wider text-slate-500 block">
-                    Key Systems:
-                  </span>
-                  {principal.representativeProducts.map((prod, i) => (
-                    <Link
-                      key={i}
-                      href={prod.href}
-                      className="block group/prod hover:text-brand-teal transition-colors"
-                    >
-                      <span className="text-xs font-semibold text-slate-200 group-hover/prod:text-brand-teal block truncate">
-                        • {prod.name}
-                      </span>
-                      <span className="text-[10px] font-mono text-slate-400 block truncate pl-2">
-                        {prod.model}
-                      </span>
-                    </Link>
-                  ))}
+                  {/* Scope / Specialty */}
+                  <p className="text-xs text-slate-300 font-sans leading-relaxed mt-2.5">
+                    {principal.specialty}
+                  </p>
                 </div>
               </div>
 
               {/* Action Button */}
-              <div className="pt-4 mt-4 border-t border-border-dark/60">
-                <Link
-                  href={`/products?vendor=${principal.filterVendorId}`}
-                  className="inline-flex items-center justify-between w-full text-xs font-mono font-semibold text-brand-teal hover:underline"
-                >
+              <div className="p-5 pt-0">
+                <div className="pt-3 border-t border-border-dark/60 flex items-center justify-between text-xs font-mono font-semibold text-brand-teal">
                   <span>View All Equipment</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </Link>
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

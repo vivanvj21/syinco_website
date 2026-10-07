@@ -4,6 +4,7 @@ export interface Principal {
   shortName: string;
   country: string;
   flag: string;
+  logo: string;
   role: string;
   specialty: string;
   filterVendorId: string;
@@ -21,6 +22,7 @@ export const principals: Principal[] = [
     shortName: "Advance Riko",
     country: "Japan",
     flag: "🇯🇵",
+    logo: "/images/principals/advance-riko-logo.webp",
     role: "Authorized Indian Channel Partner",
     specialty: "Thermoelectric Evaluation, Thermal Analysis & Infrared Gold Image Furnaces",
     filterVendorId: "advance-riko",
@@ -48,6 +50,7 @@ export const principals: Principal[] = [
     shortName: "Edwards Vacuum",
     country: "United Kingdom",
     flag: "🇬🇧",
+    logo: "/images/principals/edwards-vacuum-logo.webp",
     role: "Authorized Indian Channel Partner",
     specialty: "Oil-Free Dry Scroll Vacuum Pumps & Turbomolecular Pumping Stations",
     filterVendorId: "edwards-vacuum",
@@ -75,6 +78,7 @@ export const principals: Principal[] = [
     shortName: "Fuji-SPS",
     country: "Japan",
     flag: "🇯🇵",
+    logo: "/images/principals/fuji-sps-logo.webp",
     role: "Accredited Equipment Partner",
     specialty: "Spark Plasma Sintering (SPS) & Rapid Field-Assisted Consolidation",
     filterVendorId: "fuji-electronic",
