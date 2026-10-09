@@ -40,9 +40,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        display: ["Space Grotesk", "-apple-system", "sans-serif"],
-        sans: ["Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
-        mono: ["JetBrains Mono", "monospace"],
+        display: ["var(--font-display)", "Plus Jakarta Sans", "Inter", "-apple-system", "sans-serif"],
+        sans: ["var(--font-sans)", "Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        mono: ["var(--font-mono)", "JetBrains Mono", "monospace"],
       },
       borderRadius: {
         none: "0px",
