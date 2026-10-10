@@ -39,6 +39,7 @@ export function getDisplayProductName(product: Product): string {
   if (id === "advance-riko-mini-pem") return "Mini-PEM";
   if (id === "advance-riko-vhc-series") return "VHC Series";
   if (id === "edwards-nxds-series") return "nXDS Series";
+  if (id === "edwards-eld30") return "ELD30 Leak Detector";
   if (id === "edwards-eld500") return "ELD500 Leak Detector";
   if (id === "edwards-next-maglev-series") return "nEXT M Maglev Turbos";
   if (id === "edwards-nxri-series") return "nXRi Multistage Roots";

@@ -3,7 +3,7 @@ import { allProducts } from "./products";
 
 export const HOMEPAGE_CURATED_IDS = [
   // Edwards Vacuum (3)
-  "edwards-eld500",
+  "edwards-eld30",
   "edwards-next-maglev-series",
   "edwards-nxri-series",
 
