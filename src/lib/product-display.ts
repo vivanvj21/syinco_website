@@ -36,7 +36,13 @@ export function getDisplayProductName(product: Product): string {
 
   // Specific canonical highlights
   if (id === "advance-riko-zem-3") return "ZEM-3";
+  if (id === "advance-riko-mini-pem") return "Mini-PEM";
+  if (id === "advance-riko-vhc-series") return "VHC Series";
   if (id === "edwards-nxds-series") return "nXDS Series";
+  if (id === "edwards-eld500") return "ELD500 Leak Detector";
+  if (id === "edwards-next-maglev-series") return "nEXT M Maglev Turbos";
+  if (id === "edwards-nxri-series") return "nXRi Multistage Roots";
+  if (id === "fuji-sps-dr-sinter-lab-jr-ms1") return "DR. SINTER LAB Jr. MS-1";
   if (id === "fuji-sps-dr-sinter-lab-jr") return "Dr. Sinter Lab Jr.";
   if (id === "fuji-sps-25-series") return "25 Series";
   if (id === "fuji-sps-standard-research-production") return "Standard Research & Production SPS";

@@ -39,7 +39,7 @@ export function CuratedFlagshipGrid() {
             </h2>
           </div>
           <span className="font-mono text-xs text-ink-muted hidden sm:block">
-            7 principal systems across 3 OEM partners
+            9 principal systems across 3 OEM partners
           </span>
         </div>
 
@@ -61,8 +61,8 @@ export function CuratedFlagshipGrid() {
           ))}
         </div>
 
-        {/* 4-Column Desktop / 2-Column Tablet / 1-Column Mobile for flagship products */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        {/* 3-Column Desktop (3x3 grid) / 2-Column Tablet / 1-Column Mobile for 9 flagship products */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {displayedProducts.map((product) => (
             <VisualProductCard key={product.id} product={product} />
           ))}
