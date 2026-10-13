@@ -1,6 +1,5 @@
 import React from "react";
 import type { Metadata } from "next";
-import Image from "next/image";
 import { HeroStrategicAnchor } from "@/components/business/HeroStrategicAnchor";
 import { PrincipalShowcase } from "@/components/business/PrincipalShowcase";
 import { CuratedFlagshipGrid } from "@/components/business/CuratedFlagshipGrid";
@@ -16,22 +15,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main className="relative w-full">
-      {/* Full-page scientific equipment background — fixed behind all sections */}
-      <div className="fixed inset-0 -z-10 overflow-hidden" aria-hidden="true">
-        <Image
-          src="/images/home/homepage-bg.jpg"
-          alt=""
-          fill
-          priority
-          quality={80}
-          className="object-cover object-center"
-          sizes="100vw"
-        />
-        {/* Dark overlay so section text & cards remain fully legible */}
-        <div className="absolute inset-0 bg-slate-950/75" />
-      </div>
-
+    <main className="w-full bg-white">
       {/* 1. HERO STRATEGIC ANCHOR */}
       <HeroStrategicAnchor />
 
