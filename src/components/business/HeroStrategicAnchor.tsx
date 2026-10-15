@@ -18,12 +18,11 @@ export function HeroStrategicAnchor() {
           fill
           priority
           quality={95}
-          className="object-cover object-right lg:object-center opacity-90"
+          className="object-cover object-right opacity-95"
           sizes="100vw"
         />
-        {/* Soft white gradient mask on the left so headline & copy remain razor-sharp */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent sm:via-white/80 max-w-4xl" />
-        <div className="absolute inset-0 bg-white/20" />
+        {/* Soft subtle gradient to guarantee crisp headline contrast */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent max-w-3xl" />
       </div>
 
       <div className="max-w-container mx-auto px-4 relative z-10">
