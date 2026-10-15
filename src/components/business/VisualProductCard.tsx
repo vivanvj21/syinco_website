@@ -10,7 +10,6 @@ import {
   getProductPrincipal,
   getDisplayProductName,
   getProductType,
-  getShortDescription,
 } from "@/lib/product-display";
 import { cn } from "@/lib/utils";
 
@@ -56,7 +55,6 @@ export function VisualProductCard({
   const principal = getProductPrincipal(product);
   const displayName = getDisplayProductName(product);
   const equipmentType = getProductType(product);
-  const shortDescription = getShortDescription(product);
 
   return (
     <div
@@ -103,11 +101,6 @@ export function VisualProductCard({
           <span className="font-sans font-medium text-xs text-brand-teal block mt-1">
             {equipmentType}
           </span>
-
-          {/* One Short Description (1-2 lines, clean concise sentence) */}
-          <p className="text-xs text-slate-600 font-sans mt-2.5 line-clamp-2 leading-relaxed">
-            {shortDescription}
-          </p>
         </div>
 
         {/* 3. Learn More CTA */}
