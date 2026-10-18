@@ -23,6 +23,12 @@ const config: Config = {
           surface: "#111827",
           panel: "#1E293B",
         },
+        elephant: {
+          DEFAULT: "#dddcda",
+          surface: "#e8e7e5",
+          border: "#c8c7c4",
+          dark: "#52514e",
+        },
         surface: {
           light: "#F8FAFC",
           card: "#FFFFFF",
