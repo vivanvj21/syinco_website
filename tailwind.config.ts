@@ -24,9 +24,9 @@ const config: Config = {
           panel: "#1E293B",
         },
         elephant: {
-          DEFAULT: "#dddcda",
-          surface: "#e8e7e5",
-          border: "#c8c7c4",
+          DEFAULT: "#f5f4f4",
+          surface: "#faf9f9",
+          border: "#e5e4e2",
           dark: "#52514e",
         },
         surface: {

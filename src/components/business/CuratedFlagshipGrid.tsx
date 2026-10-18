@@ -1,14 +1,17 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { getHomepageCuratedProducts } from "@/data/homepage-curated";
 import { VisualProductCard } from "./VisualProductCard";
 
 export function CuratedFlagshipGrid() {
   const curatedProducts = getHomepageCuratedProducts();
   const [selectedFilter, setSelectedFilter] = useState<string>("all");
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
 
   const filterTabs = [
     { id: "all", label: "All Flagships" },
@@ -21,6 +24,43 @@ export function CuratedFlagshipGrid() {
     selectedFilter === "all"
       ? curatedProducts
       : curatedProducts.filter((p) => p.manufacturer.id === selectedFilter);
+
+  const checkScrollState = useCallback(() => {
+    const el = scrollContainerRef.current;
+    if (!el) return;
+    const { scrollLeft, scrollWidth, clientWidth } = el;
+    setCanScrollLeft(scrollLeft > 10);
+    setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
+  }, []);
+
+  useEffect(() => {
+    checkScrollState();
+    const el = scrollContainerRef.current;
+    if (el) {
+      el.addEventListener("scroll", checkScrollState, { passive: true });
+    }
+    window.addEventListener("resize", checkScrollState);
+    return () => {
+      if (el) el.removeEventListener("scroll", checkScrollState);
+      window.removeEventListener("resize", checkScrollState);
+    };
+  }, [checkScrollState, displayedProducts]);
+
+  const handleFilterChange = (filterId: string) => {
+    setSelectedFilter(filterId);
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo({ left: 0, behavior: "smooth" });
+    }
+  };
+
+  const scroll = (direction: "left" | "right") => {
+    if (!scrollContainerRef.current) return;
+    const scrollAmount = 350;
+    scrollContainerRef.current.scrollBy({
+      left: direction === "left" ? -scrollAmount : scrollAmount,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <section
@@ -38,9 +78,32 @@ export function CuratedFlagshipGrid() {
               Featured Flagship Systems
             </h2>
           </div>
-          <span className="font-mono text-xs text-ink-muted hidden sm:block">
-            9 principal systems across 3 OEM partners
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="font-mono text-xs text-ink-muted hidden sm:block">
+              {displayedProducts.length} principal systems • Scroll horizontally
+            </span>
+            {/* Scroll Navigation Arrows */}
+            <div className="flex items-center gap-1.5 shrink-0">
+              <button
+                type="button"
+                onClick={() => scroll("left")}
+                disabled={!canScrollLeft}
+                aria-label="Scroll flagships left"
+                className="w-8 h-8 rounded-xs border border-border-light bg-white flex items-center justify-center text-slate-700 hover:text-brand-teal hover:border-brand-teal disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-2xs cursor-pointer"
+              >
+                <ChevronLeft className="w-4 h-4" />
+              </button>
+              <button
+                type="button"
+                onClick={() => scroll("right")}
+                disabled={!canScrollRight}
+                aria-label="Scroll flagships right"
+                className="w-8 h-8 rounded-xs border border-border-light bg-white flex items-center justify-center text-slate-700 hover:text-brand-teal hover:border-brand-teal disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-2xs cursor-pointer"
+              >
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
         </div>
 
         {/* Filter Pills for Curated Items */}
@@ -49,7 +112,7 @@ export function CuratedFlagshipGrid() {
             <button
               key={tab.id}
               type="button"
-              onClick={() => setSelectedFilter(tab.id)}
+              onClick={() => handleFilterChange(tab.id)}
               className={`px-3 py-1.5 rounded-xs text-xs font-mono transition-all cursor-pointer ${
                 selectedFilter === tab.id
                   ? "bg-slate-panel text-white font-semibold shadow-xs"
@@ -61,10 +124,22 @@ export function CuratedFlagshipGrid() {
           ))}
         </div>
 
-        {/* 3-Column Desktop (3x3 grid) / 2-Column Tablet / 1-Column Mobile for 9 flagship products */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {/* Horizontal Scroll Reel for Flagship Products */}
+        <div
+          ref={scrollContainerRef}
+          tabIndex={0}
+          role="region"
+          aria-label="Featured flagship systems horizontal reel"
+          className="flex gap-5 overflow-x-auto pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0 scroll-smooth snap-x snap-mandatory focus:outline-none"
+          style={{ scrollbarWidth: "thin" }}
+        >
           {displayedProducts.map((product) => (
-            <VisualProductCard key={product.id} product={product} />
+            <div
+              key={product.id}
+              className="w-[280px] sm:w-[320px] lg:w-[340px] shrink-0 snap-start flex flex-col"
+            >
+              <VisualProductCard product={product} className="h-full" />
+            </div>
           ))}
         </div>
 
