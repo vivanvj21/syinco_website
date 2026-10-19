@@ -27,20 +27,33 @@ export function FacilityTransparencyModule() {
             Dedicated warehousing and service facility housing critical spares, vacuum overhaul benches, and certified metrology fixtures.
           </p>
 
-          <div className="mt-4 space-y-2 font-mono text-xs text-ink-primary p-3 bg-slate-50 border border-border-light rounded-sm">
+          <div className="mt-4 space-y-3 font-mono text-xs text-ink-primary p-3 bg-slate-50 border border-border-light rounded-sm">
             <div>
-              <span className="text-[10px] text-ink-muted uppercase block">Facility Address:</span>
-              <span className="font-medium mt-0.5 block">
-                D.No.12-1-468/ACE/B/313, ACE Ajanta, Nagole-Kuntloor Road, Hyderabad – 500068, India
+              <span className="text-[10px] text-brand-teal uppercase block font-bold">Registered Office:</span>
+              <span className="font-medium mt-0.5 block leading-relaxed text-slate-800">
+                Flat No. B-313, Plot No.1&amp;7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
               </span>
             </div>
 
-            <div className="pt-2 border-t border-border-light flex items-center justify-between text-[11px]">
+            <div className="pt-2 border-t border-border-light">
+              <span className="text-[10px] text-brand-teal uppercase block font-bold">Works &amp; Service Facility:</span>
+              <span className="font-medium mt-0.5 block leading-relaxed text-slate-800">
+                H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
+              </span>
+              <span className="text-[11px] text-ink-muted mt-0.5 block">
+                Landmark: 9HCM+329 Hyderabad, Telangana, Opp. PeopleLink Factory
+              </span>
+            </div>
+
+            <div className="pt-2 border-t border-border-light flex flex-wrap items-center justify-between text-[11px] gap-2">
               <span className="text-ink-muted flex items-center gap-1">
                 <Clock className="w-3 h-3 text-brand-teal" />
                 <span>Hours:</span>
+                <span className="font-semibold text-ink-primary">Mon – Sat: 09:30 AM – 05:30 PM IST</span>
               </span>
-              <span className="font-semibold text-ink-primary">Mon – Sat: 09:30 AM – 05:30 PM IST</span>
+              <span className="text-ink-muted">
+                Tel: <a href="tel:+914024142929" className="text-brand-teal font-semibold hover:underline">+91 (40) 24142929</a>
+              </span>
             </div>
           </div>
         </div>

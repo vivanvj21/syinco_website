@@ -98,11 +98,13 @@ test("5. Provenance Governance: Zero Unverified Claims in Core Offerings", () =>
 });
 
 test("6. Local Advantage & Hyderabad Depot Transparency Data", () => {
-  const hyderabadAddress = "D.No.12-1-468/ACE/B/313, ACE Ajanta, Nagole-Kuntloor Road, Hyderabad – 500068, Telangana, India";
-  const emergencyPhone = "+91 73822 92929";
+  const regOfficeAddress = "Flat No. B-313, Plot No.1&7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India";
+  const worksAddress = "H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India";
+  const landline = "+91(40) 24142929";
   const officialEmail = "info@syinco.in";
 
-  assert.ok(hyderabadAddress.includes("Hyderabad – 500068"));
-  assert.ok(emergencyPhone.includes("+91 73822 92929"));
+  assert.ok(regOfficeAddress.includes("Hyderabad 500068"));
+  assert.ok(worksAddress.includes("Nagole, Hyderabad 500068"));
+  assert.ok(landline.includes("24142929"));
   assert.strictEqual(officialEmail, "info@syinco.in");
 });

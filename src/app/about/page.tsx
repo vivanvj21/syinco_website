@@ -34,8 +34,8 @@ export default function AboutPage() {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-white">
             About SYINCO TECHNOLOGIES
           </h1>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 mt-2 max-w-2xl leading-relaxed">
-            Systems, Instruments &amp; Components — Authorized Indian channel partner and technical service hub for premier global scientific hardware manufacturers.
+          <p className="text-xs sm:text-sm font-sans text-slate-300 mt-2 max-w-3xl leading-relaxed">
+            Manufacture, Sales and Services of Advanced, Customized and Specialized Systems, Instruments and Components for Metallurgy, Thermal, Thermoelectric, Vacuum, Analytical and Medical application. NDT &amp; Helium Leak Testing Services.
           </p>
         </div>
       </section>
@@ -216,6 +216,24 @@ export default function AboutPage() {
                 <div className="p-3 bg-white border border-border-light rounded-xs">
                   <span className="font-semibold block text-slate-900 mb-0.5">Training Center</span>
                   <span className="text-slate-500 text-[11px]">Hands-on technical maintenance workshops</span>
+                </div>
+              </div>
+
+              <div className="pt-3 border-t border-border-light text-xs font-mono text-slate-600 space-y-2">
+                <div>
+                  <span className="font-bold text-slate-800 text-[10px] uppercase block tracking-wider text-brand-teal">Reg. Office:</span>
+                  <span className="text-[11px] text-slate-600 block leading-relaxed">
+                    Flat No. B-313, Plot No.1&amp;7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
+                  </span>
+                </div>
+                <div>
+                  <span className="font-bold text-slate-800 text-[10px] uppercase block tracking-wider text-brand-teal">Works &amp; Calibration Depot:</span>
+                  <span className="text-[11px] text-slate-600 block leading-relaxed">
+                    H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
+                  </span>
+                  <span className="text-[10px] text-slate-400 block mt-0.5">
+                    Landmark: 9HCM+329 Hyderabad, Telangana, Opp. PeopleLink Factory
+                  </span>
                 </div>
               </div>
             </div>

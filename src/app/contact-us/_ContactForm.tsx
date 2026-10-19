@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Phone, Mail, MapPin, ShieldCheck, Send, CheckCircle2 } from "lucide-react";
+import { Phone, Mail, MapPin, ShieldCheck, Send, CheckCircle2, Building2, Factory } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 export default function ContactUsPage() {
@@ -58,43 +58,79 @@ export default function ContactUsPage() {
             {/* Left Column: Direct Contact Information */}
             <div className="lg:col-span-5 space-y-6">
               <div className="bg-white border border-border-light rounded-sm p-6 space-y-5">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-brand-teal font-bold block">
-                  Head Office &amp; Engineering Depot
-                </span>
-                <h2 className="font-display font-bold text-lg text-slate-900 leading-tight">
-                  Hyderabad Logistics &amp; Calibration Center
-                </h2>
+                <div>
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-brand-teal font-bold block mb-1">
+                    Corporate &amp; Works Directory
+                  </span>
+                  <h2 className="font-display font-bold text-lg text-slate-900 leading-tight">
+                    SYINCO TECHNOLOGIES
+                  </h2>
+                  <p className="text-xs font-sans text-slate-600 mt-2 leading-relaxed">
+                    Manufacture, Sales and Services of Advanced, Customized and Specialized Systems, Instruments and Components for Metallurgy, Thermal, Thermoelectric, Vacuum, Analytical and Medical application. NDT &amp; Helium Leak Testing Services.
+                  </p>
+                </div>
 
-                <div className="space-y-4 text-xs font-sans text-slate-700">
+                <div className="space-y-4 text-xs font-sans text-slate-700 pt-2 border-t border-border-light">
+                  {/* Registered Office */}
                   <div className="flex items-start gap-3">
-                    <MapPin className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
+                    <Building2 className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Physical Facility</strong>
-                      <span>SYINCO TECHNOLOGIES Warehousing &amp; Engineering Depot<br />Hyderabad, Telangana 500034, India</span>
+                      <strong className="block text-slate-900 font-semibold mb-0.5">Registered Office</strong>
+                      <span className="leading-relaxed">
+                        Flat No. B-313, Plot No.1&amp;7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
+                      </span>
                     </div>
                   </div>
 
+                  {/* Works Facility */}
+                  <div className="flex items-start gap-3">
+                    <Factory className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
+                    <div>
+                      <strong className="block text-slate-900 font-semibold mb-0.5">Works &amp; Calibration Facility</strong>
+                      <span className="leading-relaxed">
+                        H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
+                      </span>
+                      <span className="block text-[11px] text-brand-teal font-mono font-semibold mt-1">
+                        Landmark: 9HCM+329 Hyderabad (Opp. PeopleLink Factory)
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Telephones & Fax */}
                   <div className="flex items-start gap-3">
                     <Phone className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Telephone Support Desk</strong>
-                      <a href="tel:+917382292929" className="text-brand-teal font-mono font-bold hover:underline">
-                        +91 73822 92929
-                      </a>
-                      <span className="block text-[11px] text-slate-400 mt-0.5">Mon–Fri: 9:00 AM – 6:30 PM IST</span>
+                      <strong className="block text-slate-900 font-semibold mb-0.5">Telephone &amp; Fax</strong>
+                      <div className="font-mono text-xs text-slate-800 space-y-0.5">
+                        <div>
+                          Tel: <a href="tel:+914024142929" className="text-brand-teal font-bold hover:underline">+91 (40) 24142929</a>, <a href="tel:+914024143939" className="text-brand-teal font-bold hover:underline">24143939</a>
+                        </div>
+                        <div>
+                          Mobile Desk: <a href="tel:+917382292929" className="text-brand-teal font-bold hover:underline">+91 73822 92929</a>
+                        </div>
+                        <div className="text-slate-500 text-[11px]">
+                          Fax: +91 (40) 24143939
+                        </div>
+                      </div>
                     </div>
                   </div>
 
+                  {/* Emails & Web */}
                   <div className="flex items-start gap-3">
                     <Mail className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Official Inquiries</strong>
-                      <a href="mailto:info@syinco.in" className="text-brand-teal font-mono hover:underline block">
-                        info@syinco.in
-                      </a>
-                      <a href="mailto:sales@syinco.in" className="text-slate-500 font-mono text-[11px] hover:underline block">
-                        sales@syinco.in (Tenders &amp; RFQs)
-                      </a>
+                      <strong className="block text-slate-900 font-semibold mb-0.5">Official E-mail &amp; Web</strong>
+                      <div className="space-y-0.5 font-mono text-xs">
+                        <a href="mailto:info@syinco.in" className="text-brand-teal hover:underline block">
+                          info@syinco.in
+                        </a>
+                        <a href="mailto:syincoindia@gmail.com" className="text-slate-700 hover:underline block">
+                          syincoindia@gmail.com
+                        </a>
+                        <span className="text-[11px] text-slate-500 block pt-0.5">
+                          Website: www.syinco.in
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -39,8 +39,8 @@ export function HeroStrategicAnchor() {
           </h1>
 
           {/* Concise Supporting Statement */}
-          <p className="text-sm sm:text-base font-sans text-slate-700 max-w-xl leading-relaxed animate-fade-up [animation-delay:150ms]">
-            Synchronizing tier-1 Japanese and UK scientific hardware with direct domestic INR supply, Hyderabad spare parts warehousing, and factory-certified field engineering across India.
+          <p className="text-sm sm:text-base font-sans text-slate-700 max-w-2xl leading-relaxed animate-fade-up [animation-delay:150ms]">
+            Manufacture, Sales and Services of Advanced, Customized and Specialized Systems, Instruments and Components for Metallurgy, Thermal, Thermoelectric, Vacuum, Analytical and Medical application. NDT &amp; Helium Leak Testing Services.
           </p>
 
           {/* Primary & Secondary CTAs */}
@@ -66,6 +66,22 @@ export function HeroStrategicAnchor() {
                 <span>Consult a Specialist</span>
               </Button>
             </Link>
+          </div>
+
+          {/* Official Coordinates Quick Reference */}
+          <div className="pt-2 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] text-slate-500 animate-fade-up [animation-delay:350ms]">
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-brand-teal" />
+              Reg. Office &amp; Works: Nagole, Hyderabad 500068
+            </span>
+            <span>•</span>
+            <a href="tel:+914024142929" className="hover:text-slate-900 transition-colors">
+              Tel: +91 (40) 24142929
+            </a>
+            <span>•</span>
+            <a href="mailto:info@syinco.in" className="text-brand-teal hover:underline font-semibold">
+              info@syinco.in
+            </a>
           </div>
         </div>
       </div>
