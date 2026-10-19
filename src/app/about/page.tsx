@@ -219,13 +219,7 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              <div className="pt-3 border-t border-border-light text-xs font-mono text-slate-600 space-y-2">
-                <div>
-                  <span className="font-bold text-slate-800 text-[10px] uppercase block tracking-wider text-brand-teal">Reg. Office:</span>
-                  <span className="text-[11px] text-slate-600 block leading-relaxed">
-                    Flat No. B-313, Plot No.1&amp;7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
-                  </span>
-                </div>
+              <div className="pt-3 border-t border-border-light text-xs font-mono text-slate-600">
                 <div>
                   <span className="font-bold text-slate-800 text-[10px] uppercase block tracking-wider text-brand-teal">Works &amp; Calibration Depot:</span>
                   <span className="text-[11px] text-slate-600 block leading-relaxed">

@@ -115,11 +115,11 @@ export default function ContactUsPage() {
                     </div>
                   </div>
 
-                  {/* Emails & Web */}
+                  {/* Emails */}
                   <div className="flex items-start gap-3">
                     <Mail className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Official E-mail &amp; Web</strong>
+                      <strong className="block text-slate-900 font-semibold mb-0.5">Official E-mail</strong>
                       <div className="space-y-0.5 font-mono text-xs">
                         <a href="mailto:info@syinco.in" className="text-brand-teal hover:underline block">
                           info@syinco.in
@@ -127,9 +127,6 @@ export default function ContactUsPage() {
                         <a href="mailto:syincoindia@gmail.com" className="text-slate-700 hover:underline block">
                           syincoindia@gmail.com
                         </a>
-                        <span className="text-[11px] text-slate-500 block pt-0.5">
-                          Website: www.syinco.in
-                        </span>
                       </div>
                     </div>
                   </div>

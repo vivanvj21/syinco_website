@@ -72,7 +72,7 @@ export function HeroStrategicAnchor() {
           <div className="pt-2 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] text-slate-500 animate-fade-up [animation-delay:350ms]">
             <span className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-teal" />
-              Reg. Office &amp; Works: Nagole, Hyderabad 500068
+              Works Facility: Nagole, Hyderabad 500068
             </span>
             <span>•</span>
             <a href="tel:+914024142929" className="hover:text-slate-900 transition-colors">

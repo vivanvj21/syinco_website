@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ShieldCheck, Phone, Mail, MapPin, Building2, Factory } from "lucide-react";
+import { ShieldCheck, Phone, Mail, MapPin, Factory } from "lucide-react";
 
 export function Footer() {
   return (
@@ -180,48 +180,28 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Official Corporate & Manufacturing Facilities Strip */}
-      <div className="border-t border-border-dark/80 bg-slate-surface/90 py-8 px-4 text-xs font-sans text-slate-300">
+      {/* Works & Manufacturing Facility Strip */}
+      <div className="border-t border-border-dark/80 bg-slate-surface/90 py-6 px-4 text-xs font-sans text-slate-300">
         <div className="max-w-container mx-auto">
-          <div className="mb-4 pb-2 border-b border-border-dark flex items-center justify-between">
-            <span className="font-mono text-[10px] uppercase tracking-wider text-brand-teal font-bold">
-              Official Corporate Coordinates • SYINCO TECHNOLOGIES
-            </span>
-            <span className="font-mono text-[10px] text-slate-400">
-              Telangana, India
-            </span>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Registered Office */}
-            <div className="p-4 rounded-xs bg-slate-panel/70 border border-border-dark space-y-2.5">
-              <div className="flex items-center gap-2 text-white font-bold font-mono text-xs uppercase tracking-wider">
-                <Building2 className="w-4 h-4 text-brand-teal shrink-0" />
-                <span>Registered Office</span>
-              </div>
-              <p className="text-[11px] text-slate-300 leading-relaxed font-sans">
-                Flat No. B-313, Plot No.1&amp;7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
-              </p>
-              <div className="pt-1 flex flex-wrap gap-x-4 gap-y-1 font-mono text-[11px] text-slate-400">
-                <span>Tel: <a href="tel:+914024142929" className="hover:text-white text-slate-200">+91 (40) 24142929</a>, <a href="tel:+914024143939" className="hover:text-white text-slate-200">24143939</a></span>
-                <span>•</span>
-                <span>Fax: +91 (40) 24143939</span>
-              </div>
-            </div>
-
-            {/* Works Facility */}
-            <div className="p-4 rounded-xs bg-slate-panel/70 border border-border-dark space-y-2.5">
+          <div className="p-4 rounded-xs bg-slate-panel/70 border border-border-dark space-y-2.5">
+            <div className="flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-2 text-white font-bold font-mono text-xs uppercase tracking-wider">
                 <Factory className="w-4 h-4 text-brand-teal shrink-0" />
                 <span>Works Facility</span>
               </div>
-              <p className="text-[11px] text-slate-300 leading-relaxed font-sans">
-                H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
-              </p>
-              <div className="pt-1 flex flex-wrap gap-x-4 gap-y-1 font-mono text-[11px] text-slate-400">
-                <span className="text-brand-teal font-semibold">Landmark: 9HCM+329 Hyderabad (Opp. PeopleLink Factory)</span>
-                <span>•</span>
-                <span>Web: <a href="https://www.syinco.in" className="hover:text-white text-slate-200">www.syinco.in</a></span>
-              </div>
+              <span className="font-mono text-[10px] text-slate-400">
+                SYINCO TECHNOLOGIES • Telangana, India
+              </span>
+            </div>
+            <p className="text-[11px] text-slate-300 leading-relaxed font-sans">
+              H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
+            </p>
+            <div className="pt-1 flex flex-wrap gap-x-4 gap-y-1 font-mono text-[11px] text-slate-400">
+              <span className="text-brand-teal font-semibold">Landmark: 9HCM+329 Hyderabad (Opp. PeopleLink Factory)</span>
+              <span>•</span>
+              <span>Tel: <a href="tel:+914024142929" className="hover:text-white text-slate-200">+91 (40) 24142929</a>, <a href="tel:+914024143939" className="hover:text-white text-slate-200">24143939</a></span>
+              <span>•</span>
+              <span>Fax: +91 (40) 24143939</span>
             </div>
           </div>
         </div>

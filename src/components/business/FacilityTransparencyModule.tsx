@@ -27,15 +27,8 @@ export function FacilityTransparencyModule() {
             Dedicated warehousing and service facility housing critical spares, vacuum overhaul benches, and certified metrology fixtures.
           </p>
 
-          <div className="mt-4 space-y-3 font-mono text-xs text-ink-primary p-3 bg-slate-50 border border-border-light rounded-sm">
+          <div className="mt-4 space-y-2 font-mono text-xs text-ink-primary p-3 bg-slate-50 border border-border-light rounded-sm">
             <div>
-              <span className="text-[10px] text-brand-teal uppercase block font-bold">Registered Office:</span>
-              <span className="font-medium mt-0.5 block leading-relaxed text-slate-800">
-                Flat No. B-313, Plot No.1&amp;7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
-              </span>
-            </div>
-
-            <div className="pt-2 border-t border-border-light">
               <span className="text-[10px] text-brand-teal uppercase block font-bold">Works &amp; Service Facility:</span>
               <span className="font-medium mt-0.5 block leading-relaxed text-slate-800">
                 H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
