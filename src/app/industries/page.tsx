@@ -4,6 +4,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { ArrowRight, Cpu, Plane, Zap, Flame, Building2, CheckCircle2 } from "lucide-react";
 import { industries } from "@/data/industries";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Industries Served | SYINCO TECHNOLOGIES India",
@@ -55,90 +56,97 @@ export default function IndustriesPage() {
           {industries.map((ind, index) => {
             const Icon = industryIcons[ind.id] || Cpu;
             return (
-              <div
+              <ScrollReveal
                 key={ind.id}
                 id={ind.slug}
-                className="bg-white border border-border-light rounded-sm p-6 sm:p-8 scroll-mt-24 hover:border-brand-teal/40 hover:shadow-xs transition-all"
+                animation="fade-up"
+                delay={index * 80}
+                className="bg-white border border-border-light rounded-sm p-6 sm:p-8 scroll-mt-24 hover:border-brand-teal/50 hover:shadow-lg transition-all duration-300"
               >
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-                  {/* Left Column: Title & Overview */}
-                  <div className="lg:col-span-5 space-y-3">
-                    <div className="flex items-center gap-2.5">
-                      <div className="w-10 h-10 rounded-xs bg-brand-teal-tint/40 flex items-center justify-center text-brand-teal shrink-0">
-                        <Icon className="w-5 h-5" />
-                      </div>
-                      <div>
-                        <span className="font-mono text-[9px] uppercase tracking-wider text-slate-400 block font-semibold">
-                          Sector 0{index + 1} • {ind.badge}
-                        </span>
-                        <h2 className="font-display font-bold text-lg sm:text-xl text-slate-900 leading-tight">
-                          {ind.name}
-                        </h2>
-                      </div>
+                {/* Top Section: Header & Overview Description */}
+                <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 pb-6 border-b border-border-light">
+                  <div className="flex items-start gap-3.5">
+                    <div className="w-11 h-11 rounded-xs bg-brand-teal-tint/50 border border-brand-teal/20 flex items-center justify-center text-brand-teal shrink-0 mt-0.5 shadow-2xs">
+                      <Icon className="w-5 h-5" />
                     </div>
+                    <div>
+                      <span className="font-mono text-[10px] uppercase tracking-wider text-slate-500 block font-bold mb-1">
+                        Sector 0{index + 1} • {ind.badge}
+                      </span>
+                      <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-950 tracking-tight leading-tight">
+                        {ind.name}
+                      </h2>
+                      <p className="text-xs sm:text-sm font-sans text-slate-600 leading-relaxed mt-2 max-w-3xl">
+                        {ind.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-                    {/* Industry Sector Photography */}
-                    <div className="relative w-full aspect-[16/9] rounded-xs overflow-hidden border border-border-light my-2 shadow-xs bg-slate-100">
+                {/* Bottom Section: Side-by-Side Image + Technical Applications */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch pt-6">
+                  {/* Left Column: Sector Photography & Recommended Disciplines */}
+                  <div className="lg:col-span-5 flex flex-col justify-between space-y-4">
+                    <div className="relative w-full aspect-[16/10] rounded-xs overflow-hidden border border-border-light shadow-xs bg-slate-100 group">
                       <Image
                         src={ind.image}
                         alt={ind.name}
                         fill
-                        className="object-cover"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                         sizes="(max-width: 1024px) 100vw, 40vw"
                       />
                     </div>
 
-                    <p className="text-xs sm:text-sm font-sans text-slate-600 leading-relaxed pt-1">
-                      {ind.description}
-                    </p>
-
-                    <div className="pt-2">
-                      <span className="font-mono text-[10px] uppercase tracking-wider text-slate-400 block mb-2 font-semibold">
+                    <div>
+                      <span className="font-mono text-[10px] uppercase tracking-wider text-slate-500 block mb-2 font-bold">
                         Recommended Disciplines:
                       </span>
-                      <div className="flex flex-wrap gap-1.5">
+                      <div className="flex flex-wrap gap-2">
                         {ind.recommendedDisciplines.map((disc, idx) => (
                           <Link
                             key={idx}
                             href={disc.href}
-                            className="text-xs font-mono bg-slate-50 hover:bg-brand-teal-tint/40 hover:text-brand-teal text-slate-700 px-2 py-1 rounded-xs border border-border-light transition-colors"
+                            className="text-xs font-mono bg-slate-50 hover:bg-brand-teal-tint/60 hover:text-brand-teal text-slate-700 px-3 py-1.5 rounded-xs border border-border-light transition-all flex items-center gap-1.5 group shadow-2xs hover:shadow-xs"
                           >
-                            {disc.name} →
+                            <span>{disc.name}</span>
+                            <ArrowRight className="w-3 h-3 text-slate-400 group-hover:text-brand-teal group-hover:translate-x-0.5 transition-transform" />
                           </Link>
                         ))}
                       </div>
                     </div>
                   </div>
 
-                  {/* Right Column: Applications & System Alignment */}
-                  <div className="lg:col-span-7 bg-slate-50 p-5 rounded-xs border border-border-light space-y-3">
-                    <span className="font-mono text-[10px] uppercase tracking-wider text-slate-500 block font-bold">
-                      Key Technical Applications in India
-                    </span>
-                    <ul className="space-y-2">
-                      {ind.keyApplications.map((app, appIdx) => (
-                        <li key={appIdx} className="flex items-start gap-2 text-xs font-sans text-slate-700">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-brand-teal shrink-0 mt-0.5" />
-                          <span>{app}</span>
-                        </li>
-                      ))}
-                    </ul>
+                  {/* Right Column: Key Technical Applications in India */}
+                  <div className="lg:col-span-7 bg-slate-50/80 p-6 rounded-xs border border-border-light flex flex-col justify-between">
+                    <div>
+                      <span className="font-mono text-[10px] uppercase tracking-wider text-slate-600 block font-bold mb-3.5 pb-2 border-b border-border-light/80">
+                        Key Technical Applications in India
+                      </span>
+                      <ul className="space-y-3">
+                        {ind.keyApplications.map((app, appIdx) => (
+                          <li key={appIdx} className="flex items-start gap-2.5 text-xs sm:text-sm font-sans text-slate-700 leading-relaxed">
+                            <CheckCircle2 className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
+                            <span>{app}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
 
-                    <div className="pt-3 border-t border-border-light/80 flex items-center justify-between">
-                      <span className="text-[11px] font-mono text-slate-500">
+                    <div className="pt-4 mt-4 border-t border-border-light/80 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                      <span className="text-xs font-mono text-slate-500">
                         Need engineering site consultation?
                       </span>
                       <Link
                         href="/contact-us"
-                        className="text-xs font-mono text-brand-teal font-semibold hover:underline inline-flex items-center gap-1"
+                        className="text-xs font-mono font-bold text-brand-teal hover:underline inline-flex items-center gap-1 group"
                       >
                         <span>Consult Sector Specialist</span>
-                        <ArrowRight className="w-3.5 h-3.5" />
+                        <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                       </Link>
                     </div>
                   </div>
                 </div>
-              </div>
+              </ScrollReveal>
             );
           })}
         </div>
@@ -148,23 +156,17 @@ export default function IndustriesPage() {
       <section className="py-10 bg-slate-panel text-white text-center">
         <div className="max-w-container mx-auto px-4 space-y-3">
           <h3 className="font-display font-bold text-lg sm:text-xl text-white">
-            Custom Industrial Specifications &amp; Project Integration
+            Looking for Custom System Configuration or Multi-Facility Tenders?
           </h3>
           <p className="text-xs sm:text-sm font-sans text-slate-300 max-w-xl mx-auto">
-            Contact our Hyderabad technical engineering desk for detailed equipment integration schedules and domestic INR procurement tenders.
+            Our Hyderabad application engineers assist with turnkey vacuum layouts, high-temperature furnace compliance specs, and INR direct procurement.
           </p>
           <div className="pt-2 flex justify-center gap-3">
             <Link
               href="/contact-us"
-              className="bg-brand-amber hover:bg-brand-amber-dark text-slate-900 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-colors"
+              className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-colors shadow-md"
             >
-              Contact Engineering Desk
-            </Link>
-            <Link
-              href="/products"
-              className="bg-slate-surface hover:bg-slate-panel border border-border-dark text-white font-mono text-xs px-5 py-2.5 rounded-xs transition-colors"
-            >
-              Browse Complete Catalogue
+              Contact Engineering Desk (+91 73822 92929)
             </Link>
           </div>
         </div>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { ArrowRight, Warehouse, Wrench, SearchCheck, TestTube2, ShieldCheck, CheckCircle2 } from "lucide-react";
 import { services } from "@/data/services";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Engineering Services & Hyderabad Depot | SYINCO TECHNOLOGIES India",
@@ -55,75 +56,84 @@ export default function ServicesPage() {
           {services.map((service, index) => {
             const Icon = serviceIcons[service.id] || Wrench;
             return (
-              <div
+              <ScrollReveal
                 key={service.id}
                 id={service.slug}
-                className="bg-white border border-border-light rounded-sm p-6 sm:p-8 scroll-mt-24 hover:border-brand-teal/40 hover:shadow-xs transition-all"
+                animation="fade-up"
+                delay={index * 80}
+                className="bg-white border border-border-light rounded-sm p-6 sm:p-8 scroll-mt-24 hover:border-brand-teal/50 hover:shadow-lg transition-all duration-300"
               >
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-                  {/* Left Column: Title & Description */}
-                  <div className="lg:col-span-5 space-y-3">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-xs bg-slate-100 flex items-center justify-center text-slate-800 shrink-0">
-                        <Icon className="w-5 h-5 text-brand-teal" />
-                      </div>
-                      <div>
-                        <span className="font-mono text-[9px] uppercase tracking-wider text-slate-400 block font-semibold">
-                          Service 0{index + 1} • {service.badge}
-                        </span>
-                        <h2 className="font-display font-bold text-lg sm:text-xl text-slate-900 leading-tight">
-                          {service.title}
-                        </h2>
-                      </div>
+                {/* Top Section: Header & Overview Description */}
+                <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 pb-6 border-b border-border-light">
+                  <div className="flex items-start gap-3.5">
+                    <div className="w-11 h-11 rounded-xs bg-brand-teal-tint/50 border border-brand-teal/20 flex items-center justify-center text-brand-teal shrink-0 mt-0.5 shadow-2xs">
+                      <Icon className="w-5 h-5" />
                     </div>
+                    <div>
+                      <span className="font-mono text-[10px] uppercase tracking-wider text-slate-500 block font-bold mb-1">
+                        Service 0{index + 1} • {service.badge}
+                      </span>
+                      <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-950 tracking-tight leading-tight">
+                        {service.title}
+                      </h2>
+                      <p className="text-xs sm:text-sm font-sans text-slate-600 leading-relaxed mt-2 max-w-3xl">
+                        {service.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-                    {/* Service Facility & Field Photography */}
-                    <div className="relative w-full aspect-[16/9] rounded-xs overflow-hidden border border-border-light my-2 shadow-xs bg-slate-100">
+                {/* Bottom Section: Side-by-Side Image + Deliverables */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch pt-6">
+                  {/* Left Column: Photography & Direct Action */}
+                  <div className="lg:col-span-5 flex flex-col justify-between space-y-4">
+                    <div className="relative w-full aspect-[16/10] rounded-xs overflow-hidden border border-border-light shadow-xs bg-slate-100 group">
                       <Image
                         src={service.image}
                         alt={service.title}
                         fill
-                        className="object-cover"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                         sizes="(max-width: 1024px) 100vw, 40vw"
                       />
                     </div>
 
-                    <p className="text-xs sm:text-sm font-sans text-slate-600 leading-relaxed pt-1">
-                      {service.description}
-                    </p>
-
-                    <div className="pt-2">
+                    <div>
                       <Link
                         href={`/contact-us?service=${service.slug}`}
-                        className="inline-flex items-center gap-2 bg-brand-teal hover:bg-brand-teal-dark text-white font-mono text-xs font-semibold px-4 py-2 rounded-xs shadow-xs transition-colors"
+                        className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-brand-teal hover:bg-brand-teal-dark text-white font-mono text-xs font-semibold px-5 py-2.5 rounded-xs shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all group"
                       >
                         <span>{service.contactAction}</span>
-                        <ArrowRight className="w-3.5 h-3.5" />
+                        <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                       </Link>
                     </div>
                   </div>
 
-                  {/* Right Column: Deliverables */}
-                  <div className="lg:col-span-7 bg-slate-50 p-5 rounded-xs border border-border-light space-y-3">
-                    <span className="font-mono text-[10px] uppercase tracking-wider text-slate-500 block font-bold">
-                      Scope of Deliverables &amp; Inclusions
-                    </span>
-                    <ul className="space-y-2.5">
-                      {service.deliverables.map((del, dIdx) => (
-                        <li key={dIdx} className="flex items-start gap-2 text-xs font-sans text-slate-700">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-brand-teal shrink-0 mt-0.5" />
-                          <span>{del}</span>
-                        </li>
-                      ))}
-                    </ul>
+                  {/* Right Column: Scope of Deliverables */}
+                  <div className="lg:col-span-7 bg-slate-50/80 p-6 rounded-xs border border-border-light flex flex-col justify-between">
+                    <div>
+                      <span className="font-mono text-[10px] uppercase tracking-wider text-slate-600 block font-bold mb-3.5 pb-2 border-b border-border-light/80">
+                        Scope of Deliverables &amp; Inclusions
+                      </span>
+                      <ul className="space-y-3">
+                        {service.deliverables.map((del, dIdx) => (
+                          <li key={dIdx} className="flex items-start gap-2.5 text-xs sm:text-sm font-sans text-slate-700 leading-relaxed">
+                            <CheckCircle2 className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
+                            <span>{del}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
 
-                    <div className="pt-3 border-t border-border-light/80 flex items-center justify-between text-xs font-mono text-slate-500">
-                      <span>Direct INR Invoicing Available</span>
+                    <div className="pt-4 mt-4 border-t border-border-light/80 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs font-mono text-slate-500">
+                      <span className="flex items-center gap-1.5">
+                        <span className="w-1.5 h-1.5 rounded-full bg-brand-teal" />
+                        Direct INR Invoicing Available
+                      </span>
                       <span>GST Input Tax Credit Eligible</span>
                     </div>
                   </div>
                 </div>
-              </div>
+              </ScrollReveal>
             );
           })}
         </div>
@@ -141,7 +151,7 @@ export default function ServicesPage() {
           <div className="pt-2 flex justify-center gap-3">
             <Link
               href="/contact-us"
-              className="bg-brand-amber hover:bg-brand-amber-dark text-slate-900 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-colors"
+              className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-colors shadow-md"
             >
               Contact Spares Desk (+91 73822 92929)
             </Link>
