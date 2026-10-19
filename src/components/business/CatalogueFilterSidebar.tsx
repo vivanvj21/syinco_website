@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { X, RotateCcw, ChevronDown, ChevronRight, Layers, Building2, Factory } from "lucide-react";
+import { X, RotateCcw, ChevronDown, ChevronRight, Layers, Factory } from "lucide-react";
 import { Drawer, DrawerContent } from "@/components/ui/Drawer";
 
 export interface FilterState {
@@ -51,22 +51,6 @@ export function CatalogueFilterSidebar({
     onFilterChange({
       ...filters,
       [category]: updated,
-    });
-  };
-
-  // Helper to toggle domain(s) for an industry
-  const toggleIndustryDomains = (domainIds: string[]) => {
-    const allActive = domainIds.every((id) => filters.domain.includes(id));
-    let newDomains: string[];
-    if (allActive) {
-      newDomains = filters.domain.filter((d) => !domainIds.includes(d));
-    } else {
-      const set = new Set([...filters.domain, ...domainIds]);
-      newDomains = Array.from(set);
-    }
-    onFilterChange({
-      ...filters,
-      domain: newDomains,
     });
   };
 
@@ -148,65 +132,7 @@ export function CatalogueFilterSidebar({
         </div>
       </div>
 
-      {/* 3. INDUSTRIES SERVED */}
-      <div className="space-y-2.5 pt-4 border-t border-border-light">
-        <div className="flex items-center gap-1.5 text-slate-900">
-          <Building2 className="w-3.5 h-3.5 text-brand-teal shrink-0" />
-          <h4 className="font-mono font-bold text-xs uppercase tracking-wider text-slate-900">
-            Industries Served
-          </h4>
-        </div>
-        <div className="space-y-1 font-sans pl-1">
-          {[
-            {
-              id: "semiconductor",
-              label: "Semiconductors & Optics",
-              domains: ["semiconductor-thin-film", "vacuum-technology"],
-            },
-            {
-              id: "aerospace",
-              label: "Aerospace & Defense",
-              domains: ["thermal-expansion", "vacuum-technology", "thermal-properties"],
-            },
-            {
-              id: "materials-energy",
-              label: "Advanced Materials & Energy",
-              domains: ["thermoelectric-energy", "high-temp-furnaces", "thermal-properties"],
-            },
-            {
-              id: "metallurgy",
-              label: "Metallurgy & High-Temp",
-              domains: ["high-temp-processing", "high-temp-furnaces", "vacuum-technology"],
-            },
-            {
-              id: "research",
-              label: "National Labs & Universities",
-              domains: ["thermoelectric-energy", "vacuum-technology", "high-temp-processing"],
-            },
-          ].map((ind) => {
-            const isFullyActive = ind.domains.every((d) => filters.domain.includes(d));
-            return (
-              <button
-                key={ind.id}
-                type="button"
-                onClick={() => toggleIndustryDomains(ind.domains)}
-                className={`w-full flex items-center justify-between text-left py-1 px-1.5 rounded-xs transition-colors cursor-pointer ${
-                  isFullyActive
-                    ? "bg-slate-900 text-white font-semibold"
-                    : "text-slate-700 hover:bg-slate-50 hover:text-slate-950"
-                }`}
-              >
-                <span className="truncate text-xs">{ind.label}</span>
-                <span className="font-mono text-[9px] text-slate-400">
-                  {isFullyActive ? "Active" : "Filter"}
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* 4. OEM / PRINCIPAL */}
+      {/* 3. OEM / PRINCIPAL */}
       <div className="space-y-2.5 pt-4 border-t border-border-light">
         <div className="flex items-center gap-1.5 text-slate-900">
           <Factory className="w-3.5 h-3.5 text-brand-teal shrink-0" />
