@@ -10,6 +10,7 @@ import {
   FacetCounts,
 } from "@/components/business/CatalogueFilterSidebar";
 import { searchProducts } from "@/lib/search";
+import { getProductOemCategory, OEM_CATEGORIES } from "@/data/oem-categories";
 import { Button } from "@/components/ui/Button";
 import {
   Search,
@@ -54,12 +55,14 @@ function DiscoveryEngineInner({
     const archetypes = searchParams.getAll("archetype");
     const domains = searchParams.getAll("domain");
     const stock = searchParams.getAll("stock");
+    const oemCategories = searchParams.getAll("category");
 
     return {
       vendor: vendors,
       archetype: archetypes,
       domain: domains,
       stock: stock,
+      oemCategory: oemCategories,
     };
   });
 
@@ -77,6 +80,7 @@ function DiscoveryEngineInner({
       archetypes: {},
       domains: {},
       stocks: {},
+      oemCategories: {},
     };
 
     // Filter by search query first if present
@@ -85,20 +89,24 @@ function DiscoveryEngineInner({
       : baseCategoryProducts;
 
     searchedBase.forEach((p) => {
-      // Vendor counts (matching archetype, domain, stock)
+      const pCat = getProductOemCategory(p);
+
+      // Vendor counts (matching archetype, domain, stock, oemCategory)
       const matchForVendor =
         (filters.archetype.length === 0 || filters.archetype.includes(p.archetype)) &&
         (filters.domain.length === 0 || filters.domain.includes(p.domain)) &&
-        (filters.stock.length === 0 || filters.stock.includes(p.stockStatus));
+        (filters.stock.length === 0 || filters.stock.includes(p.stockStatus)) &&
+        (filters.oemCategory.length === 0 || filters.oemCategory.includes(pCat));
       if (matchForVendor) {
         counts.vendors[p.manufacturer.id] = (counts.vendors[p.manufacturer.id] || 0) + 1;
       }
 
-      // Archetype counts (matching vendor, domain, stock)
+      // Archetype counts (matching vendor, domain, stock, oemCategory)
       const matchForArchetype =
         (filters.vendor.length === 0 || filters.vendor.includes(p.manufacturer.id)) &&
         (filters.domain.length === 0 || filters.domain.includes(p.domain)) &&
-        (filters.stock.length === 0 || filters.stock.includes(p.stockStatus));
+        (filters.stock.length === 0 || filters.stock.includes(p.stockStatus)) &&
+        (filters.oemCategory.length === 0 || filters.oemCategory.includes(pCat));
       if (matchForArchetype) {
         counts.archetypes[p.archetype] = (counts.archetypes[p.archetype] || 0) + 1;
       }
@@ -112,13 +120,24 @@ function DiscoveryEngineInner({
         counts.domains[p.domain] = (counts.domains[p.domain] || 0) + 1;
       }
 
-      // Stock counts (matching vendor, archetype, domain)
+      // Stock counts (matching vendor, archetype, domain, oemCategory)
       const matchForStock =
         (filters.vendor.length === 0 || filters.vendor.includes(p.manufacturer.id)) &&
         (filters.archetype.length === 0 || filters.archetype.includes(p.archetype)) &&
-        (filters.domain.length === 0 || filters.domain.includes(p.domain));
+        (filters.domain.length === 0 || filters.domain.includes(p.domain)) &&
+        (filters.oemCategory.length === 0 || filters.oemCategory.includes(pCat));
       if (matchForStock) {
         counts.stocks[p.stockStatus] = (counts.stocks[p.stockStatus] || 0) + 1;
+      }
+
+      // OEM Category counts (matching vendor, archetype, domain, stock)
+      const matchForOemCategory =
+        (filters.vendor.length === 0 || filters.vendor.includes(p.manufacturer.id)) &&
+        (filters.archetype.length === 0 || filters.archetype.includes(p.archetype)) &&
+        (filters.domain.length === 0 || filters.domain.includes(p.domain)) &&
+        (filters.stock.length === 0 || filters.stock.includes(p.stockStatus));
+      if (matchForOemCategory && counts.oemCategories) {
+        counts.oemCategories[pCat] = (counts.oemCategories[pCat] || 0) + 1;
       }
     });
 
@@ -137,6 +156,14 @@ function DiscoveryEngineInner({
     // Vendor filter
     if (filters.vendor.length > 0) {
       results = results.filter((p) => filters.vendor.includes(p.manufacturer.id));
+    }
+
+    // OEM Category filter
+    if (filters.oemCategory.length > 0) {
+      results = results.filter((p) => {
+        const cat = getProductOemCategory(p);
+        return filters.oemCategory.includes(cat);
+      });
     }
 
     // Archetype filter
@@ -188,6 +215,7 @@ function DiscoveryEngineInner({
     }
 
     filters.vendor.forEach((v) => params.append("vendor", v));
+    filters.oemCategory.forEach((c) => params.append("category", c));
     filters.archetype.forEach((a) => params.append("archetype", a));
     filters.domain.forEach((d) => params.append("domain", d));
     filters.stock.forEach((s) => params.append("stock", s));
@@ -214,6 +242,7 @@ function DiscoveryEngineInner({
       archetype: [],
       domain: [],
       stock: [],
+      oemCategory: [],
     });
     setSearchQuery("");
     setCurrentPage(1);
@@ -233,8 +262,19 @@ function DiscoveryEngineInner({
     return filteredProducts.slice(startIdx, startIdx + PAGE_SIZE);
   }, [filteredProducts, validPage]);
 
+  const oemCategoryNameMap = useMemo(() => {
+    const map: Record<string, string> = {};
+    Object.values(OEM_CATEGORIES).forEach((catList) => {
+      catList.forEach((c) => {
+        map[c.id] = c.name;
+      });
+    });
+    return map;
+  }, []);
+
   const activePillsCount =
     filters.vendor.length +
+    filters.oemCategory.length +
     filters.archetype.length +
     filters.domain.length +
     filters.stock.length;
@@ -328,7 +368,23 @@ function DiscoveryEngineInner({
                 <button
                   type="button"
                   onClick={() => removePill("vendor", v)}
-                  className="hover:text-red-600"
+                  className="hover:text-red-600 cursor-pointer"
+                >
+                  <X className="w-3 h-3" />
+                </button>
+              </span>
+            ))}
+
+            {filters.oemCategory.map((c) => (
+              <span
+                key={c}
+                className="inline-flex items-center gap-1 px-2 py-0.5 bg-brand-teal-tint text-brand-teal rounded-xs text-[11px] font-mono border border-brand-teal/30"
+              >
+                Category: {oemCategoryNameMap[c] || c}
+                <button
+                  type="button"
+                  onClick={() => removePill("oemCategory", c)}
+                  className="hover:text-red-600 cursor-pointer"
                 >
                   <X className="w-3 h-3" />
                 </button>
