@@ -37,6 +37,8 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CompareDock } from "@/components/business/CompareDock";
 import { CompareModal } from "@/components/business/CompareModal";
+import { ScrollProgress } from "@/components/ui/ScrollProgress";
+import { BackToTopButton } from "@/components/ui/BackToTopButton";
 
 export default function RootLayout({
   children,
@@ -46,11 +48,13 @@ export default function RootLayout({
   return (
     <html lang="en-IN" className={`${inter.variable} ${plusJakartaSans.variable} ${jetBrainsMono.variable}`}>
       <body className="min-h-screen flex flex-col bg-surface-light text-ink-primary font-sans antialiased">
+        <ScrollProgress />
         <Header />
         <div className="flex-1 pb-16">{children}</div>
         <Footer />
         <CompareDock />
         <CompareModal />
+        <BackToTopButton />
       </body>
     </html>
   );

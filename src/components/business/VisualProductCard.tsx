@@ -59,7 +59,7 @@ export function VisualProductCard({
   return (
     <div
       className={cn(
-        "flex flex-col h-full bg-white border border-border-light rounded-sm overflow-hidden hover:border-brand-teal/60 hover:shadow-md transition-all duration-200 group",
+        "flex flex-col h-full bg-white border border-border-light rounded-sm overflow-hidden hover:border-brand-teal hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 group",
         className
       )}
       {...props}
@@ -73,7 +73,7 @@ export function VisualProductCard({
               alt={product.heroImage.altText || displayName}
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+              className="object-contain p-2 group-hover:scale-108 transition-transform duration-500 ease-out"
               onError={() => setImageError(true)}
             />
           </Link>

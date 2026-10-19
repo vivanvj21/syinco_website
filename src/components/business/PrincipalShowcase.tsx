@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { principals } from "@/data/principals";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 function CountryFlag({ country }: { country: string }) {
   if (country === "Japan") {
@@ -41,74 +42,82 @@ export function PrincipalShowcase() {
     >
       <div className="max-w-container mx-auto px-4">
         {/* Section Header */}
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-8 pb-4 border-b border-elephant-border">
-          <div>
-            <span className="font-mono text-[10px] uppercase tracking-wider text-brand-teal font-bold block mb-1">
-              Technology Partners
-            </span>
-            <h2 className="text-xl sm:text-2xl font-display font-bold text-slate-950 tracking-tight">
-              Principal Global Manufacturers
-            </h2>
+        <ScrollReveal animation="fade-up">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-8 pb-4 border-b border-elephant-border">
+            <div>
+              <span className="font-mono text-[10px] uppercase tracking-wider text-brand-teal font-bold block mb-1">
+                Technology Partners
+              </span>
+              <h2 className="text-xl sm:text-2xl font-display font-bold text-slate-950 tracking-tight">
+                Principal Global Manufacturers
+              </h2>
+            </div>
+            <p className="text-xs text-slate-700 font-sans max-w-md">
+              Direct, accredited channel partnerships with leading Japanese and UK scientific hardware manufacturers.
+            </p>
           </div>
-          <p className="text-xs text-slate-700 font-sans max-w-md">
-            Direct, accredited channel partnerships with leading Japanese and UK scientific hardware manufacturers.
-          </p>
-        </div>
+        </ScrollReveal>
 
-        {/* 3 Principal Cards Grid */}
+        {/* 3 Principal Cards Grid with Staggered Entrance */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {principals.map((principal) => (
-            <Link
+          {principals.map((principal, idx) => (
+            <ScrollReveal
               key={principal.id}
-              href={`/products?vendor=${principal.filterVendorId}`}
-              className="bg-white border border-elephant-border rounded-sm overflow-hidden flex flex-col justify-between hover:border-brand-teal hover:shadow-md transition-all group"
+              animation="fade-up"
+              delay={idx * 120}
+              className="h-full"
             >
-              <div>
-                {/* Official OEM Logo Banner */}
-                <div className="relative aspect-[16/10] w-full bg-white overflow-hidden border-b border-elephant-border/60 flex items-center justify-center p-6">
-                  <Image
-                    src={principal.logo}
-                    alt={`${principal.name} logo`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-
-                <div className="p-5">
-                  {/* Header: Flag, Name, Official Badge */}
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <div className="flex items-center gap-2">
-                      <CountryFlag country={principal.country} />
-                      <div>
-                        <h3 className="font-display font-bold text-base text-slate-900 group-hover:text-brand-teal transition-colors leading-tight">
-                          {principal.shortName}
-                        </h3>
-                        <span className="font-mono text-[10px] text-slate-500 block mt-0.5">
-                          {principal.country}
-                        </span>
-                      </div>
-                    </div>
-                    <span className="font-mono text-[9px] uppercase tracking-wider px-2 py-0.5 rounded-xs bg-brand-teal-tint text-brand-teal border border-brand-teal/30 font-semibold">
-                      Official
-                    </span>
+              <Link
+                href={`/products?vendor=${principal.filterVendorId}`}
+                className="bg-white border border-elephant-border rounded-sm overflow-hidden flex flex-col justify-between hover:border-brand-teal hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 group h-full"
+              >
+                <div>
+                  {/* Official OEM Logo Banner */}
+                  <div className="relative aspect-[16/10] w-full bg-white overflow-hidden border-b border-elephant-border/60 flex items-center justify-center p-6">
+                    <Image
+                      src={principal.logo}
+                      alt={`${principal.name} logo`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-contain p-4 group-hover:scale-108 transition-transform duration-500 ease-out"
+                    />
                   </div>
 
-                  {/* Scope / Specialty */}
-                  <p className="text-xs text-slate-600 font-sans leading-relaxed mt-2.5">
-                    {principal.specialty}
-                  </p>
-                </div>
-              </div>
+                  <div className="p-5">
+                    {/* Header: Flag, Name, Official Badge */}
+                    <div className="flex items-start justify-between gap-2 mb-2">
+                      <div className="flex items-center gap-2">
+                        <CountryFlag country={principal.country} />
+                        <div>
+                          <h3 className="font-display font-bold text-base text-slate-900 group-hover:text-brand-teal transition-colors leading-tight">
+                            {principal.shortName}
+                          </h3>
+                          <span className="font-mono text-[10px] text-slate-500 block mt-0.5">
+                            {principal.country}
+                          </span>
+                        </div>
+                      </div>
+                      <span className="font-mono text-[9px] uppercase tracking-wider px-2 py-0.5 rounded-xs bg-brand-teal-tint text-brand-teal border border-brand-teal/30 font-semibold shadow-2xs">
+                        Official
+                      </span>
+                    </div>
 
-              {/* Action Button */}
-              <div className="p-5 pt-0">
-                <div className="pt-3 border-t border-elephant-border/60 flex items-center justify-between text-xs font-mono font-semibold text-brand-teal">
-                  <span>View All Equipment</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                    {/* Scope / Specialty */}
+                    <p className="text-xs text-slate-600 font-sans leading-relaxed mt-2.5">
+                      {principal.specialty}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Link>
+
+                {/* Action Button */}
+                <div className="p-5 pt-0">
+                  <div className="pt-3 border-t border-elephant-border/60 flex items-center justify-between text-xs font-mono font-semibold text-brand-teal">
+                    <span>View All Equipment</span>
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1.5 transition-transform duration-300" />
+                  </div>
+                </div>
+              </Link>
+            </ScrollReveal>
           ))}
         </div>
       </div>
