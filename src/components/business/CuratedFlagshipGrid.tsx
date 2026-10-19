@@ -9,22 +9,9 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export function CuratedFlagshipGrid() {
   const curatedProducts = getHomepageCuratedProducts();
-  const [selectedFilter, setSelectedFilter] = useState<string>("all");
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
-
-  const filterTabs = [
-    { id: "all", label: "All Flagships" },
-    { id: "advance-riko", label: "Advance Riko (Japan)" },
-    { id: "edwards-vacuum", label: "Edwards Vacuum (UK)" },
-    { id: "fuji-electronic", label: "Fuji-SPS (Japan)" },
-  ];
-
-  const displayedProducts =
-    selectedFilter === "all"
-      ? curatedProducts
-      : curatedProducts.filter((p) => p.manufacturer.id === selectedFilter);
 
   const checkScrollState = useCallback(() => {
     const el = scrollContainerRef.current;
@@ -45,14 +32,7 @@ export function CuratedFlagshipGrid() {
       if (el) el.removeEventListener("scroll", checkScrollState);
       window.removeEventListener("resize", checkScrollState);
     };
-  }, [checkScrollState, displayedProducts]);
-
-  const handleFilterChange = (filterId: string) => {
-    setSelectedFilter(filterId);
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollTo({ left: 0, behavior: "smooth" });
-    }
-  };
+  }, [checkScrollState]);
 
   const scroll = (direction: "left" | "right") => {
     if (!scrollContainerRef.current) return;
@@ -82,7 +62,7 @@ export function CuratedFlagshipGrid() {
             </div>
             <div className="flex items-center gap-3">
               <span className="font-mono text-xs text-ink-muted hidden sm:block">
-                {displayedProducts.length} principal systems • Scroll horizontally
+                {curatedProducts.length} principal systems • Scroll horizontally
               </span>
               {/* Scroll Navigation Arrows */}
               <div className="flex items-center gap-1.5 shrink-0">
@@ -107,24 +87,6 @@ export function CuratedFlagshipGrid() {
               </div>
             </div>
           </div>
-
-          {/* Filter Pills for Curated Items */}
-          <div className="flex flex-wrap items-center gap-2 mb-6">
-            {filterTabs.map((tab) => (
-              <button
-                key={tab.id}
-                type="button"
-                onClick={() => handleFilterChange(tab.id)}
-                className={`px-3 py-1.5 rounded-xs text-xs font-mono transition-all cursor-pointer ${
-                  selectedFilter === tab.id
-                    ? "bg-slate-panel text-white font-semibold shadow-xs"
-                    : "bg-white border border-border-light text-slate-600 hover:text-slate-900 hover:border-slate-400"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
         </ScrollReveal>
 
         {/* Horizontal Scroll Reel for Flagship Products */}
@@ -137,7 +99,7 @@ export function CuratedFlagshipGrid() {
             className="flex gap-5 overflow-x-auto pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0 scroll-smooth snap-x snap-mandatory focus:outline-none"
             style={{ scrollbarWidth: "thin" }}
           >
-            {displayedProducts.map((product) => (
+            {curatedProducts.map((product) => (
               <div
                 key={product.id}
                 className="w-[280px] sm:w-[320px] lg:w-[340px] shrink-0 snap-start flex flex-col"
