@@ -38,10 +38,6 @@ export function HeroStrategicAnchor() {
             Precision Scientific Systems, Vacuum Technology &amp; Thermal Instrumentation.
           </h1>
 
-          {/* Concise Supporting Statement */}
-          <p className="text-sm sm:text-base font-sans text-slate-700 max-w-2xl leading-relaxed animate-fade-up [animation-delay:150ms]">
-            Manufacture, Sales and Services of Advanced, Customized and Specialized Systems, Instruments and Components for Metallurgy, Thermal, Thermoelectric, Vacuum, Analytical and Medical application. NDT &amp; Helium Leak Testing Services.
-          </p>
 
           {/* Primary & Secondary CTAs */}
           <div className="flex flex-wrap items-center gap-3 pt-2 animate-fade-up [animation-delay:250ms]">
