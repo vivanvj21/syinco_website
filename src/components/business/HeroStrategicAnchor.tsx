@@ -27,12 +27,6 @@ export function HeroStrategicAnchor() {
 
       <div className="max-w-container mx-auto px-4 relative z-10">
         <div className="max-w-2xl space-y-6">
-          {/* Subtle Tagline Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100/90 border border-slate-200/80 backdrop-blur-xs text-xs font-mono font-semibold text-brand-teal animate-fade-in shadow-2xs">
-            <span className="w-2 h-2 rounded-full bg-brand-teal animate-pulse" />
-            <span>AUTHORISED SCIENTIFIC &amp; VACUUM INSTRUMENTATION</span>
-          </div>
-
           {/* H1 Authority Headline */}
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold tracking-tight text-slate-950 leading-tight animate-fade-up">
             Precision Scientific Systems, Vacuum Technology &amp; Thermal Instrumentation.
