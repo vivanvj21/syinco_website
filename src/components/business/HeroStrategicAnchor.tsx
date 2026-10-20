@@ -26,11 +26,19 @@ export function HeroStrategicAnchor() {
       </div>
 
       <div className="max-w-container mx-auto px-4 relative z-10">
-        <div className="max-w-2xl space-y-6">
+        <div className="max-w-2xl space-y-4">
+          <span className="font-mono text-xs sm:text-sm font-bold uppercase tracking-wider text-brand-teal block animate-fade-in">
+            SYINCO TECHNOLOGIES
+          </span>
+
           {/* H1 Authority Headline */}
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold tracking-tight text-slate-950 leading-tight animate-fade-up">
-            Precision Scientific Systems, Vacuum Technology &amp; Thermal Instrumentation.
+            Precision Vacuum | Thermal | Scientific | Solutions for Research &amp; Industry
           </h1>
+
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-xl animate-fade-up [animation-delay:150ms]">
+            Delivering engineered solutions for research, industry, and critical applications.
+          </p>
 
 
           {/* Primary & Secondary CTAs */}
