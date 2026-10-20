@@ -432,35 +432,25 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
                 <ArrowRight className="w-4 h-4" />
               </Button>
 
-              {isComponent ? (
-                <Button
-                  variant="secondary"
-                  size="md"
-                  onClick={() => {
-                    addSparesItem({
-                      id: `${product.id}-${selectedModel.toLowerCase()}`,
-                      partNumber: `${product.modelSeries}-${selectedModel}`,
-                      name: `${product.manufacturer.name} ${selectedModel} (${product.name})`,
-                      category: product.technologySubcategory || "Vacuum Equipment",
-                      associatedModelSeries: selectedModel,
-                      stockStatus: product.stockStatus === "hyderabad-stock" ? "ready-stock" : "dispatch-10-days",
-                    });
-                  }}
-                  className="w-full text-xs gap-1.5"
-                >
-                  <PackagePlus className="w-4 h-4 text-brand-teal" />
-                  <span>+ Add {selectedModel} Unit to Spares RFQ Basket</span>
-                </Button>
-              ) : (
-                <Button
-                  variant="secondary"
-                  size="md"
-                  onClick={() => setIsQuoteModalOpen(true)}
-                  className="w-full text-xs"
-                >
-                  Consult an Applications Specialist
-                </Button>
-              )}
+              <Button
+                variant="secondary"
+                size="md"
+                onClick={() => {
+                  addSparesItem({
+                    id: `${product.id}-${selectedModel.toLowerCase()}`,
+                    partNumber: `${product.modelSeries}-${selectedModel}`,
+                    name: `${product.manufacturer.name} ${selectedModel} (${product.name})`,
+                    category: product.technologySubcategory || product.domain,
+                    associatedModelSeries: selectedModel,
+                    stockStatus: product.stockStatus === "hyderabad-stock" ? "ready-stock" : "dispatch-10-days",
+                    thumbnailUrl: product.heroImage?.url,
+                  });
+                }}
+                className="w-full text-xs gap-1.5"
+              >
+                <PackagePlus className="w-4 h-4 text-brand-teal" />
+                <span>+ Add {selectedModel} to RFQ Cart</span>
+              </Button>
             </div>
 
             {/* Contextual Pre-Sales or Supply Assurance Gateway */}
@@ -883,35 +873,24 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
                       ✓ Hyderabad Ready Stock
                     </span>
 
-                    {isComponent ? (
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={() => {
-                          addSparesItem({
-                            id: acc.id,
-                            partNumber: acc.partNumber,
-                            name: acc.name,
-                            category: acc.category || "General Spares",
-                            associatedModelSeries: product.modelSeries,
-                            stockStatus: "hyderabad-stock",
-                          });
-                        }}
-                        className="text-[11px] h-7 px-2 justify-between"
-                      >
-                        <span>+ Add to Spares RFQ</span>
-                        <PackagePlus className="w-3.5 h-3.5 text-brand-teal" />
-                      </Button>
-                    ) : (
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={() => setIsQuoteModalOpen(true)}
-                        className="text-[11px] h-7 px-2"
-                      >
-                        Quote Spares
-                      </Button>
-                    )}
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => {
+                        addSparesItem({
+                          id: acc.id,
+                          partNumber: acc.partNumber,
+                          name: acc.name,
+                          category: acc.category || "General Spares",
+                          associatedModelSeries: product.modelSeries,
+                          stockStatus: "hyderabad-stock",
+                        });
+                      }}
+                      className="text-[11px] h-7 px-2 justify-between"
+                    >
+                      <span>+ Add to RFQ Cart</span>
+                      <PackagePlus className="w-3.5 h-3.5 text-brand-teal" />
+                    </Button>
                   </div>
                 </div>
               ))}

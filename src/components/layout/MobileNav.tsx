@@ -4,9 +4,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Drawer, DrawerContent } from "@/components/ui/Drawer";
-import { X, ChevronRight, Phone, Mail, MapPin } from "lucide-react";
+import { X, ChevronRight, Phone, Mail, MapPin, ShoppingCart } from "lucide-react";
 import { allCategories } from "@/data/products";
 import { principals } from "@/data/principals";
+import { useRfqStore } from "@/hooks/useRfqStore";
 
 export interface MobileNavProps {
   isOpen: boolean;
@@ -15,6 +16,14 @@ export interface MobileNavProps {
 
 export function MobileNav({ isOpen, onClose }: MobileNavProps) {
   const [productsExpanded, setProductsExpanded] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { openDrawer, getTotalCount } = useRfqStore();
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const cartCount = mounted ? getTotalCount() : 0;
 
   return (
     <Drawer open={isOpen} onOpenChange={(open) => !open && onClose()}>
@@ -165,6 +174,26 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
             >
               About Us
             </Link>
+
+            {/* Requisition Cart Button */}
+            <button
+              type="button"
+              onClick={() => {
+                onClose();
+                openDrawer();
+              }}
+              className="w-full flex items-center justify-between py-2.5 px-2 rounded-xs text-brand-teal font-medium hover:bg-slate-surface transition-colors cursor-pointer text-left"
+            >
+              <div className="flex items-center gap-2">
+                <ShoppingCart className="w-4 h-4 text-brand-teal" />
+                <span>RFQ Cart</span>
+              </div>
+              {cartCount > 0 && (
+                <span className="px-2 py-0.5 rounded-full bg-brand-teal text-white font-mono text-[10px] font-bold">
+                  {cartCount} {cartCount === 1 ? "unit" : "units"}
+                </span>
+              )}
+            </button>
 
             {/* 7. Contact Us */}
             <Link

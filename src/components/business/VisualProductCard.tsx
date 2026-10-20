@@ -3,9 +3,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ShoppingCart } from "lucide-react";
 import { Product } from "@/types/product";
 import { ProductPlaceholder } from "@/components/technical/ProductPlaceholder";
+import { useRfqStore } from "@/hooks/useRfqStore";
 import {
   getProductPrincipal,
   getDisplayProductName,
@@ -55,6 +56,7 @@ export function VisualProductCard({
   const principal = getProductPrincipal(product);
   const displayName = getDisplayProductName(product);
   const equipmentType = getProductType(product);
+  const { addItem } = useRfqStore();
 
   return (
     <div
@@ -103,8 +105,8 @@ export function VisualProductCard({
           </span>
         </div>
 
-        {/* 3. Learn More CTA */}
-        <div className="mt-4 pt-3 border-t border-border-light/60">
+        {/* 3. Learn More & Cart Actions */}
+        <div className="mt-4 pt-3 border-t border-border-light/60 flex items-center justify-between gap-2">
           <Link
             href={pdpHref}
             className="inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-slate-800 group-hover:text-brand-teal transition-colors py-1"
@@ -112,6 +114,28 @@ export function VisualProductCard({
             <span>Learn More</span>
             <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-brand-teal group-hover:translate-x-1 transition-all" />
           </Link>
+
+          <button
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              addItem({
+                id: product.id,
+                partNumber: product.modelSeries || product.id,
+                name: displayName,
+                category: equipmentType,
+                associatedModelSeries: product.modelSeries,
+                stockStatus: product.stockStatus,
+                thumbnailUrl: product.heroImage?.url,
+              });
+            }}
+            className="inline-flex items-center gap-1.5 text-xs font-mono px-2.5 py-1 rounded-xs bg-slate-50 hover:bg-brand-teal hover:text-white text-slate-700 transition-colors border border-border-light cursor-pointer shadow-2xs group/btn"
+            title={`Add ${displayName} to RFQ Requisition Cart`}
+          >
+            <ShoppingCart className="w-3.5 h-3.5 text-brand-teal group-hover/btn:text-white transition-colors" />
+            <span className="font-semibold">+ Cart</span>
+          </button>
         </div>
       </div>
     </div>

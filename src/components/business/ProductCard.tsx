@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Scale, Check } from "lucide-react";
+import { ArrowRight, Scale, Check, ShoppingCart } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Product } from "@/types/product";
 import { OEMTag } from "@/components/technical/OEMTag";
@@ -12,6 +12,7 @@ import { StockStatus } from "@/components/technical/StockStatus";
 import { ProductPlaceholder } from "@/components/technical/ProductPlaceholder";
 import { Button } from "@/components/ui/Button";
 import { useCompareStore } from "@/hooks/useCompareStore";
+import { useRfqStore } from "@/hooks/useRfqStore";
 
 export interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
   product: Product;
@@ -25,6 +26,7 @@ export function ProductCard({
 }: ProductCardProps) {
   const pdpHref = `/products/${product.categorySlug}/${product.slug}`;
   const { isInCompare, addToCompare, removeFromCompare } = useCompareStore();
+  const { addItem } = useRfqStore();
   const inCompare = isInCompare(product.id);
   const [imageError, setImageError] = React.useState(false);
 
@@ -187,12 +189,36 @@ export function ProductCard({
             inrInvoicing={product.inrInvoicingAvailable}
           />
 
-          <Link href={pdpHref}>
-            <Button variant="primary" size="sm" className="text-xs h-7 px-3 gap-1">
-              <span>Learn More</span>
-              <ArrowRight className="w-3 h-3" />
-            </Button>
-          </Link>
+          <div className="flex items-center gap-1.5">
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                addItem({
+                  id: product.id,
+                  partNumber: product.modelSeries || product.id,
+                  name: product.name,
+                  category: product.technologySubcategory || product.domain,
+                  associatedModelSeries: product.modelSeries,
+                  stockStatus: product.stockStatus,
+                  thumbnailUrl: product.heroImage?.url,
+                });
+              }}
+              className="inline-flex items-center gap-1 text-xs font-mono px-2.5 h-7 rounded-xs bg-slate-50 hover:bg-brand-teal hover:text-white text-slate-700 transition-colors border border-border-light cursor-pointer shadow-2xs group/btn"
+              title={`Add ${product.name} to RFQ Cart`}
+            >
+              <ShoppingCart className="w-3.5 h-3.5 text-brand-teal group-hover/btn:text-white transition-colors" />
+              <span className="font-semibold">+ Cart</span>
+            </button>
+
+            <Link href={pdpHref}>
+              <Button variant="primary" size="sm" className="text-xs h-7 px-3 gap-1">
+                <span>Learn More</span>
+                <ArrowRight className="w-3 h-3" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

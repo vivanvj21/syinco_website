@@ -6,6 +6,7 @@ import { Menu } from "lucide-react";
 import Image from "next/image";
 import { MegaMenu } from "./MegaMenu";
 import { SearchTrigger } from "./SearchTrigger";
+import { CartTrigger } from "./CartTrigger";
 import { MobileNav } from "./MobileNav";
 
 export function Header() {
@@ -40,10 +41,13 @@ export function Header() {
         {/* Desktop Navigation Links */}
         <MegaMenu />
 
-        {/* Global Actions: Search & Mobile Hamburger */}
+        {/* Global Actions: Search, Cart & Mobile Hamburger */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* Quick Search Dialog Trigger (⌘K) */}
           <SearchTrigger />
+
+          {/* RFQ Requisition Cart Trigger */}
+          <CartTrigger />
 
           {/* Mobile Menu Hamburger Button */}
           <button

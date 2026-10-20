@@ -240,6 +240,8 @@ export const SparesRequisitionSchema = z.object({
   email: z.string().email("Valid work or institutional email required"),
   phone: z.string().min(10, "Valid phone number required"),
   cityState: z.string().min(2, "City and State required"),
+  organization: z.string().optional(),
+  requirementStage: z.string().optional(),
   gstNumber: z.string().optional(),
   notes: z.string().optional(),
   submittedAt: z.string().optional(),

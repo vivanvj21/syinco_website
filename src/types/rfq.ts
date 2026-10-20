@@ -55,6 +55,8 @@ export interface SparesRequisition {
   email: string;
   phone: string;
   cityState: string;
+  organization?: string;
+  requirementStage?: string;
   gstNumber?: string;
   notes?: string;
   submittedAt?: string;

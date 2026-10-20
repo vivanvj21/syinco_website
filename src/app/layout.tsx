@@ -37,6 +37,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CompareDock } from "@/components/business/CompareDock";
 import { CompareModal } from "@/components/business/CompareModal";
+import { RfqBasketDrawer } from "@/components/business/RfqBasketDrawer";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
 import { BackToTopButton } from "@/components/ui/BackToTopButton";
 
@@ -54,6 +55,7 @@ export default function RootLayout({
         <Footer />
         <CompareDock />
         <CompareModal />
+        <RfqBasketDrawer />
         <BackToTopButton />
       </body>
     </html>
