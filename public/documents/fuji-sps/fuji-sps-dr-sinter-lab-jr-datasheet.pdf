@@ -1,0 +1,95 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2431 >>
+stream
+BT
+/F1 15 Tf
+50 740 Td
+(DR. SINTER LAB Jr. Series Spark Plasma Sintering Systems) Tj
+/F1 11 Tf
+0 -18 Td
+(Technical Datasheet & Engineering Specifications - Engineering Technical Datasheet) Tj
+/F1 8 Tf
+0 -15 Td
+(==================================================================================================) Tj
+0 -12 Td
+(OEM: FUJI ELECTRONIC INDUSTRIAL CO., LTD. (JAPAN) | SPS TECHNOLOGY DIVISION (fdc.co.jp/sps)) Tj
+0 -11 Td
+(INDIAN TECHNICAL SALES & DEPOT SUPPORT: SYINCO TECHNOLOGIES, HYDERABAD, TELANGANA, INDIA) Tj
+0 -12 Td
+(==================================================================================================) Tj
+/F1 11 Tf
+0 -20 Td
+(VERIFIED TECHNICAL SPECIFICATIONS & OPERATING PARAMETERS:) Tj
+/F1 8.5 Tf
+0 -15 Td
+(* Press Mechanism: AC Servo Motor Mechanical Loading System) Tj
+0 -13 Td
+(* Force Capacities: MS-1: 20 kN | 212Lx: 20 kN | 322Lx: 30 kN | 632Lx: 60 kN) Tj
+0 -13 Td
+(* Ram Stroke: 50 mm \(MS-1, 212Lx\) / 150 mm \(322Lx, 632Lx\)) Tj
+0 -13 Td
+(* Open Daylight Height: 200 mm across all models) Tj
+0 -13 Td
+(* Vacuum Performance: Ultimate Vacuum: < 0.01 Pa with standard diffusion/turbo package) Tj
+0 -13 Td
+(* DC Pulse Output: MS-1: 1,000 A | 212Lx: 1,000 A | 322Lx: 2,000 A | 632Lx: 3,000 A) Tj
+0 -13 Td
+(* Cooling Water Requirement: Clean circulating water: >= 30 L/min, pressure 0.2 to 0.3 MPa) Tj
+0 -13 Td
+(* Inert Gas Atmosphere: High-purity Argon / Nitrogen purge capability) Tj
+0 -18 Td
+/F1 10 Tf
+(CANONICAL MODEL CONFIGURATIONS & FORCE ENVELOPES:) Tj
+/F1 8 Tf
+0 -13 Td
+(> MS-1: Micro SPS for exploratory nanomaterials synthesis) Tj
+0 -12 Td
+(> 212Lx: Standard laboratory research unit for rapid sintering) Tj
+0 -12 Td
+(> 322Lx: Mid-force laboratory system with extended 150 mm stroke) Tj
+0 -12 Td
+(> 632Lx: High-force laboratory consolidation unit up to 60 kN) Tj
+0 -16 Td
+/F1 10 Tf
+(SCOPE OF DELIVERY & SYINCO LOCAL SUPPORT ADVANTAGE:) Tj
+/F1 8 Tf
+0 -13 Td
+(- Complete OEM Furnace Body, Chamber, Electrode Assembly & DC Pulse Power Supply) Tj
+0 -11 Td
+(- In-Country INR Supply & Customs Clearance Handled Ex-Hyderabad Central Logistics Depot) Tj
+0 -11 Td
+(- Certified Field Installation, Commissioning, Calibration & Preventive Maintenance (AMC)) Tj
+0 -11 Td
+(- Dedicated Inventory of High-Purity Graphite Tooling (Dies & Punches), Thermocouples & Seals) Tj
+0 -16 Td
+/F1 8 Tf
+(Technical Consultation Desk: info@syinco.in | Mobile: +91 73822 92929 | Official Portal: www.syinco.in) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000002724 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2794
+%%EOF
