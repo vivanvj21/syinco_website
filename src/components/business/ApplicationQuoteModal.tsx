@@ -290,7 +290,7 @@ export function ApplicationQuoteModal({
               <div className="flex items-start gap-2 p-2.5 bg-brand-teal-tint/30 border border-brand-teal/30 rounded-sm text-[11px] text-ink-primary">
                 <ShieldCheck className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
                 <span>
-                  <strong>Official Indian Representation:</strong> Direct INR billing, customs clearance, GST input credit, and factory-certified commissioning across all Indian states.
+                  <strong>Official Indian Representation:</strong> Direct INR billing, customs clearance, and factory-certified commissioning across all Indian states.
                 </span>
               </div>
 
@@ -299,7 +299,7 @@ export function ApplicationQuoteModal({
                   Cancel
                 </Button>
                 <Button type="submit" variant="primary" isLoading={isSubmitting}>
-                  <span>Submit Technical Sizing Enquiry</span>
+                  <span>Transmit Technical Inquiry</span>
                   <ArrowRight className="w-4 h-4 ml-1.5" />
                 </Button>
               </DialogFooter>
