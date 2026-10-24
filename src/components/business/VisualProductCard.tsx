@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ShoppingCart } from "lucide-react";
+import { ArrowRight, ShoppingCart, Check } from "lucide-react";
 import { Product } from "@/types/product";
 import { ProductPlaceholder } from "@/components/technical/ProductPlaceholder";
 import { useRfqStore } from "@/hooks/useRfqStore";
@@ -35,6 +35,7 @@ export function VisualProductCard({
   ...props
 }: VisualProductCardProps) {
   const [imageError, setImageError] = useState(false);
+  const [isAdded, setIsAdded] = useState(false);
   const pdpHref = `/products/${product.categorySlug}/${product.slug}`;
 
   // Image eligibility check matching approved asset governance
@@ -129,12 +130,28 @@ export function VisualProductCard({
                 stockStatus: product.stockStatus,
                 thumbnailUrl: product.heroImage?.url,
               });
+              setIsAdded(true);
+              setTimeout(() => setIsAdded(false), 1400);
             }}
-            className="inline-flex items-center gap-1.5 text-xs font-mono px-2.5 py-1 rounded-xs bg-slate-50 hover:bg-brand-teal hover:text-white text-slate-700 transition-colors border border-border-light cursor-pointer shadow-2xs group/btn"
+            className={cn(
+              "inline-flex items-center gap-1.5 text-xs font-mono px-2.5 py-1 rounded-xs transition-all border shadow-2xs cursor-pointer group/btn active:scale-95",
+              isAdded
+                ? "bg-emerald-50 text-emerald-800 border-emerald-500/50"
+                : "bg-slate-50 hover:bg-brand-teal hover:text-white text-slate-700 border-border-light"
+            )}
             title={`Add ${displayName} to RFQ Requisition Cart`}
           >
-            <ShoppingCart className="w-3.5 h-3.5 text-brand-teal group-hover/btn:text-white transition-colors" />
-            <span className="font-semibold">+ Cart</span>
+            {isAdded ? (
+              <>
+                <Check className="w-3.5 h-3.5 text-emerald-600 stroke-[2.5]" />
+                <span className="font-semibold text-emerald-700">Added</span>
+              </>
+            ) : (
+              <>
+                <ShoppingCart className="w-3.5 h-3.5 text-brand-teal group-hover/btn:text-white transition-colors" />
+                <span className="font-semibold">+ Cart</span>
+              </>
+            )}
           </button>
         </div>
       </div>

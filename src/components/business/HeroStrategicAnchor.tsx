@@ -43,26 +43,20 @@ export function HeroStrategicAnchor() {
 
           {/* Primary & Secondary CTAs */}
           <div className="flex flex-wrap items-center gap-3 pt-2 animate-fade-up [animation-delay:250ms]">
-            <Link href="/products">
-              <Button
-                variant="primary"
-                size="lg"
-                className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs sm:text-sm px-6 gap-2 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all cursor-pointer"
-              >
-                <span>Explore Technical Catalogue</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
+            <Link
+              href="/products"
+              className="group inline-flex items-center justify-center font-sans bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs sm:text-sm px-6 h-12 rounded-md gap-2 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all cursor-pointer"
+            >
+              <span>Explore Technical Catalogue</span>
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
 
-            <Link href="/contact-us">
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-slate-300 bg-white/90 text-slate-800 hover:bg-white hover:border-brand-teal hover:text-brand-teal text-xs sm:text-sm px-5 gap-2 cursor-pointer shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all"
-              >
-                <PhoneCall className="w-4 h-4 text-brand-teal" />
-                <span>Consult a Specialist</span>
-              </Button>
+            <Link
+              href="/contact-us"
+              className="group inline-flex items-center justify-center font-sans border border-slate-300 bg-white/90 text-slate-800 hover:bg-white hover:border-brand-teal hover:text-brand-teal text-xs sm:text-sm px-5 h-12 rounded-md gap-2 cursor-pointer shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all"
+            >
+              <PhoneCall className="w-4 h-4 text-brand-teal group-hover:scale-110 transition-transform" />
+              <span>Consult a Specialist</span>
             </Link>
           </div>
 

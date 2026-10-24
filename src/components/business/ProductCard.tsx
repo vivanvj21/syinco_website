@@ -29,6 +29,7 @@ export function ProductCard({
   const { addItem } = useRfqStore();
   const inCompare = isInCompare(product.id);
   const [imageError, setImageError] = React.useState(false);
+  const [isAdded, setIsAdded] = React.useState(false);
 
   const handleCompareToggle = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -204,19 +205,36 @@ export function ProductCard({
                   stockStatus: product.stockStatus,
                   thumbnailUrl: product.heroImage?.url,
                 });
+                setIsAdded(true);
+                setTimeout(() => setIsAdded(false), 1400);
               }}
-              className="inline-flex items-center gap-1 text-xs font-mono px-2.5 h-7 rounded-xs bg-slate-50 hover:bg-brand-teal hover:text-white text-slate-700 transition-colors border border-border-light cursor-pointer shadow-2xs group/btn"
+              className={cn(
+                "inline-flex items-center gap-1 text-xs font-mono px-2.5 h-7 rounded-xs transition-all border shadow-2xs cursor-pointer group/btn active:scale-95",
+                isAdded
+                  ? "bg-emerald-50 text-emerald-800 border-emerald-500/50"
+                  : "bg-slate-50 hover:bg-brand-teal hover:text-white text-slate-700 border-border-light"
+              )}
               title={`Add ${product.name} to RFQ Cart`}
             >
-              <ShoppingCart className="w-3.5 h-3.5 text-brand-teal group-hover/btn:text-white transition-colors" />
-              <span className="font-semibold">+ Cart</span>
+              {isAdded ? (
+                <>
+                  <Check className="w-3.5 h-3.5 text-emerald-600 stroke-[2.5]" />
+                  <span className="font-semibold text-emerald-700">Added</span>
+                </>
+              ) : (
+                <>
+                  <ShoppingCart className="w-3.5 h-3.5 text-brand-teal group-hover/btn:text-white transition-colors" />
+                  <span className="font-semibold">+ Cart</span>
+                </>
+              )}
             </button>
 
-            <Link href={pdpHref}>
-              <Button variant="primary" size="sm" className="text-xs h-7 px-3 gap-1">
-                <span>Learn More</span>
-                <ArrowRight className="w-3 h-3" />
-              </Button>
+            <Link
+              href={pdpHref}
+              className="inline-flex items-center justify-center font-sans font-semibold text-xs h-7 px-3 gap-1 rounded-xs bg-action-amber text-slate-canvas hover:bg-action-amber-hover transition-colors shadow-2xs active:translate-y-[1px]"
+            >
+              <span>Learn More</span>
+              <ArrowRight className="w-3 h-3" />
             </Link>
           </div>
         </div>

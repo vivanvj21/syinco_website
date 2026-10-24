@@ -66,8 +66,34 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
   const [selectedModel, setSelectedModel] = useState<string>(initialModel);
   const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
   const [curveSpeedUnit, setCurveSpeedUnit] = useState<"m3h" | "ls">("m3h");
-  const [activeGalleryView, setActiveGalleryView] = useState<"photo" | "interface" | "cad">("photo");
   const [imageError, setImageError] = useState(false);
+  const [isCartAdded, setIsCartAdded] = useState(false);
+
+  const allImages = React.useMemo(() => {
+    const list: Array<{ url: string; altText: string; caption?: string }> = [];
+    if (product.heroImage?.url) {
+      list.push({
+        url: product.heroImage.url,
+        altText: product.heroImage.altText || product.name,
+        caption: "Primary Equipment View",
+      });
+    }
+    if (product.gallery && product.gallery.length > 0) {
+      for (const item of product.gallery) {
+        if (!list.some((existing) => existing.url === item.url)) {
+          list.push({
+            url: item.url,
+            altText: item.altText || product.name,
+            caption: item.caption || "Equipment Detail View",
+          });
+        }
+      }
+    }
+    return list;
+  }, [product]);
+
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const activeImage = allImages[selectedImageIndex] || allImages[0];
 
   const handleModelSelect = (m: string) => {
     setSelectedModel(m);
@@ -261,14 +287,14 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
         {/* Left Column (55%): Precision Visual & Schematic Gallery */}
         <div className="lg:col-span-7 flex flex-col gap-3">
           <div className="w-full bg-white border border-border-light rounded-md overflow-hidden relative shadow-xs aspect-4/3 flex items-center justify-center p-4">
-            {activeGalleryView === "photo" && product.heroImage?.url && !imageError ? (
+            {activeImage?.url && !imageError ? (
               <Image
-                src={product.heroImage.url}
-                alt={product.heroImage.altText || product.name}
-                width={product.heroImage.width || 800}
-                height={product.heroImage.height || 600}
-                priority
-                unoptimized={product.heroImage.url.startsWith("http")}
+                src={activeImage.url}
+                alt={activeImage.altText || product.name}
+                width={800}
+                height={600}
+                priority={selectedImageIndex === 0}
+                unoptimized={activeImage.url.startsWith("http")}
                 onError={() => setImageError(true)}
                 className="w-full h-full max-h-[440px] object-contain transition-all duration-300"
               />
@@ -276,86 +302,41 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
               <ProductPlaceholder
                 type={isComponent ? "component" : "instrument"}
                 aspectRatio="4/3"
-                label={
-                  activeGalleryView === "cad"
-                    ? `${product.manufacturer.name.toUpperCase()} CAD SCHEMATIC`
-                    : activeGalleryView === "interface"
-                    ? `${product.manufacturer.name.toUpperCase()} PORT INTERFACE`
-                    : `${product.manufacturer.name.toUpperCase()} ${selectedModel} ${product.modelSeries.toUpperCase()}`
-                }
+                label={`${product.manufacturer.name.toUpperCase()} ${selectedModel} ${product.modelSeries.toUpperCase()}`}
               />
             )}
           </div>
 
-          {/* Thumbnail Strip */}
-          <div className="grid grid-cols-3 gap-2">
-            <button
-              type="button"
-              onClick={() => setActiveGalleryView("photo")}
-              className={cn(
-                "rounded-sm p-2 text-center transition-all cursor-pointer",
-                activeGalleryView === "photo"
-                  ? "border-2 border-brand-teal bg-white shadow-2xs"
-                  : "border border-border-light bg-slate-50 hover:bg-white"
-              )}
-            >
-              <span
-                className={cn(
-                  "font-mono text-[10px] font-bold block",
-                  activeGalleryView === "photo" ? "text-brand-teal" : "text-slate-600"
-                )}
-              >
-                PRODUCT PHOTO
-              </span>
-              <span className="text-[9px] text-ink-muted block mt-0.5 truncate">
-                OEM High-Res
-              </span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveGalleryView("interface")}
-              className={cn(
-                "rounded-sm p-2 text-center transition-all cursor-pointer",
-                activeGalleryView === "interface"
-                  ? "border-2 border-brand-teal bg-white shadow-2xs"
-                  : "border border-border-light bg-slate-50 hover:bg-white"
-              )}
-            >
-              <span
-                className={cn(
-                  "font-mono text-[10px] font-bold block",
-                  activeGalleryView === "interface" ? "text-brand-teal" : "text-slate-600"
-                )}
-              >
-                {isComponent ? "PORT INTERFACE" : "STAGE & PROBES"}
-              </span>
-              <span className="text-[9px] text-ink-muted block mt-0.5 truncate">
-                {isComponent ? "Flange Config" : "Sensor Array"}
-              </span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveGalleryView("cad")}
-              className={cn(
-                "rounded-sm p-2 text-center transition-all cursor-pointer",
-                activeGalleryView === "cad"
-                  ? "border-2 border-brand-teal bg-white shadow-2xs"
-                  : "border border-border-light bg-slate-50 hover:bg-white"
-              )}
-            >
-              <span
-                className={cn(
-                  "font-mono text-[10px] font-bold block",
-                  activeGalleryView === "cad" ? "text-brand-teal" : "text-slate-600"
-                )}
-              >
-                SCHEMATIC CAD
-              </span>
-              <span className="text-[9px] text-ink-muted block mt-0.5 truncate">
-                Footprint & Envelope
-              </span>
-            </button>
-          </div>
+          {/* Gallery Thumbnails (Rendered ONLY when genuine secondary perspectives exist) */}
+          {allImages.length > 1 && (
+            <div className="flex items-center gap-2 overflow-x-auto pb-1">
+              {allImages.map((img, idx) => (
+                <button
+                  key={img.url}
+                  type="button"
+                  onClick={() => {
+                    setSelectedImageIndex(idx);
+                    setImageError(false);
+                  }}
+                  className={cn(
+                    "relative w-20 h-16 rounded-sm p-1 border transition-all cursor-pointer bg-white shrink-0 overflow-hidden flex items-center justify-center",
+                    selectedImageIndex === idx
+                      ? "border-2 border-brand-teal shadow-2xs"
+                      : "border-border-light hover:border-slate-400 bg-slate-50"
+                  )}
+                  title={img.caption || `View perspective ${idx + 1}`}
+                >
+                  <Image
+                    src={img.url}
+                    alt={img.altText}
+                    fill
+                    sizes="80px"
+                    className="object-contain p-0.5"
+                  />
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Right Column (45%): Identification, Sizing & Primary Conversion */}
@@ -445,16 +426,32 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
                     stockStatus: product.stockStatus === "hyderabad-stock" ? "ready-stock" : "dispatch-10-days",
                     thumbnailUrl: product.heroImage?.url,
                   });
+                  setIsCartAdded(true);
+                  setTimeout(() => setIsCartAdded(false), 1400);
                 }}
-                className="w-full text-xs gap-1.5"
+                className={cn(
+                  "w-full text-xs gap-1.5 transition-all cursor-pointer",
+                  isCartAdded
+                    ? "bg-emerald-50 text-emerald-800 border-emerald-500/50"
+                    : ""
+                )}
               >
-                <PackagePlus className="w-4 h-4 text-brand-teal" />
-                <span>+ Add {selectedModel} to RFQ Cart</span>
+                {isCartAdded ? (
+                  <>
+                    <Check className="w-4 h-4 text-emerald-600 stroke-[2.5]" />
+                    <span className="font-semibold text-emerald-700">Added to RFQ Cart ✓</span>
+                  </>
+                ) : (
+                  <>
+                    <PackagePlus className="w-4 h-4 text-brand-teal" />
+                    <span>+ Add {selectedModel} to RFQ Cart</span>
+                  </>
+                )}
               </Button>
             </div>
 
             {/* Contextual Pre-Sales or Supply Assurance Gateway */}
-            {isInstrument ? (
+            {product.supportsPaidSampleAnalysis ? (
               <div className="p-3 bg-brand-teal-tint/30 border border-brand-teal/30 rounded-md">
                 <div className="flex items-start gap-2 text-xs">
                   <Microscope className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
@@ -463,12 +460,12 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
                       Need Sample Validation First?
                     </span>
                     <span className="text-[11px] text-ink-muted mt-0.5 leading-relaxed">
-                      Test your custom thermoelectric pellets in our Hyderabad characterization laboratory prior to capital commitment.
+                      Test your custom specimens in our Hyderabad characterization laboratory prior to capital commitment.
                     </span>
                     <button
                       type="button"
                       onClick={() => setIsQuoteModalOpen(true)}
-                      className="mt-1.5 font-mono text-[11px] text-brand-teal font-semibold hover:underline text-left"
+                      className="mt-1.5 font-mono text-[11px] text-brand-teal font-semibold hover:underline text-left cursor-pointer"
                     >
                       Book Paid Sample Analysis in Hyderabad &rarr;
                     </button>
