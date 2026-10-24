@@ -52,8 +52,6 @@ export function FinalConversionHorizon() {
           </div>
 
           <div className="pt-3 text-[11px] font-mono text-slate-600 flex items-center justify-center gap-2">
-            <span>In-Country INR Billing</span>
-            <span>•</span>
             <Link href="/products" className="text-brand-teal hover:underline flex items-center gap-1 font-semibold group">
               <span>Browse Full Catalogue</span>
               <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />

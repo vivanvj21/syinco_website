@@ -52,18 +52,7 @@ export const fujiSpsProducts: Product[] = [
       height: 1306,
       role: "product-hero",
     },
-    gallery: [
-      {
-        url: "/images/products/fuji-sps/dr-sinter-lab-jr-hero.webp",
-        altText: "DR. SINTER LAB Jr. MS-1 Compact System",
-        caption: "DR. SINTER LAB Jr. MS-1 front perspective view",
-      },
-      {
-        url: "/images/products/fuji-sps/dr-sinter-lab-jr-212h.webp",
-        altText: "DR. SINTER LAB Jr. 212H System",
-        caption: "DR. SINTER LAB Jr. 212H laboratory console",
-      },
-    ],
+    gallery: [],
     imageSourceUrl: "https://fdc.co.jp/sps/products/img/ms_1.png",
     assetStatus: "needs-authorization",
 
@@ -318,13 +307,7 @@ export const fujiSpsProducts: Product[] = [
       height: 780,
       role: "product-hero",
     },
-    gallery: [
-      {
-        url: "/images/products/fuji-sps/25-series-hero.webp",
-        altText: "25 Series SPS Production Unit",
-        caption: "Fuji 25 Series industrial console and chamber",
-      },
-    ],
+    gallery: [],
     imageSourceUrl: "https://fdc.co.jp/sps/products/img/model25.png",
     assetStatus: "needs-authorization",
 
@@ -622,13 +605,7 @@ export const fujiSpsProducts: Product[] = [
       height: 848,
       role: "product-hero",
     },
-    gallery: [
-      {
-        url: "/images/products/fuji-sps/standard-research-production-hero.webp",
-        altText: "Standard Production SPS Facility",
-        caption: "Fuji high-tonnage production SPS unit",
-      },
-    ],
+    gallery: [],
     imageSourceUrl: "https://fdc.co.jp/sps/products/img/lab_production.png",
     assetStatus: "needs-authorization",
 
@@ -922,13 +899,7 @@ export const fujiSpsProducts: Product[] = [
       height: 974,
       role: "product-hero",
     },
-    gallery: [
-      {
-        url: "/images/products/fuji-sps/automatic-sps-hero.webp",
-        altText: "Automatic SPS System Facility",
-        caption: "Fuji automated production line configuration",
-      },
-    ],
+    gallery: [],
     imageSourceUrl: "https://fdc.co.jp/sps/products/img/automation.png",
     assetStatus: "needs-authorization",
 
@@ -1122,18 +1093,7 @@ export const fujiSpsProducts: Product[] = [
       height: 739,
       role: "product-hero",
     },
-    gallery: [
-      {
-        url: "/images/products/fuji-sps/mpsl-hero.webp",
-        altText: "Multi Process SPS System Unit",
-        caption: "MPSL dual-source heating console",
-      },
-      {
-        url: "/images/products/fuji-sps/mpsl-hf.webp",
-        altText: "Radio Frequency Heating Coil Detail",
-        caption: "Integrated high-frequency induction coil assembly",
-      },
-    ],
+    gallery: [],
     imageSourceUrl: "https://fdc.co.jp/sps/products/img/mpsl.png",
     assetStatus: "needs-authorization",
 

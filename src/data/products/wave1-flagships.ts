@@ -56,13 +56,7 @@ export const wave1FlagshipProducts: Product[] = [
       "width": 600,
       "height": 450
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/superlix-hero.webp",
-        "altText": "Ultra High Precision Thermal Expansion Measurement System by Laser Interferometer SuperLIX Preview",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -224,13 +218,7 @@ export const wave1FlagshipProducts: Product[] = [
       "width": 600,
       "height": 450
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/tcn-2omega-hero.webp",
-        "altText": "2-Omega Method Nano Thin Film Thermal Conductivity Meter TCN-2ω Preview",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -380,13 +368,7 @@ export const wave1FlagshipProducts: Product[] = [
       "width": 600,
       "height": 450
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/rmp-1-hero.webp",
-        "altText": "Rapid Multi Property Measurement System RMP-1 Preview",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -524,13 +506,7 @@ export const wave1FlagshipProducts: Product[] = [
       "width": 600,
       "height": 450
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/rhl-e-vht-p-series-hero.webp",
-        "altText": "Infrared Gold Image Furnace RHL-E/VHT/P series Preview",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -909,13 +885,7 @@ export const wave1FlagshipProducts: Product[] = [
       "width": 600,
       "height": 450
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/rta-hero.webp",
-        "altText": "Rapid Thermal Annealing System RTA series Preview",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -1150,13 +1120,7 @@ export const wave1FlagshipProducts: Product[] = [
       "width": 600,
       "height": 450
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/tms-hero.webp",
-        "altText": "High Temperature Observation System TMS series Preview",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -1346,13 +1310,7 @@ export const wave1FlagshipProducts: Product[] = [
       "width": 600,
       "height": 450
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/wet-1200-hero.webp",
-        "altText": "High Temperature Wettability Evaluation System by Contact Angle at the Solid-Liquid Interface WET-1200 Preview",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {

@@ -55,13 +55,7 @@ export const wave3HeldBackProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/qhc-qhc-hero.webp",
-        "altText": "Infrared Lamp Heating System QHC series/Variable Atmosphere Lamp Heating System VHC series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -282,13 +276,7 @@ export const wave3HeldBackProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/netsushori-hero.webp",
-        "altText": "Production Heat Treatment Furnace (Manufacturing Line Equipment)",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -433,13 +421,7 @@ export const wave3HeldBackProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/antares-spica-leonis-hero.webp",
-        "altText": "Microbial Activity Measurement System Antares/Spica/Leonis",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {

@@ -75,20 +75,7 @@ export const zem3ProductData: Product = {
     role: "product-hero",
   },
 
-  gallery: [
-    {
-      url: "/images/products/advance-riko/zem-3-hero.png",
-      altText: "ZEM-3 Main Chamber and Control Rack",
-      caption: "Main measurement chamber with infrared gold image furnace assembly",
-      isSchematicDiagram: false,
-    },
-    {
-      url: "/diagrams/zem-3-stage-schematic.svg",
-      altText: "ZEM-3 Sample Stage and Thermocouple Probe Schematic",
-      caption: "Cross-sectional schematic showing micro-heaters, sample block, and V-I probe setup",
-      isSchematicDiagram: true,
-    },
-  ],
+  gallery: [],
 
   specifications: [
     {

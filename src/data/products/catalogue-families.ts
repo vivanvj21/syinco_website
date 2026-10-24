@@ -55,13 +55,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/rtp-mini-hero.webp",
-        "altText": "Infrared lamp heating system RTP-mini",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -242,13 +236,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/f-cal-hero.webp",
-        "altText": "Thermal Flow Rate Evaluation System for Low Thermal Resistance Multilayer Substrates F-CAL",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -410,13 +398,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/zem-d-hero.webp",
-        "altText": "Polymeric Thermoelectric Sheet Evaluation System ZEM-d",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -559,13 +541,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/f-pem-hero.webp",
-        "altText": "Atmospheric Thermoelectric Module Evaluation System F-PEM",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -724,13 +700,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/pem-2-hero.webp",
-        "altText": "Power Generation Efficiency Characteristics Evaluation System PEM-2",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -905,13 +875,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/mini-pem-hero.webp",
-        "altText": "Thermoelectric Conversion Efficiency Evaluation System for Small Modules Mini-PEM",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -1049,13 +1013,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/tc-1200rh-tc-9000-hero.webp",
-        "altText": "Laser Flash Method Thermal Constant Measurement System TC-1200RH / TC-9000 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -1213,13 +1171,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/stpm-1000-hero.webp",
-        "altText": "Scanning Thermal Probe Micro-image STPM-1000",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -1424,13 +1376,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/td-1-hero.webp",
-        "altText": "Thermal Diffusivity measurement system by Xe flash method TD-1",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -1687,13 +1633,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/laserpit-hero.webp",
-        "altText": "AC Method Thermal Diffusivity Measurement System LaserPIT",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -1897,13 +1837,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/ftc-hero.webp",
-        "altText": "Periodical Heating Method Thermal Diffusivity Measurement System FTC series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -2131,13 +2065,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/gh-1-hero.webp",
-        "altText": "Steady Method Thermal Conductivity Measurement System GH series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -2287,13 +2215,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/ehr-hero.webp",
-        "altText": "Electric Heat Resistance Measurment System EHR series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -2497,13 +2419,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/ter-hero.webp",
-        "altText": "Electric Resistance Measurement System for Metals and Semiconductors TER series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -2699,13 +2615,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/sh-3000-hero.webp",
-        "altText": "Adiabatic Specific Heat Measurement System SH-3000 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -2878,13 +2788,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/dl-9000-dly-9000-hero.webp",
-        "altText": "Thermodilatometer DL-9000 / DLY-9000 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -3140,13 +3044,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/dly-9000-robot-hero.webp",
-        "altText": "Robotic Thermal Dilatometer DLY-9000 ROBOT",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -3293,13 +3191,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/lix-hero.webp",
-        "altText": "Thermal Expansion  Measurment Systemby Laser Interferometer LIX-2 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -3486,13 +3378,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/tm-9000-hero.webp",
-        "altText": "Thermoｍechanical Analyzer TM-9000 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -3674,13 +3560,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/tgd-9000-hero.webp",
-        "altText": "Thermogravimetry / Differential Thermal Analyzer TGD-9000 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -3882,13 +3762,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/dsc-r-hero.webp",
-        "altText": "Differential Scanning Calorimeter DSC-R series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -4064,13 +3938,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/vpe-9000-hero.webp",
-        "altText": "Vapor Pressure Evaluation System VPE-9000<vacuum thermobalance>",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -4224,13 +4092,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/trs-hero.webp",
-        "altText": "Organic Pigment Material Sublimating / Refining System TRS series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -4432,13 +4294,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/pspss-hero.webp",
-        "altText": "Infrared Gold Image Furnace Ps, Pss series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -4734,13 +4590,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/tpc-5000-hero.webp",
-        "altText": "Programmable Temperature Controller TPC-5000 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -4896,13 +4746,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/rtp-6-hero.webp",
-        "altText": "Low Cost Infrared Lamp Heating System for R&D RTP-6",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -5103,13 +4947,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/mila-5050-hero.webp",
-        "altText": "Mini Lamp Annealer  MILA-5050",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -5293,13 +5131,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/mila-5000-hero.webp",
-        "altText": "Mini Lamp Annealer MILA-5000 series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -5523,13 +5355,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/mila-700ar-hero.webp",
-        "altText": "Mini Lamp Annealer with air-cooling system MILA-700AR",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -5681,13 +5507,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/ssa-hero.webp",
-        "altText": "Simplified Infrared Lamp Heating System SSA series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -5943,13 +5763,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/miro-hero.webp",
-        "altText": "Spot Focused Infrared Gold Image Furnace System series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -6188,13 +6002,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/cas-59aq-hero.webp",
-        "altText": "Rapid Heating / Water Quenching System CAS-59AQ",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -6346,13 +6154,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/ht-rta59hd-hero.webp",
-        "altText": "High Temperature Rapid Thermal Annealing System  HT-RTA59HD",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -6531,13 +6333,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/cas-hero.webp",
-        "altText": "Continuous Annealing System for Steel Sheet CAS series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -6675,13 +6471,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/microit-1-hero.webp",
-        "altText": "Micro-Indentation Tester μIT-1",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -6820,13 +6610,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/aps-1-hero.webp",
-        "altText": "Arc Plasma Source APS-1",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -6985,13 +6769,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/apd-hero.webp",
-        "altText": "Arc-Plasma method nano-particle Deposition System APD series",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -7168,13 +6946,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/tds-m202r-hero.webp",
-        "altText": "Temperature-Programmed Desorption Gas Analyzer TDS-M202R",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -7335,13 +7107,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/hs-9000-hero.webp",
-        "altText": "Handy Spot welder HS-9000",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {
@@ -7498,13 +7264,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "width": 300,
       "height": 300
     },
-    "gallery": [
-      {
-        "url": "/images/products/advance-riko/ha-1h-hero.webp",
-        "altText": "Handy Arc welder HA-1H",
-        "isSchematicDiagram": true
-      }
-    ],
+    "gallery": [],
     "assetStatus": "needs-high-resolution-asset",
     "specifications": [
       {

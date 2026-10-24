@@ -12,7 +12,7 @@ export interface StockStatusProps extends React.HTMLAttributes<HTMLDivElement> {
 export function StockStatus({
   className,
   status,
-  inrInvoicing = true,
+  inrInvoicing = false,
   leadTimeWeeks,
   ...props
 }: StockStatusProps) {
@@ -26,7 +26,7 @@ export function StockStatus({
         {...props}
       >
         <Check className="w-3.5 h-3.5 text-emerald-600 stroke-[2.5]" />
-        <span>Hyderabad Stock {inrInvoicing && "• In-Country INR Billing"}</span>
+        <span>Hyderabad Stock</span>
       </div>
     );
   }
@@ -41,7 +41,7 @@ export function StockStatus({
     >
       <Clock className="w-3.5 h-3.5 text-amber-600" />
       <span>
-        Built-to-Order {leadTimeWeeks ? `(${leadTimeWeeks} Wks)` : ""} {inrInvoicing && "• INR Billing"}
+        Built-to-Order {leadTimeWeeks ? `(${leadTimeWeeks} Wks)` : ""}
       </span>
     </div>
   );

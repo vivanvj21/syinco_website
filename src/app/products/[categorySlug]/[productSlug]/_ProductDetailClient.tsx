@@ -69,31 +69,12 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
   const [imageError, setImageError] = useState(false);
   const [isCartAdded, setIsCartAdded] = useState(false);
 
-  const allImages = React.useMemo(() => {
-    const list: Array<{ url: string; altText: string; caption?: string }> = [];
-    if (product.heroImage?.url) {
-      list.push({
+  const productImage = product.heroImage?.url
+    ? {
         url: product.heroImage.url,
         altText: product.heroImage.altText || product.name,
-        caption: "Primary Equipment View",
-      });
-    }
-    if (product.gallery && product.gallery.length > 0) {
-      for (const item of product.gallery) {
-        if (!list.some((existing) => existing.url === item.url)) {
-          list.push({
-            url: item.url,
-            altText: item.altText || product.name,
-            caption: item.caption || "Equipment Detail View",
-          });
-        }
       }
-    }
-    return list;
-  }, [product]);
-
-  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-  const activeImage = allImages[selectedImageIndex] || allImages[0];
+    : null;
 
   const handleModelSelect = (m: string) => {
     setSelectedModel(m);
@@ -284,17 +265,17 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
 
       {/* 2. Hero Conversion Module (2-Column Asymmetric Grid) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 border-b border-border-light pb-10">
-        {/* Left Column (55%): Precision Visual & Schematic Gallery */}
+        {/* Left Column (55%): Precision Equipment Visual */}
         <div className="lg:col-span-7 flex flex-col gap-3">
           <div className="w-full bg-white border border-border-light rounded-md overflow-hidden relative shadow-xs aspect-4/3 flex items-center justify-center p-4">
-            {activeImage?.url && !imageError ? (
+            {productImage?.url && !imageError ? (
               <Image
-                src={activeImage.url}
-                alt={activeImage.altText || product.name}
+                src={productImage.url}
+                alt={productImage.altText || product.name}
                 width={800}
                 height={600}
-                priority={selectedImageIndex === 0}
-                unoptimized={activeImage.url.startsWith("http")}
+                priority
+                unoptimized={productImage.url.startsWith("http")}
                 onError={() => setImageError(true)}
                 className="w-full h-full max-h-[440px] object-contain transition-all duration-300"
               />
@@ -306,37 +287,6 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
               />
             )}
           </div>
-
-          {/* Gallery Thumbnails (Rendered ONLY when genuine secondary perspectives exist) */}
-          {allImages.length > 1 && (
-            <div className="flex items-center gap-2 overflow-x-auto pb-1">
-              {allImages.map((img, idx) => (
-                <button
-                  key={img.url}
-                  type="button"
-                  onClick={() => {
-                    setSelectedImageIndex(idx);
-                    setImageError(false);
-                  }}
-                  className={cn(
-                    "relative w-20 h-16 rounded-sm p-1 border transition-all cursor-pointer bg-white shrink-0 overflow-hidden flex items-center justify-center",
-                    selectedImageIndex === idx
-                      ? "border-2 border-brand-teal shadow-2xs"
-                      : "border-border-light hover:border-slate-400 bg-slate-50"
-                  )}
-                  title={img.caption || `View perspective ${idx + 1}`}
-                >
-                  <Image
-                    src={img.url}
-                    alt={img.altText}
-                    fill
-                    sizes="80px"
-                    className="object-contain p-0.5"
-                  />
-                </button>
-              ))}
-            </div>
-          )}
         </div>
 
         {/* Right Column (45%): Identification, Sizing & Primary Conversion */}

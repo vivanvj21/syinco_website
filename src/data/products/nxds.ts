@@ -49,24 +49,7 @@ export const nxdsProductData: Product = {
     "reviewRequired": false,
     "selectionReason": "Front cover / page 1 overview | Isolated OEM transparency mask (smask) | High resolution asset (>=700x500) | Continuous-tone photographic depth (midtones 43.4%)"
   },
-  "gallery": [
-    {
-      "url": "/images/products/edwards/nxds-front-iso.webp",
-      "altText": "Edwards nXDS Isometric Assembly View",
-      "caption": "Front perspective showing NW25 inlet port and inverter cowl"
-    },
-    {
-      "url": "/images/products/edwards/nxds-ports.webp",
-      "altText": "Edwards nXDS Flange Interface",
-      "caption": "NW25 quick-clamp inlet and exhaust ports with centering ring"
-    },
-    {
-      "url": "/images/products/edwards/nxds-cad-drawing.webp",
-      "altText": "Edwards nXDS Dimensional CAD Footprint",
-      "caption": "Mounting holes and dimensional envelope schematic",
-      "isSchematicDiagram": true
-    }
-  ],
+  "gallery": [],
   "targetIndustries": [
     "Semiconductor Cleanroom & Load Locks",
     "Analytical Instrumentation & Mass Spectrometry",
