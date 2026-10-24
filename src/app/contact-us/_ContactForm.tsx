@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Phone, Mail, MapPin, ShieldCheck, Send, CheckCircle2, Building2, Factory } from "lucide-react";
+import { Send, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 export default function ContactUsPage() {
@@ -51,99 +51,11 @@ export default function ContactUsPage() {
         </div>
       </section>
 
-      {/* 2. Contact Grid */}
+      {/* 2. Contact Section */}
       <section className="py-12 bg-surface-light border-b border-border-light">
         <div className="max-w-container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            {/* Left Column: Direct Contact Information */}
-            <div className="lg:col-span-5 space-y-6">
-              <div className="bg-white border border-border-light rounded-sm p-6 space-y-5">
-                <div>
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-brand-teal font-bold block mb-1">
-                    Corporate &amp; Works Directory
-                  </span>
-                  <h2 className="font-display font-bold text-lg text-slate-900 leading-tight">
-                    SYINCO TECHNOLOGIES
-                  </h2>
-                  <p className="text-xs font-sans text-slate-600 mt-2 leading-relaxed">
-                    Manufacture, Sales and Services of Advanced, Customized and Specialized Systems, Instruments and Components for Metallurgy, Thermal, Thermoelectric, Vacuum, Analytical and Medical application. NDT &amp; Helium Leak Testing Services.
-                  </p>
-                </div>
-
-                <div className="space-y-4 text-xs font-sans text-slate-700 pt-2 border-t border-border-light">
-                  {/* Registered Office */}
-                  <div className="flex items-start gap-3">
-                    <Building2 className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Registered Office</strong>
-                      <span className="leading-relaxed">
-                        Flat No. B-313, Plot No.1&amp;7, ACE Ajanta Apartments, GSI (SR) Post office, Fatullaguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Works Facility */}
-                  <div className="flex items-start gap-3">
-                    <Factory className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Works &amp; Calibration Facility</strong>
-                      <span className="leading-relaxed">
-                        H.No.2-50, Plot No.194, Sri Venkateswara Colony, GSI (SR) Post Office, Mattuguda, Nagole, Hyderabad 500068, Ranga Reddy, Telangana, India.
-                      </span>
-                      <span className="block text-[11px] text-brand-teal font-mono font-semibold mt-1">
-                        Landmark: 9HCM+329 Hyderabad (Opp. PeopleLink Factory)
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Telephones & Fax */}
-                  <div className="flex items-start gap-3">
-                    <Phone className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Telephone &amp; Fax</strong>
-                      <div className="font-mono text-xs text-slate-800 space-y-0.5">
-                        <div>
-                          Tel: <a href="tel:+914024142929" className="text-brand-teal font-bold hover:underline">+91 (40) 24142929</a>, <a href="tel:+914024143939" className="text-brand-teal font-bold hover:underline">24143939</a>
-                        </div>
-                        <div>
-                          Mobile Desk: <a href="tel:+917382292929" className="text-brand-teal font-bold hover:underline">+91 73822 92929</a>
-                        </div>
-                        <div className="text-slate-500 text-[11px]">
-                          Fax: +91 (40) 24143939
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Emails */}
-                  <div className="flex items-start gap-3">
-                    <Mail className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="block text-slate-900 font-semibold mb-0.5">Official E-mail</strong>
-                      <div className="space-y-0.5 font-mono text-xs">
-                        <a href="mailto:info@syinco.in" className="text-brand-teal hover:underline block">
-                          info@syinco.in
-                        </a>
-                        <a href="mailto:syincoindia@gmail.com" className="text-slate-700 hover:underline block">
-                          syincoindia@gmail.com
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="pt-4 border-t border-border-light/80 space-y-2 text-[11px] font-mono text-slate-500">
-                  <div className="flex items-center gap-2">
-                    <ShieldCheck className="w-3.5 h-3.5 text-brand-teal shrink-0" />
-                    <span>Government Tender Compliance (GeM / CPPP)</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Column: Interactive Consultation & RFQ Form */}
-            <div className="lg:col-span-7 bg-white border border-border-light rounded-sm p-6 sm:p-8">
-              {submitted ? (
+          <div className="max-w-3xl mx-auto bg-white border border-border-light rounded-sm p-6 sm:p-8 shadow-xs">
+            {submitted ? (
                 <div className="py-12 text-center space-y-3">
                   <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
                     <CheckCircle2 className="w-6 h-6" />
@@ -297,7 +209,6 @@ export default function ContactUsPage() {
                   </div>
                 </form>
               )}
-            </div>
           </div>
         </div>
       </section>
