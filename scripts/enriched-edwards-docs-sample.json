@@ -1,0 +1,117 @@
+[
+  {
+    "id": "edwards-nxds-series",
+    "docs": [
+      {
+        "id": "EDW-DOC-NXDS-DS",
+        "title": "Edwards nXDS Series Technical Datasheet",
+        "type": "datasheet",
+        "format": "pdf",
+        "fileSizeBytes": 1845000,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0428-01-XDS-datasheet.pdf",
+        "isGated": false
+      },
+      {
+        "id": "EDW-BR-SCROLL",
+        "title": "Edwards nXDS & XDS Dry Scroll Vacuum Pumps - Official Brochure",
+        "type": "brochure",
+        "format": "pdf",
+        "fileSizeBytes": 3150000,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0088-01-nXDS-brochure.pdf",
+        "isGated": false
+      }
+    ]
+  },
+  {
+    "id": "edwards-cdx-series",
+    "docs": [
+      {
+        "id": "EDW-DOC-CDX-DS",
+        "title": "Edwards CDX 1000-1300 Dry Screw Pumps - Engineering Datasheet",
+        "type": "datasheet",
+        "format": "pdf",
+        "fileSizeBytes": 3083601,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602120401-CDX1000-1300-EN-Web.pdf",
+        "isGated": false
+      },
+      {
+        "id": "EDW-DOC-001",
+        "title": "CDX 1000-1300 Dry Screw Vacuum Pumps - Brochure",
+        "type": "brochure",
+        "format": "pdf",
+        "fileSizeBytes": 3083601,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602120401-CDX1000-1300-EN-Web.pdf",
+        "isGated": false
+      }
+    ]
+  },
+  {
+    "id": "edwards-edp-series",
+    "docs": [
+      {
+        "id": "EDW-DOC-002",
+        "title": "EDP Chemical Dry Vacuum Pump - Datasheet",
+        "type": "datasheet",
+        "format": "pdf",
+        "fileSizeBytes": 799980,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/edwards-EDP-dry-pumps-data-sheet.pdf",
+        "isGated": false
+      },
+      {
+        "id": "EDW-DOC-003",
+        "title": "EDP Chemical Dry Pump - Brochure",
+        "type": "brochure",
+        "format": "pdf",
+        "fileSizeBytes": 6829872,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602%20119%203%2001_EDP%20Chemical%20Brochure_Web.pdf",
+        "isGated": false
+      }
+    ]
+  },
+  {
+    "id": "edwards-eds-chemical-series",
+    "docs": [
+      {
+        "id": "EDW-DOC-EDSC-DS",
+        "title": "Edwards EDS-C Chemical Dry Screw Pumps - Technical Datasheet",
+        "type": "datasheet",
+        "format": "pdf",
+        "fileSizeBytes": 8875976,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
+        "isGated": false
+      },
+      {
+        "id": "EDW-DOC-004",
+        "title": "EDS Chemical Dry Screw Vacuum Pumps - Brochure",
+        "type": "brochure",
+        "format": "pdf",
+        "fileSizeBytes": 8875976,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
+        "isGated": false
+      }
+    ]
+  },
+  {
+    "id": "edwards-xdd1-series",
+    "docs": [
+      {
+        "id": "EDW-DOC-005",
+        "title": "XDD1 Diaphragm Vacuum Pump - Datasheet",
+        "type": "datasheet",
+        "format": "pdf",
+        "fileSizeBytes": 320259,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/diaphragm-pumps/3601-0472-01-XDD1-Datasheet.pdf",
+        "isGated": false
+      },
+      {
+        "id": "EDW-BR-RND",
+        "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
+        "type": "brochure",
+        "format": "pdf",
+        "fileSizeBytes": 4210000,
+        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "isGated": false
+      }
+    ]
+  }
+]

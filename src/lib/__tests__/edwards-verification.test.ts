@@ -31,17 +31,23 @@ test('Edwards Vacuum End-to-End Verification Test Suite', async (t) => {
     }
   });
 
-  await t.test('3. Physical File Integrity: All Linked Edwards Document Files Exist on Disk', () => {
+  await t.test('3. Document URL Integrity: All Linked Documents Use Authentic Official OEM Publications', () => {
     for (const p of edwardsProducts) {
       for (const doc of p.documents) {
         assert.ok(
-          doc.fileUrl.startsWith('/documents/'),
-          `Document URL must point to local /documents/ directory, found: ${doc.fileUrl}`
+          doc.fileUrl.startsWith('https://www.edwardsvacuum.com/') ||
+          doc.fileUrl.startsWith('https://digitalbrochure.edwardsvacuum.com/') ||
+          doc.fileUrl.startsWith('https://edwardsvacuum.com/'),
+          `Document URL must point to authentic Edwards official publication, found: ${doc.fileUrl} in ${p.id}`
         );
-        const absolutePath = path.join(process.cwd(), 'public', doc.fileUrl.replace(/^\//, ''));
-        assert.ok(fs.existsSync(absolutePath), `File must exist on disk: ${absolutePath} (linked from ${p.id})`);
-        const stat = fs.statSync(absolutePath);
-        assert.ok(stat.size > 500, `PDF file ${doc.fileUrl} must be non-empty (>500 bytes), found ${stat.size} bytes`);
+        // Ensure zero synthetic generated PDFs exist in product documents
+        assert.ok(
+          !doc.fileUrl.startsWith('/documents/edwards/'),
+          `Product ${p.id} must not use synthetic generated PDFs: ${doc.fileUrl}`
+        );
+        assert.ok(doc.title && doc.title.length > 5, `Document in ${p.id} must have descriptive title: ${doc.title}`);
+        assert.ok(doc.fileSizeBytes && doc.fileSizeBytes > 10000, `Document in ${p.id} must have realistic file size`);
+        assert.equal(doc.format, 'pdf', `Document format must be pdf`);
       }
     }
   });
