@@ -5,7 +5,6 @@ import { PrincipalShowcase } from "@/components/business/PrincipalShowcase";
 import { CuratedFlagshipGrid } from "@/components/business/CuratedFlagshipGrid";
 import { IndustriesSection } from "@/components/business/IndustriesSection";
 import { ServicesOverviewModule } from "@/components/business/ServicesOverviewModule";
-import { FinalConversionHorizon } from "@/components/business/FinalConversionHorizon";
 
 export const metadata: Metadata = {
   title: "SYINCO TECHNOLOGIES | Precision Scientific Systems, Vacuum & Thermal Instrumentation",
@@ -30,9 +29,6 @@ export default function HomePage() {
 
       {/* 5. DOMESTIC ENGINEERING SERVICES */}
       <ServicesOverviewModule />
-
-      {/* 6. CONVERSION HORIZON */}
-      <FinalConversionHorizon />
     </main>
   );
 }
