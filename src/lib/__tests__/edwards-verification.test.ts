@@ -31,22 +31,26 @@ test('Edwards Vacuum End-to-End Verification Test Suite', async (t) => {
     }
   });
 
-  await t.test('3. Document URL Integrity: All Linked Documents Use Authentic Official OEM Publications', () => {
+  await t.test('3. Document Physical Integrity: All Linked Documents Are Locally Hosted Authentic PDFs', () => {
     for (const p of edwardsProducts) {
       for (const doc of p.documents) {
         assert.ok(
-          doc.fileUrl.startsWith('https://www.edwardsvacuum.com/') ||
-          doc.fileUrl.startsWith('https://digitalbrochure.edwardsvacuum.com/') ||
-          doc.fileUrl.startsWith('https://edwardsvacuum.com/'),
-          `Document URL must point to authentic Edwards official publication, found: ${doc.fileUrl} in ${p.id}`
+          doc.fileUrl.startsWith('/documents/edwards/'),
+          `Document URL must be locally hosted in /documents/edwards/, found: ${doc.fileUrl} in ${p.id}`
         );
-        // Ensure zero synthetic generated PDFs exist in product documents
-        assert.ok(
-          !doc.fileUrl.startsWith('/documents/edwards/'),
-          `Product ${p.id} must not use synthetic generated PDFs: ${doc.fileUrl}`
-        );
+        const absolutePath = path.join(process.cwd(), 'public', doc.fileUrl.replace(/^\//, ''));
+        assert.ok(fs.existsSync(absolutePath), `Document file must exist on disk: ${absolutePath}`);
+        const stat = fs.statSync(absolutePath);
+        assert.ok(stat.size > 10000, `Authentic OEM PDF must be > 10KB, found: ${stat.size} bytes for ${doc.fileUrl}`);
+        
+        // Check magic bytes
+        const buf = Buffer.alloc(5);
+        const fd = fs.openSync(absolutePath, 'r');
+        fs.readSync(fd, buf, 0, 5, 0);
+        fs.closeSync(fd);
+        assert.equal(buf.toString(), '%PDF-', `File must be a genuine PDF: ${absolutePath}`);
+
         assert.ok(doc.title && doc.title.length > 5, `Document in ${p.id} must have descriptive title: ${doc.title}`);
-        assert.ok(doc.fileSizeBytes && doc.fileSizeBytes > 10000, `Document in ${p.id} must have realistic file size`);
         assert.equal(doc.format, 'pdf', `Document format must be pdf`);
       }
     }

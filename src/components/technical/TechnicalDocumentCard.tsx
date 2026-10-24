@@ -38,9 +38,15 @@ export function TechnicalDocumentCard({
           <FileText className="w-4 h-4" />
         </div>
         <div className="flex flex-col min-w-0">
-          <span className="text-xs font-sans font-semibold text-ink-primary truncate group-hover:text-brand-teal transition-colors">
+          <a
+            href={downloadUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="text-xs font-sans font-semibold text-ink-primary truncate hover:text-brand-teal transition-colors"
+          >
             {title}
-          </span>
+          </a>
           <div className="flex items-center gap-2 mt-0.5">
             <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-slate-600 bg-slate-100 px-1.5 py-0.2 rounded-xs">
               {format}
@@ -58,6 +64,8 @@ export function TechnicalDocumentCard({
       <a
         href={downloadUrl}
         download
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label={`Download ${title}`}
         className="flex items-center justify-center w-8 h-8 rounded-sm border border-border-light bg-surface-card text-ink-primary hover:border-brand-teal hover:text-brand-teal focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-teal shrink-0 ml-3 transition-colors"
       >

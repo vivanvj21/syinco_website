@@ -5,7 +5,7 @@ import type { Product } from "@/types/product";
  * Provenance Audit:
  * - Operating specifications, flanges, noise levels, models: VERIFIED (Edwards OEM Engineering Datasheet)
  * - Accessory Part Numbers (Tip-seal kits, silencer): VERIFIED (Edwards Spares Manual)
- * - Authentic Documents: Technical Datasheet & Official Edwards nXDS Product Engineering Brochure
+ * - Authentic Documents: Technical Datasheet & Official Edwards nXDS Product Engineering Brochure (Locally Hosted)
  */
 export const nxdsProductData: Product = {
   "id": "edwards-nxds-series",
@@ -385,8 +385,8 @@ export const nxdsProductData: Product = {
       "title": "Edwards nXDS Series Technical Datasheet",
       "type": "datasheet",
       "format": "pdf",
-      "fileSizeBytes": 1845000,
-      "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0428-01-XDS-datasheet.pdf",
+      "fileSizeBytes": 2238000,
+      "fileUrl": "/documents/edwards/3601-0428-01-XDS-datasheet.pdf",
       "isGated": false
     },
     {
@@ -394,8 +394,8 @@ export const nxdsProductData: Product = {
       "title": "Edwards nXDS & XDS Dry Scroll Vacuum Pumps - Official Brochure",
       "type": "brochure",
       "format": "pdf",
-      "fileSizeBytes": 3150000,
-      "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0088-01-nXDS-brochure.pdf",
+      "fileSizeBytes": 4195887,
+      "fileUrl": "/documents/edwards/3601-0088-01-nXDS-brochure.pdf",
       "isGated": false
     }
   ],

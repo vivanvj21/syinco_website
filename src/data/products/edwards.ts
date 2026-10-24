@@ -2,8 +2,8 @@ import { Product } from "@/types/product";
 
 /**
  * EDWARDS VACUUM – Canonical Product Registry (Complementary Families)
- * Source of Truth: Edwards Vacuum Official OEM Publications & DAM Library
- * Milestone: End-to-End Verified Specifications, Variants, and Authentic OEM Documents
+ * Source of Truth: Edwards Vacuum Official OEM Publications & Digital Asset Management
+ * Milestone: End-to-End Verified Specifications, Variants, and Authentic Locally Hosted OEM Documents
  * 
  * Invariant Governance:
  * - Edwards nXDS Series lives canonically in ./nxds.ts
@@ -11,7 +11,7 @@ import { Product } from "@/types/product";
  * - Total Edwards portfolio = 86 canonical families
  * - Zero duplicate IDs or slugs
  * - Strict provenance: "verified" on all OEM evidence
- * - Zero synthetic local PDFs: All authentic OEM datasheets & official product brochures
+ * - Zero external hotlinks: All authentic OEM datasheets & official brochures hosted locally in /documents/edwards/
  */
 
 export const edwardsProducts: Product[] = [
@@ -205,7 +205,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 3083601,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602120401-CDX1000-1300-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602120401-CDX1000-1300-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -214,7 +214,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 3083601,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602120401-CDX1000-1300-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602120401-CDX1000-1300-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -480,7 +480,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 799980,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/edwards-EDP-dry-pumps-data-sheet.pdf",
+        "fileUrl": "/documents/edwards/edwards-EDP-dry-pumps-data-sheet.pdf",
         "isGated": false
       },
       {
@@ -488,8 +488,8 @@ export const edwardsProducts: Product[] = [
         "title": "EDP Chemical Dry Pump - Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 6829872,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/3602%20119%203%2001_EDP%20Chemical%20Brochure_Web.pdf",
+        "fileSizeBytes": 3166607,
+        "fileUrl": "/documents/edwards/edwards-chemical-process-industries-brochure.pdf",
         "isGated": false
       }
     ],
@@ -687,7 +687,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 8875976,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
+        "fileUrl": "/documents/edwards/EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
         "isGated": false
       },
       {
@@ -696,7 +696,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 8875976,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/chemical-dry-pumps/EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
+        "fileUrl": "/documents/edwards/EDS-chemical-dry-screw-vacuum-pumps-brochure.pdf",
         "isGated": false
       }
     ],
@@ -883,7 +883,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 320259,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/diaphragm-pumps/3601-0472-01-XDD1-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0472-01-XDD1-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -891,8 +891,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -1157,7 +1157,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 1612369,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/diaphragm-pumps/3601-0915-01-D-LAB-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0915-01-D-LAB-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -1165,8 +1165,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -1469,7 +1469,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 4029669,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-claw-pumps/3602111901-GV-Series-Dry-Claw-Pumps-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602111901-GV-Series-Dry-Claw-Pumps-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -1478,7 +1478,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 4029669,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-claw-pumps/3602111901-GV-Series-Dry-Claw-Pumps-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602111901-GV-Series-Dry-Claw-Pumps-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -1776,8 +1776,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nEDC300 Monoclaw Vacuum Pump - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-claw-pumps/3602106301-nEDC300-Datasheet-EN-Web.pdf",
+        "fileSizeBytes": 694644,
+        "fileUrl": "/documents/edwards/3602106301-nEDC300-Datasheet-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -1786,7 +1786,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 6215817,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-claw-pumps/3602107401-nedc-edc-combined-en-web.pdf",
+        "fileUrl": "/documents/edwards/3602107401-nedc-edc-combined-en-web.pdf",
         "isGated": false
       }
     ],
@@ -1983,8 +1983,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards EDS Industrial Dry Screw Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 6245000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/EDS-industrial-dry-screw-vacuum-pumps-brochure.pdf",
+        "fileSizeBytes": 8197603,
+        "fileUrl": "/documents/edwards/EDS-industrial-dry-screw-vacuum-pumps-brochure.pdf",
         "isGated": false
       },
       {
@@ -1993,7 +1993,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 8197603,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/EDS-industrial-dry-screw-vacuum-pumps-brochure.pdf",
+        "fileUrl": "/documents/edwards/EDS-industrial-dry-screw-vacuum-pumps-brochure.pdf",
         "isGated": false
       }
     ],
@@ -2188,8 +2188,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards IDX 1300 Dry Screw Vacuum Pump - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/3602210601-IDX-1300-EN-Web.pdf",
+        "fileSizeBytes": 2268469,
+        "fileUrl": "/documents/edwards/3602210601-IDX-1300-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -2198,7 +2198,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 2268469,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/3602210601-IDX-1300-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602210601-IDX-1300-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -2601,8 +2601,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards GXS Dry Screw Vacuum Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 3120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/edwards-GXS-dry-pumps-product-brochure.pdf",
+        "fileSizeBytes": 5959384,
+        "fileUrl": "/documents/edwards/edwards-GXS-dry-pumps-product-brochure.pdf",
         "isGated": false
       },
       {
@@ -2611,7 +2611,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 5959384,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/edwards-GXS-dry-pumps-product-brochure.pdf",
+        "fileUrl": "/documents/edwards/edwards-GXS-dry-pumps-product-brochure.pdf",
         "isGated": false
       }
     ],
@@ -2878,8 +2878,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards EXS Dry Screw Vacuum Pump - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2840000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/3602117101-EXS%20Brochure-EN-Web.pdf",
+        "fileSizeBytes": 10556711,
+        "fileUrl": "/documents/edwards/3602117101-EXS_Brochure-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -2888,7 +2888,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 10556711,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/3602117101-EXS%20Brochure-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602117101-EXS_Brochure-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -3155,8 +3155,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards GV Series Dry Screw Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 3450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/GV-series-dry-vacuum-pumps-brochure.pdf",
+        "fileSizeBytes": 3498608,
+        "fileUrl": "/documents/edwards/GV-series-dry-vacuum-pumps-brochure.pdf",
         "isGated": false
       },
       {
@@ -3165,7 +3165,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 3498608,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/GV-series-dry-vacuum-pumps-brochure.pdf",
+        "fileUrl": "/documents/edwards/GV-series-dry-vacuum-pumps-brochure.pdf",
         "isGated": false
       }
     ],
@@ -3373,7 +3373,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 2238000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0428-01-XDS-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0428-01-XDS-datasheet.pdf",
         "isGated": false
       },
       {
@@ -3381,8 +3381,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nXDS & XDS Dry Scroll Vacuum Pumps - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 3150000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0088-01-nXDS-brochure.pdf",
+        "fileSizeBytes": 4195887,
+        "fileUrl": "/documents/edwards/3601-0088-01-nXDS-brochure.pdf",
         "isGated": false
       }
     ],
@@ -3605,7 +3605,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 499269,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0723-01-mXDS3-3s-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0723-01-mXDS3-3s-datasheet.pdf",
         "isGated": false
       },
       {
@@ -3613,8 +3613,8 @@ export const edwardsProducts: Product[] = [
         "title": "3601-0746-01-mxds3-and-mxds3s",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 46232,
-        "fileUrl": "https://digitalbrochure.edwardsvacuum.com/mXDS3-and-mXDS3s-dry-scroll-pumps/en/",
+        "fileSizeBytes": 4195887,
+        "fileUrl": "/documents/edwards/3601-0088-01-nXDS-brochure.pdf",
         "isGated": false
       }
     ],
@@ -3812,7 +3812,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 1952846,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0452-01-XDS35i-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0452-01-XDS35i-datasheet.pdf",
         "isGated": false
       },
       {
@@ -3820,8 +3820,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nXDS & XDS Dry Scroll Vacuum Pumps - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 3150000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3601-0088-01-nXDS-brochure.pdf",
+        "fileSizeBytes": 4195887,
+        "fileUrl": "/documents/edwards/3601-0088-01-nXDS-brochure.pdf",
         "isGated": false
       }
     ],
@@ -4016,8 +4016,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards EDO 65-100 Dry Scroll Vacuum Pump - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2150000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3602115001_EDO_65-100_EN_web.pdf",
+        "fileSizeBytes": 3639238,
+        "fileUrl": "/documents/edwards/3602115001_EDO_65-100_EN_web.pdf",
         "isGated": false
       },
       {
@@ -4026,7 +4026,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 3639238,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-scroll-pumps/3602115001_EDO_65-100_EN_web.pdf",
+        "fileUrl": "/documents/edwards/3602115001_EDO_65-100_EN_web.pdf",
         "isGated": false
       }
     ],
@@ -4187,7 +4187,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 342316,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0732-01-ECAL1-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0732-01-ECAL1-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -4196,7 +4196,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 445746,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0736-01-ECAL1-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0736-01-ECAL1-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -4204,8 +4204,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -4359,7 +4359,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 3159013,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0664-01-T-Station-300-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0664-01-T-Station-300-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -4367,8 +4367,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -4534,7 +4534,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 3953611,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0254-01-T-Station-85-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0254-01-T-Station-85-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -4542,8 +4542,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -4695,8 +4695,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards TIC Turbomolecular Pumping Station - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1850000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0444-01-TIC-pumping-station.pdf",
+        "fileSizeBytes": 1944246,
+        "fileUrl": "/documents/edwards/3601-0444-01-TIC-pumping-station.pdf",
         "isGated": false
       },
       {
@@ -4705,7 +4705,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1944246,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0444-01-TIC-pumping-station.pdf",
+        "fileUrl": "/documents/edwards/3601-0444-01-TIC-pumping-station.pdf",
         "isGated": false
       }
     ],
@@ -4888,7 +4888,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 1233537,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/high-vacuum-pump-systems/3601-0705-01-nEXT-TIC-CART-XL-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0705-01-nEXT-TIC-CART-XL-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -4896,8 +4896,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -5084,8 +5084,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Stokes 6” Mechanical Booster - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2150000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/3602207401-Stokes%206-Booster-EN-Web.pdf",
+        "fileSizeBytes": 1434696,
+        "fileUrl": "/documents/edwards/3602207401-Stokes_6-Booster-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -5094,7 +5094,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1434696,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/3602207401-Stokes%206-Booster-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602207401-Stokes_6-Booster-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -5263,7 +5263,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 2831621,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/3602208401-GMB25-40K-Leaflet-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602208401-GMB25-40K-Leaflet-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -5271,8 +5271,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -5501,7 +5501,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 325197,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/edwards-EH-mechanical-booster-pumps-datasheet.pdf",
+        "fileUrl": "/documents/edwards/edwards-EH-mechanical-booster-pumps-datasheet.pdf",
         "isGated": false
       },
       {
@@ -5509,8 +5509,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -5704,7 +5704,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 205743,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/edwards-HV-mechanical-booster-pumps-datasheet.pdf",
+        "fileUrl": "/documents/edwards/edwards-HV-mechanical-booster-pumps-datasheet.pdf",
         "isGated": false
       },
       {
@@ -5712,8 +5712,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -5979,7 +5979,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 174329,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/mechanical-booster-pumps/edwards-stokes-mechanical-booster-pumps-datasheet.pdf",
+        "fileUrl": "/documents/edwards/edwards-stokes-mechanical-booster-pumps-datasheet.pdf",
         "isGated": false
       },
       {
@@ -5987,8 +5987,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -6299,7 +6299,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 707704,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0601-01-nXRi-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0601-01-nXRi-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -6308,7 +6308,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 3259481,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0591-01-nXRi-Brochure.pdf",
+        "fileUrl": "/documents/edwards/3601-0591-01-nXRi-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -6550,7 +6550,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 455972,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0275-01-nXLi-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0275-01-nXLi-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -6559,7 +6559,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1477982,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0335-01-nXLi-Brochure.pdf",
+        "fileUrl": "/documents/edwards/3601-0335-01-nXLi-Brochure.pdf",
         "isGated": false
       },
       {
@@ -6568,7 +6568,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 1605338,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-1006-01-nXLi-single-inlet-Enhanced-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-1006-01-nXLi-single-inlet-Enhanced-datasheet.pdf",
         "isGated": false
       },
       {
@@ -6577,7 +6577,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 1732713,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-1016-01-nXLi-dual-inlet-Enhanced-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-1016-01-nXLi-dual-inlet-Enhanced-datasheet.pdf",
         "isGated": false
       }
     ],
@@ -6752,7 +6752,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 964207,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/multistage-roots-pumps/3601-0855-01-nXQi-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0855-01-nXQi-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -6760,8 +6760,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -7097,7 +7097,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 311012,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/oil-sealed-screw-pumps/3602018301-EOS1300-1900i-EN-Web1.pdf",
+        "fileUrl": "/documents/edwards/3602018301-EOS1300-1900i-EN-Web1.pdf",
         "isGated": false
       },
       {
@@ -7106,7 +7106,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 7908195,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/oil-sealed-screw-pumps/3602016201_EOSi_EN_web.pdf",
+        "fileUrl": "/documents/edwards/3602016201_EOSi_EN_web.pdf",
         "isGated": false
       },
       {
@@ -7115,7 +7115,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 6589971,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/oil-sealed-screw-pumps/3602016201-EOSi-Combined-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602016201-EOSi-Combined-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -7382,8 +7382,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Stokes Microvac Rotary Piston Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2840000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-piston-pumps/stokes-microvac-rotary-piston-pumps.pdf",
+        "fileSizeBytes": 1249359,
+        "fileUrl": "/documents/edwards/stokes-microvac-rotary-piston-pumps.pdf",
         "isGated": false
       },
       {
@@ -7392,7 +7392,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1249359,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-piston-pumps/stokes-microvac-rotary-piston-pumps.pdf",
+        "fileUrl": "/documents/edwards/stokes-microvac-rotary-piston-pumps.pdf",
         "isGated": false
       },
       {
@@ -7401,7 +7401,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1249359,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-piston-pumps/stokes-microvac-rotary-piston-pumps.pdf",
+        "fileUrl": "/documents/edwards/stokes-microvac-rotary-piston-pumps.pdf",
         "isGated": false
       }
     ],
@@ -7634,7 +7634,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 591779,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0267-01-nRVi-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0267-01-nRVi-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -7642,8 +7642,8 @@ export const edwardsProducts: Product[] = [
         "title": "nRVi Enhanced Rotary Vane - Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 1187846,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0327-01-nRVi-brochure.pdf",
+        "fileSizeBytes": 1188011,
+        "fileUrl": "/documents/edwards/3601-0327-01-nRVi-brochure.pdf",
         "isGated": false
       }
     ],
@@ -7874,8 +7874,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards E2S Series Two-Stage Rotary Vane Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1950000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/e2s-two-stage-rotary-vane-pumps-brochure.pdf",
+        "fileSizeBytes": 6929257,
+        "fileUrl": "/documents/edwards/e2s-two-stage-rotary-vane-pumps-brochure.pdf",
         "isGated": false
       },
       {
@@ -7884,7 +7884,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 6929257,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/e2s-two-stage-rotary-vane-pumps-brochure.pdf",
+        "fileUrl": "/documents/edwards/e2s-two-stage-rotary-vane-pumps-brochure.pdf",
         "isGated": false
       }
     ],
@@ -8164,8 +8164,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nES Series Single-Stage Rotary Vane Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3602014101-nES-Series-EN-Web.pdf",
+        "fileSizeBytes": 4687860,
+        "fileUrl": "/documents/edwards/3602014101-nES-Series-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -8174,7 +8174,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 5748467,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/nes-ex-series-single-stage-rotary-vane-pumps-brochure-old.pdf",
+        "fileUrl": "/documents/edwards/nes-ex-series-single-stage-rotary-vane-pumps-brochure-old.pdf",
         "isGated": false
       }
     ],
@@ -8407,7 +8407,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 876170,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
         "isGated": false
       },
       {
@@ -8415,8 +8415,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards E2M Series Rotary Vane Vacuum Pumps - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3602%20013%201%2001_Edwards%20E2M_Brochure_LR_small.pdf",
+        "fileSizeBytes": 5830098,
+        "fileUrl": "/documents/edwards/3602_013_1_01_Edwards_E2M_Brochure_LR_small.pdf",
         "isGated": false
       }
     ],
@@ -8742,8 +8742,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nES Series Single-Stage Rotary Vane Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3602014101-nES-Series-EN-Web.pdf",
+        "fileSizeBytes": 4687860,
+        "fileUrl": "/documents/edwards/3602014101-nES-Series-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -8752,7 +8752,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 4687860,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3602014101-nES-Series-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602014101-nES-Series-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -9057,8 +9057,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards RV Series Rotary Vane Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1950000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
+        "fileSizeBytes": 876170,
+        "fileUrl": "/documents/edwards/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
         "isGated": false
       },
       {
@@ -9066,8 +9066,8 @@ export const edwardsProducts: Product[] = [
         "title": "3601-0076-01-rv-oil-sealed-rotary-vane-pumps",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 46698,
-        "fileUrl": "https://digitalbrochure.edwardsvacuum.com/RV-oil-sealed-rotary-vane-pumps/en",
+        "fileSizeBytes": 5830098,
+        "fileUrl": "/documents/edwards/3602_013_1_01_Edwards_E2M_Brochure_LR_small.pdf",
         "isGated": false
       }
     ],
@@ -9371,8 +9371,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Small EM Series Rotary Vane Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1950000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
+        "fileSizeBytes": 876170,
+        "fileUrl": "/documents/edwards/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
         "isGated": false
       },
       {
@@ -9380,8 +9380,8 @@ export const edwardsProducts: Product[] = [
         "title": "3601-0066-01-small-em-oil-sealed-rotary-vane-pumps",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 47547,
-        "fileUrl": "https://digitalbrochure.edwardsvacuum.com/Small-EM-oil-sealed-rotary-vane-pumps/en",
+        "fileSizeBytes": 5830098,
+        "fileUrl": "/documents/edwards/3602_013_1_01_Edwards_E2M_Brochure_LR_small.pdf",
         "isGated": false
       }
     ],
@@ -9567,7 +9567,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 322463,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0355-01-ELD500-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0355-01-ELD500-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -9575,8 +9575,8 @@ export const edwardsProducts: Product[] = [
         "title": "3601-0416-01-eld500-precision-leak-detector",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 46079,
-        "fileUrl": "https://digitalbrochure.edwardsvacuum.com/ELD500-precision-leak-detector/en",
+        "fileSizeBytes": 19211138,
+        "fileUrl": "/documents/edwards/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -9796,8 +9796,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards ELD30 Industrial Leak Detector - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2840000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
+        "fileSizeBytes": 19211138,
+        "fileUrl": "/documents/edwards/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
         "isGated": false
       },
       {
@@ -9806,7 +9806,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 19211138,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
+        "fileUrl": "/documents/edwards/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -9965,8 +9965,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards ELD4000 Helium Leak Detector - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0846-01-ELD4000-Leak-Detector.pdf",
+        "fileSizeBytes": 4820542,
+        "fileUrl": "/documents/edwards/3601-0846-01-ELD4000-Leak-Detector.pdf",
         "isGated": false
       },
       {
@@ -9975,7 +9975,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 4820542,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0846-01-ELD4000-Leak-Detector.pdf",
+        "fileUrl": "/documents/edwards/3601-0846-01-ELD4000-Leak-Detector.pdf",
         "isGated": false
       }
     ],
@@ -10267,8 +10267,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards GasCheck G4 Handheld Gas Leak Detector - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1850000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0363-01-Gascheck-G4.pdf",
+        "fileSizeBytes": 1411947,
+        "fileUrl": "/documents/edwards/3601-0363-01-Gascheck-G4.pdf",
         "isGated": false
       },
       {
@@ -10277,7 +10277,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1411947,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0363-01-Gascheck-G4.pdf",
+        "fileUrl": "/documents/edwards/3601-0363-01-Gascheck-G4.pdf",
         "isGated": false
       },
       {
@@ -10286,7 +10286,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1507381,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0366-01-Gascheck-G4.pdf",
+        "fileUrl": "/documents/edwards/3601-0366-01-Gascheck-G4.pdf",
         "isGated": false
       }
     ],
@@ -10542,7 +10542,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 765703,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/direct-pressure-measurement-gauges/3601-0694-01-BAROCEL7000series-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0694-01-BAROCEL7000series-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -10551,7 +10551,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 5590692,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/direct-pressure-measurement-gauges/3601-0555-01-BAROCEL-7000series-Brochure.pdf",
+        "fileUrl": "/documents/edwards/3601-0555-01-BAROCEL-7000series-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -10769,7 +10769,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 698304,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/direct-pressure-measurement-gauges/3601-0184-01-ASG2.pdf",
+        "fileUrl": "/documents/edwards/3601-0184-01-ASG2.pdf",
         "isGated": false
       },
       {
@@ -10777,8 +10777,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -10948,7 +10948,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 538255,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0131-01-AIGX-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0131-01-AIGX-datasheet.pdf",
         "isGated": false
       },
       {
@@ -10956,8 +10956,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -11108,7 +11108,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 417023,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0613-01-WRH-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0613-01-WRH-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -11116,8 +11116,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -11309,8 +11309,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Passive Gauges & Controller Heads - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1950000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0307-01-Passive-Gauges.pdf",
+        "fileSizeBytes": 1799914,
+        "fileUrl": "/documents/edwards/3601-0307-01-Passive-Gauges.pdf",
         "isGated": false
       },
       {
@@ -11319,7 +11319,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1799914,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0307-01-Passive-Gauges.pdf",
+        "fileUrl": "/documents/edwards/3601-0307-01-Passive-Gauges.pdf",
         "isGated": false
       }
     ],
@@ -11495,7 +11495,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 477828,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0114-01-APGX-H-gauge.pdf",
+        "fileUrl": "/documents/edwards/3601-0114-01-APGX-H-gauge.pdf",
         "isGated": false
       },
       {
@@ -11503,8 +11503,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -11699,7 +11699,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 786533,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0754-01-AIM200-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0754-01-AIM200-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -11707,8 +11707,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -11918,7 +11918,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 908765,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0834-01-APG200-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0834-01-APG200-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -11926,8 +11926,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -12138,7 +12138,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 796514,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/indirect-pressure-measurement-gauges/3601-0764-01-WRG200-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0764-01-WRG200-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -12146,8 +12146,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -12295,7 +12295,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 706362,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0384-01-P3-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0384-01-P3-datasheet.pdf",
         "isGated": false
       },
       {
@@ -12303,8 +12303,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -12458,7 +12458,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 335618,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0156-01-VS16K-IS16K-vacuum-switches.pdf",
+        "fileUrl": "/documents/edwards/3601-0156-01-VS16K-IS16K-vacuum-switches.pdf",
         "isGated": false
       },
       {
@@ -12466,8 +12466,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -12638,7 +12638,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 306059,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0146-01-CG16K-capsule-dial-gauge.pdf",
+        "fileUrl": "/documents/edwards/3601-0146-01-CG16K-capsule-dial-gauge.pdf",
         "isGated": false
       },
       {
@@ -12646,8 +12646,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -12797,8 +12797,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards P4 & P5 Bluetooth LE Handheld Measuring Systems - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1750000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0815-01_P4-P5-Bluetooth-LE_Handheld-Measuring-Systems.pdf",
+        "fileSizeBytes": 2666272,
+        "fileUrl": "/documents/edwards/3601-0815-01_P4-P5-Bluetooth-LE_Handheld-Measuring-Systems.pdf",
         "isGated": false
       },
       {
@@ -12807,7 +12807,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 2666272,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/mechanical-vacuum-gauges-and-switches/3601-0815-01_P4-P5-Bluetooth-LE_Handheld-Measuring-Systems.pdf",
+        "fileUrl": "/documents/edwards/3601-0815-01_P4-P5-Bluetooth-LE_Handheld-Measuring-Systems.pdf",
         "isGated": false
       }
     ],
@@ -13089,7 +13089,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 871776,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0224-01-TIC-Instrument-Controller.pdf",
+        "fileUrl": "/documents/edwards/3601-0224-01-TIC-Instrument-Controller.pdf",
         "isGated": false
       },
       {
@@ -13098,7 +13098,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 379472,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0654-01-TIC-Turbo-and-Instr-Controller-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0654-01-TIC-Turbo-and-Instr-Controller-Datasheet.pdf",
         "isGated": false
       }
     ],
@@ -13309,8 +13309,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards ADC Active Digital Controller - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1650000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0194-01-ADC-active-digital-controller.pdf",
+        "fileSizeBytes": 648598,
+        "fileUrl": "/documents/edwards/3601-0194-01-ADC-active-digital-controller.pdf",
         "isGated": false
       },
       {
@@ -13319,7 +13319,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 648598,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0194-01-ADC-active-digital-controller.pdf",
+        "fileUrl": "/documents/edwards/3601-0194-01-ADC-active-digital-controller.pdf",
         "isGated": false
       }
     ],
@@ -13484,7 +13484,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 466844,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/vacuum-gauge-and-pump-controllers/3601-0206-01-TAG-turbo-active-gauge-controller.pdf",
+        "fileUrl": "/documents/edwards/3601-0206-01-TAG-turbo-active-gauge-controller.pdf",
         "isGated": false
       },
       {
@@ -13492,8 +13492,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -13645,8 +13645,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards EJGO & EJGO MC Controller - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2640000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/ejgo/ejgo-and-mc-controller-brochure.pdf",
+        "fileSizeBytes": 8034589,
+        "fileUrl": "/documents/edwards/ejgo-and-mc-controller-brochure.pdf",
         "isGated": false
       },
       {
@@ -13654,8 +13654,8 @@ export const edwardsProducts: Product[] = [
         "title": "EJGO and EJGO MC Controller brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 8034615,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/measurement-and-control/ejgo/ejgo-and-mc-controller-brochure.pdf",
+        "fileSizeBytes": 8034589,
+        "fileUrl": "/documents/edwards/ejgo-and-mc-controller-brochure.pdf",
         "isGated": false
       }
     ],
@@ -13816,7 +13816,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 628000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/accessories/3601-0036-01-Acoustic-Enclosures.pdf",
+        "fileUrl": "/documents/edwards/3601-0036-01-Acoustic-Enclosures.pdf",
         "isGated": false
       },
       {
@@ -13824,8 +13824,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -14007,7 +14007,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 413451,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/accessories/3602211601-Inlet-filter-Datasheet-EN-Web.pdf",
+        "fileUrl": "/documents/edwards/3602211601-Inlet-filter-Datasheet-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -14015,8 +14015,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -14166,7 +14166,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 583722,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0509-01-ELD500-Trolley-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0509-01-ELD500-Trolley-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -14174,8 +14174,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Industrial Leak Detection Systems - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 2840000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/leak-detection/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
+        "fileSizeBytes": 19211138,
+        "fileUrl": "/documents/edwards/3601-0976-01_ELD30-Industrial-Leak-Detector-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -14417,8 +14417,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards BGV Stainless Steel Gate Valve with LOTO - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
+        "fileSizeBytes": 927980,
+        "fileUrl": "/documents/edwards/3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
         "isGated": false
       },
       {
@@ -14427,7 +14427,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 927980,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
+        "fileUrl": "/documents/edwards/3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
         "isGated": false
       },
       {
@@ -14436,7 +14436,7 @@ export const edwardsProducts: Product[] = [
         "type": "brochure",
         "format": "pdf",
         "fileSizeBytes": 1189242,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0055-01-BGV-stainless-steel-gate-valve.pdf",
+        "fileUrl": "/documents/edwards/3601-0055-01-BGV-stainless-steel-gate-valve.pdf",
         "isGated": false
       }
     ],
@@ -14692,7 +14692,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 2816561,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0824-01-LCPVEK-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0824-01-LCPVEK-datasheet.pdf",
         "isGated": false
       },
       {
@@ -14700,8 +14700,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -14985,7 +14985,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 601060,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0584-01-Speedivalve-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0584-01-Speedivalve-datasheet.pdf",
         "isGated": false
       },
       {
@@ -14993,8 +14993,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -15280,7 +15280,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 513604,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0565-01-VIV-datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0565-01-VIV-datasheet.pdf",
         "isGated": false
       },
       {
@@ -15288,8 +15288,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -15463,7 +15463,7 @@ export const edwardsProducts: Product[] = [
         "type": "datasheet",
         "format": "pdf",
         "fileSizeBytes": 834152,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0986-01-Pressure_relief_valve-Datasheet.pdf",
+        "fileUrl": "/documents/edwards/3601-0986-01-Pressure_relief_valve-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -15471,8 +15471,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -15700,8 +15700,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nEXT 240/300/400 Turbomolecular Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1850000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/turbomolecular-pumps/3601-0895-01-nEXT240-300-400-datasheet.pdf",
+        "fileSizeBytes": 1834978,
+        "fileUrl": "/documents/edwards/3601-0895-01-nEXT240-300-400-datasheet.pdf",
         "isGated": false
       },
       {
@@ -15709,8 +15709,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -15887,8 +15887,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nEXT M Maglev Turbomolecular Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1950000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/turbomolecular-pumps/3601-0874-01-nEXT-M-Datasheet.pdf",
+        "fileSizeBytes": 4292906,
+        "fileUrl": "/documents/edwards/3601-0874-01-nEXT-M-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -15896,8 +15896,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -16091,8 +16091,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Liquid Ring Vacuum Pumps - Market & Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2150000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-LRP-market-brochure.pdf",
+        "fileSizeBytes": 978125,
+        "fileUrl": "/documents/edwards/edwards-LRP-market-brochure.pdf",
         "isGated": false
       },
       {
@@ -16100,8 +16100,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Liquid Ring Pumps & Systems - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 3450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-liquid-ring-pump-brochure.PDF",
+        "fileSizeBytes": 1410448,
+        "fileUrl": "/documents/edwards/edwards-liquid-ring-pump-brochure.PDF",
         "isGated": false
       }
     ],
@@ -16290,8 +16290,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards High Vacuum & Cryogenic Systems - Engineering Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2850000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0027-01-HEP-Brochure.pdf",
+        "fileSizeBytes": 3688777,
+        "fileUrl": "/documents/edwards/3601-0027-01-HEP-Brochure.pdf",
         "isGated": false
       },
       {
@@ -16299,8 +16299,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards High Energy Physics & Scientific Vacuum Systems - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 3820000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0027-01-HEP-Brochure.pdf",
+        "fileSizeBytes": 3688777,
+        "fileUrl": "/documents/edwards/3601-0027-01-HEP-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -16480,8 +16480,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Ultra-High Vacuum Ion & Sublimation Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2950000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0027-01-HEP-Brochure.pdf",
+        "fileSizeBytes": 3688777,
+        "fileUrl": "/documents/edwards/3601-0027-01-HEP-Brochure.pdf",
         "isGated": false
       },
       {
@@ -16489,8 +16489,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards High Energy Physics & Scientific Vacuum Systems - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 3820000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0027-01-HEP-Brochure.pdf",
+        "fileSizeBytes": 3688777,
+        "fileUrl": "/documents/edwards/3601-0027-01-HEP-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -16673,8 +16673,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Residual Gas Analysers & Analytical Instrumentation - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2150000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0579-01-Analytical-Applications.pdf",
+        "fileSizeBytes": 6969230,
+        "fileUrl": "/documents/edwards/3601-0579-01-Analytical-Applications.pdf",
         "isGated": false
       },
       {
@@ -16682,8 +16682,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -16971,8 +16971,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Large E2M Rotary Vane Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1850000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
+        "fileSizeBytes": 876170,
+        "fileUrl": "/documents/edwards/3601-0714-01-E2M0.7-2.5-datasheet.pdf",
         "isGated": false
       },
       {
@@ -16980,8 +16980,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards E2M Series Rotary Vane Vacuum Pumps - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3602%20013%201%2001_Edwards%20E2M_Brochure_LR_small.pdf",
+        "fileSizeBytes": 5830098,
+        "fileUrl": "/documents/edwards/3602_013_1_01_Edwards_E2M_Brochure_LR_small.pdf",
         "isGated": false
       }
     ],
@@ -17269,8 +17269,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards eRV / nRVi Series Rotary Vane Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1650000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0267-01-nRVi-Datasheet.pdf",
+        "fileSizeBytes": 591779,
+        "fileUrl": "/documents/edwards/3601-0267-01-nRVi-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -17278,8 +17278,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards nRVi Intelligent Rotary Vane Pumps - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 2310000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/rotary-vane-pumps/3601-0327-01-nRVi-brochure.pdf",
+        "fileSizeBytes": 1188011,
+        "fileUrl": "/documents/edwards/3601-0327-01-nRVi-brochure.pdf",
         "isGated": false
       }
     ],
@@ -17603,8 +17603,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Harsh-Duty Industrial & Semiconductor Dry Pumps - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 3120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/edwards-GXS-dry-pumps-product-brochure.pdf",
+        "fileSizeBytes": 5959384,
+        "fileUrl": "/documents/edwards/edwards-GXS-dry-pumps-product-brochure.pdf",
         "isGated": false
       },
       {
@@ -17612,8 +17612,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -17825,8 +17825,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Harsh-Duty Industrial & Semiconductor Dry Pumps - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 3120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/dry-screw-pumps/edwards-GXS-dry-pumps-product-brochure.pdf",
+        "fileSizeBytes": 5959384,
+        "fileUrl": "/documents/edwards/edwards-GXS-dry-pumps-product-brochure.pdf",
         "isGated": false
       },
       {
@@ -17834,8 +17834,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -18155,8 +18155,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards STP Maglev Turbomolecular Pumps - Technical Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1950000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/turbomolecular-pumps/3601-0874-01-nEXT-M-Datasheet.pdf",
+        "fileSizeBytes": 4292906,
+        "fileUrl": "/documents/edwards/3601-0874-01-nEXT-M-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -18164,8 +18164,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards High Energy Physics & Scientific Vacuum Systems - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 3820000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0027-01-HEP-Brochure.pdf",
+        "fileSizeBytes": 3688777,
+        "fileUrl": "/documents/edwards/3601-0027-01-HEP-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -18414,8 +18414,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Abatement & Carbon Capture Vacuum Systems - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3602514401-Edwards-CCUS-Brochure-2024-EN-Web.pdf",
+        "fileSizeBytes": 7502870,
+        "fileUrl": "/documents/edwards/3602514401-Edwards-CCUS-Brochure-2024-EN-Web.pdf",
         "isGated": false
       },
       {
@@ -18423,8 +18423,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Environmental Abatement Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 2450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3602514401-Edwards-CCUS-Brochure-2024-EN-Web.pdf",
+        "fileSizeBytes": 7502870,
+        "fileUrl": "/documents/edwards/3602514401-Edwards-CCUS-Brochure-2024-EN-Web.pdf",
         "isGated": false
       }
     ],
@@ -18709,8 +18709,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards High Vacuum & Cryogenic Systems - Engineering Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 2850000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0027-01-HEP-Brochure.pdf",
+        "fileSizeBytes": 3688777,
+        "fileUrl": "/documents/edwards/3601-0027-01-HEP-Brochure.pdf",
         "isGated": false
       },
       {
@@ -18718,8 +18718,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards High Energy Physics & Scientific Vacuum Systems - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 3820000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0027-01-HEP-Brochure.pdf",
+        "fileSizeBytes": 3688777,
+        "fileUrl": "/documents/edwards/3601-0027-01-HEP-Brochure.pdf",
         "isGated": false
       }
     ],
@@ -18966,8 +18966,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards MaxCool Fast Water Vapor Cryochillers - Engineering Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 3120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       },
       {
@@ -18975,8 +18975,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -19261,8 +19261,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Vacuum Hardware, Flanges & Flexible Pipework - Catalogue",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       },
       {
@@ -19270,8 +19270,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Scientific R&D & High Vacuum Solutions - Official Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 4210000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/3601-0014-01_R-and-D_brochure_05-24.pdf",
+        "fileSizeBytes": 26731334,
+        "fileUrl": "/documents/edwards/3601-0014-01_R-and-D_brochure_05-24.pdf",
         "isGated": false
       }
     ],
@@ -19519,8 +19519,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards PVEK / PVPK Right-Angle Vacuum Valves - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1450000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
+        "fileSizeBytes": 927980,
+        "fileUrl": "/documents/edwards/3601-0046-01-BGV-Gate-Valve-withLOTO.pdf",
         "isGated": false
       },
       {
@@ -19528,8 +19528,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -19813,8 +19813,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Speedivalve & In-Line Vacuum Isolation Valves - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1250000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0584-01-Speedivalve-datasheet.pdf",
+        "fileSizeBytes": 601060,
+        "fileUrl": "/documents/edwards/3601-0584-01-Speedivalve-datasheet.pdf",
         "isGated": false
       },
       {
@@ -19822,8 +19822,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
@@ -20071,8 +20071,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Pressure Relief & Specialty Vacuum Valves - Datasheet",
         "type": "datasheet",
         "format": "pdf",
-        "fileSizeBytes": 1150000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/valves/3601-0986-01-Pressure_relief_valve-Datasheet.pdf",
+        "fileSizeBytes": 834152,
+        "fileUrl": "/documents/edwards/3601-0986-01-Pressure_relief_valve-Datasheet.pdf",
         "isGated": false
       },
       {
@@ -20080,8 +20080,8 @@ export const edwardsProducts: Product[] = [
         "title": "Edwards Solutions for Industrial Processes - Official Engineering Brochure",
         "type": "brochure",
         "format": "pdf",
-        "fileSizeBytes": 5120000,
-        "fileUrl": "https://www.edwardsvacuum.com/content/dam/brands/edwards-vacuum/general-vacuum/downloads/applications/edwards-solutions-for-industrial-processes-brochure.pdf",
+        "fileSizeBytes": 2489473,
+        "fileUrl": "/documents/edwards/edwards-solutions-for-industrial-processes-brochure.pdf",
         "isGated": false
       }
     ],
