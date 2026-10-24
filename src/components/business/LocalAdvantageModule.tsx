@@ -6,7 +6,7 @@ export function LocalAdvantageModule() {
     {
       icon: Banknote,
       title: "INR PROCUREMENT",
-      line: "Direct in-country Indian Rupee commercial billing with 18% GST input credit.",
+      line: "Direct in-country Indian Rupee commercial billing and customs clearance.",
     },
     {
       icon: Warehouse,

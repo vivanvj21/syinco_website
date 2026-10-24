@@ -213,7 +213,7 @@ export function Footer() {
           <div className="flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-brand-teal shrink-0" />
             <span>
-              © {new Date().getFullYear()} SYINCO TECHNOLOGIES. All Rights Reserved. Direct In-Country Supply with 18% GST Input Credit.
+              © {new Date().getFullYear()} SYINCO TECHNOLOGIES. All Rights Reserved. Direct In-Country Supply & Technical Service.
             </span>
           </div>
 

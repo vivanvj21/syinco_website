@@ -75,7 +75,7 @@ export const services: ServiceOffering[] = [
       "Biannual or annual preventative maintenance inspection protocols",
       "Comprehensive calibration verification and sensor alignment",
       "Priority response time SLAs for critical research and production downtimes",
-      "In-country Indian Rupee (INR) invoicing with 18% GST input credit eligibility",
+      "In-country Indian Rupee (INR) invoicing and commercial documentation",
     ],
     contactAction: "Request AMC Proposal",
   },

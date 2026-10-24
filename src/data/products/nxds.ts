@@ -352,7 +352,16 @@ export const nxdsProductData: Product = {
       type: "datasheet",
       format: "pdf",
       fileSizeBytes: 2450000,
-      fileUrl: "/documents/edwards-nxds-technical-datasheet.pdf",
+      fileUrl: "/documents/edwards/edwards-nxds-series-datasheet.pdf",
+      isGated: false,
+    },
+    {
+      id: "doc-nxds-brochure",
+      title: "Edwards nXDS Series Product Engineering Brochure",
+      type: "brochure",
+      format: "pdf",
+      fileSizeBytes: 3150000,
+      fileUrl: "/documents/edwards/edwards-nxds-series-brochure.pdf",
       isGated: false,
     },
     {
@@ -374,7 +383,7 @@ export const nxdsProductData: Product = {
   scopeOfDeliveryPoints: [
     "Immediate dispatch from Hyderabad ready stock within 48 business hours",
     "Single-phase Indian 3-pin power lead and pre-installed NW25 centering ring & clamp",
-    "Direct in-country INR invoicing with full 18% GST input tax credit",
+    "Direct in-country INR invoicing and commercial compliance documentation",
     "12-month official manufacturer warranty supported by SYINCO authorized engineers",
     "Comprehensive inventory of genuine Edwards tip seal kits and service parts in Hyderabad",
   ],

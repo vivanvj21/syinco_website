@@ -24,7 +24,7 @@ export function FinalConversionHorizon() {
           </h2>
 
           <p className="text-xs sm:text-sm font-sans text-slate-700 max-w-xl mx-auto leading-relaxed">
-            Our engineering team in Hyderabad provides formal INR budgetary quotations, utility load schedules, and technical compliance matrices with 18% GST credit.
+            Our engineering team in Hyderabad provides formal INR budgetary quotations, utility load schedules, and technical compliance matrices.
           </p>
 
           <div className="pt-3 flex flex-wrap items-center justify-center gap-3">

@@ -135,10 +135,6 @@ export default function ContactUsPage() {
                 <div className="pt-4 border-t border-border-light/80 space-y-2 text-[11px] font-mono text-slate-500">
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="w-3.5 h-3.5 text-brand-teal shrink-0" />
-                    <span>In-Country INR Billing with 18% GST Input Credit</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <ShieldCheck className="w-3.5 h-3.5 text-brand-teal shrink-0" />
                     <span>Government Tender Compliance (GeM / CPPP)</span>
                   </div>
                 </div>
