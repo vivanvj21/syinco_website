@@ -1,0 +1,370 @@
+[
+  {
+    "slug": "feed",
+    "title": "製品情報 &#8211; ADVANCE RIKO,Inc.",
+    "url": "https://advance-riko.com/en/products/feed/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "rtp-mini",
+    "title": "Infrared lamp heating system RTP-mini",
+    "url": "https://advance-riko.com/en/products/rtp-mini/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "f-cal",
+    "title": "Thermal Flow Rate Evaluation System for Low Thermal Resistance Multilayer Substrates F-CAL",
+    "url": "https://advance-riko.com/en/products/f-cal/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "superlix",
+    "title": "Ultra High Precision Thermal Expansion Measurement System by Laser Interferometer SuperLIX",
+    "url": "https://advance-riko.com/en/products/superlix/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "zem-d",
+    "title": "Polymeric Thermoelectric Sheet Evaluation System ZEM-d",
+    "url": "https://advance-riko.com/en/products/zem-d/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "zem-3",
+    "title": "Seebeck Coefficient / Electric Resistance Measurement System ZEM-3 series",
+    "url": "https://advance-riko.com/en/products/zem-3/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "f-pem",
+    "title": "Atmospheric Thermoelectric Module Evaluation System F-PEM",
+    "url": "https://advance-riko.com/en/products/f-pem/",
+    "pdfs": [
+      "https://advance-riko.com/wordpress/wp-content/uploads/2018_TSJ_15_2_85.pdf"
+    ],
+    "page": 1
+  },
+  {
+    "slug": "pem-2",
+    "title": "Power Generation Efficiency Characteristics Evaluation System PEM-2",
+    "url": "https://advance-riko.com/en/products/pem-2/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "mini-pem",
+    "title": "Thermoelectric Conversion Efficiency Evaluation System for Small Modules Mini-PEM",
+    "url": "https://advance-riko.com/en/products/mini-pem/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "tc-1200rh-tc-9000",
+    "title": "Laser Flash Method Thermal Constant Measurement System TC-1200RH / TC-9000 series",
+    "url": "https://advance-riko.com/en/products/tc-1200rh-tc-9000/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "stpm-1000",
+    "title": "Scanning Thermal Probe Micro-image STPM-1000",
+    "url": "https://advance-riko.com/en/products/stpm-1000/",
+    "pdfs": [],
+    "page": 1
+  },
+  {
+    "slug": "td-1",
+    "title": "Thermal Diffusivity measurement system by Xe flash method TD-1",
+    "url": "https://advance-riko.com/en/products/td-1/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "tcn-2omega",
+    "title": "2-Omega Method Nano Thin Film Thermal Conductivity Meter TCN-2ω",
+    "url": "https://advance-riko.com/en/products/tcn-2omega/",
+    "pdfs": [
+      "/develop/wp-content/uploads/20p-C304-12.pdf"
+    ],
+    "page": 2
+  },
+  {
+    "slug": "laserpit",
+    "title": "AC Method Thermal Diffusivity Measurement System LaserPIT",
+    "url": "https://advance-riko.com/en/products/laserpit/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "ftc",
+    "title": "Periodical Heating Method Thermal Diffusivity Measurement System FTC series",
+    "url": "https://advance-riko.com/en/products/ftc/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "gh-1",
+    "title": "Steady Method Thermal Conductivity Measurement System GH series",
+    "url": "https://advance-riko.com/en/products/gh-1/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "rmp-1",
+    "title": "Rapid Multi Property Measurement System RMP-1",
+    "url": "https://advance-riko.com/en/products/rmp-1/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "ehr",
+    "title": "Electric Heat Resistance Measurment System EHR series",
+    "url": "https://advance-riko.com/en/products/ehr/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "ter",
+    "title": "Electric Resistance Measurement System for Metals and Semiconductors TER series",
+    "url": "https://advance-riko.com/en/products/ter/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "sh-3000",
+    "title": "Adiabatic Specific Heat Measurement System SH-3000 series",
+    "url": "https://advance-riko.com/en/products/sh-3000/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "dl-9000-dly-9000",
+    "title": "Thermodilatometer DL-9000 / DLY-9000 series",
+    "url": "https://advance-riko.com/en/products/dl-9000-dly-9000/",
+    "pdfs": [],
+    "page": 2
+  },
+  {
+    "slug": "dly-9000-robot",
+    "title": "Robotic Thermal Dilatometer DLY－9000 ROBOT",
+    "url": "https://advance-riko.com/en/products/dly-9000-robot/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "lix",
+    "title": "Thermal Expansion  Measurment Systemby Laser Interferometer LIX-2 series",
+    "url": "https://advance-riko.com/en/products/lix/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "tm-9000",
+    "title": "Thermoｍechanical Analyzer TM-9000 series",
+    "url": "https://advance-riko.com/en/products/tm-9000/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "tgd-9000",
+    "title": "Thermogravimetry / Differential Thermal Analyzer TGD-9000 series",
+    "url": "https://advance-riko.com/en/products/tgd-9000/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "dsc-r",
+    "title": "Differential Scanning Calorimeter DSC-R series",
+    "url": "https://advance-riko.com/en/products/dsc-r/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "vpe-9000",
+    "title": "Vapor Pressure Evaluation System VPE-9000＜vacuum thermobalance＞",
+    "url": "https://advance-riko.com/en/products/vpe-9000/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "trs",
+    "title": "Organic Pigment Material Sublimating / Refining System TRS series",
+    "url": "https://advance-riko.com/en/products/trs/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "rhl-e-vht-p-series",
+    "title": "Infrared Gold Image Furnace RHL-E/VHT/P series",
+    "url": "https://advance-riko.com/en/products/rhl-e-vht-p-series/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "pspss",
+    "title": "Infrared Gold Image Furnace Ps, Pss series",
+    "url": "https://advance-riko.com/en/products/pspss/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "tpc-5000",
+    "title": "Programmable Temperature Controller TPC-5000 series",
+    "url": "https://advance-riko.com/en/products/tpc-5000/",
+    "pdfs": [],
+    "page": 3
+  },
+  {
+    "slug": "rta",
+    "title": "Rapid Thermal Annealing System RTA series",
+    "url": "https://advance-riko.com/en/products/rta/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "rtp-6",
+    "title": "Low Cost Infrared Lamp Heating System for R&#038;D RTP-6",
+    "url": "https://advance-riko.com/en/products/rtp-6/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "mila-5050",
+    "title": "Mini Lamp Annealer  MILA-5050",
+    "url": "https://advance-riko.com/en/products/mila-5050/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "mila-5000-series",
+    "title": "Mini Lamp Annealer MILA-5000 series",
+    "url": "https://advance-riko.com/en/products/mila-5000-series/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "mila-700ar",
+    "title": "Mini Lamp Annealer with air-cooling system MILA-700AR",
+    "url": "https://advance-riko.com/en/products/mila-700ar/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "ssa",
+    "title": "Simplified Infrared Lamp Heating System SSA series",
+    "url": "https://advance-riko.com/en/products/ssa/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "qhc-qhc",
+    "title": "Infrared Lamp Heating System QHC series/Variable Atmosphere Lamp Heating System VHC series",
+    "url": "https://advance-riko.com/en/products/qhc-qhc/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "miro",
+    "title": "Spot Focused Infrared Gold Image Furnace System series",
+    "url": "https://advance-riko.com/en/products/miro/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "cas-59aq",
+    "title": "Rapid Heating / Water Quenching System CAS-59AQ",
+    "url": "https://advance-riko.com/en/products/cas-59aq/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "ht-rta59hd",
+    "title": "High Temperature Rapid Thermal Annealing System  HT-RTA59HD",
+    "url": "https://advance-riko.com/en/products/ht-rta59hd/",
+    "pdfs": [],
+    "page": 4
+  },
+  {
+    "slug": "netsushori",
+    "title": "Production Heat Treatment Furnace (Manufacturing Line Equipment)",
+    "url": "https://advance-riko.com/en/products/netsushori/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "cas",
+    "title": "Continuous Annealing System for Steel Sheet CAS series",
+    "url": "https://advance-riko.com/en/products/cas/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "tms",
+    "title": "High Temperature Observation System TMS series",
+    "url": "https://advance-riko.com/en/products/tms/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "%ce%bcit-1",
+    "title": "Micro-Indentation Tester μIT-1",
+    "url": "https://advance-riko.com/en/products/%ce%bcit-1/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "aps-1",
+    "title": "Arc Plasma Source APS-1",
+    "url": "https://advance-riko.com/en/products/aps-1/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "apd",
+    "title": "Arc-Plasma method nano-particle Deposition System APD series",
+    "url": "https://advance-riko.com/en/products/apd/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "wet-1200",
+    "title": "Hight Temperature Wettability Evaluation System by Contact Angle at the Solid-Liquid Interface WET-1200",
+    "url": "https://advance-riko.com/en/products/wet-1200/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "tds-m202r",
+    "title": "Temperature-Programmed Desorption Gas Analyzer TDS-M202R",
+    "url": "https://advance-riko.com/en/products/tds-m202r/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "antares-spica-leonis",
+    "title": "Microbial Activity Measurement System Antares/Spica/Leonis",
+    "url": "https://advance-riko.com/en/products/antares-spica-leonis/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "hs-9000",
+    "title": "Handy Spot welder HS-9000",
+    "url": "https://advance-riko.com/en/products/hs-9000/",
+    "pdfs": [],
+    "page": 5
+  },
+  {
+    "slug": "ha-1h",
+    "title": "Handy Arc welder HA-1H",
+    "url": "https://advance-riko.com/en/products/ha-1h/",
+    "pdfs": [],
+    "page": 6
+  }
+]

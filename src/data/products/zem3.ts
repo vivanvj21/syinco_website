@@ -358,6 +358,15 @@ export const zem3ProductData: Product = {
       isGated: false,
     },
     {
+      id: "zem-3-brochure",
+      title: "Advance Riko ZEM-3 Series Engineering & Applications Brochure",
+      type: "brochure",
+      fileUrl: "/documents/advance-riko/advance-riko-zem-3-brochure.pdf",
+      fileSizeBytes: 3145728, // 3.0 MB
+      format: "pdf",
+      isGated: false,
+    },
+    {
       id: "zem-3-protocol",
       title: "Sample Preparation and Measurement Protocol Guide",
       type: "application-note",
