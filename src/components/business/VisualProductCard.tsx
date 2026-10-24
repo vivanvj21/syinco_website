@@ -62,7 +62,7 @@ export function VisualProductCard({
   return (
     <div
       className={cn(
-        "flex flex-col h-full bg-white border border-border-light rounded-sm overflow-hidden hover:border-brand-teal hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 group",
+        "flex flex-col h-full bg-white border border-border-light rounded-sm overflow-hidden hover:border-brand-teal hover:shadow-lg transition-all duration-300 group",
         className
       )}
       {...props}

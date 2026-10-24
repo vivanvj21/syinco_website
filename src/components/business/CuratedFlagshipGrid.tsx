@@ -96,13 +96,13 @@ export function CuratedFlagshipGrid() {
             tabIndex={0}
             role="region"
             aria-label="Featured flagship systems horizontal reel"
-            className="flex gap-5 overflow-x-auto pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0 scroll-smooth snap-x snap-mandatory focus:outline-none"
+            className="flex gap-5 overflow-x-auto pb-5 pt-3 -mx-4 px-4 sm:mx-0 sm:px-0 scroll-smooth snap-x snap-mandatory focus:outline-none"
             style={{ scrollbarWidth: "thin" }}
           >
             {curatedProducts.map((product) => (
               <div
                 key={product.id}
-                className="w-[280px] sm:w-[320px] lg:w-[340px] shrink-0 snap-start flex flex-col"
+                className="w-[280px] sm:w-[320px] lg:w-[340px] shrink-0 snap-start flex flex-col py-0.5"
               >
                 <VisualProductCard product={product} className="h-full" />
               </div>
