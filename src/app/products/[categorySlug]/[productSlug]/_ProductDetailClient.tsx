@@ -463,7 +463,7 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
               [// Spares & Accessories]
             </TabsTrigger>
             <TabsTrigger value="support" className="text-xs font-mono">
-              [// Delivery & Documentation]
+              {product.documents && product.documents.length > 0 ? "[// Delivery & Documentation]" : "[// Delivery & Support]"}
             </TabsTrigger>
           </TabsList>
         </div>
@@ -869,27 +869,29 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
               </div>
             </section>
 
-            <section id="downloads" className="pt-6 border-t border-border-light">
-              <div className="flex items-center gap-2 mb-4">
-                <span className="font-mono text-xs font-bold text-brand-teal">{"// 06B"}</span>
-                <h2 className="text-lg font-display font-bold text-ink-primary">
-                  Ungated Technical Documentation &amp; Protocols
-                </h2>
-              </div>
+            {product.documents && product.documents.length > 0 && (
+              <section id="downloads" className="pt-6 border-t border-border-light">
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="font-mono text-xs font-bold text-brand-teal">{"// 06B"}</span>
+                  <h2 className="text-lg font-display font-bold text-ink-primary">
+                    Ungated Technical Documentation &amp; Protocols
+                  </h2>
+                </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {product.documents.map((doc) => (
-                  <TechnicalDocumentCard
-                    key={doc.id}
-                    title={doc.title}
-                    type={doc.type}
-                    format={doc.format}
-                    fileSizeBytes={doc.fileSizeBytes}
-                    downloadUrl={doc.fileUrl}
-                  />
-                ))}
-              </div>
-            </section>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {product.documents.map((doc) => (
+                    <TechnicalDocumentCard
+                      key={doc.id}
+                      title={doc.title}
+                      type={doc.type}
+                      format={doc.format}
+                      fileSizeBytes={doc.fileSizeBytes}
+                      downloadUrl={doc.fileUrl}
+                    />
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
         </TabsContent>
       </Tabs>

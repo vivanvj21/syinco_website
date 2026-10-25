@@ -137,26 +137,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "rtp-mini-datasheet",
-        "title": "Advance Riko RTP-MINI Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/rtp-mini-datasheet.pdf",
-        "fileSizeBytes": 2742,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "rtp-mini-brochure",
-        "title": "Advance Riko RTP-MINI System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/rtp-mini-brochure.pdf",
-        "fileSizeBytes": 2740,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -296,26 +277,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Polymer materials and thermosetting resins, Various films and sheets"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "f-cal-datasheet",
-        "title": "Advance Riko F-CAL Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/f-cal-datasheet.pdf",
-        "fileSizeBytes": 2328,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "f-cal-brochure",
-        "title": "Advance Riko F-CAL System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/f-cal-brochure.pdf",
-        "fileSizeBytes": 2326,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -439,26 +401,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "zem-d-datasheet",
-        "title": "Advance Riko ZEM-D Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/zem-d-datasheet.pdf",
-        "fileSizeBytes": 2065,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "zem-d-brochure",
-        "title": "Advance Riko ZEM-D System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/zem-d-brochure.pdf",
-        "fileSizeBytes": 2063,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -599,26 +542,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "f-pem-datasheet",
-        "title": "Advance Riko F-PEM Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/f-pem-datasheet.pdf",
-        "fileSizeBytes": 2234,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "f-pem-brochure",
-        "title": "Advance Riko F-PEM System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/f-pem-brochure.pdf",
-        "fileSizeBytes": 2232,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -774,26 +698,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "pem-2-datasheet",
-        "title": "Advance Riko PEM-2 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/pem-2-datasheet.pdf",
-        "fileSizeBytes": 2546,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "pem-2-brochure",
-        "title": "Advance Riko PEM-2 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/pem-2-brochure.pdf",
-        "fileSizeBytes": 2544,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -912,26 +817,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "mini-pem-datasheet",
-        "title": "Advance Riko MINI-PEM Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/mini-pem-datasheet.pdf",
-        "fileSizeBytes": 1983,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "mini-pem-brochure",
-        "title": "Advance Riko MINI-PEM System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/mini-pem-brochure.pdf",
-        "fileSizeBytes": 1981,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -1065,26 +951,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "tc-1200rh-tc-9000-datasheet",
-        "title": "Advance Riko TC-1200RH-TC-9000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/tc-1200rh-tc-9000-datasheet.pdf",
-        "fileSizeBytes": 2153,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "tc-1200rh-tc-9000-brochure",
-        "title": "Advance Riko TC-1200RH-TC-9000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/tc-1200rh-tc-9000-brochure.pdf",
-        "fileSizeBytes": 2151,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -1272,26 +1139,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "stpm-1000-datasheet",
-        "title": "Advance Riko STPM-1000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/stpm-1000-datasheet.pdf",
-        "fileSizeBytes": 2729,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "stpm-1000-brochure",
-        "title": "Advance Riko STPM-1000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/stpm-1000-brochure.pdf",
-        "fileSizeBytes": 2727,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -1490,26 +1338,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Polymer materials and thermosetting resins, Various films and sheets"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "td-1-datasheet",
-        "title": "Advance Riko TD-1 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/td-1-datasheet.pdf",
-        "fileSizeBytes": 2485,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "td-1-brochure",
-        "title": "Advance Riko TD-1 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/td-1-brochure.pdf",
-        "fileSizeBytes": 2483,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -1705,26 +1534,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Polymer materials and thermosetting resins, Various films and sheets"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "laserpit-datasheet",
-        "title": "Advance Riko LASERPIT Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/laserpit-datasheet.pdf",
-        "fileSizeBytes": 2073,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "laserpit-brochure",
-        "title": "Advance Riko LASERPIT System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/laserpit-brochure.pdf",
-        "fileSizeBytes": 2071,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -1939,26 +1749,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Polymer materials and thermosetting resins, Various films and sheets"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "ftc-datasheet",
-        "title": "Advance Riko FTC Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/ftc-datasheet.pdf",
-        "fileSizeBytes": 2466,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "ftc-brochure",
-        "title": "Advance Riko FTC System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/ftc-brochure.pdf",
-        "fileSizeBytes": 2464,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -2111,26 +1902,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
     "verifiedStandards": [
       "ASTM E1530"
     ],
-    "documents": [
-      {
-        "id": "gh-1-datasheet",
-        "title": "Advance Riko GH-1 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/gh-1-datasheet.pdf",
-        "fileSizeBytes": 2057,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "gh-1-brochure",
-        "title": "Advance Riko GH-1 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/gh-1-brochure.pdf",
-        "fileSizeBytes": 2055,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -2283,26 +2055,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Ceramics"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "ehr-datasheet",
-        "title": "Advance Riko EHR Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/ehr-datasheet.pdf",
-        "fileSizeBytes": 2129,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "ehr-brochure",
-        "title": "Advance Riko EHR System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/ehr-brochure.pdf",
-        "fileSizeBytes": 2127,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -2488,26 +2241,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "ter-datasheet",
-        "title": "Advance Riko TER Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/ter-datasheet.pdf",
-        "fileSizeBytes": 2085,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "ter-brochure",
-        "title": "Advance Riko TER System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/ter-brochure.pdf",
-        "fileSizeBytes": 2083,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -2668,26 +2402,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
     ],
     "verifiedApplications": [],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "sh-3000-datasheet",
-        "title": "Advance Riko SH-3000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/sh-3000-datasheet.pdf",
-        "fileSizeBytes": 2005,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "sh-3000-brochure",
-        "title": "Advance Riko SH-3000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/sh-3000-brochure.pdf",
-        "fileSizeBytes": 2003,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -2896,26 +2611,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Ceramics"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "dl-9000-dly-9000-datasheet",
-        "title": "Advance Riko DL-9000-DLY-9000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/dl-9000-dly-9000-datasheet.pdf",
-        "fileSizeBytes": 2209,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "dl-9000-dly-9000-brochure",
-        "title": "Advance Riko DL-9000-DLY-9000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/dl-9000-dly-9000-brochure.pdf",
-        "fileSizeBytes": 2207,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -3091,26 +2787,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Ceramics"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "dly-9000-robot-datasheet",
-        "title": "Advance Riko DLY-9000-ROBOT Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/dly-9000-robot-datasheet.pdf",
-        "fileSizeBytes": 2111,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "dly-9000-robot-brochure",
-        "title": "Advance Riko DLY-9000-ROBOT System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/dly-9000-robot-brochure.pdf",
-        "fileSizeBytes": 2109,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -3252,26 +2929,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
     "verifiedStandards": [
       "JIS R3251-1995"
     ],
-    "documents": [
-      {
-        "id": "lix-datasheet",
-        "title": "Advance Riko LIX Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/lix-datasheet.pdf",
-        "fileSizeBytes": 2123,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "lix-brochure",
-        "title": "Advance Riko LIX System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/lix-brochure.pdf",
-        "fileSizeBytes": 2121,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -3423,26 +3081,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Polymer materials and thermosetting resins, Various films and sheets"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "tm-9000-datasheet",
-        "title": "Advance Riko TM-9000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/tm-9000-datasheet.pdf",
-        "fileSizeBytes": 1930,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "tm-9000-brochure",
-        "title": "Advance Riko TM-9000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/tm-9000-brochure.pdf",
-        "fileSizeBytes": 1928,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -3614,26 +3253,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
     ],
     "verifiedApplications": [],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "tgd-9000-datasheet",
-        "title": "Advance Riko TGD-9000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/tgd-9000-datasheet.pdf",
-        "fileSizeBytes": 1972,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "tgd-9000-brochure",
-        "title": "Advance Riko TGD-9000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/tgd-9000-brochure.pdf",
-        "fileSizeBytes": 1970,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -3810,26 +3430,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
     ],
     "verifiedApplications": [],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "dsc-r-datasheet",
-        "title": "Advance Riko DSC-R Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/dsc-r-datasheet.pdf",
-        "fileSizeBytes": 1956,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "dsc-r-brochure",
-        "title": "Advance Riko DSC-R System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/dsc-r-brochure.pdf",
-        "fileSizeBytes": 1954,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -3991,26 +3592,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Organic and polymeric"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "vpe-9000-datasheet",
-        "title": "Advance Riko VPE-9000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/vpe-9000-datasheet.pdf",
-        "fileSizeBytes": 2107,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "vpe-9000-brochure",
-        "title": "Advance Riko VPE-9000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/vpe-9000-brochure.pdf",
-        "fileSizeBytes": 2105,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -4160,26 +3742,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Organic and polymeric"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "trs-datasheet",
-        "title": "Advance Riko TRS Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/trs-datasheet.pdf",
-        "fileSizeBytes": 2046,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "trs-brochure",
-        "title": "Advance Riko TRS System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/trs-brochure.pdf",
-        "fileSizeBytes": 2044,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -4386,26 +3949,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "pspss-datasheet",
-        "title": "Advance Riko PSPSS Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/pspss-datasheet.pdf",
-        "fileSizeBytes": 2102,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "pspss-brochure",
-        "title": "Advance Riko PSPSS System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/pspss-brochure.pdf",
-        "fileSizeBytes": 2100,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -4643,26 +4187,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "tpc-5000-datasheet",
-        "title": "Advance Riko TPC-5000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/tpc-5000-datasheet.pdf",
-        "fileSizeBytes": 2005,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "tpc-5000-brochure",
-        "title": "Advance Riko TPC-5000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/tpc-5000-brochure.pdf",
-        "fileSizeBytes": 2003,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -4840,26 +4365,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "rtp-6-datasheet",
-        "title": "Advance Riko RTP-6 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/rtp-6-datasheet.pdf",
-        "fileSizeBytes": 2825,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "rtp-6-brochure",
-        "title": "Advance Riko RTP-6 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/rtp-6-brochure.pdf",
-        "fileSizeBytes": 2823,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -5023,26 +4529,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "mila-5050-datasheet",
-        "title": "Advance Riko MILA-5050 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/mila-5050-datasheet.pdf",
-        "fileSizeBytes": 2240,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "mila-5050-brochure",
-        "title": "Advance Riko MILA-5050 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/mila-5050-brochure.pdf",
-        "fileSizeBytes": 2238,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -5209,26 +4696,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "mila-5000-series-datasheet",
-        "title": "Advance Riko MILA-5000-SERIES Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/mila-5000-series-datasheet.pdf",
-        "fileSizeBytes": 2275,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "mila-5000-series-brochure",
-        "title": "Advance Riko MILA-5000-SERIES System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/mila-5000-series-brochure.pdf",
-        "fileSizeBytes": 2273,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -5402,26 +4870,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "mila-700ar-datasheet",
-        "title": "Advance Riko MILA-700AR Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/mila-700ar-datasheet.pdf",
-        "fileSizeBytes": 1924,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "mila-700ar-brochure",
-        "title": "Advance Riko MILA-700AR System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/mila-700ar-brochure.pdf",
-        "fileSizeBytes": 1922,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -5612,26 +5061,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "ssa-datasheet",
-        "title": "Advance Riko SSA Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/ssa-datasheet.pdf",
-        "fileSizeBytes": 2222,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "ssa-brochure",
-        "title": "Advance Riko SSA System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/ssa-brochure.pdf",
-        "fileSizeBytes": 2220,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -5840,26 +5270,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "miro-datasheet",
-        "title": "Advance Riko MIRO Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/miro-datasheet.pdf",
-        "fileSizeBytes": 1950,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "miro-brochure",
-        "title": "Advance Riko MIRO System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/miro-brochure.pdf",
-        "fileSizeBytes": 1948,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -6049,26 +5460,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "cas-59aq-datasheet",
-        "title": "Advance Riko CAS-59AQ Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/cas-59aq-datasheet.pdf",
-        "fileSizeBytes": 1967,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "cas-59aq-brochure",
-        "title": "Advance Riko CAS-59AQ System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/cas-59aq-brochure.pdf",
-        "fileSizeBytes": 1965,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -6228,26 +5620,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "ht-rta59hd-datasheet",
-        "title": "Advance Riko HT-RTA59HD Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/ht-rta59hd-datasheet.pdf",
-        "fileSizeBytes": 2281,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "ht-rta59hd-brochure",
-        "title": "Advance Riko HT-RTA59HD System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/ht-rta59hd-brochure.pdf",
-        "fileSizeBytes": 2279,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -6372,26 +5745,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Metals and steel"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "cas-datasheet",
-        "title": "Advance Riko CAS Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/cas-datasheet.pdf",
-        "fileSizeBytes": 2107,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "cas-brochure",
-        "title": "Advance Riko CAS System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/cas-brochure.pdf",
-        "fileSizeBytes": 2105,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -6514,26 +5868,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Metals and steel"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "microit-1-datasheet",
-        "title": "Advance Riko MICROIT-1 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/uit-1-datasheet.pdf",
-        "fileSizeBytes": 2041,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "microit-1-brochure",
-        "title": "Advance Riko MICROIT-1 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/uit-1-brochure.pdf",
-        "fileSizeBytes": 2039,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -6663,26 +5998,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "aps-1-datasheet",
-        "title": "Advance Riko APS-1 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/aps-1-datasheet.pdf",
-        "fileSizeBytes": 2180,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "aps-1-brochure",
-        "title": "Advance Riko APS-1 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/aps-1-brochure.pdf",
-        "fileSizeBytes": 2178,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -6819,26 +6135,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "apd-datasheet",
-        "title": "Advance Riko APD Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/apd-datasheet.pdf",
-        "fileSizeBytes": 1889,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "apd-brochure",
-        "title": "Advance Riko APD System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/apd-brochure.pdf",
-        "fileSizeBytes": 1887,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -7009,26 +6306,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Organic and polymeric"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "tds-m202r-datasheet",
-        "title": "Advance Riko TDS-M202R Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/tds-m202r-datasheet.pdf",
-        "fileSizeBytes": 2328,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "tds-m202r-brochure",
-        "title": "Advance Riko TDS-M202R System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/tds-m202r-brochure.pdf",
-        "fileSizeBytes": 2326,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -7166,26 +6444,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "hs-9000-datasheet",
-        "title": "Advance Riko HS-9000 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/hs-9000-datasheet.pdf",
-        "fileSizeBytes": 2286,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "hs-9000-brochure",
-        "title": "Advance Riko HS-9000 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/hs-9000-brochure.pdf",
-        "fileSizeBytes": 2284,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -7315,26 +6574,7 @@ export const wave2CatalogueFamilyProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "ha-1h-datasheet",
-        "title": "Advance Riko HA-1H Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/ha-1h-datasheet.pdf",
-        "fileSizeBytes": 2122,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "ha-1h-brochure",
-        "title": "Advance Riko HA-1H System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/ha-1h-brochure.pdf",
-        "fileSizeBytes": 2120,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,

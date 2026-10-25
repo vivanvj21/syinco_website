@@ -30,46 +30,12 @@ test('Fuji SPS End-to-End Verification Test Suite', async (t) => {
     }
   });
 
-  await t.test('2. Documentation: Every Fuji SPS Product has >= 2 Downloadable Documents', () => {
+  await t.test('2. Documentation Invariant: Fuji SPS Products Have Zero Synthetic Stubs (Only Edwards Has Official OEM Downloads)', () => {
     for (const p of fujiProducts) {
       assert.ok(
-        p.documents && p.documents.length >= 2,
-        `Product ${p.id} (${p.name}) must have at least 2 documents, found ${p.documents?.length || 0}`
+        !p.documents || p.documents.length === 0,
+        `Fuji SPS product ${p.id} must have empty documents (only Edwards maintains original authentic OEM brochures), found ${p.documents?.length}`
       );
-
-      const hasDatasheet = p.documents.some((d) => d.type === 'datasheet');
-      const hasBrochure = p.documents.some((d) => d.type === 'brochure');
-
-      assert.ok(hasDatasheet, `Product ${p.id} must have a technical datasheet`);
-      assert.ok(hasBrochure, `Product ${p.id} must have a system brochure`);
-    }
-  });
-
-  await t.test('3. Physical File Integrity: All Linked Document Files Exist on Disk', () => {
-    for (const p of fujiProducts) {
-      for (const doc of p.documents) {
-        assert.ok(
-          doc.fileUrl.startsWith('/documents/fuji-sps/'),
-          `Document URL must point to /documents/fuji-sps/, found ${doc.fileUrl}`
-        );
-        const absolutePath = path.join(process.cwd(), 'public', doc.fileUrl.replace(/^\//, ''));
-        assert.ok(
-          fs.existsSync(absolutePath),
-          `File must physically exist on disk: ${absolutePath} (linked from ${p.id})`
-        );
-        const stat = fs.statSync(absolutePath);
-        assert.ok(
-          stat.size > 1000,
-          `PDF file ${doc.fileUrl} must be substantial (>1000 bytes), found ${stat.size} bytes`
-        );
-
-        // Verify valid PDF header
-        const fd = fs.openSync(absolutePath, 'r');
-        const buffer = Buffer.alloc(5);
-        fs.readSync(fd, buffer, 0, 5, 0);
-        fs.closeSync(fd);
-        assert.equal(buffer.toString('utf8'), '%PDF-', `File ${doc.fileUrl} must have valid PDF header`);
-      }
     }
   });
 

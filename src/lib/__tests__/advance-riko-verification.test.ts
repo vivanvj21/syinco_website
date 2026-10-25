@@ -11,31 +11,12 @@ test('Advance Riko End-to-End Verification Test Suite', async (t) => {
     assert.equal(arProducts.length, 51, 'Advance Riko catalogue must have exactly 51 products matching the official OEM catalog');
   });
 
-  await t.test('2. Documentation: Every Advance Riko Product has >= 2 Downloadable Documents', () => {
+  await t.test('2. Documentation Invariant: Advance Riko Products Have Zero Synthetic Stubs (Only Edwards Has Official OEM Downloads)', () => {
     for (const p of arProducts) {
       assert.ok(
-        p.documents && p.documents.length >= 2,
-        `Product ${p.id} (${p.name}) must have at least 2 documents, found ${p.documents?.length || 0}`
+        !p.documents || p.documents.length === 0,
+        `Advance Riko product ${p.id} must have empty documents (only Edwards maintains original authentic OEM brochures), found ${p.documents?.length}`
       );
-
-      const hasDatasheet = p.documents.some((d) => d.type === 'datasheet');
-      const hasBrochure = p.documents.some((d) => d.type === 'brochure');
-
-      assert.ok(hasDatasheet, `Product ${p.id} must have a technical datasheet`);
-      assert.ok(hasBrochure, `Product ${p.id} must have a system brochure`);
-    }
-  });
-
-  await t.test('3. Physical File Integrity: All Linked Document Files Exist on Disk', () => {
-    for (const p of arProducts) {
-      for (const doc of p.documents) {
-        assert.ok(doc.fileUrl.startsWith('/documents/advance-riko/'), `Document URL must point to /documents/advance-riko/`);
-        const relativePath = doc.fileUrl.replace(/^\//, '');
-        const absolutePath = path.join(process.cwd(), 'public', doc.fileUrl.replace(/^\//, ''));
-        assert.ok(fs.existsSync(absolutePath), `File must exist on disk: ${absolutePath} (linked from ${p.id})`);
-        const stat = fs.statSync(absolutePath);
-        assert.ok(stat.size > 500, `PDF file ${doc.fileUrl} must be non-trivial (>500 bytes), found ${stat.size} bytes`);
-      }
     }
   });
 

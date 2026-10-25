@@ -334,35 +334,7 @@ export const zem3ProductData: Product = {
     },
   ],
 
-  documents: [
-    {
-      id: "zem-3-datasheet",
-      title: "Advance Riko ZEM-3 Series Official Technical Datasheet",
-      type: "datasheet",
-      fileUrl: "/documents/advance-riko/advance-riko-zem-3-datasheet.pdf",
-      fileSizeBytes: 2936012, // 2.8 MB
-      format: "pdf",
-      isGated: false,
-    },
-    {
-      id: "zem-3-brochure",
-      title: "Advance Riko ZEM-3 Series Engineering & Applications Brochure",
-      type: "brochure",
-      fileUrl: "/documents/advance-riko/advance-riko-zem-3-brochure.pdf",
-      fileSizeBytes: 3145728, // 3.0 MB
-      format: "pdf",
-      isGated: false,
-    },
-    {
-      id: "zem-3-protocol",
-      title: "Sample Preparation and Measurement Protocol Guide",
-      type: "application-note",
-      fileUrl: "/documents/advance-riko/zem-3-sample-preparation-protocol.pdf",
-      fileSizeBytes: 1468006, // 1.4 MB
-      format: "pdf",
-      isGated: false,
-    },
-  ],
+  documents: [],
 
   stockStatus: "built-to-order",
   inrInvoicingAvailable: true,

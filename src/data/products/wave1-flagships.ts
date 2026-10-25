@@ -116,26 +116,7 @@ export const wave1FlagshipProducts: Product[] = [
       "Ceramics"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "superlix-datasheet",
-        "title": "Advance Riko SUPERLIX Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/superlix-datasheet.pdf",
-        "fileSizeBytes": 2475,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "superlix-brochure",
-        "title": "Advance Riko SUPERLIX System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/superlix-brochure.pdf",
-        "fileSizeBytes": 2473,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -265,26 +246,7 @@ export const wave1FlagshipProducts: Product[] = [
       "Magnetic material"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "tcn-2omega-datasheet",
-        "title": "Advance Riko TCN-2OMEGA Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/tcn-2omega-datasheet.pdf",
-        "fileSizeBytes": 2001,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "tcn-2omega-brochure",
-        "title": "Advance Riko TCN-2OMEGA System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/tcn-2omega-brochure.pdf",
-        "fileSizeBytes": 1999,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -407,26 +369,7 @@ export const wave1FlagshipProducts: Product[] = [
       "Carbon"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "rmp-1-datasheet",
-        "title": "Advance Riko RMP-1 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/rmp-1-datasheet.pdf",
-        "fileSizeBytes": 2043,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "rmp-1-brochure",
-        "title": "Advance Riko RMP-1 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/rmp-1-brochure.pdf",
-        "fileSizeBytes": 2041,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -626,26 +569,7 @@ export const wave1FlagshipProducts: Product[] = [
       "Wire rod"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "rhl-e-vht-p-series-datasheet",
-        "title": "Advance Riko RHL-E-VHT-P-SERIES Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/rhl-e-vht-p-series-datasheet.pdf",
-        "fileSizeBytes": 2320,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "rhl-e-vht-p-series-brochure",
-        "title": "Advance Riko RHL-E-VHT-P-SERIES System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/rhl-e-vht-p-series-brochure.pdf",
-        "fileSizeBytes": 2318,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -958,26 +882,7 @@ export const wave1FlagshipProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "rta-datasheet",
-        "title": "Advance Riko RTA Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/rta-datasheet.pdf",
-        "fileSizeBytes": 2013,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "rta-brochure",
-        "title": "Advance Riko RTA System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/rta-brochure.pdf",
-        "fileSizeBytes": 2011,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -1175,26 +1080,7 @@ export const wave1FlagshipProducts: Product[] = [
       "Metals and steel"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "tms-datasheet",
-        "title": "Advance Riko TMS Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/tms-datasheet.pdf",
-        "fileSizeBytes": 2009,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "tms-brochure",
-        "title": "Advance Riko TMS System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/tms-brochure.pdf",
-        "fileSizeBytes": 2007,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -1350,26 +1236,7 @@ export const wave1FlagshipProducts: Product[] = [
       "Ceramics"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "wet-1200-datasheet",
-        "title": "Advance Riko WET-1200 Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/wet-1200-datasheet.pdf",
-        "fileSizeBytes": 2136,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "wet-1200-brochure",
-        "title": "Advance Riko WET-1200 System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/wet-1200-brochure.pdf",
-        "fileSizeBytes": 2134,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,

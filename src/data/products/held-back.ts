@@ -129,26 +129,7 @@ export const wave3HeldBackProducts: Product[] = [
       "Catalyst"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "qhc-qhc-datasheet",
-        "title": "Advance Riko QHC-QHC Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/qhc-qhc-datasheet.pdf",
-        "fileSizeBytes": 2114,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "qhc-qhc-brochure",
-        "title": "Advance Riko QHC-QHC System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/qhc-qhc-brochure.pdf",
-        "fileSizeBytes": 2112,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -325,26 +306,7 @@ export const wave3HeldBackProducts: Product[] = [
     ],
     "verifiedApplications": [],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "netsushori-datasheet",
-        "title": "Advance Riko NETSUSHORI Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/netsushori-datasheet.pdf",
-        "fileSizeBytes": 2073,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "netsushori-brochure",
-        "title": "Advance Riko NETSUSHORI System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/netsushori-brochure.pdf",
-        "fileSizeBytes": 2071,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
@@ -515,26 +477,7 @@ export const wave3HeldBackProducts: Product[] = [
       "Bio and Food"
     ],
     "verifiedStandards": [],
-    "documents": [
-      {
-        "id": "antares-spica-leonis-datasheet",
-        "title": "Advance Riko ANTARES-SPICA-LEONIS Official Technical Datasheet",
-        "type": "datasheet",
-        "fileUrl": "/documents/advance-riko/antares-spica-leonis-datasheet.pdf",
-        "fileSizeBytes": 2472,
-        "format": "pdf",
-        "isGated": false
-      },
-      {
-        "id": "antares-spica-leonis-brochure",
-        "title": "Advance Riko ANTARES-SPICA-LEONIS System & Application Brochure",
-        "type": "brochure",
-        "fileUrl": "/documents/advance-riko/antares-spica-leonis-brochure.pdf",
-        "fileSizeBytes": 2470,
-        "format": "pdf",
-        "isGated": false
-      }
-    ],
+    "documents": [],
     "stockStatus": "built-to-order",
     "inrInvoicingAvailable": true,
     "typicalLeadTimeWeeks": 12,
