@@ -80,7 +80,7 @@ export default function ContactUsPage() {
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="border-b border-border-light pb-3 mb-4">
                     <h3 className="font-display font-bold text-base text-slate-900">
-                      Submit Technical Consultation or Tender Inquiry
+                      Technical Consultation & Quotation Request
                     </h3>
                     <p className="text-xs text-slate-500 font-sans mt-0.5">
                       Fill out your institutional requirements below for immediate engineering response.
@@ -204,7 +204,7 @@ export default function ContactUsPage() {
                       className="bg-brand-teal hover:bg-brand-teal-dark text-white font-bold text-xs font-mono px-6 py-2.5 rounded-xs w-full sm:w-auto gap-2 cursor-pointer shadow-xs"
                     >
                       <Send className="w-3.5 h-3.5" />
-                      <span>Transmit Technical Inquiry</span>
+                      <span>Submit Technical Enquiry →</span>
                     </Button>
                   </div>
                 </form>
