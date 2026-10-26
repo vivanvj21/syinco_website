@@ -32,7 +32,7 @@ export function Header() {
             <span className="font-display font-bold text-base sm:text-lg tracking-tight text-slate-900 group-hover:text-brand-teal transition-colors leading-tight">
               SYINCO
             </span>
-            <span className="font-mono text-[9px] uppercase tracking-wider text-slate-500">
+            <span className="font-mono text-[11px] sm:text-xs uppercase tracking-wider text-slate-500 font-semibold">
               Technologies
             </span>
           </div>

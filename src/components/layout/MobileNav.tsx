@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { X, ChevronRight, ShoppingCart, Phone, Mail, MapPin } from "lucide-react";
 import { Drawer, DrawerContent } from "@/components/ui/Drawer";
-import { X, ChevronRight, Phone, Mail, MapPin, ShoppingCart } from "lucide-react";
 import { allCategories } from "@/data/products";
 import { principals } from "@/data/principals";
 import { useRfqStore } from "@/hooks/useRfqStore";
@@ -16,8 +16,8 @@ export interface MobileNavProps {
 
 export function MobileNav({ isOpen, onClose }: MobileNavProps) {
   const [productsExpanded, setProductsExpanded] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const { openDrawer, getTotalCount } = useRfqStore();
+  const { getTotalCount, openDrawer } = useRfqStore();
+  const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
     setMounted(true);
@@ -29,26 +29,26 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
     <Drawer open={isOpen} onOpenChange={(open) => !open && onClose()}>
       <DrawerContent
         aria-label="Mobile Navigation Menu"
-        className="w-full max-w-xs p-5 bg-slate-canvas text-white border-r border-border-dark flex flex-col justify-between overflow-y-auto"
+        className="w-full max-w-xs p-5 bg-white text-slate-800 border-r border-slate-200 flex flex-col justify-between overflow-y-auto shadow-2xl"
       >
         <div className="space-y-5">
           {/* Drawer Header */}
-          <div className="flex items-center justify-between pb-3 border-b border-border-dark">
-            <div className="flex items-center gap-2.5">
-              <div className="relative w-8 h-8 rounded-xs bg-white p-0.5 shrink-0 flex items-center justify-center">
+          <div className="flex items-center justify-between pb-3.5 border-b border-slate-200">
+            <div className="flex items-center gap-3">
+              <div className="relative w-9 h-9 rounded-sm bg-white p-0.5 shrink-0 flex items-center justify-center border border-slate-200 shadow-2xs">
                 <Image
                   src="/logo.png"
                   alt="SYINCO Logo"
-                  width={32}
-                  height={32}
+                  width={36}
+                  height={36}
                   className="w-full h-full object-contain"
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-display font-bold text-xs tracking-tight text-white">
+                <span className="font-display font-bold text-sm sm:text-base tracking-tight text-slate-900">
                   SYINCO TECHNOLOGIES
                 </span>
-                <span className="font-mono text-[9px] uppercase tracking-wider text-slate-400">
+                <span className="font-mono text-xs uppercase tracking-wider text-slate-500 font-semibold">
                   Precision Systems
                 </span>
               </div>
@@ -57,19 +57,19 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               type="button"
               onClick={onClose}
               aria-label="Close mobile navigation"
-              className="p-1 text-slate-400 hover:text-white cursor-pointer"
+              className="p-1.5 text-slate-400 hover:text-slate-800 hover:bg-slate-100 rounded-sm cursor-pointer transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
 
           {/* Nav Links: 7 Simplified Links */}
-          <nav className="space-y-1 text-sm font-sans">
+          <nav className="space-y-1.5 text-sm sm:text-base font-sans">
             {/* 1. Home */}
             <Link
               href="/"
               onClick={onClose}
-              className="block py-2.5 px-2 rounded-xs text-white font-medium hover:bg-slate-surface hover:text-brand-teal transition-colors"
+              className="block py-2.5 px-3 rounded-sm text-slate-800 font-medium hover:bg-slate-50 hover:text-brand-teal transition-colors"
             >
               Home
             </Link>
@@ -78,25 +78,25 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
             <Link
               href="/industries"
               onClick={onClose}
-              className="block py-2.5 px-2 rounded-xs text-white font-medium hover:bg-slate-surface hover:text-brand-teal transition-colors"
+              className="block py-2.5 px-3 rounded-sm text-slate-800 font-medium hover:bg-slate-50 hover:text-brand-teal transition-colors"
             >
               Industries Served
             </Link>
 
             {/* 3. Products (with accordion for disciplines & principals) */}
-            <div className="border-y border-border-dark/60 py-1">
+            <div className="border-y border-slate-200/80 py-1.5">
               <div className="flex items-center justify-between">
                 <Link
                   href="/products"
                   onClick={onClose}
-                  className="flex-1 py-2 px-2 text-white font-medium hover:text-brand-teal transition-colors"
+                  className="flex-1 py-2 px-3 text-slate-800 font-medium hover:text-brand-teal transition-colors"
                 >
                   Products
                 </Link>
                 <button
                   type="button"
                   onClick={() => setProductsExpanded(!productsExpanded)}
-                  className="p-2 text-slate-400 hover:text-white cursor-pointer"
+                  className="p-2 text-slate-500 hover:text-slate-900 cursor-pointer"
                   aria-label="Toggle products disciplines"
                 >
                   <ChevronRight
@@ -108,18 +108,18 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               </div>
 
               {productsExpanded && (
-                <div className="pl-4 space-y-3 pt-2 pb-2">
+                <div className="pl-4 space-y-3.5 pt-2 pb-2">
                   <div>
-                    <span className="font-mono text-[10px] uppercase tracking-wider text-slate-400 font-bold block mb-1">
+                    <span className="font-mono text-xs uppercase tracking-wider text-slate-500 font-bold block mb-1.5">
                       Disciplines
                     </span>
-                    <div className="space-y-1">
+                    <div className="space-y-1.5">
                       {allCategories.map((cat) => (
                         <Link
                           key={cat.slug}
                           href={`/products/${cat.slug}`}
                           onClick={onClose}
-                          className="block text-xs text-slate-300 hover:text-brand-teal py-0.5"
+                          className="block text-xs sm:text-sm text-slate-600 hover:text-brand-teal py-1"
                         >
                           {cat.name}
                         </Link>
@@ -127,19 +127,19 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                     </div>
                   </div>
 
-                  <div className="pt-2 border-t border-border-dark/40">
-                    <span className="font-mono text-[10px] uppercase tracking-wider text-slate-400 font-bold block mb-1">
+                  <div className="pt-2 border-t border-slate-200">
+                    <span className="font-mono text-xs uppercase tracking-wider text-slate-500 font-bold block mb-1.5">
                       Principals
                     </span>
-                    <div className="space-y-1">
+                    <div className="space-y-1.5">
                       {principals.map((p) => (
                         <Link
                           key={p.id}
                           href={`/products?vendor=${p.filterVendorId}`}
                           onClick={onClose}
-                          className="block text-xs text-slate-300 hover:text-brand-teal py-0.5"
+                          className="block text-xs sm:text-sm text-slate-600 hover:text-brand-teal py-1"
                         >
-                          {p.shortName} <span className="text-[10px] text-slate-500">({p.country})</span>
+                          {p.shortName} <span className="text-xs text-slate-400">({p.country})</span>
                         </Link>
                       ))}
                     </div>
@@ -148,7 +148,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                   <Link
                     href="/products"
                     onClick={onClose}
-                    className="block font-mono text-[11px] text-brand-teal font-bold pt-2 border-t border-border-dark/40"
+                    className="block font-mono text-xs sm:text-sm text-brand-teal font-bold pt-2 border-t border-slate-200"
                   >
                     → Explore Full Catalogue
                   </Link>
@@ -156,21 +156,20 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               )}
             </div>
 
-
-            {/* 5. Services */}
+            {/* 4. Services */}
             <Link
               href="/services"
               onClick={onClose}
-              className="block py-2.5 px-2 rounded-xs text-white font-medium hover:bg-slate-surface hover:text-brand-teal transition-colors"
+              className="block py-2.5 px-3 rounded-sm text-slate-800 font-medium hover:bg-slate-50 hover:text-brand-teal transition-colors"
             >
               Services
             </Link>
 
-            {/* 6. About Us */}
+            {/* 5. About Us */}
             <Link
               href="/about"
               onClick={onClose}
-              className="block py-2.5 px-2 rounded-xs text-white font-medium hover:bg-slate-surface hover:text-brand-teal transition-colors"
+              className="block py-2.5 px-3 rounded-sm text-slate-800 font-medium hover:bg-slate-50 hover:text-brand-teal transition-colors"
             >
               About Us
             </Link>
@@ -182,24 +181,24 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                 onClose();
                 openDrawer();
               }}
-              className="w-full flex items-center justify-between py-2.5 px-2 rounded-xs text-brand-teal font-medium hover:bg-slate-surface transition-colors cursor-pointer text-left"
+              className="w-full flex items-center justify-between py-2.5 px-3 rounded-sm text-brand-teal font-medium hover:bg-slate-50 transition-colors cursor-pointer text-left"
             >
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 text-sm sm:text-base font-semibold">
                 <ShoppingCart className="w-4 h-4 text-brand-teal" />
                 <span>RFQ Cart</span>
               </div>
               {cartCount > 0 && (
-                <span className="px-2 py-0.5 rounded-full bg-brand-teal text-white font-mono text-[10px] font-bold">
+                <span className="px-2 py-0.5 rounded-full bg-brand-teal text-white font-mono text-xs font-bold">
                   {cartCount} {cartCount === 1 ? "unit" : "units"}
                 </span>
               )}
             </button>
 
-            {/* 7. Contact Us */}
+            {/* 6. Contact Us */}
             <Link
               href="/contact-us"
               onClick={onClose}
-              className="block py-2.5 px-2 rounded-xs text-white font-medium hover:bg-slate-surface hover:text-brand-teal transition-colors"
+              className="block py-2.5 px-3 rounded-sm text-slate-800 font-medium hover:bg-slate-50 hover:text-brand-teal transition-colors"
             >
               Contact Us
             </Link>
@@ -207,25 +206,25 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
         </div>
 
         {/* Bottom Contact & Verification Block */}
-        <div className="pt-5 border-t border-border-dark/80 space-y-2.5 font-mono text-[11px] text-slate-300">
-          <div className="flex items-center gap-2 text-slate-400">
-            <MapPin className="w-3.5 h-3.5 text-brand-teal shrink-0" />
+        <div className="pt-5 border-t border-slate-200 space-y-2.5 font-mono text-xs sm:text-sm text-slate-600">
+          <div className="flex items-center gap-2 text-slate-500">
+            <MapPin className="w-4 h-4 text-brand-teal shrink-0" />
             <span>Hyderabad Depot, Telangana</span>
           </div>
 
           <a
             href="tel:+917382292929"
-            className="flex items-center gap-2 text-white font-bold hover:text-brand-teal transition-colors"
+            className="flex items-center gap-2 text-slate-800 font-bold hover:text-brand-teal transition-colors"
           >
-            <Phone className="w-3.5 h-3.5 text-brand-teal shrink-0" />
+            <Phone className="w-4 h-4 text-brand-teal shrink-0" />
             <span>+91 73822 92929</span>
           </a>
 
           <a
             href="mailto:info@syinco.in"
-            className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
+            className="flex items-center gap-2 text-slate-600 hover:text-brand-teal transition-colors"
           >
-            <Mail className="w-3.5 h-3.5 text-brand-teal shrink-0" />
+            <Mail className="w-4 h-4 text-brand-teal shrink-0" />
             <span>info@syinco.in</span>
           </a>
         </div>

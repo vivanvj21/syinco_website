@@ -106,14 +106,14 @@
     --font-mono: 'Aptos', monospace;
 
     /* Surfaces */
-    --surface-canvas-slate: #0b1118;
+    --surface-canvas-slate: #f8fafc;
     --surface-canvas-light: #f8fafc;
     --surface-card-white: #ffffff;
-    --surface-panel-elevated: #111827;
+    --surface-panel-elevated: #ffffff;
 
     /* Typographic Ink */
-    --ink-primary-dark: #0f172a;
-    --ink-muted-dark: #64748b;
+    --ink-primary-dark: #1e293b;
+    --ink-muted-dark: #475569;
     --ink-primary-light: #f8fafc;
     --ink-muted-light: #94a3b8;
 
@@ -126,7 +126,7 @@
 
     /* Borders */
     --border-light: #e2e8f0;
-    --border-dark: #1e293b;
+    --border-dark: #cbd5e1;
     --border-focus: #008390;
 
     /* Radii */
@@ -140,11 +140,17 @@
     font-family: 'Aptos', 'Aptos Display', sans-serif;
   }
 
-  html,
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--surface-canvas-light);
     color: var(--ink-primary-dark);
     font-family: 'Aptos', 'Aptos Display', sans-serif !important;
+    font-size: 0.95rem;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

@@ -25,7 +25,7 @@ export function MegaMenu() {
     <nav
       role="navigation"
       aria-label="Main Navigation"
-      className="hidden lg:flex items-center gap-1 xl:gap-2 text-xs xl:text-sm font-sans font-medium text-slate-700"
+      className="hidden lg:flex items-center gap-1 xl:gap-2 text-sm xl:text-base font-sans font-medium text-slate-700"
       onMouseLeave={handleMouseLeave}
     >
       {/* 1. Home */}
@@ -73,7 +73,7 @@ export function MegaMenu() {
             <div className="grid grid-cols-12 gap-5">
               {/* Disciplines Column */}
               <div className="col-span-7">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-slate-500 block mb-2.5 font-bold">
+                <span className="font-mono text-xs uppercase tracking-wider text-slate-500 block mb-2.5 font-bold">
                   Disciplines
                 </span>
                 <ul className="space-y-1">
@@ -84,10 +84,10 @@ export function MegaMenu() {
                         onClick={() => setActiveMenu(null)}
                         className="group flex items-center justify-between py-1.5 px-2 rounded-xs hover:bg-slate-50 hover:text-brand-teal transition-colors"
                       >
-                        <span className="font-sans font-medium text-xs text-slate-800 group-hover:text-brand-teal">
+                        <span className="font-sans font-medium text-xs sm:text-sm text-slate-800 group-hover:text-brand-teal">
                           {cat.name}
                         </span>
-                        <ArrowRight className="w-3 h-3 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-brand-teal transition-opacity" />
+                        <ArrowRight className="w-3.5 h-3.5 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-brand-teal transition-opacity" />
                       </Link>
                     </li>
                   ))}
@@ -97,7 +97,7 @@ export function MegaMenu() {
               {/* Principals Column */}
               <div className="col-span-5 bg-slate-50 p-3.5 rounded-xs border border-border-light flex flex-col justify-between">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-slate-500 block mb-2.5 font-bold">
+                  <span className="font-mono text-xs uppercase tracking-wider text-slate-500 block mb-2.5 font-bold">
                     Principals
                   </span>
                   <div className="space-y-1.5">
@@ -108,10 +108,10 @@ export function MegaMenu() {
                         onClick={() => setActiveMenu(null)}
                         className="group flex items-center justify-between py-1.5 px-2 rounded-xs hover:bg-white transition-colors"
                       >
-                        <span className="font-sans font-medium text-xs text-slate-900 group-hover:text-brand-teal">
-                          {p.shortName} <span className="text-[10px] text-slate-400 font-normal">({p.country})</span>
+                        <span className="font-sans font-medium text-xs sm:text-sm text-slate-900 group-hover:text-brand-teal">
+                          {p.shortName} <span className="text-xs text-slate-400 font-normal">({p.country})</span>
                         </span>
-                        <ArrowRight className="w-3 h-3 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-brand-teal transition-opacity" />
+                        <ArrowRight className="w-3.5 h-3.5 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-brand-teal transition-opacity" />
                       </Link>
                     ))}
                   </div>
@@ -121,10 +121,10 @@ export function MegaMenu() {
                   <Link
                     href="/products"
                     onClick={() => setActiveMenu(null)}
-                    className="inline-flex items-center gap-1.5 font-mono text-[11px] text-brand-teal font-bold hover:underline"
+                    className="inline-flex items-center gap-1.5 font-mono text-xs sm:text-sm text-brand-teal font-bold hover:underline"
                   >
                     <span>Explore Full Catalogue</span>
-                    <ArrowRight className="w-3 h-3" />
+                    <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>
               </div>
