@@ -174,7 +174,7 @@ export default function ContactUsPage() {
                         onChange={(e) => setFormData({ ...formData, inquiryType: e.target.value })}
                         className="w-full text-xs font-sans px-3 py-2 border border-slate-300 rounded-xs focus:border-brand-teal focus:ring-1 focus:ring-brand-teal outline-none bg-white"
                       >
-                        <option value="quotation">Formal INR Budgetary Quotation</option>
+                        <option value="quotation">Formal Budgetary Quotation</option>
                         <option value="tender-spec">Tender / Compliance Specification</option>
                         <option value="contract-testing">ZEM-3 Paid Contract Sample Testing</option>
                         <option value="spares">Emergency Spare Parts / Tip-Seal Kits</option>

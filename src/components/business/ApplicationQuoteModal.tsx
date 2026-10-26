@@ -290,7 +290,7 @@ export function ApplicationQuoteModal({
               <div className="flex items-start gap-2 p-2.5 bg-brand-teal-tint/30 border border-brand-teal/30 rounded-sm text-[11px] text-ink-primary">
                 <ShieldCheck className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
                 <span>
-                  <strong>Official Indian Representation:</strong> Direct INR billing, customs clearance, and factory-certified commissioning across all Indian states.
+                  <strong>Official Indian Representation:</strong> Authorized channel support, customs clearance, and factory-certified commissioning across all Indian states.
                 </span>
               </div>
 
@@ -339,8 +339,8 @@ export function ApplicationQuoteModal({
                 <span className="text-ink-primary">{formData.fullName} ({formData.email})</span>
               </div>
               <div className="flex justify-between border-b border-border-light/60 pb-1.5">
-                <span className="text-ink-muted">Billing Mode:</span>
-                <span className="text-emerald-700 font-semibold">Indian Rupees (INR) + GST</span>
+                <span className="text-ink-muted">Commercial Scope:</span>
+                <span className="text-emerald-700 font-semibold">Institutional Purchase Order</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-ink-muted">Turnaround SLA:</span>

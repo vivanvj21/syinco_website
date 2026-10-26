@@ -5,8 +5,8 @@ export function LocalAdvantageModule() {
   const pillars = [
     {
       icon: Banknote,
-      title: "INR PROCUREMENT",
-      line: "Direct in-country Indian Rupee commercial billing and customs clearance.",
+      title: "DOMESTIC SUPPLY",
+      line: "Direct local commercial supply, logistics support, and customs clearance.",
     },
     {
       icon: Warehouse,

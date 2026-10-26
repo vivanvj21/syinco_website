@@ -55,7 +55,7 @@ export default function AboutPage() {
                 SYINCO TECHNOLOGIES was established to address the critical gap in high-precision scientific procurement across India: the friction of international logistics, customs clearance, currency exposure, and delayed post-warranty technical service.
               </p>
               <p className="text-xs sm:text-sm font-sans text-slate-600 leading-relaxed">
-                By maintaining formal, accredited channel partnerships with leading Japanese and UK OEM manufacturers, SYINCO delivers complete capital equipment systems, genuine subcomponents, and consumables through domestic Indian Rupee (INR) invoicing, backed by local inventory and factory-trained field engineers.
+                By maintaining formal, accredited channel partnerships with leading Japanese and UK OEM manufacturers, SYINCO delivers complete capital equipment systems, genuine subcomponents, and consumables backed by local inventory, Hyderabad depot support, and factory-trained field engineers.
               </p>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-3">
@@ -68,8 +68,8 @@ export default function AboutPage() {
                   <span className="text-[11px] font-mono text-slate-500">Warehousing Depot</span>
                 </div>
                 <div className="p-3 bg-slate-50 border border-border-light rounded-xs">
-                  <span className="font-display font-bold text-lg text-slate-900 block">100% Domestic</span>
-                  <span className="text-[11px] font-mono text-slate-500">INR Invoicing + GST</span>
+                  <span className="font-display font-bold text-lg text-slate-900 block">Authorized</span>
+                  <span className="text-[11px] font-mono text-slate-500">Channel Partner Support</span>
                 </div>
               </div>
             </div>

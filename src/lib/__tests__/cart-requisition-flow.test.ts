@@ -29,7 +29,7 @@ describe('Cart & Requisition Request Lifecycle Test Suite', () => {
       name: 'Advance Riko ZEM-3 Series',
       category: 'Thermoelectric Evaluation Systems',
       associatedModelSeries: 'ZEM-3',
-      stockStatus: 'direct-inr-supply',
+      stockStatus: 'built-to-order',
     }, 1);
 
     // Add compatible tip seal accessory

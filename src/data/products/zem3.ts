@@ -14,7 +14,7 @@ import type { Product } from "@/types/product";
  * - Sample Dimensions: 2-4mm sq x 6-22mm [VERIFIED]
  * - Measurement Method: Simultaneous Seebeck coefficient & 4-terminal DC electrical resistivity [VERIFIED]
  * - Atmosphere: Helium gas flow, 0.01 to 0.05 MPa [VERIFIED]
- * - Commercial: Built-to-order, INR billing available, Hyderabad field service [VERIFIED]
+ * - Commercial: Built-to-order, Hyderabad field service [VERIFIED]
  * - Product Cutout Photography: [NEEDS-VERIFICATION: Official high-res cutout asset from Advance Riko pending]
  */
 export const zem3ProductData: Product = {
@@ -351,7 +351,7 @@ export const zem3ProductData: Product = {
 
   metaTitle: "Advance Riko ZEM-3 Series | Seebeck & Resistivity Measurement System India",
   metaDescription:
-    "Official Indian Channel Partner for Advance Riko ZEM-3 Series. Simultaneous Seebeck coefficient and electrical resistivity measurement from -100°C to 1000°C with local INR billing and service.",
+    "Official Indian Channel Partner for Advance Riko ZEM-3 Series. Simultaneous Seebeck coefficient and electrical resistivity measurement from -100°C to 1000°C with local authorized service.",
   searchKeywords: [
     "Advance Riko ZEM-3",
     "Seebeck coefficient measurement",

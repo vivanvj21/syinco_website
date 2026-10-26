@@ -224,13 +224,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "CDX Series Dry Screw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "High-Reliability Dry Screw Pumping for Hostile Chemical and Pharmaceutical Vapors Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "High-Reliability Dry Screw Pumping for Hostile Chemical and Pharmaceutical Vapors Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "CDX Series Dry Screw Vacuum Pumps",
       "CDX1000",
@@ -499,13 +499,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EDP Series Chemical Dry Claw Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Industry Standard Dry Vacuum Pumps for Chemical, Pharmaceutical, and Petrochemical Plants Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Industry Standard Dry Vacuum Pumps for Chemical, Pharmaceutical, and Petrochemical Plants Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EDP Series Chemical Dry Claw Pumps",
       "EDP60",
@@ -706,13 +706,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EDS-C Series Chemical Dry Screw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "High-Performance Dry Screw Vacuum Technology for Harsh Chemical Process Environments Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "High-Performance Dry Screw Vacuum Technology for Harsh Chemical Process Environments Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EDS-C Series Chemical Dry Screw Vacuum Pumps",
       "EDS 200C",
@@ -902,13 +902,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "XDD1 Series Diaphragm Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Compact, Oil-Free Backing Pump for Portable Analytical and Turbomolecular Applications Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Compact, Oil-Free Backing Pump for Portable Analytical and Turbomolecular Applications Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "XDD1 Series Diaphragm Vacuum Pumps",
       "XDD1",
@@ -1176,13 +1176,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "D-LAB Series Chemical Diaphragm Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Corrosion-Resistant PTFE Diaphragm Pumps for Laboratory Chemical Applications Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Corrosion-Resistant PTFE Diaphragm Pumps for Laboratory Chemical Applications Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "D-LAB Series Chemical Diaphragm Pumps",
       "D-LAB SP20",
@@ -1488,13 +1488,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "GV Series Dry Claw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Energy-Efficient, Contact-Free Dry Claw Technology for Industrial Rough Vacuum Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Energy-Efficient, Contact-Free Dry Claw Technology for Industrial Rough Vacuum Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "GV Series Dry Claw Vacuum Pumps",
       "GV 60",
@@ -1796,13 +1796,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nEDC / EDC Series Monoclaw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Next-Generation High-Efficiency Monoclaw Dry Vacuum Pumps Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Next-Generation High-Efficiency Monoclaw Dry Vacuum Pumps Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nEDC / EDC Series Monoclaw Vacuum Pumps",
       "nEDC 65",
@@ -2003,13 +2003,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EDS Series Industrial Dry Screw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Plug-and-Play Industrial Dry Screw Vacuum Pump for Harsh Rough Processing Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Plug-and-Play Industrial Dry Screw Vacuum Pump for Harsh Rough Processing Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EDS Series Industrial Dry Screw Vacuum Pumps",
       "EDS 200",
@@ -2208,13 +2208,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "IDX Series Industrial Dry Screw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Heavy-Duty Dry Screw Vacuum Technology for Steel Degassing and Metallurgy Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Heavy-Duty Dry Screw Vacuum Technology for Steel Degassing and Metallurgy Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "IDX Series Industrial Dry Screw Vacuum Pumps",
       "IDX 1000",
@@ -2621,13 +2621,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "GXS Series Smart Dry Screw Vacuum Pumps & Combinations | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Intelligent Dry Screw Vacuum Pumps with Integrated Roots Boosters for Industrial Manufacturing Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Intelligent Dry Screw Vacuum Pumps with Integrated Roots Boosters for Industrial Manufacturing Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "GXS Series Smart Dry Screw Vacuum Pumps & Combinations",
       "GXS160",
@@ -2898,13 +2898,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EXS Series Dry Screw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Reliable, Simplified Dry Screw Pumping for General Industrial Processes Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Reliable, Simplified Dry Screw Pumping for General Industrial Processes Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EXS Series Dry Screw Vacuum Pumps",
       "EXS 160",
@@ -3175,13 +3175,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "GV Series Industrial Dry Screw Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Heavy-Duty Industrial Dry Screw Vacuum Technology for Tough Environments Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Heavy-Duty Industrial Dry Screw Vacuum Technology for Tough Environments Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "GV Series Industrial Dry Screw Pumps",
       "GV80",
@@ -3392,13 +3392,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "XDS Series Dry Scroll Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Proven Bearing-Isolated Dry Scroll Vacuum Technology for Laboratories Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Proven Bearing-Isolated Dry Scroll Vacuum Technology for Laboratories Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "XDS Series Dry Scroll Vacuum Pumps",
       "XDS5",
@@ -3624,13 +3624,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "mXDS3 Series Miniature Dry Scroll Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Ultra-Compact, Lightweight Dry Scroll Pump for Portable Instruments Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Ultra-Compact, Lightweight Dry Scroll Pump for Portable Instruments Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "mXDS3 Series Miniature Dry Scroll Vacuum Pumps",
       "mXDS3",
@@ -3831,13 +3831,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "XDS35i High-Capacity Dry Scroll Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "High-Capacity 35 m³/h Dry Scroll Pumping with Smart Inverter Drive Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "High-Capacity 35 m³/h Dry Scroll Pumping with Smart Inverter Drive Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "XDS35i High-Capacity Dry Scroll Vacuum Pumps",
       "XDS35i",
@@ -4036,13 +4036,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EDO 65-100 Dry Scroll Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Large Displacement Industrial Dry Scroll Pumps for Manufacturing Automation Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Large Displacement Industrial Dry Scroll Pumps for Manufacturing Automation Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EDO 65-100 Dry Scroll Vacuum Pumps",
       "EDO 65",
@@ -4215,13 +4215,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "ECAL1 Vacuum Gauge Calibration Systems | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Precision Turnkey Vacuum Gauge Calibration System for Standards Laboratories Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Precision Turnkey Vacuum Gauge Calibration System for Standards Laboratories Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "ECAL1 Vacuum Gauge Calibration Systems",
       "ECAL1",
@@ -4378,13 +4378,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "T-Station 300 Turbomolecular Pumping Stations | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "High-Speed 300 L/s Plug-and-Play Turbomolecular Pumping Station Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "High-Speed 300 L/s Plug-and-Play Turbomolecular Pumping Station Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "T-Station 300 Turbomolecular Pumping Stations",
       "T-Station 300 / nXDS10i",
@@ -4553,13 +4553,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "T-Station 85 Turbomolecular Pumping Stations | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Compact Benchtop 85 L/s Turbomolecular Pumping System Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Compact Benchtop 85 L/s Turbomolecular Pumping System Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "T-Station 85 Turbomolecular Pumping Stations",
       "T-Station 85 / XDD1",
@@ -4715,13 +4715,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "TIC Turbomolecular Cart Pumping Systems | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Mobile Turbo Instrument Controller Pumping Cart System Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Mobile Turbo Instrument Controller Pumping Cart System Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "TIC Turbomolecular Cart Pumping Systems",
       "TIC Pumping Station 240V",
@@ -4907,13 +4907,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nEXT TIC CART XL Mobile High Vacuum Systems | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Heavy-Duty Mobile High-Vacuum Pumping Cart with nEXT Turbomolecular Pumps Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Heavy-Duty Mobile High-Vacuum Pumping Cart with nEXT Turbomolecular Pumps Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nEXT TIC CART XL Mobile High Vacuum Systems",
       "nEXT TIC CART XL",
@@ -5104,13 +5104,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Stokes 6\" Mechanical Booster Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "High-Reliability Mechanical Roots Boosters for Rapid Industrial Evacuation Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "High-Reliability Mechanical Roots Boosters for Rapid Industrial Evacuation Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Stokes 6\" Mechanical Booster Pumps",
       "Stokes 607",
@@ -5282,13 +5282,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "GMB Series High-Capacity Roots Vacuum Boosters | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Ultra-Large Scale Roots Mechanical Boosters up to 40,000 m³/h Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Ultra-Large Scale Roots Mechanical Boosters up to 40,000 m³/h Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "GMB Series High-Capacity Roots Vacuum Boosters",
       "GMB25K",
@@ -5520,13 +5520,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EH Series Hydrokinetic Drive Mechanical Boosters | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Patented Hydrokinetic Fluid Drive Mechanical Boosters for Direct Atmospheric Start Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Patented Hydrokinetic Fluid Drive Mechanical Boosters for Direct Atmospheric Start Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EH Series Hydrokinetic Drive Mechanical Boosters",
       "EH250",
@@ -5723,13 +5723,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "HV Series High-Capacity Mechanical Boosters | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "High-Capacity Direct-Driven Mechanical Boosters up to 30,000 m³/h Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "High-Capacity Direct-Driven Mechanical Boosters up to 30,000 m³/h Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "HV Series High-Capacity Mechanical Boosters",
       "HV8000",
@@ -5998,13 +5998,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Stokes Mechanical Booster Series | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Reliable, Time-Tested Mechanical Roots Boosters for Rough Industrial Vacuum Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Reliable, Time-Tested Mechanical Roots Boosters for Rough Industrial Vacuum Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Stokes Mechanical Booster Series",
       "Stokes 306",
@@ -6318,13 +6318,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nXRi Series Compact Multistage Roots Dry Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Compact, Energy-Efficient Multistage Roots Pumping with Ultra-Low Footprint Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Compact, Energy-Efficient Multistage Roots Pumping with Ultra-Low Footprint Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nXRi Series Compact Multistage Roots Dry Vacuum Pumps",
       "nXR60i",
@@ -6587,13 +6587,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nXLi Series High-Performance Multistage Roots Dry Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Intelligent Dry Multistage Roots Pumps with Single and Dual Inlet Configurations Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Intelligent Dry Multistage Roots Pumps with Single and Dual Inlet Configurations Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nXLi Series High-Performance Multistage Roots Dry Pumps",
       "nXL110i",
@@ -6771,13 +6771,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nXQi Series Dry Multistage Roots Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Whisper-Quiet Dry Multistage Roots Vacuum Pump for Ultra-Sensitive Analytical Instruments Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Whisper-Quiet Dry Multistage Roots Vacuum Pump for Ultra-Sensitive Analytical Instruments Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nXQi Series Dry Multistage Roots Pumps",
       "nXQ55i",
@@ -7125,13 +7125,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EOSi Series Variable Speed Oil-Sealed Screw Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Intelligent Variable Speed Oil-Sealed Rotary Screw Vacuum Pumps for Central Systems Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Intelligent Variable Speed Oil-Sealed Rotary Screw Vacuum Pumps for Central Systems Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EOSi Series Variable Speed Oil-Sealed Screw Vacuum Pumps",
       "EOS 350i",
@@ -7411,13 +7411,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Stokes Microvac Rotary Piston Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Rugged Industrial Workhorse Rotary Piston Pumps for High-Contamination Processing Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Rugged Industrial Workhorse Rotary Piston Pumps for High-Contamination Processing Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Stokes Microvac Rotary Piston Vacuum Pumps",
       "148J",
@@ -7653,13 +7653,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nRVi Series Intelligent Rotary Vane Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Intelligent Inverter-Driven Rotary Vane Vacuum Pumps with Constant Pumping Speed Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Intelligent Inverter-Driven Rotary Vane Vacuum Pumps with Constant Pumping Speed Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nRVi Series Intelligent Rotary Vane Pumps",
       "nRVi10",
@@ -7894,13 +7894,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "E2S Series Two-Stage Rotary Vane Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Direct-Drive Two-Stage Rotary Vane Pumps for Research and Industrial Utility Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Direct-Drive Two-Stage Rotary Vane Pumps for Research and Industrial Utility Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "E2S Series Two-Stage Rotary Vane Vacuum Pumps",
       "E2S45",
@@ -8184,13 +8184,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nES EX Series Explosion-Proof Rotary Vane Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "ATEX Explosion-Proof Certified Single-Stage Rotary Vane Vacuum Pumps Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "ATEX Explosion-Proof Certified Single-Stage Rotary Vane Vacuum Pumps Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nES EX Series Explosion-Proof Rotary Vane Pumps",
       "nES 40 EX",
@@ -8426,13 +8426,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "E2M0.7 / E2M1.5 / E2M2.5 Compact Rotary Vane Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Compact High-Performance Dual-Stage Laboratory Rotary Vane Pumps Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Compact High-Performance Dual-Stage Laboratory Rotary Vane Pumps Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "E2M0.7 / E2M1.5 / E2M2.5 Compact Rotary Vane Pumps",
       "E2M0.7",
@@ -8762,13 +8762,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "nES Series Single-Stage Rotary Vane Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Robust Single-Stage Oil-Sealed Rotary Vane Pumps for Industrial Automation Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Robust Single-Stage Oil-Sealed Rotary Vane Pumps for Industrial Automation Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "nES Series Single-Stage Rotary Vane Vacuum Pumps",
       "nES 40",
@@ -9077,13 +9077,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards RV Series Rotary Vane Vacuum Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "The World Standard Dual-Mode Rotary Vane Vacuum Pump for Laboratory & R&D Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "The World Standard Dual-Mode Rotary Vane Vacuum Pump for Laboratory & R&D Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Edwards RV Series Rotary Vane Vacuum Pumps",
       "RV3",
@@ -9391,13 +9391,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Small EM Series Two-Stage Rotary Vane Pumps | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Rugged Mechanical Mechanical Rotary Vane Pumps for High Reliability Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Rugged Mechanical Mechanical Rotary Vane Pumps for High Reliability Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Small EM Series Two-Stage Rotary Vane Pumps",
       "E1M18",
@@ -9586,13 +9586,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "ELD500 Precision Helium & Hydrogen Leak Detectors | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Fully Automated Mobile Helium and Hydrogen Sniffer & Vacuum Leak Detector Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Fully Automated Mobile Helium and Hydrogen Sniffer & Vacuum Leak Detector Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "ELD500 Precision Helium & Hydrogen Leak Detectors",
       "ELD500 Standard",
@@ -9816,13 +9816,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "ELD30 Industrial Helium Leak Detectors | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Heavy-Duty Production Line Industrial Helium Leak Detector Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Heavy-Duty Production Line Industrial Helium Leak Detector Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "ELD30 Industrial Helium Leak Detectors",
       "ELD30 Standard",
@@ -9985,13 +9985,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "ELD4000 High-Throughput Helium Leak Detectors | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Ultra-Fast Vacuum & Sniffer Leak Detector for Component Manufacturing Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Ultra-Fast Vacuum & Sniffer Leak Detector for Component Manufacturing Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "ELD4000 High-Throughput Helium Leak Detectors",
       "ELD4000",
@@ -10296,13 +10296,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "GasCheck G4 Handheld Gas Leak Detectors | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Portable Micro-Thermal Conductivity Handheld Gas Leak Detector Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Portable Micro-Thermal Conductivity Handheld Gas Leak Detector Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "GasCheck G4 Handheld Gas Leak Detectors",
       "GasCheck G1",
@@ -10561,13 +10561,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "BAROCEL 7000 Series High-Accuracy Capacitance Manometers | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Temperature-Compensated & Heated Capacitance Diaphragm Gauges for Exact Pressure Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Temperature-Compensated & Heated Capacitance Diaphragm Gauges for Exact Pressure Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "BAROCEL 7000 Series High-Accuracy Capacitance Manometers",
       "BAROCEL 7025",
@@ -10788,13 +10788,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "ASG2 Active Strain Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Gas-Independent Piezo Strain Gauge from 1 to 2000 mbar Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Gas-Independent Piezo Strain Gauge from 1 to 2000 mbar Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "ASG2 Active Strain Gauges",
       "ASG2-1000",
@@ -10967,13 +10967,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "AIGX Active Ion Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Hot Cathode Active Ionization Gauge for High and Ultra-High Vacuum Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Hot Cathode Active Ionization Gauge for High and Ultra-High Vacuum Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "AIGX Active Ion Gauges",
       "AIGX-S",
@@ -11127,13 +11127,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "WRH Active Wide Range Hot Cathode Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Combination Pirani and Hot Cathode Gauge Covering Atmosphere to 10^-9 mbar Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Combination Pirani and Hot Cathode Gauge Covering Atmosphere to 10^-9 mbar Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "WRH Active Wide Range Hot Cathode Gauges",
       "WRH-100",
@@ -11329,13 +11329,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Passive Vacuum Gauges & Sensor Heads | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Radiation-Hard and Bakeable Passive Pirani and Penning Gauge Heads Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Radiation-Hard and Bakeable Passive Pirani and Penning Gauge Heads Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Passive Vacuum Gauges & Sensor Heads",
       "CP25K",
@@ -11514,13 +11514,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "APGX-H Active Linear Convection Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "High-Accuracy Active Linear Convection Pirani Gauge up to Atmosphere Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "High-Accuracy Active Linear Convection Pirani Gauge up to Atmosphere Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "APGX-H Active Linear Convection Gauges",
       "APGX-H",
@@ -11718,13 +11718,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "AIM200 Active Inverted Magnetron Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Rugged Cold Cathode Inverted Magnetron Gauge for High Vacuum Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Rugged Cold Cathode Inverted Magnetron Gauge for High Vacuum Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "AIM200 Active Inverted Magnetron Gauges",
       "AIM200-S",
@@ -11937,13 +11937,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "APG200 Active Pirani Vacuum Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Compact Active Pirani Gauge with Drop-In Replacement Tube Technology Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Compact Active Pirani Gauge with Drop-In Replacement Tube Technology Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "APG200 Active Pirani Vacuum Gauges",
       "APG200-LC",
@@ -12157,13 +12157,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "WRG200 Active Wide Range Vacuum Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Combined Pirani & Inverted Magnetron Gauge Measuring Atmosphere to 10^-9 mbar Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Combined Pirani & Inverted Magnetron Gauge Measuring Atmosphere to 10^-9 mbar Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "WRG200 Active Wide Range Vacuum Gauges",
       "WRG200-NW25",
@@ -12314,13 +12314,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "P3 Handheld Vacuum Measuring Systems | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Battery-Powered Handheld Pirani Gauge for Field Service and Inspection Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Battery-Powered Handheld Pirani Gauge for Field Service and Inspection Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "P3 Handheld Vacuum Measuring Systems",
       "P3 Handheld",
@@ -12477,13 +12477,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "VS16K & IS16K Mechanical Vacuum Switches | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Fail-Safe Mechanical Pressure Switches for System Protection Interlocks Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Fail-Safe Mechanical Pressure Switches for System Protection Interlocks Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "VS16K & IS16K Mechanical Vacuum Switches",
       "VS16K",
@@ -12657,13 +12657,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "CG16K Capsule Dial Vacuum Gauges | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Precision Mechanical Capsule Dial Gauges Measuring Independent of Gas Type Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Precision Mechanical Capsule Dial Gauges Measuring Independent of Gas Type Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "CG16K Capsule Dial Vacuum Gauges",
       "CG16K-0-20",
@@ -12817,13 +12817,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "P4 & P5 Bluetooth LE Handheld Measuring Systems | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Wireless Bluetooth Low Energy Handheld Vacuum Meters with Smart App Connectivity Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Wireless Bluetooth Low Energy Handheld Vacuum Meters with Smart App Connectivity Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "P4 & P5 Bluetooth LE Handheld Measuring Systems",
       "P4 Bluetooth LE",
@@ -13108,13 +13108,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "TIC Turbo & Instrument Controllers | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Universal Rack and Benchtop Controller for Turbomolecular Pumps and Gauges Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Universal Rack and Benchtop Controller for Turbomolecular Pumps and Gauges Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "TIC Turbo & Instrument Controllers",
       "TIC 3-Gauge",
@@ -13329,13 +13329,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "ADC Active Digital Controllers | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Panel-Mount Single and Multi-Channel Digital Vacuum Gauge Displays Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Panel-Mount Single and Multi-Channel Digital Vacuum Gauge Displays Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "ADC Active Digital Controllers",
       "ADC Standard",
@@ -13503,13 +13503,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "TAG Turbo & Active Gauge Controllers | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Compact Dedicated Controller for nEXT Turbomolecular Pumps and Active Gauges Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Compact Dedicated Controller for nEXT Turbomolecular Pumps and Active Gauges Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "TAG Turbo & Active Gauge Controllers",
       "TAG Controller",
@@ -13665,13 +13665,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "EJGO & EJGO MC Vacuum Central System Controllers | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Next-Generation Industrial IoT Vacuum Plant Master Controller Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Next-Generation Industrial IoT Vacuum Plant Master Controller Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "EJGO & EJGO MC Vacuum Central System Controllers",
       "EJGO",
@@ -13835,13 +13835,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards Acoustic Sound Enclosures | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Sound-Dampening Enclosures Reducing Pump Operating Noise by up to 10 dB(A) Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Sound-Dampening Enclosures Reducing Pump Operating Noise by up to 10 dB(A) Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Edwards Acoustic Sound Enclosures",
       "Enclosure for RV / nXDS",
@@ -14026,13 +14026,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards Industrial Vacuum Inlet Dust & Liquid Filters | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Heavy-Duty Inlet Filters Protecting Pumps from Particulate and Liquid Ingress Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Heavy-Duty Inlet Filters Protecting Pumps from Particulate and Liquid Ingress Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Edwards Industrial Vacuum Inlet Dust & Liquid Filters",
       "Filter F01",
@@ -14185,13 +14185,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "ELD500 Transport Trolley | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Heavy-Duty Transport Trolley for ELD500 Leak Detectors Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Heavy-Duty Transport Trolley for ELD500 Leak Detectors Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "ELD500 Transport Trolley",
       "ELD500 Mobile Trolley",
@@ -14446,13 +14446,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "BGV Series Stainless Steel Gate Valves | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Manual and Pneumatic Stainless Steel High-Vacuum Gate Valves with LOTO Safety Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Manual and Pneumatic Stainless Steel High-Vacuum Gate Valves with LOTO Safety Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "BGV Series Stainless Steel Gate Valves",
       "BGV DN16",
@@ -14711,13 +14711,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "LCPVEK Bellows-Sealed Vacuum Valves | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Fast-Acting Solenoid & Pneumatic Bellows-Sealed High-Vacuum Valves Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Fast-Acting Solenoid & Pneumatic Bellows-Sealed High-Vacuum Valves Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "LCPVEK Bellows-Sealed Vacuum Valves",
       "LCPVEK 16",
@@ -15004,13 +15004,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Speedivalve Diaphragm Isolation Valves | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Classic Manual & Pneumatic Diaphragm Vacuum Isolation Valves Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Classic Manual & Pneumatic Diaphragm Vacuum Isolation Valves Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Speedivalve Diaphragm Isolation Valves",
       "SP10K",
@@ -15299,13 +15299,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "VIV Vacuum Isolation Valves | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Automatic High-Speed Vacuum Isolation Valves for Pump Protection Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Automatic High-Speed Vacuum Isolation Valves for Pump Protection Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "VIV Vacuum Isolation Valves",
       "VIV 16",
@@ -15482,13 +15482,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Pressure Relief Valves | Edwards Vacuum Supplier SYINCO",
-    "metaDescription": "Positive Overpressure Protection Relief Valves for Vacuum Vessels Authorized Edwards Vacuum equipment in India with INR billing and warranty.",
+    "metaDescription": "Positive Overpressure Protection Relief Valves for Vacuum Vessels Authorized Edwards Vacuum equipment in India with factory warranty and authorized support.",
     "searchKeywords": [
       "Pressure Relief Valves",
       "PRV-16",
@@ -15720,13 +15720,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards nEXT Series Turbomolecular Pumps | SYINCO India",
-    "metaDescription": "Edwards nEXT mechanical turbomolecular pumps (55 L/s to 1250 L/s) for high and ultra-high vacuum R&D. Supplied in India by SYINCO with INR billing and warranty.",
+    "metaDescription": "Edwards nEXT mechanical turbomolecular pumps (55 L/s to 1250 L/s) for high and ultra-high vacuum R&D. Supplied in India by SYINCO with factory warranty and authorized support.",
     "searchKeywords": [
       "nEXT Turbomolecular",
       "nEXT55",
@@ -15907,13 +15907,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards nEXT M Maglev Turbomolecular Pumps | SYINCO India",
-    "metaDescription": "Edwards nEXT M 5-axis maglev turbomolecular pumps (up to 3200 L/s) for ultra-clean hydrocarbon-free vacuum. India supply, INR invoicing & technical support by SYINCO.",
+    "metaDescription": "Edwards nEXT M 5-axis maglev turbomolecular pumps (up to 3200 L/s) for ultra-clean hydrocarbon-free vacuum. India supply, technical support & authorized supply by SYINCO.",
     "searchKeywords": [
       "nEXT M",
       "nEXT 2807M",
@@ -16111,13 +16111,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards Liquid Ring Vacuum Pumps & Compressors | SYINCO India",
-    "metaDescription": "Edwards single and two-stage liquid ring vacuum pumps (up to 40,000 m3/h) for chemical, power and solvent applications. Supplied by SYINCO India with INR billing.",
+    "metaDescription": "Edwards single and two-stage liquid ring vacuum pumps (up to 40,000 m3/h) for chemical, power and solvent applications. Supplied by SYINCO India with warranty and local support.",
     "searchKeywords": [
       "Liquid ring vacuum pump",
       "Edwards liquid ring",
@@ -16310,7 +16310,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -16500,13 +16500,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards Ion Pumps & UHV Capture Pumps | SYINCO India",
-    "metaDescription": "Edwards and Gamma Vacuum TiTan ion pumps and HyTan NEG pumps for vibration-free UHV down to 10-12 mbar. Indian authorized supply & INR billing by SYINCO.",
+    "metaDescription": "Edwards and Gamma Vacuum TiTan ion pumps and HyTan NEG pumps for vibration-free UHV down to 10-12 mbar. Indian authorized supply & authorized supply by SYINCO.",
     "searchKeywords": [
       "Ion pump",
       "TiTan ion pump",
@@ -16693,7 +16693,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -16991,13 +16991,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards Large E2M Rotary Vane Pumps (40-275 m3/h) | SYINCO India",
-    "metaDescription": "Edwards E2M40, E2M80, E2M175, and E2M275 two-stage rotary vane pumps for industrial vacuum and metallurgy. Supplied by SYINCO India with INR billing.",
+    "metaDescription": "Edwards E2M40, E2M80, E2M175, and E2M275 two-stage rotary vane pumps for industrial vacuum and metallurgy. Supplied by SYINCO India with warranty and local support.",
     "searchKeywords": [
       "E2M40",
       "E2M80",
@@ -17289,13 +17289,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Immediate stock dispatch from Hyderabad depot logistics hub",
       "Official 12-month manufacturer warranty supported by factory-trained engineers in India",
       "Complete factory documentation, test inspection reports, and CE certificates"
     ],
     "metaTitle": "Edwards eRV Series Rotary Vane Pumps Made in India | SYINCO",
-    "metaDescription": "Edwards eRV3, eRV5, eRV8, and eRV12 rotary vane vacuum pumps proudly made in India. Quick Hyderabad stock delivery, INR billing, and local support by SYINCO.",
+    "metaDescription": "Edwards eRV3, eRV5, eRV8, and eRV12 rotary vane vacuum pumps proudly made in India. Quick Hyderabad stock delivery, and local support by SYINCO.",
     "searchKeywords": [
       "eRV",
       "eRV3",
@@ -17623,7 +17623,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -17845,7 +17845,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -18175,7 +18175,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -18434,7 +18434,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -18729,7 +18729,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -18986,7 +18986,7 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
@@ -19281,13 +19281,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Immediate stock dispatch from Hyderabad depot logistics hub",
       "Official 12-month manufacturer warranty supported by factory-trained engineers in India",
       "Complete factory material test reports and certification"
     ],
     "metaTitle": "Edwards Vacuum Flanges, Fittings & Bellows (KF, ISO, CF) | SYINCO",
-    "metaDescription": "Edwards ISO-KF, ISO-K, and CF vacuum flanges, clamps, centering rings, and flexible hoses. Available from Hyderabad stock with INR billing by SYINCO.",
+    "metaDescription": "Edwards ISO-KF, ISO-K, and CF vacuum flanges, clamps, centering rings, and flexible hoses. Available from Hyderabad stock with authorized warranty by SYINCO.",
     "searchKeywords": [
       "ISO-KF",
       "NW25 clamp",
@@ -19539,13 +19539,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards PVEK, PVMK & PVPK Angle Valves | SYINCO India",
-    "metaDescription": "Edwards PVEK solenoid, PVMK manual, and PVPK pneumatic bellows-sealed angle valves (NW16-NW50). Supplied in India with INR billing by SYINCO.",
+    "metaDescription": "Edwards PVEK solenoid, PVMK manual, and PVPK pneumatic bellows-sealed angle valves (NW16-NW50). Supplied in India with authorized warranty by SYINCO.",
     "searchKeywords": [
       "PVEK",
       "PVMK",
@@ -19833,13 +19833,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards In-Line Valves & SIPVP Soft-Start | SYINCO India",
-    "metaDescription": "Edwards IPVEK, IPVMK in-line isolation valves and SIPVP particle-free soft-start valves. Supplied in India with INR billing by SYINCO.",
+    "metaDescription": "Edwards IPVEK, IPVMK in-line isolation valves and SIPVP particle-free soft-start valves. Supplied in India with authorized warranty by SYINCO.",
     "searchKeywords": [
       "SIPVP",
       "soft start valve",
@@ -20091,13 +20091,13 @@ export const edwardsProducts: Product[] = [
     "warrantyPeriodMonths": 12,
     "supportsPaidSampleAnalysis": false,
     "scopeOfDeliveryPoints": [
-      "Direct in-country INR invoicing and commercial compliance documentation",
+      "Commercial compliance documentation and authorized warranty coverage",
       "Official 12-month manufacturer warranty supported by factory-trained engineers",
       "Complete factory documentation, test inspection reports, and CE/UL certificates",
       "Local customs clearance, door delivery, and initial commissioning support in India"
     ],
     "metaTitle": "Edwards Special Vacuum Valves (AV, QSB, BRV) | SYINCO India",
-    "metaDescription": "Edwards AV air admittance, QSB quarter-swing butterfly, and BRV backing/roughing valves. Supplied in India by SYINCO with INR billing.",
+    "metaDescription": "Edwards AV air admittance, QSB quarter-swing butterfly, and BRV backing/roughing valves. Supplied in India by SYINCO with warranty and local support.",
     "searchKeywords": [
       "AV10K",
       "air admittance valve",

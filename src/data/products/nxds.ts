@@ -390,12 +390,12 @@ export const nxdsProductData: Product = {
   "scopeOfDeliveryPoints": [
     "Immediate dispatch from Hyderabad ready stock within 48 business hours",
     "Single-phase Indian 3-pin power lead and pre-installed NW25 centering ring & clamp",
-    "Direct in-country INR invoicing and commercial compliance documentation",
+    "Commercial compliance documentation and authorized warranty coverage",
     "12-month official manufacturer warranty supported by SYINCO authorized engineers",
     "Comprehensive inventory of genuine Edwards tip seal kits and service parts in Hyderabad"
   ],
   "metaTitle": "Edwards nXDS Series Dry Scroll Pumps | Authorized Indian Supplier SYINCO",
-  "metaDescription": "Authorized sales and service partner in India for Edwards nXDS Series oil-free dry scroll vacuum pumps. 6 to 21 m³/h, 0.007 mbar, Hyderabad stock with INR billing.",
+  "metaDescription": "Authorized sales and service partner in India for Edwards nXDS Series oil-free dry scroll vacuum pumps. 6 to 21 m³/h, 0.007 mbar, Hyderabad stock with factory warranty.",
   "searchKeywords": [
     "Edwards nXDS",
     "dry scroll pump",

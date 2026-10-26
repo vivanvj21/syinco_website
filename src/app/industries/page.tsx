@@ -159,7 +159,7 @@ export default function IndustriesPage() {
             Looking for Custom System Configuration or Multi-Facility Tenders?
           </h3>
           <p className="text-xs sm:text-sm font-sans text-slate-600 max-w-xl mx-auto">
-            Our Hyderabad application engineers assist with turnkey vacuum layouts, high-temperature furnace compliance specs, and INR direct procurement.
+            Our Hyderabad application engineers assist with turnkey vacuum layouts, high-temperature furnace compliance specs, and direct institutional procurement.
           </p>
           <div className="pt-2 flex justify-center gap-3">
             <Link

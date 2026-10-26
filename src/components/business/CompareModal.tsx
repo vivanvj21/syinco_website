@@ -154,10 +154,10 @@ export function CompareModal() {
                 </td>
               </tr>
               <tr className="border-b border-border-light/60">
-                <td className="p-2.5 font-mono text-ink-muted">In-Country Billing</td>
+                <td className="p-2.5 font-mono text-ink-muted">Domestic Availability</td>
                 {items.map((prod) => (
                   <td key={prod.id} className="p-2.5 font-mono text-emerald-700 font-semibold">
-                    {prod.inrInvoicingAvailable ? "✓ Indian INR + GST" : "Import on Demand"}
+                    {prod.inrInvoicingAvailable ? "✓ Authorized Supply" : "Import on Demand"}
                   </td>
                 ))}
               </tr>

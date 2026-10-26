@@ -432,8 +432,8 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
                     </span>
                     <span className="text-[11px] text-ink-muted mt-0.5 leading-relaxed">
                       {product.id === "edwards-nxds-series"
-                        ? "In-stock Edwards nXDS pumps, genuine tip-seal service kits, and silencer filters dispatched within 48 business hours across India with formal GST invoicing."
-                        : `Official ${product.manufacturer.name} ${product.technologySubcategory || "systems"} supplied by SYINCO with authorized manufacturer warranty, customs clearance, local engineering service in India, and direct INR GST invoicing.`}
+                        ? "In-stock Edwards nXDS pumps, genuine tip-seal service kits, and silencer filters dispatched within 48 business hours across India."
+                        : `Official ${product.manufacturer.name} ${product.technologySubcategory || "systems"} supplied by SYINCO with authorized manufacturer warranty, customs clearance, and local engineering service across India.`}
                     </span>
                   </div>
                 </div>
@@ -537,7 +537,7 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
                           </div>
                           <div className="flex justify-between">
                             <span className="text-ink-muted">Supply Mode:</span>
-                            <span className="font-bold text-brand-teal">Direct INR Invoicing</span>
+                            <span className="font-bold text-brand-teal">Authorized Channel Supply</span>
                           </div>
                         </>
                       )
@@ -897,16 +897,16 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
       </Tabs>
 
       {/* 12. Closing Consultation Banner */}
-      <div className="my-10 p-6 bg-slate-panel text-white rounded-md border border-border-dark flex flex-col md:flex-row items-center justify-between gap-6 shadow-md">
+      <div className="my-10 p-6 bg-slate-50 text-slate-900 rounded-md border border-border-light flex flex-col md:flex-row items-center justify-between gap-6 shadow-xs">
         <div className="space-y-1 text-center md:text-left">
-          <span className="font-mono text-xs uppercase tracking-wider text-action-amber font-bold">
+          <span className="font-mono text-xs uppercase tracking-wider text-brand-teal font-bold">
             Institutional Procurement &amp; Tender Assistance
           </span>
-          <h3 className="text-xl font-display font-bold text-white">
+          <h3 className="text-xl font-display font-bold text-slate-950">
             Need System Sizing or Tender Specifications for {product.name}?
           </h3>
-          <p className="text-xs text-slate-300 max-w-xl">
-            Our engineering team in Hyderabad prepares compliant technical tender documents, utility load specifications, and formal INR budgetary quotations.
+          <p className="text-xs text-slate-600 max-w-xl">
+            Our engineering team in Hyderabad prepares compliant technical tender documents, utility load specifications, and formal budgetary quotations.
           </p>
         </div>
         <div className="flex items-center gap-3 shrink-0">

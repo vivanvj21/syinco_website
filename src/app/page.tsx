@@ -9,7 +9,7 @@ import { ServicesOverviewModule } from "@/components/business/ServicesOverviewMo
 export const metadata: Metadata = {
   title: "SYINCO TECHNOLOGIES | Precision Scientific Systems, Vacuum & Thermal Instrumentation",
   description:
-    "Official Indian partner for Advance Riko (Japan), Edwards Vacuum (UK), and Fuji-SPS (Japan). Domestic INR billing, Hyderabad spares warehousing, and factory field service.",
+    "Official Indian partner for Advance Riko (Japan), Edwards Vacuum (UK), and Fuji-SPS (Japan). Hyderabad spares warehousing, local technical consultation, and factory field service.",
 };
 
 export default function HomePage() {

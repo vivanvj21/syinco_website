@@ -1,4 +1,4 @@
-﻿import React, { Suspense } from "react";
+import React, { Suspense } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getProductBySlug, getCategoryBySlug, allProducts } from "@/data/products";
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PDPPageProps): Promise<Metada
   const title = `${product.name} | ${product.technologySubcategory || category.name} | SYINCO TECHNOLOGIES India`;
   const description =
     product.shortDescription ||
-    `${product.name} by ${product.manufacturer.name}. Supplied by SYINCO TECHNOLOGIES with authorized OEM warranty, INR invoicing, and engineering support across India.`;
+    `${product.name} by ${product.manufacturer.name}. Supplied by SYINCO TECHNOLOGIES with authorized OEM warranty and engineering support across India.`;
 
   const canonicalUrl = `https://syinco.in/products/${categorySlug}/${productSlug}`;
 

@@ -200,7 +200,7 @@ export function RfqBasketDrawer() {
               </h2>
               <p className="font-mono text-[11px] text-slate-500">
                 {view === "cart" && `${items.length} product${items.length === 1 ? "" : "s"} (${totalUnits} total units)`}
-                {view === "checkout" && "Direct Domestic INR Supply & Hyderabad Depot Dispatch"}
+                {view === "checkout" && "Domestic Supply & Hyderabad Depot Dispatch"}
                 {view === "confirmation" && "Official Syinco Engineering & Procurement Dispatch"}
               </p>
             </div>
@@ -244,7 +244,7 @@ export function RfqBasketDrawer() {
                       Your Cart is Empty
                     </h3>
                     <p className="text-xs text-slate-500 leading-relaxed">
-                      Explore our catalogue of scientific instruments, vacuum systems, pumps, valves, and spares to request formal INR quotations.
+                      Explore our catalogue of scientific instruments, vacuum systems, pumps, valves, and spares to request formal quotations.
                     </p>
                   </div>
                   <Link
@@ -354,7 +354,7 @@ export function RfqBasketDrawer() {
                   <span>Institutional Procurement &amp; Tender Scope</span>
                 </div>
                 <p className="text-[11px] text-slate-600 leading-relaxed">
-                  Submitting this requisition generates a formal INR quotation with customs documentation, utility requirements, and delivery timeline from our Hyderabad warehouse.
+                  Submitting this requisition generates a formal quotation with customs documentation, utility requirements, and delivery timeline from our Hyderabad warehouse.
                 </p>
               </div>
 
@@ -426,7 +426,7 @@ export function RfqBasketDrawer() {
                 />
               </div>
 
-              {/* City & State and GST Number */}
+              {/* City & State and Tax ID */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
                   <label htmlFor="req-city" className="block text-xs font-sans font-medium text-slate-800 mb-1">
@@ -442,12 +442,12 @@ export function RfqBasketDrawer() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="req-gst" className="block text-xs font-sans font-medium text-slate-800 mb-1">
-                    GSTIN (Optional, for Tax Invoice)
+                  <label htmlFor="req-tax-id" className="block text-xs font-sans font-medium text-slate-800 mb-1">
+                    Tax ID / Institutional ID (Optional)
                   </label>
                   <Input
-                    id="req-gst"
-                    placeholder="36AABCS1234F1Z5"
+                    id="req-tax-id"
+                    placeholder="Institutional / Tax ID"
                     value={formData.gstNumber}
                     onChange={(e) => setFormData({ ...formData, gstNumber: e.target.value })}
                   />
@@ -604,7 +604,7 @@ export function RfqBasketDrawer() {
                     )}
                     {submissionResult.contact.gstNumber && (
                       <div className="col-span-2">
-                        <span className="text-slate-500">GSTIN: </span>
+                        <span className="text-slate-500">Tax ID: </span>
                         <strong className="text-slate-800 font-mono">{submissionResult.contact.gstNumber}</strong>
                       </div>
                     )}
@@ -668,7 +668,7 @@ export function RfqBasketDrawer() {
               <ArrowRight className="w-3.5 h-3.5" />
             </Button>
             <p className="text-[10px] text-slate-500 text-center">
-              Direct INR Invoicing • Hyderabad Spare Parts Depot • Factory Warranty
+              Domestic Supply • Hyderabad Spare Parts Depot • Factory Warranty
             </p>
           </div>
         )}
