@@ -14,27 +14,27 @@ export default function AboutPage() {
   return (
     <div className="w-full">
       {/* 1. Header Banner */}
-      <section className="bg-slate-canvas text-white py-12 border-b border-border-dark">
+      <section className="bg-white text-slate-900 py-12 border-b border-border-light">
         <div className="max-w-container mx-auto px-4">
           <nav aria-label="Breadcrumb" className="mb-3">
-            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-400">
+            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-500">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">
+                <Link href="/" className="hover:text-brand-teal transition-colors">
                   Home
                 </Link>
               </li>
               <li>/</li>
-              <li className="text-white font-semibold">About Us</li>
+              <li className="text-slate-900 font-semibold">About Us</li>
             </ol>
           </nav>
 
-          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/30 px-2 py-0.5 rounded-xs border border-brand-teal/40 inline-block mb-2">
+          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/40 px-2 py-0.5 rounded-xs border border-brand-teal/30 inline-block mb-2">
             Corporate Profile
           </span>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-white">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-slate-950">
             About SYINCO TECHNOLOGIES
           </h1>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 mt-2 max-w-3xl leading-relaxed">
+          <p className="text-xs sm:text-sm font-sans text-slate-600 mt-2 max-w-3xl leading-relaxed">
             Manufacture, Sales and Services of Advanced, Customized and Specialized Systems, Instruments and Components for Metallurgy, Thermal, Thermoelectric, Vacuum, Analytical and Medical application. NDT &amp; Helium Leak Testing Services.
           </p>
         </div>
@@ -74,15 +74,15 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="lg:col-span-5 bg-slate-panel p-6 rounded-sm text-white space-y-4 border border-border-dark">
-              <div className="flex items-center gap-2.5 pb-3 border-b border-border-dark">
+            <div className="lg:col-span-5 bg-slate-50 p-6 rounded-sm text-slate-900 space-y-4 border border-border-light shadow-xs">
+              <div className="flex items-center gap-2.5 pb-3 border-b border-border-light">
                 <ShieldCheck className="w-5 h-5 text-brand-teal shrink-0" />
-                <h3 className="font-display font-bold text-sm text-white">
+                <h3 className="font-display font-bold text-sm text-slate-900">
                   Accreditation &amp; Governance
                 </h3>
               </div>
 
-              <ul className="space-y-2.5 text-xs font-sans text-slate-300">
+              <ul className="space-y-2.5 text-xs font-sans text-slate-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-brand-teal shrink-0 mt-0.5" />
                   <span>Authorized Indian channel agreements with Advance Riko and Edwards Vacuum.</span>
@@ -101,7 +101,7 @@ export default function AboutPage() {
                 </li>
               </ul>
 
-              <div className="pt-3 border-t border-border-dark/80">
+              <div className="pt-3 border-t border-border-light">
                 <Link
                   href="/contact-us"
                   className="inline-flex items-center justify-between w-full text-xs font-mono font-semibold text-brand-teal hover:underline"
@@ -236,18 +236,18 @@ export default function AboutPage() {
       </section>
 
       {/* 5. Bottom Conversion */}
-      <section className="py-10 bg-slate-panel text-white text-center">
+      <section className="py-12 bg-white text-slate-900 text-center border-t border-border-light">
         <div className="max-w-container mx-auto px-4 space-y-3">
-          <h3 className="font-display font-bold text-lg sm:text-xl text-white">
+          <h3 className="font-display font-bold text-lg sm:text-xl text-slate-950">
             Connect With Our Engineering Team
           </h3>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 max-w-xl mx-auto">
+          <p className="text-xs sm:text-sm font-sans text-slate-600 max-w-xl mx-auto">
             Discuss procurement tenders, equipment specifications, or arrange a technical visit to our Hyderabad depot.
           </p>
           <div className="pt-2 flex justify-center gap-3">
             <Link
               href="/contact-us"
-              className="bg-brand-amber hover:bg-brand-amber-dark text-slate-900 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-colors"
+              className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
             >
               Contact Head Office
             </Link>

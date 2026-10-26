@@ -24,27 +24,27 @@ export default function IndustriesPage() {
   return (
     <div className="w-full">
       {/* 1. Header Banner */}
-      <section className="bg-slate-canvas text-white py-12 border-b border-border-dark">
+      <section className="bg-white text-slate-900 py-12 border-b border-border-light">
         <div className="max-w-container mx-auto px-4">
           <nav aria-label="Breadcrumb" className="mb-3">
-            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-400">
+            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-500">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">
+                <Link href="/" className="hover:text-brand-teal transition-colors">
                   Home
                 </Link>
               </li>
               <li>/</li>
-              <li className="text-white font-semibold">Industries Served</li>
+              <li className="text-slate-900 font-semibold">Industries Served</li>
             </ol>
           </nav>
 
-          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/30 px-2 py-0.5 rounded-xs border border-brand-teal/40 inline-block mb-2">
+          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/40 px-2 py-0.5 rounded-xs border border-brand-teal/30 inline-block mb-2">
             Sector Solutions
           </span>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-white">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-slate-950">
             Industries &amp; Research Sectors Served
           </h1>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 mt-2 max-w-2xl leading-relaxed">
+          <p className="text-xs sm:text-sm font-sans text-slate-600 mt-2 max-w-2xl leading-relaxed">
             Delivering precision scientific instrumentation, hydrocarbon-free dry vacuum systems, and non-contact pyrometry across India&apos;s leading high-technology industries and national laboratories.
           </p>
         </div>
@@ -153,18 +153,18 @@ export default function IndustriesPage() {
       </section>
 
       {/* 3. Bottom CTA Strip */}
-      <section className="py-10 bg-slate-panel text-white text-center">
+      <section className="py-12 bg-white text-slate-900 text-center border-t border-border-light">
         <div className="max-w-container mx-auto px-4 space-y-3">
-          <h3 className="font-display font-bold text-lg sm:text-xl text-white">
+          <h3 className="font-display font-bold text-lg sm:text-xl text-slate-950">
             Looking for Custom System Configuration or Multi-Facility Tenders?
           </h3>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 max-w-xl mx-auto">
+          <p className="text-xs sm:text-sm font-sans text-slate-600 max-w-xl mx-auto">
             Our Hyderabad application engineers assist with turnkey vacuum layouts, high-temperature furnace compliance specs, and INR direct procurement.
           </p>
           <div className="pt-2 flex justify-center gap-3">
             <Link
               href="/contact-us"
-              className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-colors shadow-md"
+              className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
             >
               Contact Engineering Desk (+91 73822 92929)
             </Link>

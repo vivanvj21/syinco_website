@@ -24,27 +24,27 @@ export default function ServicesPage() {
   return (
     <div className="w-full">
       {/* 1. Header Banner */}
-      <section className="bg-slate-canvas text-white py-12 border-b border-border-dark">
+      <section className="bg-white text-slate-900 py-12 border-b border-border-light">
         <div className="max-w-container mx-auto px-4">
           <nav aria-label="Breadcrumb" className="mb-3">
-            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-400">
+            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-500">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">
+                <Link href="/" className="hover:text-brand-teal transition-colors">
                   Home
                 </Link>
               </li>
               <li>/</li>
-              <li className="text-white font-semibold">Services</li>
+              <li className="text-slate-900 font-semibold">Services</li>
             </ol>
           </nav>
 
-          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/30 px-2 py-0.5 rounded-xs border border-brand-teal/40 inline-block mb-2">
+          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/40 px-2 py-0.5 rounded-xs border border-brand-teal/30 inline-block mb-2">
             Local Engineering Support
           </span>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-white">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-slate-950">
             Domestic Engineering &amp; Depot Services
           </h1>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 mt-2 max-w-2xl leading-relaxed">
+          <p className="text-xs sm:text-sm font-sans text-slate-600 mt-2 max-w-2xl leading-relaxed">
             Eliminating international logistics barriers through Hyderabad warehousing, factory-trained field engineers, NABL-traceable calibration, and fast in-country technical assistance.
           </p>
         </div>
@@ -127,9 +127,8 @@ export default function ServicesPage() {
                     <div className="pt-4 mt-4 border-t border-border-light/80 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs font-mono text-slate-500">
                       <span className="flex items-center gap-1.5">
                         <span className="w-1.5 h-1.5 rounded-full bg-brand-teal" />
-                        Direct INR Invoicing Available
+                        Direct Invoicing Available
                       </span>
-                      <span>GST Input Tax Credit Eligible</span>
                     </div>
                   </div>
                 </div>
@@ -140,18 +139,18 @@ export default function ServicesPage() {
       </section>
 
       {/* 3. Bottom Spares Requisition Banner */}
-      <section className="py-10 bg-slate-panel text-white text-center">
+      <section className="py-12 bg-white text-slate-900 text-center border-t border-border-light">
         <div className="max-w-container mx-auto px-4 space-y-3">
-          <h3 className="font-display font-bold text-lg sm:text-xl text-white">
+          <h3 className="font-display font-bold text-lg sm:text-xl text-slate-950">
             Need Immediate Consumables, Tip-Seal Kits, or Emergency Spares?
           </h3>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 max-w-xl mx-auto">
+          <p className="text-xs sm:text-sm font-sans text-slate-600 max-w-xl mx-auto">
             Check live inventory at our Hyderabad warehouse or dispatch an urgent parts requisition directly to our logistics team.
           </p>
           <div className="pt-2 flex justify-center gap-3">
             <Link
               href="/contact-us"
-              className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-colors shadow-md"
+              className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-xs font-mono px-5 py-2.5 rounded-xs transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
             >
               Contact Spares Desk (+91 73822 92929)
             </Link>

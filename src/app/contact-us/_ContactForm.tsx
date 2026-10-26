@@ -25,27 +25,27 @@ export default function ContactUsPage() {
   return (
     <div className="w-full">
       {/* 1. Header Banner */}
-      <section className="bg-slate-canvas text-white py-12 border-b border-border-dark">
+      <section className="bg-white text-slate-900 py-12 border-b border-border-light">
         <div className="max-w-container mx-auto px-4">
           <nav aria-label="Breadcrumb" className="mb-3">
-            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-400">
+            <ol className="flex items-center gap-1.5 text-xs font-mono text-slate-500">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">
+                <Link href="/" className="hover:text-brand-teal transition-colors">
                   Home
                 </Link>
               </li>
               <li>/</li>
-              <li className="text-white font-semibold">Contact Us</li>
+              <li className="text-slate-900 font-semibold">Contact Us</li>
             </ol>
           </nav>
 
-          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/30 px-2 py-0.5 rounded-xs border border-brand-teal/40 inline-block mb-2">
+          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-brand-teal bg-brand-teal-tint/40 px-2 py-0.5 rounded-xs border border-brand-teal/30 inline-block mb-2">
             Technical Assistance
           </span>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-white">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight text-slate-950">
             Contact SYINCO TECHNOLOGIES
           </h1>
-          <p className="text-xs sm:text-sm font-sans text-slate-300 mt-2 max-w-2xl leading-relaxed">
+          <p className="text-xs sm:text-sm font-sans text-slate-600 mt-2 max-w-2xl leading-relaxed">
             Direct communication with our technical sales engineers, Hyderabad spares logistics depot, and factory service desk across India.
           </p>
         </div>
