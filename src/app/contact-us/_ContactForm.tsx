@@ -201,9 +201,9 @@ export default function ContactUsPage() {
                       type="submit"
                       variant="primary"
                       size="md"
-                      className="bg-brand-teal hover:bg-brand-teal-dark text-white font-bold text-xs font-mono px-6 py-2.5 rounded-xs w-full sm:w-auto gap-2 cursor-pointer shadow-xs"
+                      className="bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-sm px-6 py-2.5 rounded-md w-full sm:w-auto gap-2 cursor-pointer shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all"
                     >
-                      <Send className="w-3.5 h-3.5" />
+                      <Send className="w-4 h-4" />
                       <span>Submit Technical Enquiry →</span>
                     </Button>
                   </div>

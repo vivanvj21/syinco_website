@@ -194,11 +194,11 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               )}
             </button>
 
-            {/* 6. Contact Us */}
+            {/* 6. Contact Us CTA Button */}
             <Link
               href="/contact-us"
               onClick={onClose}
-              className="block py-2.5 px-3 rounded-sm text-slate-800 font-medium hover:bg-slate-50 hover:text-brand-teal transition-colors"
+              className="block py-2.5 px-3 rounded-md bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-center shadow-xs hover:shadow-sm transition-all mt-2"
             >
               Contact Us
             </Link>

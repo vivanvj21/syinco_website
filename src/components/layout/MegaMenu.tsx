@@ -150,10 +150,10 @@ export function MegaMenu() {
         About Us
       </Link>
 
-      {/* 7. Contact Us */}
+      {/* 7. Contact Us CTA Button */}
       <Link
         href="/contact-us"
-        className="px-3 py-2 rounded-sm hover:text-brand-teal transition-colors"
+        className="ml-2 px-4 py-2 rounded-md bg-action-amber hover:bg-action-amber-hover text-slate-950 font-bold text-sm shadow-xs hover:shadow-sm hover:-translate-y-0.5 active:translate-y-0 transition-all inline-flex items-center justify-center cursor-pointer"
       >
         Contact Us
       </Link>
