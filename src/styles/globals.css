@@ -1,9 +1,110 @@
+/* Aptos Universal Webfonts */
+@font-face {
+  font-family: 'Aptos';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Aptos'), local('Aptos Regular'), url('/fonts/aptos/aptos.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Aptos Italic'), url('/fonts/aptos/aptos-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Aptos'), local('Aptos Regular'), url('/fonts/aptos/aptos.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Aptos Bold'), url('/fonts/aptos/aptos-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Aptos Bold'), url('/fonts/aptos/aptos-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Aptos ExtraBold'), local('Aptos Bold'), url('/fonts/aptos/aptos-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Aptos Bold Italic'), url('/fonts/aptos/aptos-bold-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Aptos Display'), url('/fonts/aptos/aptos-display.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Aptos Display'), url('/fonts/aptos/aptos-display.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Aptos Display Bold'), url('/fonts/aptos/aptos-display-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Aptos Display Bold'), url('/fonts/aptos/aptos-display-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aptos Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Aptos Display ExtraBold'), local('Aptos Display Bold'), url('/fonts/aptos/aptos-display-bold.ttf') format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
+    --font-sans: 'Aptos', sans-serif;
+    --font-display: 'Aptos', 'Aptos Display', sans-serif;
+    --font-mono: 'Aptos', monospace;
+
     /* Surfaces */
     --surface-canvas-slate: #0b1118;
     --surface-canvas-light: #f8fafc;
@@ -33,12 +134,44 @@
     --radius-md: 4px;
   }
 
+  *,
+  *::before,
+  *::after {
+    font-family: 'Aptos', 'Aptos Display', sans-serif;
+  }
+
+  html,
   body {
     background-color: var(--surface-canvas-light);
     color: var(--ink-primary-dark);
-    font-family: "Aptos", "Aptos Display", var(--font-sans), Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: 'Aptos', 'Aptos Display', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  label,
+  table,
+  th,
+  td,
+  code,
+  kbd,
+  samp,
+  pre {
+    font-family: 'Aptos', 'Aptos Display', sans-serif !important;
   }
 
   /* Accessible focus indicators */

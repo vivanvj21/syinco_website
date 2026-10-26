@@ -46,9 +46,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        display: ["Aptos", "Aptos Display", "var(--font-display)", "Plus Jakarta Sans", "Inter", "-apple-system", "sans-serif"],
-        sans: ["Aptos", "var(--font-sans)", "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
-        mono: ["var(--font-mono)", "JetBrains Mono", "monospace"],
+        display: ["Aptos", "Aptos Display", "sans-serif"],
+        sans: ["Aptos", "sans-serif"],
+        mono: ["Aptos", "monospace"],
       },
       borderRadius: {
         none: "0px",
