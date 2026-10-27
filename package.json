@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:export": "node scripts/build-export.js",
+    "package": "node scripts/package-zips.js",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
