@@ -5,14 +5,12 @@ import { StockStatusType } from "@/types/product";
 
 export interface StockStatusProps extends React.HTMLAttributes<HTMLDivElement> {
   status: StockStatusType;
-  inrInvoicing?: boolean;
   leadTimeWeeks?: number;
 }
 
 export function StockStatus({
   className,
   status,
-  inrInvoicing = false,
   leadTimeWeeks,
   ...props
 }: StockStatusProps) {

@@ -1,7 +1,5 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'fs';
-import path from 'path';
 import { allProducts } from '@/data/products';
 
 test('Fuji SPS End-to-End Verification Test Suite', async (t) => {

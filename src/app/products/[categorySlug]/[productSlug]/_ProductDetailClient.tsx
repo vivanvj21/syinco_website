@@ -349,7 +349,6 @@ export default function ProductDetailClient({ params }: PDPPageProps) {
             <StockStatus
               status={product.stockStatus}
               leadTimeWeeks={product.typicalLeadTimeWeeks}
-              inrInvoicing={product.inrInvoicingAvailable}
             />
 
             <div className="flex flex-col gap-2">

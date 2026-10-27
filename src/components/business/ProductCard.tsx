@@ -10,7 +10,6 @@ import { OEMTag } from "@/components/technical/OEMTag";
 import { ClassificationBadge } from "@/components/technical/ClassificationBadge";
 import { StockStatus } from "@/components/technical/StockStatus";
 import { ProductPlaceholder } from "@/components/technical/ProductPlaceholder";
-import { Button } from "@/components/ui/Button";
 import { useCompareStore } from "@/hooks/useCompareStore";
 import { useRfqStore } from "@/hooks/useRfqStore";
 
@@ -187,7 +186,6 @@ export function ProductCard({
           <StockStatus
             status={product.stockStatus}
             leadTimeWeeks={product.typicalLeadTimeWeeks}
-            inrInvoicing={product.inrInvoicingAvailable}
           />
 
           <div className="flex items-center gap-1.5">

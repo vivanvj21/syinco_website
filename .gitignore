@@ -38,3 +38,4 @@ next-env.d.ts
 /qa_screenshots/
 scratch_*.png
 capture_*.js
+cloudflared.exe

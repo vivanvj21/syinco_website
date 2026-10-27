@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, PhoneCall } from "lucide-react";
-import { Button } from "@/components/ui/Button";
 
 export function HeroStrategicAnchor() {
   return (

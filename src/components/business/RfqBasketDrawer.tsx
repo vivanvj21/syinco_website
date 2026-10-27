@@ -13,7 +13,6 @@ import {
   ArrowLeft,
   CheckCircle2,
   ShieldCheck,
-  Building2,
   Clock,
   Package,
   Copy,
