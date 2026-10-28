@@ -80,7 +80,7 @@ export const principals: Principal[] = [
     flag: "🇯🇵",
     logo: "/images/principals/fuji-sps-logo.webp",
     role: "Accredited Equipment Partner",
-    specialty: "Spark Plasma Sintering (SPS) & Rapid Field-Assisted Consolidation",
+    specialty: "Pioneer in Spark Plasma sintering (SPS) technology, dielectric heating, and induction heating systems",
     filterVendorId: "fuji-electronic",
     representativeProducts: [
       {
