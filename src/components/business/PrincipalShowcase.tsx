@@ -52,8 +52,8 @@ export function PrincipalShowcase() {
                 Principal Global Manufacturers
               </h2>
             </div>
-            <p className="text-xs text-slate-700 font-sans max-w-md">
-              Direct, accredited channel partnerships with leading Japanese and UK scientific hardware manufacturers.
+            <p className="text-xs text-slate-700 font-sans max-w-lg">
+              Direct accredited channel partnership with leading global manufacturers in Japan and the UK, specializing in scientific systems, instruments, and components.
             </p>
           </div>
         </ScrollReveal>
