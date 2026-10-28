@@ -45,7 +45,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-display font-bold text-sm sm:text-base tracking-tight text-slate-900">
+                <span className="font-display font-extrabold text-base sm:text-lg tracking-tight text-slate-950">
                   SYINCO TECHNOLOGIES
                 </span>
                 <span className="font-mono text-xs uppercase tracking-wider text-slate-500 font-semibold">
