@@ -52,7 +52,7 @@ export const principals: Principal[] = [
     flag: "🇬🇧",
     logo: "/images/principals/edwards-vacuum-logo.webp",
     role: "Authorized Indian Channel Partner",
-    specialty: "Oil-Free Dry Scroll Vacuum Pumps & Turbomolecular Pumping Stations",
+    specialty: "Comprehensive range of vacuum pumps, vacuum gauges, leak detector, and customized vacuum pumping system",
     filterVendorId: "edwards-vacuum",
     representativeProducts: [
       {
