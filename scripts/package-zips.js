@@ -62,3 +62,9 @@ if (fs.existsSync(docDir)) {
   console.log('Packaging documents part 3...');
   makePartZip(part3, 'syinco-documents-part3.zip');
 }
+
+console.log('3. Creating syinco-website.zip (complete all-in-one archive)...');
+spawnSync('powershell', ['-Command', 'Compress-Archive -Path "out\\*" -DestinationPath "d:\\Syinco\\syinco-website.zip" -Force'], { stdio: 'inherit' });
+const allSize = fs.statSync('d:/Syinco/syinco-website.zip').size;
+console.log('syinco-website.zip size:', (allSize / 1024 / 1024).toFixed(2), 'MB');
+console.log('All zip packages ready in d:\\Syinco!');
